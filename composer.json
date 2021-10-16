@@ -1,0 +1,28 @@
+{
+  "name": "pmpr-pkg/wp-pkg-optimization",
+  "type": "project",
+  "license": "proprietary",
+  "description": "Optimization Package for Wordpress",
+  "keywords": [
+    "optimization",
+    "wordpress",
+    "package"
+  ],
+  "require": {
+    "php": ">=7.4",
+    "ext-libxml": "*",
+    "matthiasmullie/minify": "1.3.63",
+    "ksubileau/color-thief-php": "1.4.1",
+    "websharks/html-compressor": "170420.24924",
+    "pmpr-cmn/wp-cmn-foundation": "dev-main"
+  },
+  "autoload": {
+    "psr-4": {
+      "Pmpr\\Package\\Optimization\\": "src/Pmpr/Package/Optimization"
+    },
+    "files": [
+      "index.php"
+    ]
+  },
+  "minimum-stability": "dev"
+}

@@ -1,0 +1,7 @@
+<?php
+/*   _______________________________________
+    |  Obfuscated by PMPR - Php Obfuscator  |
+    |             616ab9829e21a             |
+    |_______________________________________|
+*/
+ namespace Pmpr\Package\Optimization\Bypass; use Pmpr\Common\Foundation\Manipulate\Type\ManipulateArray; class Bypass extends Common { public function __construct() { parent::__construct(); $this->iemaakgqgqosiecm(); } public function kgquecmsgcouyaya() { $this->cecaguuoecmccuse($this->ygyygikyocoymgaw("\157\160\164\x5f\143\157\x6e\x66\x69\147\x75\162\x61\x74\151\157\156\163"), [$this, "\x77\165\x67\157\153\171\x75\157\155\x73\151\151\x77\x61\167\x69"]); parent::kgquecmsgcouyaya(); } public function iemaakgqgqosiecm() { Setting::symcgieuakksimmu(); } public function wugokyuomsiiwawi($uiewakwqscemywuo) { goto uguigkcmukuouway; uguigkcmukuouway: $auwuoyyagaiegwae = array_filter(Setting::symcgieuakksimmu()->nwskemwouwsesmus()); goto uqqaiagaeqgqgaiy; esuiysskoweawsue: $uiewakwqscemywuo["\x69\147\156\x6f\162\145\144\137\165\x72\154\163"] = str_replace("\52", "\x2e\x2a", implode(self::PIPE_SYMBOL, $auwuoyyagaiegwae)); goto gaomwagkcciesyqy; gaomwagkcciesyqy: qicwaskssogcokgm: goto aegysmeecgcgayyw; uqqaiagaeqgqgaiy: if (!(is_array($auwuoyyagaiegwae) && $auwuoyyagaiegwae)) { goto qicwaskssogcokgm; } goto esuiysskoweawsue; aegysmeecgcgayyw: return $uiewakwqscemywuo; goto suqkuqygkkgwyaie; suqkuqygkkgwyaie: } }
