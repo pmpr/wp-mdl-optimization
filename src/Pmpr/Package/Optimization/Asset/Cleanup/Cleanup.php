@@ -1,7 +1,7 @@
 <?php
 /*   _______________________________________
     |  Obfuscated by PMPR - Php Obfuscator  |
-    |             616ae7005588d             |
+    |             616c0c2e2ea28             |
     |_______________________________________|
 */
- namespace Pmpr\Package\Optimization\Asset\Cleanup; class Cleanup extends Common { public function __construct() { parent::__construct(); $this->iemaakgqgqosiecm(); } public function iemaakgqgqosiecm() { goto aigseumaammwaqck; wguccgmciesyocmi: Resource::symcgieuakksimmu(); goto qmkmuwomcwygkysi; aigseumaammwaqck: Tag::symcgieuakksimmu(); goto ggqqwysyuqiwksgm; ggqqwysyuqiwksgm: Image::symcgieuakksimmu(); goto wguccgmciesyocmi; qmkmuwomcwygkysi: } }
+ namespace Pmpr\Package\Optimization\Asset\Cleanup; class Cleanup extends Common { public function __construct() { parent::__construct(); $this->iemaakgqgqosiecm(); } public function iemaakgqgqosiecm() { goto aigseumaammwaqck; aigseumaammwaqck: Tag::symcgieuakksimmu(); goto ggqqwysyuqiwksgm; wguccgmciesyocmi: Resource::symcgieuakksimmu(); goto qmkmuwomcwygkysi; ggqqwysyuqiwksgm: Image::symcgieuakksimmu(); goto wguccgmciesyocmi; qmkmuwomcwygkysi: } }
