@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PMPR Optimization\n"
-"POT-Creation-Date: 2021-07-07 23:24+0430\n"
-"PO-Revision-Date: 2021-07-07 23:29+0430\n"
-"Last-Translator: Farshadi <Farshad_asgharzade@hotmail.com>\n"
+"POT-Creation-Date: 2021-12-07 13:39+0330\n"
+"PO-Revision-Date: 2021-12-07 13:40+0330\n"
+"Last-Translator:  Farshad Asgharzade <Farshad_asgharzade@hotmail.com>\n"
 "Language-Team: \n"
 "Language: fa_IR\n"
 "MIME-Version: 1.0\n"
@@ -22,17 +22,7 @@ msgstr ""
 "X-Poedit-SearchPathExcluded-0: lib\n"
 "X-Poedit-SearchPathExcluded-1: *.js\n"
 
-#: src/Pmpr/Package/Optimization/API.php:74
-#: src/Pmpr/Package/Optimization/API.php:118
-msgid "Can't process your request right now, please try after few minutes."
-msgstr ""
-"در حال حاضر قادر به پردازش درخواست شما نیستیم، لطفا بعدا دوباره تلاش کنید."
-
-#: src/Pmpr/Package/Optimization/API.php:83
-msgid "your apikey is empty."
-msgstr "کلید وب سرویس حساب شما پر نشده است."
-
-#: src/Pmpr/Package/Optimization/Asset/CDN/JsDeliver.php:398
+#: src/Pmpr/Package/Optimization/Asset/CDN/JsDeliver.php:400
 msgid "Every Fifteen Minutes"
 msgstr "هر پانزده دقیقه"
 
@@ -62,180 +52,192 @@ msgid ""
 "permissions."
 msgstr ""
 
-#: src/Pmpr/Package/Optimization/Asset/Media/Dominator.php:168
+#: src/Pmpr/Package/Optimization/Asset/Media/Dominator.php:174
 msgid "No Color Dominance Available."
 msgstr ""
 
-#: src/Pmpr/Package/Optimization/Asset/Media/Dominator.php:169
+#: src/Pmpr/Package/Optimization/Asset/Media/Dominator.php:175
 msgid "Check this item for generate dominate colors."
 msgstr "با علامت زدن این گزینه، رنگ‌های پر تکرار این تصویر استخراج می‌شوند."
 
-#: src/Pmpr/Package/Optimization/Asset/Media/Dominator.php:186
+#: src/Pmpr/Package/Optimization/Asset/Media/Dominator.php:192
 msgid "Dominant Color"
 msgstr "رنگ غالب"
 
-#: src/Pmpr/Package/Optimization/Asset/Setting.php:75
+#: src/Pmpr/Package/Optimization/Asset/Setting.php:76
 msgid "Assets"
 msgstr "منابع استاتیکی"
 
-#: src/Pmpr/Package/Optimization/Asset/Setting.php:97
+#: src/Pmpr/Package/Optimization/Asset/Setting.php:98
 msgid "Content Delivery Network (CDN)"
 msgstr "شبکه تحویل محتوا (CDN)"
 
-#: src/Pmpr/Package/Optimization/Asset/Setting.php:101
+#: src/Pmpr/Package/Optimization/Asset/Setting.php:102
 msgid "JSDeliver"
 msgstr "جی اس دلیور"
 
-#: src/Pmpr/Package/Optimization/Asset/Setting.php:105
+#: src/Pmpr/Package/Optimization/Asset/Setting.php:106
 msgid "Enable JSDeliver"
 msgstr "فعال سازی جی اس دلیور"
 
-#: src/Pmpr/Package/Optimization/Asset/Setting.php:106
+#: src/Pmpr/Package/Optimization/Asset/Setting.php:107
 msgid "Check this item to replace resources by JSDeliver cdn."
 msgstr ""
 "با علامت زدن این گزینه‌ منابع استاتیکی شما با نسخه جی اس دلیور (در صورتی که "
 "وجود داشته باشد) جایگزین می‌شوند."
 
-#: src/Pmpr/Package/Optimization/Asset/Setting.php:144
+#: src/Pmpr/Package/Optimization/Asset/Setting.php:145
 msgid "Media"
 msgstr "رسانه"
 
-#: src/Pmpr/Package/Optimization/Asset/Setting.php:148
+#: src/Pmpr/Package/Optimization/Asset/Setting.php:149
 msgid "Lazyload"
 msgstr "بارگذاری تنبل"
 
-#: src/Pmpr/Package/Optimization/Asset/Setting.php:152
+#: src/Pmpr/Package/Optimization/Asset/Setting.php:153
 msgid "Enable Lazyload"
 msgstr "فعال سازی بارگذاری تنبل"
 
-#: src/Pmpr/Package/Optimization/Asset/Setting.php:160
-#: src/Pmpr/Package/Optimization/Asset/Setting.php:241
+#: src/Pmpr/Package/Optimization/Asset/Setting.php:161
+#: src/Pmpr/Package/Optimization/Asset/Setting.php:242
 msgid "Images"
 msgstr "تصاویر"
 
-#: src/Pmpr/Package/Optimization/Asset/Setting.php:165
+#: src/Pmpr/Package/Optimization/Asset/Setting.php:166
 msgid "iFrame and Videos"
 msgstr "تگ iFrame و Video"
 
-#: src/Pmpr/Package/Optimization/Asset/Setting.php:171
+#: src/Pmpr/Package/Optimization/Asset/Setting.php:172
 msgid "Color Dominator"
 msgstr "رنگ غالب"
 
-#: src/Pmpr/Package/Optimization/Asset/Setting.php:175
+#: src/Pmpr/Package/Optimization/Asset/Setting.php:176
 msgid "Image Color Dominator"
 msgstr "استخراج رنگ از تصویر"
 
-#: src/Pmpr/Package/Optimization/Asset/Setting.php:180
+#: src/Pmpr/Package/Optimization/Asset/Setting.php:181
 msgid "Default Dominator Color"
 msgstr "رنگ غالب پیشفرض"
 
-#: src/Pmpr/Package/Optimization/Asset/Setting.php:193
+#: src/Pmpr/Package/Optimization/Asset/Setting.php:194
 #, php-format
 msgid "Check this item if you want minify %s."
 msgstr "اگر می‌خواهید %s فشرده شود، این آیتم را علامت بزنید."
 
-#: src/Pmpr/Package/Optimization/Asset/Setting.php:197
+#: src/Pmpr/Package/Optimization/Asset/Setting.php:198
 msgid "Minify"
 msgstr "فشرده‌سازی"
 
-#: src/Pmpr/Package/Optimization/Asset/Setting.php:201
+#: src/Pmpr/Package/Optimization/Asset/Setting.php:202
 msgid "Enable Minify"
 msgstr "فعال‌سازی فشرده‌ سازی"
 
-#: src/Pmpr/Package/Optimization/Asset/Setting.php:206
+#: src/Pmpr/Package/Optimization/Asset/Setting.php:207
 msgid "Check this item to enable minify functionality."
 msgstr "برای فعال سازی قابلیت فشرده سازی، این آیتم را علامت بزنید."
 
-#: src/Pmpr/Package/Optimization/Asset/Setting.php:210
+#: src/Pmpr/Package/Optimization/Asset/Setting.php:211
 msgid "Minify HTML"
 msgstr "فشرده‌سازی HTML"
 
-#: src/Pmpr/Package/Optimization/Asset/Setting.php:216
+#: src/Pmpr/Package/Optimization/Asset/Setting.php:217
 msgid "Minify CSS"
 msgstr "فشرده‌سازی CSS"
 
-#: src/Pmpr/Package/Optimization/Asset/Setting.php:222
+#: src/Pmpr/Package/Optimization/Asset/Setting.php:223
 msgid "Minify JS"
 msgstr "فشرده سازی JS"
 
-#: src/Pmpr/Package/Optimization/Asset/Setting.php:237
+#: src/Pmpr/Package/Optimization/Asset/Setting.php:238
 msgid "Cleanup"
 msgstr "پاک‌سازی و تصفیه"
 
-#: src/Pmpr/Package/Optimization/Asset/Setting.php:245
+#: src/Pmpr/Package/Optimization/Asset/Setting.php:246
 msgid "Add Blank Favicon"
 msgstr "افزودن Favicon خالی"
 
-#: src/Pmpr/Package/Optimization/Asset/Setting.php:246
+#: src/Pmpr/Package/Optimization/Asset/Setting.php:247
 msgid ""
 "Add a blank favicon to your WordPress header which will prevent a Missing "
 "Favicon or 404 error."
 msgstr ""
 
-#: src/Pmpr/Package/Optimization/Asset/Setting.php:251
+#: src/Pmpr/Package/Optimization/Asset/Setting.php:252
 msgid "Specify Image Dimensions"
 msgstr "تعین ابعاد تصاویر"
 
-#: src/Pmpr/Package/Optimization/Asset/Setting.php:252
+#: src/Pmpr/Package/Optimization/Asset/Setting.php:253
 msgid "Add width and height attribute to images if not exist."
 msgstr ""
 
-#: src/Pmpr/Package/Optimization/Asset/Setting.php:257
+#: src/Pmpr/Package/Optimization/Asset/Setting.php:258
 msgid "External Images Dimensions"
 msgstr "ابعاد تصاویر خارجی"
 
-#: src/Pmpr/Package/Optimization/Asset/Setting.php:258
+#: src/Pmpr/Package/Optimization/Asset/Setting.php:259
 msgid "Do specify image dimensions for external images."
 msgstr ""
 
-#: src/Pmpr/Package/Optimization/Asset/Setting.php:264
+#: src/Pmpr/Package/Optimization/Asset/Setting.php:265
 msgid "JS & CSS & HTML"
 msgstr "JS و CSS و HTML"
 
-#: src/Pmpr/Package/Optimization/Asset/Setting.php:268
+#: src/Pmpr/Package/Optimization/Asset/Setting.php:269
 msgid "Disable Emojis"
 msgstr "غیرفعال کردن اموجی‌ها"
 
-#: src/Pmpr/Package/Optimization/Asset/Setting.php:269
+#: src/Pmpr/Package/Optimization/Asset/Setting.php:270
 msgid "Removes WordPress Emojis JavaScript file."
 msgstr "حذف فایل جاوااسکریپت اموجی مربوط به وردپرس."
 
-#: src/Pmpr/Package/Optimization/Asset/Setting.php:274
+#: src/Pmpr/Package/Optimization/Asset/Setting.php:275
 msgid "Disable Embeds"
 msgstr "غیرفعال کردن Embeds"
 
-#: src/Pmpr/Package/Optimization/Asset/Setting.php:275
+#: src/Pmpr/Package/Optimization/Asset/Setting.php:276
 msgid "Removes WordPress Embed JavaScript file."
 msgstr "حذف فایل جاوااسکریپت Embed مربوط به وردپرس."
 
-#: src/Pmpr/Package/Optimization/Asset/Setting.php:280
+#: src/Pmpr/Package/Optimization/Asset/Setting.php:281
 msgid "Remove jQuery Migrate"
 msgstr "حذف  JQuery Migrate"
 
-#: src/Pmpr/Package/Optimization/Asset/Setting.php:281
+#: src/Pmpr/Package/Optimization/Asset/Setting.php:282
 msgid "Removes jQuery Migrate JavaScript file."
 msgstr "حذف فایل جاوااسکریپت JQuery Migrate."
 
-#: src/Pmpr/Package/Optimization/Asset/Setting.php:283
 #: src/Pmpr/Package/Optimization/Asset/Setting.php:284
+#: src/Pmpr/Package/Optimization/Asset/Setting.php:285
 msgid "This could break things!"
 msgstr "این گزینه می‌تواند بعضی چیز‌ها را دچار مشکل کند!"
 
-#: src/Pmpr/Package/Optimization/Asset/Setting.php:289
+#: src/Pmpr/Package/Optimization/Asset/Setting.php:290
 msgid "Disable Dashicons"
 msgstr "غیرفعال کردن آیکون‌ Dashicons"
 
-#: src/Pmpr/Package/Optimization/Asset/Setting.php:290
+#: src/Pmpr/Package/Optimization/Asset/Setting.php:291
 msgid "Disables dashicons on the front end when not logged in."
 msgstr ""
 "غیرفعال کردن آیکون‌ Dashicons در بخش نمایشی سایت و زمانی که کاربر وارد حساب "
 "کاربری نشده است."
 
-#: src/Pmpr/Package/Optimization/Asset/Setting.php:295
+#: src/Pmpr/Package/Optimization/Asset/Setting.php:296
+msgid "Disable Gutenberg Block Library"
+msgstr ""
+
+#: src/Pmpr/Package/Optimization/Asset/Setting.php:297
+#, fuzzy
+#| msgid "Disables dashicons on the front end when not logged in."
+msgid "Disables gutenberg block library on the front end when not logged in."
+msgstr ""
+"غیرفعال کردن آیکون‌ Dashicons در بخش نمایشی سایت و زمانی که کاربر وارد حساب "
+"کاربری نشده است."
+
+#: src/Pmpr/Package/Optimization/Asset/Setting.php:302
 msgid "Disable Password Strength Meter"
 msgstr "غیرفعال کردن بررسی پسورد"
 
-#: src/Pmpr/Package/Optimization/Asset/Setting.php:296
+#: src/Pmpr/Package/Optimization/Asset/Setting.php:303
 msgid ""
 "Removes WordPress and WooCommerce Password Strength Meter scripts from non "
 "essential pages."
@@ -243,217 +245,287 @@ msgstr ""
 "حذف اسکریپت‌های بررسی قوی بودن پسورد مربوط به وردپرس و ووکامرس، در صفحاتی که "
 "نیازی به این قابلیت ندارند."
 
-#: src/Pmpr/Package/Optimization/Asset/Setting.php:301
+#: src/Pmpr/Package/Optimization/Asset/Setting.php:308
 msgid "Remove HTTP Protocol"
 msgstr "حذف پروتکل HTTP"
 
-#: src/Pmpr/Package/Optimization/Asset/Setting.php:302
+#: src/Pmpr/Package/Optimization/Asset/Setting.php:309
 #, php-format
 msgid "Replace %s with %s in %s tags."
 msgstr ""
 
-#: src/Pmpr/Package/Optimization/Asset/Setting.php:312
+#: src/Pmpr/Package/Optimization/Asset/Setting.php:319
 msgid "Head Tags"
 msgstr "تگ های مربوط به Head"
 
-#: src/Pmpr/Package/Optimization/Asset/Setting.php:316
+#: src/Pmpr/Package/Optimization/Asset/Setting.php:323
 msgid "Disable XML-RPC"
 msgstr "غیر فعال کردن XML-RPC"
 
-#: src/Pmpr/Package/Optimization/Asset/Setting.php:317
+#: src/Pmpr/Package/Optimization/Asset/Setting.php:324
 msgid "Removes WordPress XML-RPC functionality."
 msgstr "حذف قابلیت XML-RPC مربوط به وردپرس."
 
-#: src/Pmpr/Package/Optimization/Asset/Setting.php:322
+#: src/Pmpr/Package/Optimization/Asset/Setting.php:329
 msgid "Remove RSD Link"
 msgstr "حذف پیوند RSD"
 
-#: src/Pmpr/Package/Optimization/Asset/Setting.php:323
+#: src/Pmpr/Package/Optimization/Asset/Setting.php:330
 msgid "Remove RSD (Real Simple Discovery) link tag."
 msgstr "حذف تگ پیوند RSD."
 
-#: src/Pmpr/Package/Optimization/Asset/Setting.php:328
+#: src/Pmpr/Package/Optimization/Asset/Setting.php:335
 msgid "Hide WP Version"
 msgstr "مخفی کردن نسخه وردپرس"
 
-#: src/Pmpr/Package/Optimization/Asset/Setting.php:329
+#: src/Pmpr/Package/Optimization/Asset/Setting.php:336
 msgid ""
 "This is good for security purposes as well, since it hides the WordPress "
 "version you're using."
 msgstr ""
 
-#: src/Pmpr/Package/Optimization/Asset/Setting.php:334
+#: src/Pmpr/Package/Optimization/Asset/Setting.php:341
 msgid "Remove wlwmanifest Link"
 msgstr "حذف پیوند wlwmanifest"
 
-#: src/Pmpr/Package/Optimization/Asset/Setting.php:335
+#: src/Pmpr/Package/Optimization/Asset/Setting.php:342
 msgid ""
 "If you do not use Windows Live Writer to edit your blog contents, then it's "
 "safe to remove this."
 msgstr ""
 
-#: src/Pmpr/Package/Optimization/Asset/Setting.php:340
+#: src/Pmpr/Package/Optimization/Asset/Setting.php:347
 msgid "Remove Shortlink"
 msgstr "حذف shortlink"
 
-#: src/Pmpr/Package/Optimization/Asset/Setting.php:341
+#: src/Pmpr/Package/Optimization/Asset/Setting.php:348
 msgid ""
 "Are you using SEO friendly URLs and do not need the default WordPress "
 "shortlink? you can remove this."
 msgstr ""
 
-#: src/Pmpr/Package/Optimization/Asset/Setting.php:346
+#: src/Pmpr/Package/Optimization/Asset/Setting.php:353
 msgid "Remove REST API"
 msgstr "حذف REST API"
 
-#: src/Pmpr/Package/Optimization/Asset/Setting.php:347
+#: src/Pmpr/Package/Optimization/Asset/Setting.php:354
 msgid ""
 "Are you accessing your content through endpoints? If not, you can remove this."
 msgstr ""
 
-#: src/Pmpr/Package/Optimization/Asset/Setting.php:362
+#: src/Pmpr/Package/Optimization/Asset/Setting.php:369
 msgid "Critical Extraction"
 msgstr "استخراح منابع ضروری"
 
-#: src/Pmpr/Package/Optimization/Asset/Setting.php:366
+#: src/Pmpr/Package/Optimization/Asset/Setting.php:373
 msgid "Critical CSS"
 msgstr "استایل‌های ضروری"
 
-#: src/Pmpr/Package/Optimization/Asset/Setting.php:370
+#: src/Pmpr/Package/Optimization/Asset/Setting.php:377
 msgid "Enable Critical CSS"
 msgstr "فعال سازی استخراج استایل‌های ضروری"
 
-#: src/Pmpr/Package/Optimization/Asset/Setting.php:375
+#: src/Pmpr/Package/Optimization/Asset/Setting.php:382
 msgid "Extra CSS Code"
 msgstr "استایل اضافی"
 
-#: src/Pmpr/Package/Optimization/Asset/Setting.php:390
+#: src/Pmpr/Package/Optimization/Asset/Setting.php:397
 msgid "Delay Load"
 msgstr "بارگذاری با تاخیر"
 
-#: src/Pmpr/Package/Optimization/Asset/Setting.php:394
+#: src/Pmpr/Package/Optimization/Asset/Setting.php:401
 msgid "Style (CSS)"
 msgstr "استایل‌ (CSS)"
 
-#: src/Pmpr/Package/Optimization/Asset/Setting.php:398
+#: src/Pmpr/Package/Optimization/Asset/Setting.php:405
 msgid "Load Style with Delay"
 msgstr "بارگذاری استایل با تاخیر"
 
-#: src/Pmpr/Package/Optimization/Asset/Setting.php:400
+#: src/Pmpr/Package/Optimization/Asset/Setting.php:407
 msgid "Critical CSS Require!"
 msgstr "نیاز به فعال بودن استخراج استایل‌های ضروری است!"
 
-#: src/Pmpr/Package/Optimization/Asset/Setting.php:401
+#: src/Pmpr/Package/Optimization/Asset/Setting.php:408
 msgid "You need to enable critical css too, to get a best result."
 msgstr ""
 
-#: src/Pmpr/Package/Optimization/Asset/Setting.php:410
+#: src/Pmpr/Package/Optimization/Asset/Setting.php:417
 msgid "Delay CDN Style"
 msgstr "تاخیر در بارگذاری استایل‌های CDN"
 
-#: src/Pmpr/Package/Optimization/Asset/Setting.php:415
+#: src/Pmpr/Package/Optimization/Asset/Setting.php:422
 msgid "Exclude Style"
 msgstr "استایل‌های مستثنی"
 
-#: src/Pmpr/Package/Optimization/Asset/Setting.php:421
+#: src/Pmpr/Package/Optimization/Asset/Setting.php:428
 msgid "Javascript"
 msgstr "جاوااسکریپت"
 
-#: src/Pmpr/Package/Optimization/Asset/Setting.php:425
+#: src/Pmpr/Package/Optimization/Asset/Setting.php:432
 msgid "Load Javascript with Delay"
 msgstr "بارگذاری جاوااسکریپت با تاخیر"
 
-#: src/Pmpr/Package/Optimization/Asset/Setting.php:434
+#: src/Pmpr/Package/Optimization/Asset/Setting.php:441
 msgid "Delay CDN Javascript"
 msgstr "بارگذاری جاوااسکریپت CDN با تاخیر"
 
-#: src/Pmpr/Package/Optimization/Asset/Setting.php:439
+#: src/Pmpr/Package/Optimization/Asset/Setting.php:446
 msgid "Exclude Javascript"
 msgstr "جاوااسکریپت‌های مستثنی"
 
-#: src/Pmpr/Package/Optimization/Asset/Setting.php:454
-#: src/Pmpr/Package/Optimization/Asset/Setting.php:455
-#: src/Pmpr/Package/Optimization/Asset/Setting.php:456
-#: src/Pmpr/Package/Optimization/Asset/Setting.php:457
-#: src/Pmpr/Package/Optimization/Asset/Setting.php:458
-#: src/Pmpr/Package/Optimization/Asset/Setting.php:459
-#: src/Pmpr/Package/Optimization/Asset/Setting.php:460
 #: src/Pmpr/Package/Optimization/Asset/Setting.php:461
+#: src/Pmpr/Package/Optimization/Asset/Setting.php:462
+#: src/Pmpr/Package/Optimization/Asset/Setting.php:463
+#: src/Pmpr/Package/Optimization/Asset/Setting.php:464
+#: src/Pmpr/Package/Optimization/Asset/Setting.php:465
+#: src/Pmpr/Package/Optimization/Asset/Setting.php:466
 #: src/Pmpr/Package/Optimization/Asset/Setting.php:467
+#: src/Pmpr/Package/Optimization/Asset/Setting.php:468
+#: src/Pmpr/Package/Optimization/Asset/Setting.php:474
 #, php-format
 msgid "%s Font"
 msgstr "فونت‌ %s"
 
-#: src/Pmpr/Package/Optimization/Asset/Setting.php:454
+#: src/Pmpr/Package/Optimization/Asset/Setting.php:461
 msgid "Vazir"
 msgstr "وزیر"
 
-#: src/Pmpr/Package/Optimization/Asset/Setting.php:455
+#: src/Pmpr/Package/Optimization/Asset/Setting.php:462
 msgid "Lotus"
 msgstr "لوتوس"
 
-#: src/Pmpr/Package/Optimization/Asset/Setting.php:456
+#: src/Pmpr/Package/Optimization/Asset/Setting.php:463
 msgid "Yekan"
 msgstr "یکان"
 
-#: src/Pmpr/Package/Optimization/Asset/Setting.php:457
+#: src/Pmpr/Package/Optimization/Asset/Setting.php:464
 msgid "Sahel"
 msgstr "ساحل"
 
-#: src/Pmpr/Package/Optimization/Asset/Setting.php:458
+#: src/Pmpr/Package/Optimization/Asset/Setting.php:465
 msgid "Mitra"
 msgstr "میترا"
 
-#: src/Pmpr/Package/Optimization/Asset/Setting.php:459
+#: src/Pmpr/Package/Optimization/Asset/Setting.php:466
 msgid "Samim"
 msgstr "شیما"
 
-#: src/Pmpr/Package/Optimization/Asset/Setting.php:460
+#: src/Pmpr/Package/Optimization/Asset/Setting.php:467
 msgid "Nazanin"
 msgstr "نازنین"
 
-#: src/Pmpr/Package/Optimization/Asset/Setting.php:461
+#: src/Pmpr/Package/Optimization/Asset/Setting.php:468
 msgid "Shabnam"
 msgstr "شبنم"
 
-#: src/Pmpr/Package/Optimization/Asset/Setting.php:467
+#: src/Pmpr/Package/Optimization/Asset/Setting.php:474
 msgid "Custom"
 msgstr "سفارشی"
 
-#: src/Pmpr/Package/Optimization/Cloudflare/API.php:156
+#: src/Pmpr/Package/Optimization/Bypass/Setting.php:47
+msgid "Bypass"
+msgstr ""
+
+#: src/Pmpr/Package/Optimization/Bypass/Setting.php:51
+#, fuzzy
+#| msgid "Contact Points"
+msgid "Constraints"
+msgstr "نقاط ارتباط"
+
+#: src/Pmpr/Package/Optimization/Bypass/Setting.php:55
+msgid "Items"
+msgstr "آیتم‌ها‌"
+
+#: src/Pmpr/Package/Optimization/Bypass/Setting.php:59
+msgid "Rule Type"
+msgstr "نوع قاعده"
+
+#: src/Pmpr/Package/Optimization/Bypass/Setting.php:61
+#, fuzzy
+#| msgid "Static Data"
+msgid "Static"
+msgstr "داده ایجادی"
+
+#: src/Pmpr/Package/Optimization/Bypass/Setting.php:62
+#, fuzzy
+#| msgid "Dynamic Data"
+msgid "Dynamic"
+msgstr "داده انتخابی"
+
+#: src/Pmpr/Package/Optimization/Bypass/Setting.php:69
+msgid "Pattern"
+msgstr "الگو"
+
+#: src/Pmpr/Package/Optimization/Bypass/Setting.php:70
+msgid ""
+"By using the asterisk (*), you can create dynamic patterns that can match "
+"many URLs."
+msgstr ""
+
+#: src/Pmpr/Package/Optimization/Bypass/Setting.php:75
+#, fuzzy
+#| msgid "Target Taxonomies"
+msgid "Target (Post Type|Taxonomy)"
+msgstr "تکسونومی‌های هدف"
+
+#: src/Pmpr/Package/Optimization/Bypass/Setting.php:82
+msgid "Posts"
+msgstr "نوشته‌ها"
+
+#: src/Pmpr/Package/Optimization/Bypass/Setting.php:87
+#, fuzzy
+#| msgid "Terms Numbers"
+msgid "Terms"
+msgstr "اعداد ترم‌ها (عبارات)"
+
+#: src/Pmpr/Package/Optimization/Bypass/Setting.php:92
+msgid "Archive too"
+msgstr "همچنین آرشیو"
+
+#: src/Pmpr/Package/Optimization/Bypass/Setting.php:94
+msgid "Item"
+msgstr "آیتم‌"
+
+#: src/Pmpr/Package/Optimization/Bypass/Setting.php:95
+#, fuzzy
+#| msgid "Ignored from Optimization"
+msgid "Ignore Some pages from optimization by rules."
+msgstr "رها شده"
+
+#: src/Pmpr/Package/Optimization/Cloudflare/API.php:159
 msgid "Authentication mode is not selected."
 msgstr "نحوه احراز هویت انتخاب نشده است."
 
-#: src/Pmpr/Package/Optimization/Cloudflare/API.php:159
+#: src/Pmpr/Package/Optimization/Cloudflare/API.php:162
 msgid "Fill email field."
 msgstr "لطفا فیلد ایمیل را پر کنید."
 
-#: src/Pmpr/Package/Optimization/Cloudflare/API.php:164
+#: src/Pmpr/Package/Optimization/Cloudflare/API.php:167
 msgid "Fill API token field."
 msgstr "لطفا فیلد کلید رمزی وب سرویس را پر کنید."
 
-#: src/Pmpr/Package/Optimization/Cloudflare/API.php:167
+#: src/Pmpr/Package/Optimization/Cloudflare/API.php:170
 msgid "Fill cloudflare domain name field."
 msgstr "لطفا فیلد نام دامنه کلود فلر را پر کنید."
 
-#: src/Pmpr/Package/Optimization/Cloudflare/API.php:173
+#: src/Pmpr/Package/Optimization/Cloudflare/API.php:176
 msgid "Fill API key field."
 msgstr "لطفا فیلد کلید وب سرویس را پر کنید."
 
-#: src/Pmpr/Package/Optimization/Cloudflare/API.php:176
+#: src/Pmpr/Package/Optimization/Cloudflare/API.php:179
 msgid "Select domain name and save changes."
 msgstr "یک نام دامنه را انتخاب کرده و تنظیمات را ذخیره کیند."
 
-#: src/Pmpr/Package/Optimization/Cloudflare/API.php:181
+#: src/Pmpr/Package/Optimization/Cloudflare/API.php:184
 #: src/Pmpr/Package/Optimization/Cloudflare/Setting.php:67
 msgid "Cloudflare"
 msgstr "کلود فلر"
 
-#: src/Pmpr/Package/Optimization/Cloudflare/API.php:270
+#: src/Pmpr/Package/Optimization/Cloudflare/API.php:274
 msgid "Unable to retrive zone id due to invalid response data"
 msgstr ""
 
-#: src/Pmpr/Package/Optimization/Cloudflare/API.php:281
+#: src/Pmpr/Package/Optimization/Cloudflare/API.php:285
 msgid "Unable to find domains configured on Cloudflare"
 msgstr ""
 
@@ -471,12 +543,12 @@ msgstr ""
 msgid "There is not page rule to delete"
 msgstr "هیچ قاعده‌ای برای حذف وجود ندارد"
 
-#: src/Pmpr/Package/Optimization/Cloudflare/API.php:749
+#: src/Pmpr/Package/Optimization/Cloudflare/API.php:748
 #, php-format
 msgid "Unable to find %s settings"
 msgstr ""
 
-#: src/Pmpr/Package/Optimization/Cloudflare/API.php:753
+#: src/Pmpr/Package/Optimization/Cloudflare/API.php:752
 #, php-format
 msgid "Unable to get %s settings: %s"
 msgstr ""
@@ -529,7 +601,6 @@ msgid "Authentication mode"
 msgstr "نحوه احراز هویت"
 
 #: src/Pmpr/Package/Optimization/Cloudflare/Setting.php:79
-#: src/Pmpr/Package/Optimization/Setting.php:78
 msgid "API Key"
 msgstr "کلید وب سرویس (API Key)"
 
@@ -599,9 +670,9 @@ msgid "Select a Domain Name"
 msgstr "انتخاب یک نام دامنه"
 
 #: src/Pmpr/Package/Optimization/Cloudflare/Setting.php:134
-#: src/Pmpr/Package/Optimization/Origin/Cache/Advanced.php:150
-#: src/Pmpr/Package/Optimization/Origin/Cache/WPCache.php:162
-#: src/Pmpr/Package/Optimization/Origin/Cache/WPCache.php:217
+#: src/Pmpr/Package/Optimization/Origin/Cache/Advanced.php:174
+#: src/Pmpr/Package/Optimization/Origin/Cache/WPCache.php:112
+#: src/Pmpr/Package/Optimization/Origin/Cache/WPCache.php:155
 #: src/Pmpr/Package/Optimization/Origin/Setting.php:31
 msgid "Cache"
 msgstr "کش"
@@ -661,7 +732,7 @@ msgstr ""
 
 #: src/Pmpr/Package/Optimization/Cloudflare/Setting.php:178
 #: src/Pmpr/Package/Optimization/Page/Ajax.php:92
-#: src/Pmpr/Package/Optimization/Setting.php:162
+#: src/Pmpr/Package/Optimization/Setting.php:156
 msgid "Actions"
 msgstr "عملیات"
 
@@ -741,12 +812,12 @@ msgstr ""
 msgid "Bypass backend rule is updated."
 msgstr "قاعده مربوط به عدم کش بخش ادمین سایت به روز رسانی شد."
 
-#: src/Pmpr/Package/Optimization/Container.php:152
+#: src/Pmpr/Package/Optimization/Container.php:172
 msgid "Permission denied"
 msgstr "دسترسی مسدود شده است"
 
 #: src/Pmpr/Package/Optimization/Notice.php:23
-#: src/Pmpr/Package/Optimization/Optimization.php:88
+#: src/Pmpr/Package/Optimization/Optimization.php:107
 msgid "Optimization"
 msgstr "بهینه‌سازی"
 
@@ -760,16 +831,16 @@ msgstr ""
 msgid "Affected file/directory: %s"
 msgstr "فایل/ پوشه تحت تاثیر: %s"
 
-#: src/Pmpr/Package/Optimization/Optimization.php:56
+#: src/Pmpr/Package/Optimization/Optimization.php:63
 msgid "Optimization Config Path"
 msgstr "مسیر پیکربندی بهینه‌سازی"
 
-#: src/Pmpr/Package/Optimization/Optimization.php:157
+#: src/Pmpr/Package/Optimization/Optimization.php:180
 #, php-format
 msgid "Optimization config file %s generated in %s"
 msgstr "فایل پیکربندی %s در %s ایجاد شد"
 
-#: src/Pmpr/Package/Optimization/Origin/Cache/Advanced.php:106
+#: src/Pmpr/Package/Optimization/Origin/Cache/Advanced.php:130
 #, php-format
 msgid "Optimization Advanced Cache file generated successfully in %s."
 msgstr "فایل Advance-cache در %s با موفقیت ایجاد شد."
@@ -782,23 +853,23 @@ msgstr "مسیر کش بهینه‌سازی"
 msgid "Scheduled Cache Purge"
 msgstr "زمان‌بندی پاک‌سازی کش"
 
-#: src/Pmpr/Package/Optimization/Origin/Cache/WPCache.php:201
+#: src/Pmpr/Package/Optimization/Origin/Cache/WPCache.php:139
 msgid "WP_CACHE value"
 msgstr ""
 
-#: src/Pmpr/Package/Optimization/Origin/Cache/WPCache.php:221
+#: src/Pmpr/Package/Optimization/Origin/Cache/WPCache.php:159
 msgid "The WP_CACHE constant needs to be set to true for Cache to work properly"
 msgstr ""
 
-#: src/Pmpr/Package/Optimization/Origin/Cache/WPCache.php:231
+#: src/Pmpr/Package/Optimization/Origin/Cache/WPCache.php:169
 msgid "WP_CACHE is set to true"
 msgstr ""
 
-#: src/Pmpr/Package/Optimization/Origin/Cache/WPCache.php:240
+#: src/Pmpr/Package/Optimization/Origin/Cache/WPCache.php:178
 msgid "WP_CACHE is not set"
 msgstr ""
 
-#: src/Pmpr/Package/Optimization/Origin/Cache/WPCache.php:249
+#: src/Pmpr/Package/Optimization/Origin/Cache/WPCache.php:187
 msgid "WP_CACHE is set to false"
 msgstr ""
 
@@ -810,7 +881,11 @@ msgstr "سرور"
 msgid "Enable Cache"
 msgstr "فعال‌سازی کش"
 
-#: src/Pmpr/Package/Optimization/Page/API.php:131
+#: src/Pmpr/Package/Optimization/Page/API.php:31
+msgid "You are out of the budget"
+msgstr "بودجه شما تمام شده است"
+
+#: src/Pmpr/Package/Optimization/Page/API.php:146
 msgid "Page is not valid"
 msgstr "صفحه معتبر نیست"
 
@@ -832,25 +907,25 @@ msgid "No result found to show, please change rules and try again."
 msgstr ""
 "نتیجه‌ای برای نمایش یافت نشد، لطفا قواعد را تغییر داده و دوباره امتحان کنید."
 
-#: src/Pmpr/Package/Optimization/Page/Ajax.php:153
+#: src/Pmpr/Package/Optimization/Page/Ajax.php:156
 msgid "Sorry, your requested process terminated, because you are out of budget."
 msgstr "با عرض پوزش، درخواست شما به دلیل کافی نبودن بودجه انجام نشد."
 
-#: src/Pmpr/Package/Optimization/Page/Ajax.php:156
+#: src/Pmpr/Package/Optimization/Page/Ajax.php:159
 #, php-format
 msgid "%s of your requested pages added, the remains are not allow to add."
 msgstr "%s صفحه از صفحات درخواستی شما اضافه شد."
 
-#: src/Pmpr/Package/Optimization/Page/Ajax.php:170
+#: src/Pmpr/Package/Optimization/Page/Ajax.php:174
 #: src/Pmpr/Package/Optimization/Page/Asset.php:80
 msgid "Page list is empty, please redefine pages."
 msgstr ""
 
-#: src/Pmpr/Package/Optimization/Page/Ajax.php:175
+#: src/Pmpr/Package/Optimization/Page/Ajax.php:180
 msgid "Pages added successfully."
 msgstr "صفحات با موفقیت اضافه شدند."
 
-#: src/Pmpr/Package/Optimization/Page/Ajax.php:199
+#: src/Pmpr/Package/Optimization/Page/Ajax.php:204
 msgid ""
 "Sorry you are out of budget, can not change this page status to active. "
 "charge your license from Settings > Dashboard > License"
@@ -858,18 +933,18 @@ msgstr ""
 "متاسفانه بودجه شما تمام شده است، نمی‌توانید وضعیت این صفحه را به فعال تغییر "
 "دهید. از قسمت تنظیمات > داشبورد > لایسنس حساب خود را شارژ کنید"
 
-#: src/Pmpr/Package/Optimization/Page/Ajax.php:210
+#: src/Pmpr/Package/Optimization/Page/Ajax.php:215
 #, fuzzy
 #| msgid "Page is not found, reload page and try again."
 msgid "Require parameter not found, reload page and try again."
 msgstr ""
 "صفحه مورد نظر یافت نشد، لطفا بعد از بارگذاری مجدد صفحه دوباره امتحان کنید."
 
-#: src/Pmpr/Package/Optimization/Page/Ajax.php:218
+#: src/Pmpr/Package/Optimization/Page/Ajax.php:223
 msgid "missing parameter, request is not valid."
 msgstr "پارامتر ضروری وجود ندارد، درخواست شما معتبر نیست."
 
-#: src/Pmpr/Package/Optimization/Page/Ajax.php:313
+#: src/Pmpr/Package/Optimization/Page/Ajax.php:320
 msgid "Rules is empty"
 msgstr "قواعد خالی است"
 
@@ -995,7 +1070,7 @@ msgid "Just these"
 msgstr "فقط اینها"
 
 #: src/Pmpr/Package/Optimization/Page/Modal/Segment/Rule.php:80
-#: src/Pmpr/Package/Optimization/Page/Model.php:73
+#: src/Pmpr/Package/Optimization/Page/Model.php:100
 msgid "Pages"
 msgstr "صفحات"
 
@@ -1023,65 +1098,71 @@ msgstr "بودجه مصرف شده"
 msgid "Remaining Budget"
 msgstr "بودجه باقی مانده"
 
-#: src/Pmpr/Package/Optimization/Page/Model.php:74
-#: src/Pmpr/Package/Optimization/Page/Model.php:342
+#: src/Pmpr/Package/Optimization/Page/Model.php:48
+#: src/Pmpr/Package/Optimization/Page/Model.php:101
 msgid "Page"
 msgstr "صفحه"
 
-#: src/Pmpr/Package/Optimization/Page/Model.php:209
+#: src/Pmpr/Package/Optimization/Page/Model.php:53
+msgid "Type"
+msgstr "نوع"
+
+#: src/Pmpr/Package/Optimization/Page/Model.php:57
+msgid "Level"
+msgstr ""
+
+#: src/Pmpr/Package/Optimization/Page/Model.php:61
+msgid "Status"
+msgstr "وضعیت"
+
+#: src/Pmpr/Package/Optimization/Page/Model.php:225
 #, php-format
 msgid "%s of %s pages status changed to %s successfully."
 msgstr "وضعیت %s صفحه از %s صفحه با موفقیت به %s تغییر کرد."
 
-#: src/Pmpr/Package/Optimization/Page/Model.php:347
-msgid "Type"
-msgstr "نوع"
-
-#: src/Pmpr/Package/Optimization/Page/Model.php:351
-msgid "Status"
-msgstr "وضعیت"
-
-#: src/Pmpr/Package/Optimization/Page/Model.php:422
-#: src/Pmpr/Package/Optimization/Page/Model.php:840
-#: src/Pmpr/Package/Optimization/Setting.php:167
+#: src/Pmpr/Package/Optimization/Page/Model.php:423
+#: src/Pmpr/Package/Optimization/Setting.php:161
 msgid "Purge Cache"
 msgstr "پاک‌سازی کش‌"
 
-#: src/Pmpr/Package/Optimization/Page/Model.php:423
-#: src/Pmpr/Package/Optimization/Page/Model.php:863
-msgid "Preload"
-msgstr "پیش بارگیری"
-
-#: src/Pmpr/Package/Optimization/Page/Model.php:424
-#: src/Pmpr/Package/Optimization/Page/Model.php:788
+#: src/Pmpr/Package/Optimization/Page/Model.php:425
+#: src/Pmpr/Package/Optimization/Page/Model.php:767
 msgid "Inactive Page"
 msgstr "غیر فعال‌سازی"
 
-#: src/Pmpr/Package/Optimization/Page/Model.php:425
-#: src/Pmpr/Package/Optimization/Page/Model.php:429
-#: src/Pmpr/Package/Optimization/Page/Model.php:789
+#: src/Pmpr/Package/Optimization/Page/Model.php:426
+#: src/Pmpr/Package/Optimization/Page/Model.php:430
+#: src/Pmpr/Package/Optimization/Page/Model.php:768
 msgid "Ignore Page"
 msgstr "رهاسازی"
 
-#: src/Pmpr/Package/Optimization/Page/Model.php:428
-#: src/Pmpr/Package/Optimization/Page/Model.php:432
-#: src/Pmpr/Package/Optimization/Page/Model.php:787
+#: src/Pmpr/Package/Optimization/Page/Model.php:429
+#: src/Pmpr/Package/Optimization/Page/Model.php:433
+#: src/Pmpr/Package/Optimization/Page/Model.php:766
 msgid "Active Page"
 msgstr "فعال‌سازی"
 
-#: src/Pmpr/Package/Optimization/Page/Model.php:599
+#: src/Pmpr/Package/Optimization/Page/Model.php:561
 msgid "Active"
 msgstr "فعال"
 
-#: src/Pmpr/Package/Optimization/Page/Model.php:600
+#: src/Pmpr/Package/Optimization/Page/Model.php:562
 msgid "Inactive"
 msgstr "غیر فعال‌‌"
 
-#: src/Pmpr/Package/Optimization/Page/Model.php:601
+#: src/Pmpr/Package/Optimization/Page/Model.php:563
 msgid "Ignored"
 msgstr "رها شده"
 
-#: src/Pmpr/Package/Optimization/Page/Model.php:634
+#: src/Pmpr/Package/Optimization/Page/Model.php:577
+msgid "Level 1"
+msgstr ""
+
+#: src/Pmpr/Package/Optimization/Page/Model.php:578
+msgid "Level 2"
+msgstr ""
+
+#: src/Pmpr/Package/Optimization/Page/Model.php:612
 msgid ""
 "Removed page logs history completely removed from database. no change on page "
 "content."
@@ -1089,49 +1170,49 @@ msgstr ""
 "تاریخچه بهینه‌سازی صفحه حذف شده به طور کامل از پایگاه داده پاک خواهد شد. "
 "محتوای صفحه بدون تغییر باقی خواهند ماند."
 
-#: src/Pmpr/Package/Optimization/Page/Model.php:638
-#: src/Pmpr/Package/Optimization/Page/Model.php:641
+#: src/Pmpr/Package/Optimization/Page/Model.php:616
+#: src/Pmpr/Package/Optimization/Page/Model.php:619
 msgid "Remove Page"
 msgstr "حذف صفحه"
 
-#: src/Pmpr/Package/Optimization/Page/Model.php:642
+#: src/Pmpr/Package/Optimization/Page/Model.php:620
 msgid "Are you sure about remove this page?"
 msgstr "آیا در مورد حذف این صفحه مطمئن هستید؟"
 
-#: src/Pmpr/Package/Optimization/Page/Model.php:664
+#: src/Pmpr/Package/Optimization/Page/Model.php:642
 msgid "Opt Status"
 msgstr "وضعیت بهینگی"
 
-#: src/Pmpr/Package/Optimization/Page/Model.php:702
+#: src/Pmpr/Package/Optimization/Page/Model.php:680
 #, php-format
 msgid "Page status changed to %s successfully."
 msgstr "وضعیت صفحه با موفقیت به وضعیت %s تغییر کرد."
 
-#: src/Pmpr/Package/Optimization/Page/Model.php:706
+#: src/Pmpr/Package/Optimization/Page/Model.php:684
 msgid "change page status failed."
 msgstr "تغییر وضعیت صفحه با شکست رو به رو شد."
 
-#: src/Pmpr/Package/Optimization/Page/Model.php:743
+#: src/Pmpr/Package/Optimization/Page/Model.php:720
 msgid "Not Optimized"
 msgstr "بهینه‌ نشده"
 
-#: src/Pmpr/Package/Optimization/Page/Model.php:748
+#: src/Pmpr/Package/Optimization/Page/Model.php:725
 msgid "Optimized"
 msgstr "بهینه‌ شده"
 
-#: src/Pmpr/Package/Optimization/Page/Model.php:753
+#: src/Pmpr/Package/Optimization/Page/Model.php:730
 msgid "Not Completely Optimized"
 msgstr "کاملا بهینه نشده"
 
-#: src/Pmpr/Package/Optimization/Page/Model.php:779
+#: src/Pmpr/Package/Optimization/Page/Model.php:758
 msgid "Optimization process runs on pages with active status."
 msgstr "فرآیند بهینه‌سازی بر روی صفحات فعال، اجرا می‌شود."
 
-#: src/Pmpr/Package/Optimization/Page/Model.php:780
+#: src/Pmpr/Package/Optimization/Page/Model.php:759
 msgid "Optimization process stops running on pages with inactive status."
 msgstr "فرآیند بهینه‌سازی بر روی صفحات غیر فعال، موقتاً متوقف می‌شود."
 
-#: src/Pmpr/Package/Optimization/Page/Model.php:781
+#: src/Pmpr/Package/Optimization/Page/Model.php:760
 msgid ""
 "Optimization process permanently stops on pages with ignored status, but you "
 "may see previous logs."
@@ -1139,151 +1220,65 @@ msgstr ""
 "فرآیند بهینه‌سازی بر روی صفحات رها شده، متوقف شده و بودجه آن برای استفاده برای "
 "صفحات دیگر آزاد می‌شود."
 
-#: src/Pmpr/Package/Optimization/Page/Model.php:795
+#: src/Pmpr/Package/Optimization/Page/Model.php:774
 msgid "Ignore"
 msgstr "رهاسازی"
 
-#: src/Pmpr/Package/Optimization/Page/Model.php:802
+#: src/Pmpr/Package/Optimization/Page/Model.php:781
 #, php-format
 msgid "Are you sure about change status of this page to %s?"
 msgstr "آیا در مورد تغییر وضعیت این صفحه به %s مطمئن هستید؟"
 
-#: src/Pmpr/Package/Optimization/Page/Model.php:806
+#: src/Pmpr/Package/Optimization/Page/Model.php:785
 msgid "Page cache will be purged upon this change."
 msgstr "با اعمال این تغییر، کش صفحه پاک‌سازی خواهد شد."
 
-#: src/Pmpr/Package/Optimization/Page/Model.php:822
+#: src/Pmpr/Package/Optimization/Page/Model.php:801
 #, php-format
 msgid "Change Page Status to %s"
 msgstr "تغییر وضعیت صفحه به %s"
 
-#: src/Pmpr/Package/Optimization/Page/Model.php:828
+#: src/Pmpr/Package/Optimization/Page/Model.php:807
 msgid "Change Status"
 msgstr "تغییر وضعیت"
 
-#: src/Pmpr/Package/Optimization/Page/Model.php:848
-msgid "Are you sure about purging the cache for this page?"
-msgstr "آیا در مورد پاک‌سازی کش این صفحه مطمئن هستید؟"
+#: src/Pmpr/Package/Optimization/Page/Model.php:819
+msgid "reOptimize"
+msgstr "بهینه‌سازی مجدد"
 
-#: src/Pmpr/Package/Optimization/Page/Model.php:853
-#: src/Pmpr/Package/Optimization/Setting.php:91
-#: src/Pmpr/Package/Optimization/Setting.php:179
+#: src/Pmpr/Package/Optimization/Page/Model.php:827
+msgid "Are you sure about reOptimize this page?"
+msgstr "آیا در مورد بهینه سازی مجدد این صفحه مطمئن هستید؟"
+
+#: src/Pmpr/Package/Optimization/Page/Model.php:832
+#: src/Pmpr/Package/Optimization/Setting.php:90
+#: src/Pmpr/Package/Optimization/Setting.php:173
 msgid "Purge"
 msgstr "پاک‌سازی"
 
-#: src/Pmpr/Package/Optimization/Page/Model.php:870
-msgid "Preload Page"
-msgstr "پیش بارگیری صفحه"
-
-#: src/Pmpr/Package/Optimization/Page/Model.php:871
+#: src/Pmpr/Package/Optimization/Preloader/API/Heroku.php:33
 #, fuzzy
-#| msgid "Preloading can take some time, are you continue?"
-msgid "Preloading can take some times, are you continue?"
-msgstr "عملیات پیش‌ بارگیری کمی طول خواهد کشید، ادامه می‌دهید؟"
+#| msgid "Permalink"
+msgid "Permalinks list is empty"
+msgstr "پیوندهای یکتا"
 
-#: src/Pmpr/Package/Optimization/Preloader/Ajax.php:43
+#: src/Pmpr/Package/Optimization/Preloader/Ajax.php:39
 msgid "Preloader started successfully"
 msgstr "عملیات پیش بارگیری با موفقیت شروع شد"
 
-#: src/Pmpr/Package/Optimization/Preloader/Ajax.php:47
-#: src/Pmpr/Package/Optimization/Preloader/Common.php:96
-msgid ""
-"Unable to start the preloader. Another preloading process is currently "
-"running."
-msgstr ""
-
-#: src/Pmpr/Package/Optimization/Preloader/Ajax.php:59
-msgid "Preloader is already unlocked."
-msgstr "پیش بارگذاری از قبل متوقف شده است."
-
-#: src/Pmpr/Package/Optimization/Preloader/Ajax.php:65
-msgid "Preloader unlocked successfully"
-msgstr "عملیات پیش بارگیری با موفقیت متوقف شد"
-
-#: src/Pmpr/Package/Optimization/Preloader/Ajax.php:89
-#, php-format
-msgid "%s successfully preloaded."
-msgstr "%s با موفقیت پیش بارگیری شد."
-
-#: src/Pmpr/Package/Optimization/Preloader/Ajax.php:93
-#, php-format
-msgid "Something is wrong on preloading: %s"
-msgstr "اشکالی در فرآیند پیش بارگیری به وجود آمده است: %s"
-
-#: src/Pmpr/Package/Optimization/Preloader/Ajax.php:97
-#, fuzzy, php-format
-#| msgid "Something is wrong on preloading: %s"
-msgid "Something is wrong on login: %s"
-msgstr "اشکالی در فرآیند پیش بارگیری به وجود آمده است: %s"
-
-#: src/Pmpr/Package/Optimization/Preloader/Ajax.php:101
-msgid "Can not found page data to start preload."
-msgstr ""
-
-#: src/Pmpr/Package/Optimization/Preloader/Ajax.php:105
-msgid "A require data is missing."
-msgstr "پارامتر ضروری وجود ندارد."
-
-#: src/Pmpr/Package/Optimization/Preloader/Ajax.php:110
-msgid "Preloader is locked."
-msgstr "عملیات پیش بارگیری در حال اجراست."
-
-#: src/Pmpr/Package/Optimization/Preloader/Common.php:36
+#: src/Pmpr/Package/Optimization/Preloader/Common.php:34
 msgid "Nothing to preload"
 msgstr "چیزی برای پیش‌ بارگیری وجود ندارد"
 
-#: src/Pmpr/Package/Optimization/Preloader/Common.php:86
+#: src/Pmpr/Package/Optimization/Preloader/Common.php:64
 msgid "Unable to start the preloader. urls is empty."
 msgstr ""
 
-#: src/Pmpr/Package/Optimization/Preloader/Preloader.php:64
-msgid "Refresh this page to view progress"
-msgstr "برای دیدن پیشرفت صفحه را رفرش کنید"
-
-#: src/Pmpr/Package/Optimization/Preloader/Preloader.php:67
-#, fuzzy, php-format
-#| msgid ""
-#| "Optimization process is currently running: %s success and %s failed of %s "
-#| "page types completed. (Refresh this page to view progress)"
+#: src/Pmpr/Package/Optimization/Preloader/Common.php:80
 msgid ""
-"Preloader is currently running: %s done and %s remained of %s page types "
-"completed"
+"Unable to start the preloader. maybe your budget expired, please increase "
+"your budget or update your pages."
 msgstr ""
-"بهینه سازی در حال اجراست: %s پردازش موفق و %s پردازش نا موفق از %s صفحه. "
-"(برای دیدن پیشرفت صفحه را رفرش کنید)"
-
-#: src/Pmpr/Package/Optimization/Preloader/Preloader.php:147
-#: src/Pmpr/Package/Optimization/Preloader/Preloader.php:152
-msgid "Start Preloader"
-msgstr "شروع پیش بارگیری"
-
-#: src/Pmpr/Package/Optimization/Preloader/Preloader.php:150
-msgid "Start preloading the pages of your website to speed up their inclusion."
-msgstr "شروع پیش بارگیری صفحات وب‌سایت شما به منظور تسریع بهینه‌ سازی."
-
-#: src/Pmpr/Package/Optimization/Preloader/Preloader.php:153
-msgid "Preloading can take some time, are you continue?"
-msgstr "عملیات پیش‌ بارگیری کمی طول خواهد کشید، ادامه می‌دهید؟"
-
-#: src/Pmpr/Package/Optimization/Preloader/Preloader.php:158
-msgid "Start"
-msgstr "شروع"
-
-#: src/Pmpr/Package/Optimization/Preloader/Preloader.php:165
-msgid "Manually Unlock Preloader"
-msgstr "توقف پیش بارگیری"
-
-#: src/Pmpr/Package/Optimization/Preloader/Preloader.php:170
-msgid "Unlock Preloader"
-msgstr "توقف پیش بارگیری"
-
-#: src/Pmpr/Package/Optimization/Preloader/Preloader.php:171
-msgid "Are you sure about unlock preloader?"
-msgstr "آیا در مورد توقف پیش‌ بارگیری مطمئن هستید؟"
-
-#: src/Pmpr/Package/Optimization/Preloader/Preloader.php:176
-msgid "Unlock"
-msgstr "توقف"
 
 #: src/Pmpr/Package/Optimization/Purge/Ajax.php:45
 msgid "require parameter is missing."
@@ -1306,7 +1301,7 @@ msgstr ""
 msgid "Purge cache failed."
 msgstr "پاک‌سازی کش شکست خورد."
 
-#: src/Pmpr/Package/Optimization/Purge/Purge.php:282
+#: src/Pmpr/Package/Optimization/Purge/Purge.php:279
 #, fuzzy
 #| msgid "Optimization Cloudflare - Purge Cache Cron Interval"
 msgid "Optimization - Purge Cache Cron Interval"
@@ -1325,7 +1320,7 @@ msgid "Dashboard"
 msgstr "داشبورد"
 
 #: src/Pmpr/Package/Optimization/Setting.php:65
-#: src/Pmpr/Package/Optimization/Setting.php:95
+#: src/Pmpr/Package/Optimization/Setting.php:94
 msgid "General"
 msgstr "عمومی"
 
@@ -1341,43 +1336,45 @@ msgstr ""
 "فعال کردن قابلیت بهینه سازی، شما می‌توانید هر بخش را در تب مربوط به خود نیز "
 "فعال یا غیر فعال کنید."
 
-#: src/Pmpr/Package/Optimization/Setting.php:79
-msgid "Your optimization account api key."
-msgstr "کلید رمزی وب سرویس مربوط به اکانت بهینه سازی."
+#: src/Pmpr/Package/Optimization/Setting.php:78
+#, fuzzy
+#| msgid "Enable Debug"
+msgid "Enable Debug Mode"
+msgstr "فعال حالت دیباگ"
 
-#: src/Pmpr/Package/Optimization/Setting.php:84
+#: src/Pmpr/Package/Optimization/Setting.php:83
 msgid "Secret Key"
 msgstr "کلید خصوصی"
 
-#: src/Pmpr/Package/Optimization/Setting.php:85
+#: src/Pmpr/Package/Optimization/Setting.php:84
 msgid "Used for preload and purge cronjob."
 msgstr "برای کرون جاب مربوط به پیش بارگیری و پاک‌سازی استفاده خواهد شد."
 
-#: src/Pmpr/Package/Optimization/Setting.php:99
+#: src/Pmpr/Package/Optimization/Setting.php:98
 msgid "Automatically Purge Cache"
 msgstr "پاک‌سازی کش‌ به صورت خودکار"
 
-#: src/Pmpr/Package/Optimization/Setting.php:101
+#: src/Pmpr/Package/Optimization/Setting.php:100
 msgid "Purge cache for related pages only"
 msgstr "پاک‌سازی کش‌ فایل‌های مرتبط با صفحه مورد نظر"
 
-#: src/Pmpr/Package/Optimization/Setting.php:101
+#: src/Pmpr/Package/Optimization/Setting.php:100
 msgid "(recommended)"
 msgstr "(توصیه شده)"
 
-#: src/Pmpr/Package/Optimization/Setting.php:102
+#: src/Pmpr/Package/Optimization/Setting.php:101
 msgid "Purge whole cache"
 msgstr "پاک‌سازی تمامی کش‌ها"
 
-#: src/Pmpr/Package/Optimization/Setting.php:104
+#: src/Pmpr/Package/Optimization/Setting.php:103
 msgid "Automatically purge the cache when something changes on the website."
 msgstr "در صورت تغییر در وب سایت، کش  را به صورت خودکار پاک‌سازی می‌شود."
 
-#: src/Pmpr/Package/Optimization/Setting.php:109
+#: src/Pmpr/Package/Optimization/Setting.php:108
 msgid "Purge Cache On Comment"
 msgstr "پاک‌سازی کش در هنگام تغییرات در دیدگاه"
 
-#: src/Pmpr/Package/Optimization/Setting.php:110
+#: src/Pmpr/Package/Optimization/Setting.php:109
 msgid ""
 "Automatically purge single post cache when a new comment is inserted into the "
 "database or when a comment is approved or deleted."
@@ -1385,47 +1382,35 @@ msgstr ""
 "در هنگام تغییرات در بخش دیدگاه‌های مربوط به یک نوشته، کش مربوط به آن صفحه را "
 "به صورت خودکار پاک‌سازی ‌می‌شود."
 
-#: src/Pmpr/Package/Optimization/Setting.php:115
+#: src/Pmpr/Package/Optimization/Setting.php:114
 msgid "Pagination Purge"
 msgstr "پاک‌سازی کش صفحه بندی آرشیو"
 
-#: src/Pmpr/Package/Optimization/Setting.php:116
+#: src/Pmpr/Package/Optimization/Setting.php:115
 msgid ""
 "Choice how many of paginated pages, automatically purge of purging archives."
 msgstr ""
 "تعداد صفحاتی صفحه‌بندی که در زمان پاک‌سازی صفحات آرشیو پاک شوند را مشخص کنید."
 
-#: src/Pmpr/Package/Optimization/Setting.php:121
+#: src/Pmpr/Package/Optimization/Setting.php:120
 msgid "Purge OPCache on Flush"
 msgstr "پاک‌سازی OPCache"
 
-#: src/Pmpr/Package/Optimization/Setting.php:122
+#: src/Pmpr/Package/Optimization/Setting.php:121
 #, fuzzy
 #| msgid "Automatically purge the OPcache when Cloudflare cache is purged."
 msgid "Automatically purge the OPcache when cache is purged."
 msgstr "در صورت حذف کش کلود فلر، OPCache نیز به صورت خودکار پاک‌سازی می‌شود."
 
 #: src/Pmpr/Package/Optimization/Setting.php:127
-msgid "Preload on Purge"
-msgstr "پیش بارگیری در هنگام پاک‌سازی"
-
-#: src/Pmpr/Package/Optimization/Setting.php:128
-#, fuzzy
-#| msgid ""
-#| "Automatically preload the pages you have purged from Cloudflare cache with "
-#| "this plugin."
-msgid "Automatically preload the pages you have purged."
-msgstr "پیش بارگیری خودکار صفحات که از کلود فلر پاک شده‌اند."
-
-#: src/Pmpr/Package/Optimization/Setting.php:134
 msgid "Woocommerce"
 msgstr "ووکامرس"
 
-#: src/Pmpr/Package/Optimization/Setting.php:138
+#: src/Pmpr/Package/Optimization/Setting.php:131
 msgid "Purge on Quantity Changes"
 msgstr "پاک‌سازی در هنگام تغییر در تعداد محصول"
 
-#: src/Pmpr/Package/Optimization/Setting.php:139
+#: src/Pmpr/Package/Optimization/Setting.php:132
 msgid ""
 "Automatically purge cache for product page and related categories when stock "
 "quantity changes."
@@ -1433,21 +1418,21 @@ msgstr ""
 "پاک‌سازی خودکار کش صفحه محصول و تکسانومی‌های مربوط، زمانی که موجودی انبار تغییر "
 "کند."
 
-#: src/Pmpr/Package/Optimization/Setting.php:144
+#: src/Pmpr/Package/Optimization/Setting.php:137
 msgid "Purge for Quantity Scheduled Sales"
 msgstr "پاک‌سازی کش برای فروش زمانبندی شده"
 
-#: src/Pmpr/Package/Optimization/Setting.php:145
+#: src/Pmpr/Package/Optimization/Setting.php:138
 msgid "Automatically purge cache for scheduled sales."
 msgstr "کش به صورت خودکار، برای فروش‌های زمانبندی شده پاک‌سازی می شود. ."
 
-#: src/Pmpr/Package/Optimization/Setting.php:170
+#: src/Pmpr/Package/Optimization/Setting.php:164
 #, fuzzy
 #| msgid "Purge all cloudflare cache include html and asset."
 msgid "Purge all cache include html and asset and cloudflare cache."
 msgstr "پاک‌سازی کش کلود فلر، برای تمامی صفحات و منابع استاتیکی."
 
-#: src/Pmpr/Package/Optimization/Setting.php:174
+#: src/Pmpr/Package/Optimization/Setting.php:168
 msgid "Are you sure about purge all caches?"
 msgstr "آیا در مورد پاک‌سازی همه کش مطمئن هستید؟"
 
@@ -1459,6 +1444,105 @@ msgstr "حذف این %s"
 #: src/Pmpr/Package/Optimization/Theme.php:70
 msgid "Loading..."
 msgstr "در حال بارگذاری..."
+
+#~ msgid "Reoptimize"
+#~ msgstr "بهینه‌سازی مجدد"
+
+#~ msgid "Are you sure about purging the cache for this page?"
+#~ msgstr "آیا در مورد پاک‌سازی کش این صفحه مطمئن هستید؟"
+
+#~ msgid "Can't process your request right now, please try after few minutes."
+#~ msgstr ""
+#~ "در حال حاضر قادر به پردازش درخواست شما نیستیم، لطفا بعدا دوباره تلاش کنید."
+
+#~ msgid "your apikey is empty."
+#~ msgstr "کلید وب سرویس حساب شما پر نشده است."
+
+#~ msgid "Preload"
+#~ msgstr "پیش بارگیری"
+
+#~ msgid "Preload Page"
+#~ msgstr "پیش بارگیری صفحه"
+
+#, fuzzy
+#~| msgid "Preloading can take some time, are you continue?"
+#~ msgid "Preloading can take some times, are you continue?"
+#~ msgstr "عملیات پیش‌ بارگیری کمی طول خواهد کشید، ادامه می‌دهید؟"
+
+#~ msgid "Preloader is already unlocked."
+#~ msgstr "پیش بارگذاری از قبل متوقف شده است."
+
+#~ msgid "Preloader unlocked successfully"
+#~ msgstr "عملیات پیش بارگیری با موفقیت متوقف شد"
+
+#~ msgid "%s successfully preloaded."
+#~ msgstr "%s با موفقیت پیش بارگیری شد."
+
+#~ msgid "Something is wrong on preloading: %s"
+#~ msgstr "اشکالی در فرآیند پیش بارگیری به وجود آمده است: %s"
+
+#, fuzzy
+#~| msgid "Something is wrong on preloading: %s"
+#~ msgid "Something is wrong on login: %s"
+#~ msgstr "اشکالی در فرآیند پیش بارگیری به وجود آمده است: %s"
+
+#~ msgid "A require data is missing."
+#~ msgstr "پارامتر ضروری وجود ندارد."
+
+#~ msgid "Preloader is locked."
+#~ msgstr "عملیات پیش بارگیری در حال اجراست."
+
+#~ msgid "Refresh this page to view progress"
+#~ msgstr "برای دیدن پیشرفت صفحه را رفرش کنید"
+
+#, fuzzy
+#~| msgid ""
+#~| "Optimization process is currently running: %s success and %s failed of %s "
+#~| "page types completed. (Refresh this page to view progress)"
+#~ msgid ""
+#~ "Preloader is currently running: %s done and %s remained of %s page types "
+#~ "completed"
+#~ msgstr ""
+#~ "بهینه سازی در حال اجراست: %s پردازش موفق و %s پردازش نا موفق از %s صفحه. "
+#~ "(برای دیدن پیشرفت صفحه را رفرش کنید)"
+
+#~ msgid "Start Preloader"
+#~ msgstr "شروع پیش بارگیری"
+
+#~ msgid ""
+#~ "Start preloading the pages of your website to speed up their inclusion."
+#~ msgstr "شروع پیش بارگیری صفحات وب‌سایت شما به منظور تسریع بهینه‌ سازی."
+
+#~ msgid "Preloading can take some time, are you continue?"
+#~ msgstr "عملیات پیش‌ بارگیری کمی طول خواهد کشید، ادامه می‌دهید؟"
+
+#~ msgid "Start"
+#~ msgstr "شروع"
+
+#~ msgid "Manually Unlock Preloader"
+#~ msgstr "توقف پیش بارگیری"
+
+#~ msgid "Unlock Preloader"
+#~ msgstr "توقف پیش بارگیری"
+
+#~ msgid "Are you sure about unlock preloader?"
+#~ msgstr "آیا در مورد توقف پیش‌ بارگیری مطمئن هستید؟"
+
+#~ msgid "Unlock"
+#~ msgstr "توقف"
+
+#~ msgid "Your optimization account api key."
+#~ msgstr "کلید رمزی وب سرویس مربوط به اکانت بهینه سازی."
+
+#~ msgid "Preload on Purge"
+#~ msgstr "پیش بارگیری در هنگام پاک‌سازی"
+
+#, fuzzy
+#~| msgid ""
+#~| "Automatically preload the pages you have purged from Cloudflare cache "
+#~| "with this plugin."
+#~ msgid "Automatically preload the pages you have purged."
+#~ msgstr "پیش بارگیری خودکار صفحات که از کلود فلر پاک شده‌اند."
 
 #~ msgid "Error on change status"
 #~ msgstr "خطا در تغییر وضعیت"
@@ -1616,9 +1700,6 @@ msgstr "در حال بارگذاری..."
 
 #~ msgid "Selected for Optimization"
 #~ msgstr "انتخاب شده"
-
-#~ msgid "Ignored from Optimization"
-#~ msgstr "رها شده"
 
 #~ msgid "View"
 #~ msgstr "نمایش"
@@ -1966,12 +2047,6 @@ msgstr "در حال بارگذاری..."
 #~ msgid "Add %s Items"
 #~ msgstr "افزودن آیتم‌های %s"
 
-#~ msgid "Static Data"
-#~ msgstr "داده ایجادی"
-
-#~ msgid "Dynamic Data"
-#~ msgstr "داده انتخابی"
-
 #~ msgid "Insert Shortcode"
 #~ msgstr "افزودن شورت‌کد"
 
@@ -2037,9 +2112,6 @@ msgstr "در حال بارگذاری..."
 
 #~ msgid "Taxonomies"
 #~ msgstr "تکسونومی‌ها"
-
-#~ msgid "Items"
-#~ msgstr "آیتم‌ها‌"
 
 #~ msgid "Enable Taxonomy"
 #~ msgstr "فعال سازی تکسنومی"
@@ -2685,9 +2757,6 @@ msgstr "در حال بارگذاری..."
 #~ msgid "Term Count"
 #~ msgstr "تعداد ترم"
 
-#~ msgid "Target Taxonomies"
-#~ msgstr "تکسونومی‌های هدف"
-
 #~ msgid "Term length"
 #~ msgstr "طول کلمه ترم"
 
@@ -3178,11 +3247,6 @@ msgstr "در حال بارگذاری..."
 
 #~ msgid "Space"
 #~ msgstr "فاصله"
-
-#, fuzzy
-#~| msgid "Permalink"
-#~ msgid "Permalink Dates"
-#~ msgstr "پیوندهای یکتا"
 
 #~ msgid "Convert dates in permalink."
 #~ msgstr "تبدیل تاریخ در پیوندهای یکتا."
@@ -4165,9 +4229,6 @@ msgstr "در حال بارگذاری..."
 #~ msgid "Valid types: %s"
 #~ msgstr "انواع معتبر: %s"
 
-#~ msgid "Contact Points"
-#~ msgstr "نقاط ارتباط"
-
 #~ msgid "Served Area"
 #~ msgstr "منطقه خدمت رسانی"
 
@@ -4214,9 +4275,6 @@ msgstr "در حال بارگذاری..."
 
 #~ msgid "Count"
 #~ msgstr "تعداد"
-
-#~ msgid "Posts"
-#~ msgstr "نوشته‌ها"
 
 #~ msgid "Alphabetic"
 #~ msgstr "الفبایی"
@@ -4284,9 +4342,6 @@ msgstr "در حال بارگذاری..."
 
 #~ msgid "Pages in Footer"
 #~ msgstr "لینک‌های پاورقی سایت"
-
-#~ msgid "Item"
-#~ msgstr "آیتم‌"
 
 #~ msgid "Leave empty if you want show page title."
 #~ msgstr "اگر می‌خواهید عنوان صفحه مورد نظر نمایش داده شود، چیزی ننویسید."
@@ -4490,11 +4545,6 @@ msgstr "در حال بارگذاری..."
 #~| msgid "Enable Relation"
 #~ msgid "Enable Terms & Conditions"
 #~ msgstr "فعال سازی قابلیت رابطه"
-
-#, fuzzy
-#~| msgid "Terms Numbers"
-#~ msgid "Terms Page"
-#~ msgstr "اعداد ترم‌ها (عبارات)"
 
 #~ msgid "From Name"
 #~ msgstr "نام مبدأ ایمیل"
@@ -5225,11 +5275,6 @@ msgstr "در حال بارگذاری..."
 #~ msgstr "فعال سازی ارسال ایمیل"
 
 #, fuzzy
-#~| msgid "Select Type"
-#~ msgid "Filter Type"
-#~ msgstr "انتخاب نوع"
-
-#, fuzzy
 #~| msgid "Check this item to enable mailer functionality."
 #~ msgid "Check this item for better performance."
 #~ msgstr ""
@@ -5700,9 +5745,6 @@ msgstr "در حال بارگذاری..."
 #~ msgid "Categories"
 #~ msgstr "دسته‌بندی‌ها"
 
-#~ msgid "Enable Debug"
-#~ msgstr "فعال حالت دیباگ"
-
 #~ msgid "Check this item to enable logger functionality in cache"
 #~ msgstr "با علامت زدن این گزینه، عمکرد لاگ در کش فعال می‌شود"
 
@@ -6140,11 +6182,6 @@ msgstr "در حال بارگذاری..."
 #~ msgstr ""
 #~ "از نسبت‌های طول به عرض رایج تصویر در آدرس دهی تصاویر استفاده کن مانند "
 #~ "http://example.com/upload/1x1/image.jpg"
-
-#, fuzzy
-#~| msgid "Archives"
-#~ msgid "Archive for"
-#~ msgstr "بایگانی‌ها"
 
 #~ msgid "Change language and calendar in administrator panel."
 #~ msgstr "تغییر زبان و تاریخ در بخش مدیریت سایت."

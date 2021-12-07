@@ -48,7 +48,7 @@ if (file_exists($cachePath)
     if (class_exists('\{{ namespace|raw }}\Buffer')) {
 
         $config = new Config(['path' => $configPath]);
-        (new Buffer(new Test($config), $config, ['path' => $cachePath]))->maybeInitProcess();
+        new Buffer(new Test($config), $config, ['path' => $cachePath]);
     } elseif (!defined('DONT_PERFORMANCE_OPTIMIZE')) {
 
         define('DONT_PERFORMANCE_OPTIMIZE', true);
