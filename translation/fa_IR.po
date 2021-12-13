@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PMPR Optimization\n"
-"POT-Creation-Date: 2021-12-07 13:39+0330\n"
-"PO-Revision-Date: 2021-12-07 13:40+0330\n"
+"POT-Creation-Date: 2021-12-12 22:11+0330\n"
+"PO-Revision-Date: 2021-12-12 22:12+0330\n"
 "Last-Translator:  Farshad Asgharzade <Farshad_asgharzade@hotmail.com>\n"
 "Language-Team: \n"
 "Language: fa_IR\n"
@@ -28,7 +28,7 @@ msgstr "هر پانزده دقیقه"
 
 #: src/Pmpr/Package/Optimization/Asset/Cleanup/Tag.php:131
 msgid "Optimization: "
-msgstr "بهینه‌سازی: "
+msgstr "افزایش سرعت: "
 
 #: src/Pmpr/Package/Optimization/Asset/Cleanup/Tag.php:133
 #, php-format
@@ -43,7 +43,7 @@ msgstr "مسیر مربوط به ترکیب منابع استاتیکی"
 
 #: src/Pmpr/Package/Optimization/Asset/Critical/Critical.php:39
 msgid "Optimization Critical Path"
-msgstr "مسیر فایل‌های بحرانی بهینه‌سازی"
+msgstr "مسیر فایل‌های بحرانی افزایش سرعت"
 
 #: src/Pmpr/Package/Optimization/Asset/HTAccess.php:82
 #, php-format
@@ -441,16 +441,12 @@ msgid "Rule Type"
 msgstr "نوع قاعده"
 
 #: src/Pmpr/Package/Optimization/Bypass/Setting.php:61
-#, fuzzy
-#| msgid "Static Data"
 msgid "Static"
-msgstr "داده ایجادی"
+msgstr "ایستا"
 
 #: src/Pmpr/Package/Optimization/Bypass/Setting.php:62
-#, fuzzy
-#| msgid "Dynamic Data"
 msgid "Dynamic"
-msgstr "داده انتخابی"
+msgstr "پویا (به صورت url"
 
 #: src/Pmpr/Package/Optimization/Bypass/Setting.php:69
 msgid "Pattern"
@@ -487,68 +483,41 @@ msgid "Item"
 msgstr "آیتم‌"
 
 #: src/Pmpr/Package/Optimization/Bypass/Setting.php:95
-#, fuzzy
-#| msgid "Ignored from Optimization"
 msgid "Ignore Some pages from optimization by rules."
-msgstr "رها شده"
+msgstr "نادیده گرفتن برخی صفحات در فرآیند افزایش سرعت با استفاده از قواعد."
 
-#: src/Pmpr/Package/Optimization/Cloudflare/API.php:159
-msgid "Authentication mode is not selected."
-msgstr "نحوه احراز هویت انتخاب نشده است."
+#: src/Pmpr/Package/Optimization/Cloudflare/API.php:168
+msgid "Please complete cloudflare tab information"
+msgstr "لطفا اطلاعات برگه کلود فلیر را تکمیل کنید"
 
-#: src/Pmpr/Package/Optimization/Cloudflare/API.php:162
-msgid "Fill email field."
-msgstr "لطفا فیلد ایمیل را پر کنید."
-
-#: src/Pmpr/Package/Optimization/Cloudflare/API.php:167
-msgid "Fill API token field."
-msgstr "لطفا فیلد کلید رمزی وب سرویس را پر کنید."
-
-#: src/Pmpr/Package/Optimization/Cloudflare/API.php:170
-msgid "Fill cloudflare domain name field."
-msgstr "لطفا فیلد نام دامنه کلود فلر را پر کنید."
-
-#: src/Pmpr/Package/Optimization/Cloudflare/API.php:176
-msgid "Fill API key field."
-msgstr "لطفا فیلد کلید وب سرویس را پر کنید."
-
-#: src/Pmpr/Package/Optimization/Cloudflare/API.php:179
-msgid "Select domain name and save changes."
-msgstr "یک نام دامنه را انتخاب کرده و تنظیمات را ذخیره کیند."
-
-#: src/Pmpr/Package/Optimization/Cloudflare/API.php:184
-#: src/Pmpr/Package/Optimization/Cloudflare/Setting.php:67
-msgid "Cloudflare"
-msgstr "کلود فلر"
-
-#: src/Pmpr/Package/Optimization/Cloudflare/API.php:274
+#: src/Pmpr/Package/Optimization/Cloudflare/API.php:258
 msgid "Unable to retrive zone id due to invalid response data"
 msgstr ""
 
-#: src/Pmpr/Package/Optimization/Cloudflare/API.php:285
+#: src/Pmpr/Package/Optimization/Cloudflare/API.php:269
 msgid "Unable to find domains configured on Cloudflare"
 msgstr ""
 
-#: src/Pmpr/Package/Optimization/Cloudflare/API.php:480
-#: src/Pmpr/Package/Optimization/Cloudflare/API.php:484
+#: src/Pmpr/Package/Optimization/Cloudflare/API.php:464
+#: src/Pmpr/Package/Optimization/Cloudflare/API.php:468
 msgid "Can not fetch page rules."
 msgstr ""
 
-#: src/Pmpr/Package/Optimization/Cloudflare/API.php:488
-#: src/Pmpr/Package/Optimization/Cloudflare/API.php:517
+#: src/Pmpr/Package/Optimization/Cloudflare/API.php:472
+#: src/Pmpr/Package/Optimization/Cloudflare/API.php:501
 msgid "There is not zone id to use"
 msgstr ""
 
-#: src/Pmpr/Package/Optimization/Cloudflare/API.php:521
+#: src/Pmpr/Package/Optimization/Cloudflare/API.php:505
 msgid "There is not page rule to delete"
 msgstr "هیچ قاعده‌ای برای حذف وجود ندارد"
 
-#: src/Pmpr/Package/Optimization/Cloudflare/API.php:748
+#: src/Pmpr/Package/Optimization/Cloudflare/API.php:732
 #, php-format
 msgid "Unable to find %s settings"
 msgstr ""
 
-#: src/Pmpr/Package/Optimization/Cloudflare/API.php:752
+#: src/Pmpr/Package/Optimization/Cloudflare/API.php:736
 #, php-format
 msgid "Unable to get %s settings: %s"
 msgstr ""
@@ -561,7 +530,7 @@ msgstr "حالت توسعه با موفقیت به %s تغییر یافت"
 #: src/Pmpr/Package/Optimization/Cloudflare/Ajax.php:53
 #, php-format
 msgid "Development Mode is already %s"
-msgstr ""
+msgstr "حالت توسعه قبلا %s شده است"
 
 #: src/Pmpr/Package/Optimization/Cloudflare/Ajax.php:58
 #, php-format
@@ -586,78 +555,77 @@ msgstr "قابلیت کش شد صفحات به موفقیت غیر فعال شد
 
 #: src/Pmpr/Package/Optimization/Cloudflare/Cloudflare.php:59
 msgid "Optimization Cloudflare Path"
-msgstr "مسیر کش کلود فلر"
+msgstr "مسیر کش کلود فلیر"
 
 #: src/Pmpr/Package/Optimization/Cloudflare/Cloudflare.php:110
 msgid "Purge Post Cache"
 msgstr "پاک‌سازی کش‌ نوشته"
 
-#: src/Pmpr/Package/Optimization/Cloudflare/Setting.php:73
+#: src/Pmpr/Package/Optimization/Cloudflare/Setting.php:67
+#: src/Pmpr/Package/Optimization/Cloudflare/Setting.php:187
+msgid "Cloudflare"
+msgstr "کلود فلیر"
+
+#: src/Pmpr/Package/Optimization/Cloudflare/Setting.php:75
 msgid "Account"
 msgstr "حساب کاربری"
 
-#: src/Pmpr/Package/Optimization/Cloudflare/Setting.php:77
+#: src/Pmpr/Package/Optimization/Cloudflare/Setting.php:79
+#: src/Pmpr/Package/Optimization/Cloudflare/Setting.php:237
 msgid "Authentication mode"
 msgstr "نحوه احراز هویت"
 
-#: src/Pmpr/Package/Optimization/Cloudflare/Setting.php:79
+#: src/Pmpr/Package/Optimization/Cloudflare/Setting.php:81
+#: src/Pmpr/Package/Optimization/Cloudflare/Setting.php:99
+#: src/Pmpr/Package/Optimization/Cloudflare/Setting.php:238
+#: src/Pmpr/Package/Optimization/Cloudflare/Setting.php:242
 msgid "API Key"
 msgstr "کلید وب سرویس (API Key)"
 
-#: src/Pmpr/Package/Optimization/Cloudflare/Setting.php:80
-msgid "API Token"
-msgstr "کلید رمزی وب سرویس (API Token)"
-
 #: src/Pmpr/Package/Optimization/Cloudflare/Setting.php:82
+#: src/Pmpr/Package/Optimization/Cloudflare/Setting.php:105
+msgid "API Token"
+msgstr "توکن وب سرویس (API Token)"
+
+#: src/Pmpr/Package/Optimization/Cloudflare/Setting.php:84
 msgid "Authentication mode to use to connect to your Cloudflare account."
-msgstr "نوع احراز هویت به منظور اتصال به حساب کاربری شما بر روی کلود فلر."
+msgstr "نوع احراز هویت به منظور اتصال به حساب کاربری شما بر روی کلود فلیر."
 
-#: src/Pmpr/Package/Optimization/Cloudflare/Setting.php:91
+#: src/Pmpr/Package/Optimization/Cloudflare/Setting.php:93
+#: src/Pmpr/Package/Optimization/Cloudflare/Setting.php:233
 msgid "Cloudflare e-mail"
-msgstr "ایمیل کلود فلر"
+msgstr "ایمیل کلود فلیر"
 
-#: src/Pmpr/Package/Optimization/Cloudflare/Setting.php:92
+#: src/Pmpr/Package/Optimization/Cloudflare/Setting.php:94
 msgid "The email address you use to log in to Cloudflare."
 msgstr ""
-"آدرس ایمیلی که شما برای ورد به حساب‌کاربری خود در کلود فلر استفاده می‌کنید."
+"آدرس ایمیلی که شما برای ورد به حساب‌کاربری خود در کلود فلیر استفاده می‌کنید."
 
-#: src/Pmpr/Package/Optimization/Cloudflare/Setting.php:97
-msgid "Cloudflare API Key"
-msgstr "کلید وب سرویس کلود فلر"
-
-#: src/Pmpr/Package/Optimization/Cloudflare/Setting.php:98
+#: src/Pmpr/Package/Optimization/Cloudflare/Setting.php:100
 msgid "The Global API Key extrapolated from your Cloudflare account."
 msgstr ""
-"کلید وب سرویس کلود فلر که ‌می‌توانید آن را در حساب کاربری خود در کلودفلر بیابید."
-
-#: src/Pmpr/Package/Optimization/Cloudflare/Setting.php:103
-msgid "Cloudflare API Token"
-msgstr "کلید رمزی وب سرویس کلود فلر"
-
-#: src/Pmpr/Package/Optimization/Cloudflare/Setting.php:104
-msgid "The API Token extrapolated from your Cloudflare account."
-msgstr ""
-"کلید رمزی وب سرویس کلود فلر که ‌می‌توانید آن را در حساب کاربری خود در کلودفلر "
+"کلید وب سرویس کلود فلیر که ‌می‌توانید آن را در حساب کاربری خود در کلود فلیر "
 "بیابید."
 
-#: src/Pmpr/Package/Optimization/Cloudflare/Setting.php:109
-#: src/Pmpr/Package/Optimization/Cloudflare/Setting.php:120
-msgid "Cloudflare Domain Name"
-msgstr "نام دامنه کلود فلر"
+#: src/Pmpr/Package/Optimization/Cloudflare/Setting.php:106
+msgid "The API Token extrapolated from your Cloudflare account."
+msgstr ""
+"کلید رمزی وب سرویس کلود فلیر که ‌می‌توانید آن را در حساب کاربری خود در کلود "
+"فلیر بیابید."
 
-#: src/Pmpr/Package/Optimization/Cloudflare/Setting.php:110
-#, fuzzy
-#| msgid ""
-#| "Select the domain for which you want to enable the cache and click on "
-#| "Update settings."
+#: src/Pmpr/Package/Optimization/Cloudflare/Setting.php:111
+#: src/Pmpr/Package/Optimization/Cloudflare/Setting.php:118
+#: src/Pmpr/Package/Optimization/Cloudflare/Setting.php:250
+msgid "Domain Name"
+msgstr "نام دامنه"
+
+#: src/Pmpr/Package/Optimization/Cloudflare/Setting.php:112
 msgid ""
 "Add the domain name for which you want to enable the cache exactly as "
 "reported on Cloudflare, then click on Update settings."
 msgstr ""
-"دامنه‌ای که می‌خواهید کش برای آن فعال شود را انتخاب کنید و تنظیمات را به روز "
-"رسانی کنید."
 
-#: src/Pmpr/Package/Optimization/Cloudflare/Setting.php:122
+#: src/Pmpr/Package/Optimization/Cloudflare/Setting.php:120
 msgid ""
 "Select the domain for which you want to enable the cache and click on Update "
 "settings."
@@ -665,11 +633,11 @@ msgstr ""
 "دامنه‌ای که می‌خواهید کش برای آن فعال شود را انتخاب کنید و تنظیمات را به روز "
 "رسانی کنید."
 
-#: src/Pmpr/Package/Optimization/Cloudflare/Setting.php:124
+#: src/Pmpr/Package/Optimization/Cloudflare/Setting.php:122
 msgid "Select a Domain Name"
 msgstr "انتخاب یک نام دامنه"
 
-#: src/Pmpr/Package/Optimization/Cloudflare/Setting.php:134
+#: src/Pmpr/Package/Optimization/Cloudflare/Setting.php:132
 #: src/Pmpr/Package/Optimization/Origin/Cache/Advanced.php:174
 #: src/Pmpr/Package/Optimization/Origin/Cache/WPCache.php:112
 #: src/Pmpr/Package/Optimization/Origin/Cache/WPCache.php:155
@@ -677,36 +645,36 @@ msgstr "انتخاب یک نام دامنه"
 msgid "Cache"
 msgstr "کش"
 
-#: src/Pmpr/Package/Optimization/Cloudflare/Setting.php:138
+#: src/Pmpr/Package/Optimization/Cloudflare/Setting.php:136
 msgid "Cloudflare Cache-Control max-age"
-msgstr "مقدار Cache-control max-age مربوط به کلود فلر"
+msgstr "مقدار Cache-control max-age مربوط به کلود فلیر"
 
-#: src/Pmpr/Package/Optimization/Cloudflare/Setting.php:139
-#: src/Pmpr/Package/Optimization/Cloudflare/Setting.php:145
+#: src/Pmpr/Package/Optimization/Cloudflare/Setting.php:137
+#: src/Pmpr/Package/Optimization/Cloudflare/Setting.php:143
 msgid "Don't touch if you don't know what is it. Must be greater than zero."
 msgstr ""
 "اگر اطلاعات کافی در مورد این گزینه‌را ندارید لطفا آن را تغییر ندهید. مقدار این "
 "گزینه باید بیشتر از صفر باشد."
 
-#: src/Pmpr/Package/Optimization/Cloudflare/Setting.php:139
+#: src/Pmpr/Package/Optimization/Cloudflare/Setting.php:137
 #, php-format
 msgid "Recommended %s"
 msgstr "%s توصیه می‌شود"
 
-#: src/Pmpr/Package/Optimization/Cloudflare/Setting.php:144
+#: src/Pmpr/Package/Optimization/Cloudflare/Setting.php:142
 msgid "Browser Cache-Control max-age"
 msgstr "مقدار Cache-control max-age مربوط به مرورگر"
 
-#: src/Pmpr/Package/Optimization/Cloudflare/Setting.php:145
+#: src/Pmpr/Package/Optimization/Cloudflare/Setting.php:143
 #, php-format
 msgid "Recommended a value between %s and %s"
 msgstr "مقداری بین %s و %s توصیه می‌شود"
 
-#: src/Pmpr/Package/Optimization/Cloudflare/Setting.php:150
+#: src/Pmpr/Package/Optimization/Cloudflare/Setting.php:148
 msgid "Force Bypassing Backend"
 msgstr "عدم کش کردم بخش ادمین"
 
-#: src/Pmpr/Package/Optimization/Cloudflare/Setting.php:151
+#: src/Pmpr/Package/Optimization/Cloudflare/Setting.php:149
 msgid ""
 "by default, all back-end URLs are not cached, but if for some circumstances "
 "This option will be ignored if worker mode is enabled your backend pages are "
@@ -716,110 +684,201 @@ msgid ""
 msgstr ""
 "به صورت پیش‌فرض همه صفحات بخش ادمین سایت، کش نمی‌شوند. اما اگر با مشکل کش شدن "
 "بخش ادمین مواجه شدید، می‌توانید با فعال کردن این گزینه یک قاعده جدید عدم کش "
-"شدن به صورت مستقیم بر روی کلودفلر تنظیم کنید."
+"شدن به صورت مستقیم بر روی کلود فلیر تنظیم کنید."
 
-#: src/Pmpr/Package/Optimization/Cloudflare/Setting.php:156
+#: src/Pmpr/Package/Optimization/Cloudflare/Setting.php:154
 msgid "Purge HTML pages only"
 msgstr "تنها فایل‌های HTML را پاک‌سازی کن"
 
-#: src/Pmpr/Package/Optimization/Cloudflare/Setting.php:157
+#: src/Pmpr/Package/Optimization/Cloudflare/Setting.php:155
 msgid ""
 "Purge only the cached HTML pages instead of the whole Cloudflare cache (asset "
 "+ pages)."
 msgstr ""
-"به حای پاک‌سازی کل کش کلود فلر (شامل منابع استاتیکی و HTML)، فقط HTML را پاک "
+"به حای پاک‌سازی کل کش کلود فلیر (شامل منابع استاتیکی و HTML)، فقط HTML را پاک "
 "کن."
 
-#: src/Pmpr/Package/Optimization/Cloudflare/Setting.php:178
+#: src/Pmpr/Package/Optimization/Cloudflare/Setting.php:180
+msgid "Cloudflare Dashboard"
+msgstr "داشبورد کلود فلیر"
+
+#: src/Pmpr/Package/Optimization/Cloudflare/Setting.php:186
+#, php-format
+msgid "Register on %s"
+msgstr "در %s ثبت نام کنید"
+
+#: src/Pmpr/Package/Optimization/Cloudflare/Setting.php:189
+#, php-format
+msgid "Add %s domain"
+msgstr "دامنه %s را اضافه کنید"
+
+#: src/Pmpr/Package/Optimization/Cloudflare/Setting.php:191
+#, php-format
+msgid "In %s page chose %s plan from below of list"
+msgstr "در صفحه %s پلن %s را از پایین لیست انتخاب کنید"
+
+#: src/Pmpr/Package/Optimization/Cloudflare/Setting.php:196
+#, php-format
+msgid "In %s page click on %s and in %s window click on %s"
+msgstr "در صفحه %s روی %s کلیک کنید و در پنجره %s روی دکمه %s کلیک کنید"
+
+#: src/Pmpr/Package/Optimization/Cloudflare/Setting.php:203
+#, php-format
+msgid ""
+"In %s page based on %s and %s remove previous name servers of %s and replace "
+"cloudflare name savers and click on %s"
+msgstr ""
+"در صفحه %s طبق آیتم‌های شماره %s و %s نیم سرور‌های قبلی دامنه %s را حذف و نیم "
+"سرورهای کلود فلیر را جایگزین کرده و روی دکمه %s کلیک کنید"
+
+#: src/Pmpr/Package/Optimization/Cloudflare/Setting.php:209
+msgid "Do this by logging in to your domain registrar panel"
+msgstr ""
+"این مرحله را از طریق ورود به پنل مدیریت دامنه خود، مثل ایرنیک برای دامنه‌های "
+"ir، انجام دهید"
+
+#: src/Pmpr/Package/Optimization/Cloudflare/Setting.php:211
+#, php-format
+msgid "In %s page click on %s"
+msgstr "در صفحه %s روی %s کلیک کنید"
+
+#: src/Pmpr/Package/Optimization/Cloudflare/Setting.php:216
+#, php-format
+msgid ""
+"Click on %s in profile menu and in %s tab in %s segment, click on %s related "
+"to %s%s. In %s modal enter your password and click on %s and copy key text "
+"for use on next steps"
+msgstr ""
+"در منوی کاربری بر روی %s کلیک کرده و در برگه %s در بخش %s روی دکمه %s مربوط "
+"به %s کلیک کنید.%s در پنجره %s رمز خود را وارد کرده و بر روی دکمه‌ی %s کلیک "
+"کنید و متن کلید را برای استفاده در ادامه کار کپی کنید"
+
+#: src/Pmpr/Package/Optimization/Cloudflare/Setting.php:229
+msgid "Wordpress Admin"
+msgstr "پنل ادمین وردپرس"
+
+#: src/Pmpr/Package/Optimization/Cloudflare/Setting.php:232
+#, php-format
+msgid "Enter the email you registered with on cloudflare in the %s field"
+msgstr "ایمیلی که با آن در کلود فلیر ثبت نام کردید را در فیلد %s وارد کنید"
+
+#: src/Pmpr/Package/Optimization/Cloudflare/Setting.php:236
+#, php-format
+msgid "Put the %s on the %s"
+msgstr "%s را روی %s قرار دهید"
+
+#: src/Pmpr/Package/Optimization/Cloudflare/Setting.php:241
+#, php-format
+msgid "Put the text of the key copied in the previous steps in the %s field"
+msgstr "متن کلید کپی شده از مراحل قبل را در فیلد %s وارد کنید"
+
+#: src/Pmpr/Package/Optimization/Cloudflare/Setting.php:245
+#: src/Pmpr/Package/Optimization/Cloudflare/Setting.php:256
+#, php-format
+msgid "Click on %s button"
+msgstr "روی دکمه %s کلیک کنید"
+
+#: src/Pmpr/Package/Optimization/Cloudflare/Setting.php:246
+#: src/Pmpr/Package/Optimization/Cloudflare/Setting.php:257
+msgid "Save changes"
+msgstr "ذخیره تغییرات"
+
+#: src/Pmpr/Package/Optimization/Cloudflare/Setting.php:249
+#, php-format
+msgid "In the %s field, select %s"
+msgstr "در فیلد %s، دامنه %s را انتخاب کنید"
+
+#: src/Pmpr/Package/Optimization/Cloudflare/Setting.php:252
+msgid ""
+"If your domain name is not in the list, reload the WordPress admin panel page"
+msgstr ""
+"در صورتی که نام دامنه شما در لیست وجود نداشت صفحه پنل ادمین وردپرس را رفرش "
+"کنید"
+
+#: src/Pmpr/Package/Optimization/Cloudflare/Setting.php:265
+msgid "Install Guide"
+msgstr "راهنمای نصب"
+
+#: src/Pmpr/Package/Optimization/Cloudflare/Setting.php:284
 #: src/Pmpr/Package/Optimization/Page/Ajax.php:92
-#: src/Pmpr/Package/Optimization/Setting.php:156
+#: src/Pmpr/Package/Optimization/Setting.php:177
 msgid "Actions"
 msgstr "عملیات"
 
-#: src/Pmpr/Package/Optimization/Cloudflare/Setting.php:183
+#: src/Pmpr/Package/Optimization/Cloudflare/Setting.php:289
 msgid "Disable Caching"
 msgstr "غیر فعال کردن کش"
 
-#: src/Pmpr/Package/Optimization/Cloudflare/Setting.php:187
+#: src/Pmpr/Package/Optimization/Cloudflare/Setting.php:293
 msgid "Disable cloudflare cache functionality for all pages and asset."
-msgstr "غیر فعال کردن قابلیت کش کلود فلر برای تمامی صفحات و منابع استاتیکی."
+msgstr "غیر فعال کردن قابلیت کش کلود فلیر برای تمامی صفحات و منابع استاتیکی."
 
-#: src/Pmpr/Package/Optimization/Cloudflare/Setting.php:191
-#, fuzzy
-#| msgid ""
-#| "Enabling Development Mode turns off cloudflare caching for your site. Are "
-#| "you sure you want to continue?"
+#: src/Pmpr/Package/Optimization/Cloudflare/Setting.php:297
 msgid ""
 "Disable cloudflare cache can speed down your website. Are you sure you want "
 "to continue?"
 msgstr ""
-"فعال کردن حالت توسعه قابلیت کش کلود فلر را برای سایت شما غیر فعال خواهد کرد. "
+"فعال کردن حالت توسعه قابلیت کش کلود فلیر را برای سایت شما غیر فعال خواهد کرد. "
 "آیا از انجام این کار مطمئن هستید؟"
 
-#: src/Pmpr/Package/Optimization/Cloudflare/Setting.php:196
-#: src/Pmpr/Package/Optimization/Cloudflare/Setting.php:245
+#: src/Pmpr/Package/Optimization/Cloudflare/Setting.php:302
+#: src/Pmpr/Package/Optimization/Cloudflare/Setting.php:351
 msgid "Enable"
 msgstr "فعال"
 
-#: src/Pmpr/Package/Optimization/Cloudflare/Setting.php:204
+#: src/Pmpr/Package/Optimization/Cloudflare/Setting.php:310
 msgid "Disable Development Mode"
 msgstr "غیر فعال کردن حالت توسعه"
 
-#: src/Pmpr/Package/Optimization/Cloudflare/Setting.php:205
+#: src/Pmpr/Package/Optimization/Cloudflare/Setting.php:311
 msgid "Enable Development Mode"
 msgstr "فعال کردن حالت توسعه"
 
-#: src/Pmpr/Package/Optimization/Cloudflare/Setting.php:208
+#: src/Pmpr/Package/Optimization/Cloudflare/Setting.php:314
 msgid ""
 "Temporarily bypass cloudflare cache. See changes to your site in realtime."
 msgstr ""
-"معلق کردن کش کلودفلر به صورت موقت، به منظور مشاهده تغییرات سایت به صورت "
+"معلق کردن کش کلود فلیر به صورت موقت، به منظور مشاهده تغییرات سایت به صورت "
 "لحظه‌ای."
 
-#: src/Pmpr/Package/Optimization/Cloudflare/Setting.php:212
+#: src/Pmpr/Package/Optimization/Cloudflare/Setting.php:318
 msgid ""
 "Enabling Development Mode turns off cloudflare caching for your site. Are you "
 "sure you want to continue?"
 msgstr ""
-"فعال کردن حالت توسعه قابلیت کش کلود فلر را برای سایت شما غیر فعال خواهد کرد. "
+"فعال کردن حالت توسعه قابلیت کش کلود فلیر را برای سایت شما غیر فعال خواهد کرد. "
 "آیا از انجام این کار مطمئن هستید؟"
 
-#: src/Pmpr/Package/Optimization/Cloudflare/Setting.php:217
+#: src/Pmpr/Package/Optimization/Cloudflare/Setting.php:323
 msgid "Change Mode"
 msgstr "تغییر حالت"
 
-#: src/Pmpr/Package/Optimization/Cloudflare/Setting.php:232
+#: src/Pmpr/Package/Optimization/Cloudflare/Setting.php:338
 msgid "Enable Caching"
 msgstr "فعال سازی کش"
 
-#: src/Pmpr/Package/Optimization/Cloudflare/Setting.php:236
-#, fuzzy
-#| msgid "Disable cloudflare cache functionality for all pages and asset."
+#: src/Pmpr/Package/Optimization/Cloudflare/Setting.php:342
 msgid "Enable cloudflare cache functionality for all pages and asset."
-msgstr "غیر فعال کردن قابلیت کش کلود فلر برای تمامی صفحات و منابع استاتیکی."
+msgstr "غیر فعال کردن قابلیت کش کلود فلیر برای تمامی صفحات و منابع استاتیکی."
 
-#: src/Pmpr/Package/Optimization/Cloudflare/Setting.php:240
-#, fuzzy
-#| msgid ""
-#| "Enabling Development Mode turns off cloudflare caching for your site. Are "
-#| "you sure you want to continue?"
+#: src/Pmpr/Package/Optimization/Cloudflare/Setting.php:346
 msgid "Enabling cloudflare cache can boost your site load speed, continue?"
 msgstr ""
-"فعال کردن حالت توسعه قابلیت کش کلود فلر را برای سایت شما غیر فعال خواهد کرد. "
+"فعال کردن حالت توسعه قابلیت کش کلود فلیر را برای سایت شما غیر فعال خواهد کرد. "
 "آیا از انجام این کار مطمئن هستید؟"
 
-#: src/Pmpr/Package/Optimization/Cloudflare/Setting.php:302
+#: src/Pmpr/Package/Optimization/Cloudflare/Setting.php:407
 msgid "Bypass backend rule is updated."
 msgstr "قاعده مربوط به عدم کش بخش ادمین سایت به روز رسانی شد."
 
-#: src/Pmpr/Package/Optimization/Container.php:172
+#: src/Pmpr/Package/Optimization/Container.php:144
 msgid "Permission denied"
 msgstr "دسترسی مسدود شده است"
 
 #: src/Pmpr/Package/Optimization/Notice.php:23
-#: src/Pmpr/Package/Optimization/Optimization.php:107
+#: src/Pmpr/Package/Optimization/Optimization.php:110
 msgid "Optimization"
-msgstr "بهینه‌سازی"
+msgstr "افزایش سرعت"
 
 #: src/Pmpr/Package/Optimization/Notice.php:27
 #, php-format
@@ -831,11 +890,11 @@ msgstr ""
 msgid "Affected file/directory: %s"
 msgstr "فایل/ پوشه تحت تاثیر: %s"
 
-#: src/Pmpr/Package/Optimization/Optimization.php:63
+#: src/Pmpr/Package/Optimization/Optimization.php:66
 msgid "Optimization Config Path"
-msgstr "مسیر پیکربندی بهینه‌سازی"
+msgstr "مسیر پیکربندی افزایش سرعت"
 
-#: src/Pmpr/Package/Optimization/Optimization.php:180
+#: src/Pmpr/Package/Optimization/Optimization.php:183
 #, php-format
 msgid "Optimization config file %s generated in %s"
 msgstr "فایل پیکربندی %s در %s ایجاد شد"
@@ -847,7 +906,7 @@ msgstr "فایل Advance-cache در %s با موفقیت ایجاد شد."
 
 #: src/Pmpr/Package/Optimization/Origin/Cache/Cache.php:49
 msgid "Optimization Cache Path"
-msgstr "مسیر کش بهینه‌سازی"
+msgstr "مسیر کش افزایش سرعت"
 
 #: src/Pmpr/Package/Optimization/Origin/Cache/Cache.php:86
 msgid "Scheduled Cache Purge"
@@ -916,16 +975,16 @@ msgstr "با عرض پوزش، درخواست شما به دلیل کافی نب
 msgid "%s of your requested pages added, the remains are not allow to add."
 msgstr "%s صفحه از صفحات درخواستی شما اضافه شد."
 
-#: src/Pmpr/Package/Optimization/Page/Ajax.php:174
+#: src/Pmpr/Package/Optimization/Page/Ajax.php:175
 #: src/Pmpr/Package/Optimization/Page/Asset.php:80
 msgid "Page list is empty, please redefine pages."
 msgstr ""
 
-#: src/Pmpr/Package/Optimization/Page/Ajax.php:180
+#: src/Pmpr/Package/Optimization/Page/Ajax.php:181
 msgid "Pages added successfully."
 msgstr "صفحات با موفقیت اضافه شدند."
 
-#: src/Pmpr/Package/Optimization/Page/Ajax.php:204
+#: src/Pmpr/Package/Optimization/Page/Ajax.php:205
 msgid ""
 "Sorry you are out of budget, can not change this page status to active. "
 "charge your license from Settings > Dashboard > License"
@@ -933,18 +992,18 @@ msgstr ""
 "متاسفانه بودجه شما تمام شده است، نمی‌توانید وضعیت این صفحه را به فعال تغییر "
 "دهید. از قسمت تنظیمات > داشبورد > لایسنس حساب خود را شارژ کنید"
 
-#: src/Pmpr/Package/Optimization/Page/Ajax.php:215
+#: src/Pmpr/Package/Optimization/Page/Ajax.php:216
 #, fuzzy
 #| msgid "Page is not found, reload page and try again."
 msgid "Require parameter not found, reload page and try again."
 msgstr ""
 "صفحه مورد نظر یافت نشد، لطفا بعد از بارگذاری مجدد صفحه دوباره امتحان کنید."
 
-#: src/Pmpr/Package/Optimization/Page/Ajax.php:223
+#: src/Pmpr/Package/Optimization/Page/Ajax.php:224
 msgid "missing parameter, request is not valid."
 msgstr "پارامتر ضروری وجود ندارد، درخواست شما معتبر نیست."
 
-#: src/Pmpr/Package/Optimization/Page/Ajax.php:320
+#: src/Pmpr/Package/Optimization/Page/Ajax.php:321
 msgid "Rules is empty"
 msgstr "قواعد خالی است"
 
@@ -969,7 +1028,7 @@ msgstr "از"
 #: src/Pmpr/Package/Optimization/Page/Asset.php:90
 #: src/Pmpr/Package/Optimization/Page/Asset.php:99
 msgid "have been selected for optimization."
-msgstr "برای بهینه‌سازی انتخاب شده است."
+msgstr "برای افزایش سرعت انتخاب شده است."
 
 #: src/Pmpr/Package/Optimization/Page/Asset.php:97
 msgid "with"
@@ -1034,7 +1093,7 @@ msgstr "%s (آرشیو)"
 
 #: src/Pmpr/Package/Optimization/Page/Modal/Modal.php:27
 msgid "Optimization Rules"
-msgstr "قواعد بهینه‌سازی"
+msgstr "قواعد افزایش سرعت"
 
 #: src/Pmpr/Package/Optimization/Page/Modal/Segment/Preview.php:19
 #: src/Pmpr/Package/Optimization/Page/Modal/Segment/Segment.php:28
@@ -1070,7 +1129,7 @@ msgid "Just these"
 msgstr "فقط اینها"
 
 #: src/Pmpr/Package/Optimization/Page/Modal/Segment/Rule.php:80
-#: src/Pmpr/Package/Optimization/Page/Model.php:100
+#: src/Pmpr/Package/Optimization/Page/Model.php:101
 msgid "Pages"
 msgstr "صفحات"
 
@@ -1098,20 +1157,20 @@ msgstr "بودجه مصرف شده"
 msgid "Remaining Budget"
 msgstr "بودجه باقی مانده"
 
-#: src/Pmpr/Package/Optimization/Page/Model.php:48
-#: src/Pmpr/Package/Optimization/Page/Model.php:101
+#: src/Pmpr/Package/Optimization/Page/Model.php:49
+#: src/Pmpr/Package/Optimization/Page/Model.php:102
 msgid "Page"
 msgstr "صفحه"
 
-#: src/Pmpr/Package/Optimization/Page/Model.php:53
+#: src/Pmpr/Package/Optimization/Page/Model.php:54
 msgid "Type"
 msgstr "نوع"
 
-#: src/Pmpr/Package/Optimization/Page/Model.php:57
+#: src/Pmpr/Package/Optimization/Page/Model.php:58
 msgid "Level"
-msgstr ""
+msgstr "سطح"
 
-#: src/Pmpr/Package/Optimization/Page/Model.php:61
+#: src/Pmpr/Package/Optimization/Page/Model.php:62
 msgid "Status"
 msgstr "وضعیت"
 
@@ -1120,261 +1179,225 @@ msgstr "وضعیت"
 msgid "%s of %s pages status changed to %s successfully."
 msgstr "وضعیت %s صفحه از %s صفحه با موفقیت به %s تغییر کرد."
 
-#: src/Pmpr/Package/Optimization/Page/Model.php:423
-#: src/Pmpr/Package/Optimization/Setting.php:161
-msgid "Purge Cache"
-msgstr "پاک‌سازی کش‌"
-
-#: src/Pmpr/Package/Optimization/Page/Model.php:425
-#: src/Pmpr/Package/Optimization/Page/Model.php:767
+#: src/Pmpr/Package/Optimization/Page/Model.php:421
+#: src/Pmpr/Package/Optimization/Page/Model.php:763
 msgid "Inactive Page"
 msgstr "غیر فعال‌سازی"
 
+#: src/Pmpr/Package/Optimization/Page/Model.php:422
 #: src/Pmpr/Package/Optimization/Page/Model.php:426
-#: src/Pmpr/Package/Optimization/Page/Model.php:430
-#: src/Pmpr/Package/Optimization/Page/Model.php:768
+#: src/Pmpr/Package/Optimization/Page/Model.php:764
 msgid "Ignore Page"
 msgstr "رهاسازی"
 
+#: src/Pmpr/Package/Optimization/Page/Model.php:425
 #: src/Pmpr/Package/Optimization/Page/Model.php:429
-#: src/Pmpr/Package/Optimization/Page/Model.php:433
-#: src/Pmpr/Package/Optimization/Page/Model.php:766
+#: src/Pmpr/Package/Optimization/Page/Model.php:762
 msgid "Active Page"
 msgstr "فعال‌سازی"
 
-#: src/Pmpr/Package/Optimization/Page/Model.php:561
+#: src/Pmpr/Package/Optimization/Page/Model.php:557
 msgid "Active"
 msgstr "فعال"
 
-#: src/Pmpr/Package/Optimization/Page/Model.php:562
+#: src/Pmpr/Package/Optimization/Page/Model.php:558
 msgid "Inactive"
 msgstr "غیر فعال‌‌"
 
-#: src/Pmpr/Package/Optimization/Page/Model.php:563
+#: src/Pmpr/Package/Optimization/Page/Model.php:559
 msgid "Ignored"
 msgstr "رها شده"
 
-#: src/Pmpr/Package/Optimization/Page/Model.php:577
+#: src/Pmpr/Package/Optimization/Page/Model.php:573
 msgid "Level 1"
-msgstr ""
+msgstr "سطح ۱"
 
-#: src/Pmpr/Package/Optimization/Page/Model.php:578
+#: src/Pmpr/Package/Optimization/Page/Model.php:574
 msgid "Level 2"
-msgstr ""
+msgstr "سطح ۲"
 
-#: src/Pmpr/Package/Optimization/Page/Model.php:612
+#: src/Pmpr/Package/Optimization/Page/Model.php:608
 msgid ""
 "Removed page logs history completely removed from database. no change on page "
 "content."
 msgstr ""
-"تاریخچه بهینه‌سازی صفحه حذف شده به طور کامل از پایگاه داده پاک خواهد شد. "
+"تاریخچه افزایش سرعت صفحه حذف شده به طور کامل از پایگاه داده پاک خواهد شد. "
 "محتوای صفحه بدون تغییر باقی خواهند ماند."
 
-#: src/Pmpr/Package/Optimization/Page/Model.php:616
-#: src/Pmpr/Package/Optimization/Page/Model.php:619
+#: src/Pmpr/Package/Optimization/Page/Model.php:612
+#: src/Pmpr/Package/Optimization/Page/Model.php:615
 msgid "Remove Page"
 msgstr "حذف صفحه"
 
-#: src/Pmpr/Package/Optimization/Page/Model.php:620
+#: src/Pmpr/Package/Optimization/Page/Model.php:616
 msgid "Are you sure about remove this page?"
 msgstr "آیا در مورد حذف این صفحه مطمئن هستید؟"
 
-#: src/Pmpr/Package/Optimization/Page/Model.php:642
+#: src/Pmpr/Package/Optimization/Page/Model.php:638
 msgid "Opt Status"
 msgstr "وضعیت بهینگی"
 
-#: src/Pmpr/Package/Optimization/Page/Model.php:680
+#: src/Pmpr/Package/Optimization/Page/Model.php:676
 #, php-format
 msgid "Page status changed to %s successfully."
 msgstr "وضعیت صفحه با موفقیت به وضعیت %s تغییر کرد."
 
-#: src/Pmpr/Package/Optimization/Page/Model.php:684
+#: src/Pmpr/Package/Optimization/Page/Model.php:680
 msgid "change page status failed."
 msgstr "تغییر وضعیت صفحه با شکست رو به رو شد."
 
-#: src/Pmpr/Package/Optimization/Page/Model.php:720
+#: src/Pmpr/Package/Optimization/Page/Model.php:716
 msgid "Not Optimized"
 msgstr "بهینه‌ نشده"
 
-#: src/Pmpr/Package/Optimization/Page/Model.php:725
+#: src/Pmpr/Package/Optimization/Page/Model.php:721
 msgid "Optimized"
 msgstr "بهینه‌ شده"
 
-#: src/Pmpr/Package/Optimization/Page/Model.php:730
+#: src/Pmpr/Package/Optimization/Page/Model.php:726
 msgid "Not Completely Optimized"
 msgstr "کاملا بهینه نشده"
 
-#: src/Pmpr/Package/Optimization/Page/Model.php:758
+#: src/Pmpr/Package/Optimization/Page/Model.php:754
 msgid "Optimization process runs on pages with active status."
-msgstr "فرآیند بهینه‌سازی بر روی صفحات فعال، اجرا می‌شود."
+msgstr "فرآیند افزایش سرعت بر روی صفحات فعال، اجرا می‌شود."
 
-#: src/Pmpr/Package/Optimization/Page/Model.php:759
+#: src/Pmpr/Package/Optimization/Page/Model.php:755
 msgid "Optimization process stops running on pages with inactive status."
-msgstr "فرآیند بهینه‌سازی بر روی صفحات غیر فعال، موقتاً متوقف می‌شود."
+msgstr "فرآیند افزایش سرعت بر روی صفحات غیر فعال، موقتاً متوقف می‌شود."
 
-#: src/Pmpr/Package/Optimization/Page/Model.php:760
+#: src/Pmpr/Package/Optimization/Page/Model.php:756
 msgid ""
 "Optimization process permanently stops on pages with ignored status, but you "
 "may see previous logs."
 msgstr ""
-"فرآیند بهینه‌سازی بر روی صفحات رها شده، متوقف شده و بودجه آن برای استفاده برای "
-"صفحات دیگر آزاد می‌شود."
+"فرآیند افزایش سرعت بر روی صفحات رها شده، متوقف شده و بودجه آن برای استفاده "
+"برای صفحات دیگر آزاد می‌شود."
 
-#: src/Pmpr/Package/Optimization/Page/Model.php:774
+#: src/Pmpr/Package/Optimization/Page/Model.php:770
 msgid "Ignore"
 msgstr "رهاسازی"
 
-#: src/Pmpr/Package/Optimization/Page/Model.php:781
+#: src/Pmpr/Package/Optimization/Page/Model.php:777
 #, php-format
 msgid "Are you sure about change status of this page to %s?"
 msgstr "آیا در مورد تغییر وضعیت این صفحه به %s مطمئن هستید؟"
 
-#: src/Pmpr/Package/Optimization/Page/Model.php:785
+#: src/Pmpr/Package/Optimization/Page/Model.php:781
 msgid "Page cache will be purged upon this change."
 msgstr "با اعمال این تغییر، کش صفحه پاک‌سازی خواهد شد."
 
-#: src/Pmpr/Package/Optimization/Page/Model.php:801
+#: src/Pmpr/Package/Optimization/Page/Model.php:797
 #, php-format
 msgid "Change Page Status to %s"
 msgstr "تغییر وضعیت صفحه به %s"
 
-#: src/Pmpr/Package/Optimization/Page/Model.php:807
+#: src/Pmpr/Package/Optimization/Page/Model.php:803
 msgid "Change Status"
 msgstr "تغییر وضعیت"
 
-#: src/Pmpr/Package/Optimization/Page/Model.php:819
+#: src/Pmpr/Package/Optimization/Page/Model.php:815
+#: src/Pmpr/Package/Optimization/Page/Model.php:828
 msgid "reOptimize"
-msgstr "بهینه‌سازی مجدد"
+msgstr "افزایش سرعت مجدد"
 
-#: src/Pmpr/Package/Optimization/Page/Model.php:827
+#: src/Pmpr/Package/Optimization/Page/Model.php:823
 msgid "Are you sure about reOptimize this page?"
 msgstr "آیا در مورد بهینه سازی مجدد این صفحه مطمئن هستید؟"
 
-#: src/Pmpr/Package/Optimization/Page/Model.php:832
-#: src/Pmpr/Package/Optimization/Setting.php:90
-#: src/Pmpr/Package/Optimization/Setting.php:173
-msgid "Purge"
-msgstr "پاک‌سازی"
-
-#: src/Pmpr/Package/Optimization/Preloader/API/Heroku.php:33
-#, fuzzy
-#| msgid "Permalink"
+#: src/Pmpr/Package/Optimization/Preloader/API/Heroku.php:40
 msgid "Permalinks list is empty"
-msgstr "پیوندهای یکتا"
+msgstr "لیست پیوند‌ها خالی است"
 
-#: src/Pmpr/Package/Optimization/Preloader/Ajax.php:39
-msgid "Preloader started successfully"
-msgstr "عملیات پیش بارگیری با موفقیت شروع شد"
-
-#: src/Pmpr/Package/Optimization/Preloader/Common.php:34
+#: src/Pmpr/Package/Optimization/Preloader/Preloader.php:158
 msgid "Nothing to preload"
 msgstr "چیزی برای پیش‌ بارگیری وجود ندارد"
 
-#: src/Pmpr/Package/Optimization/Preloader/Common.php:64
-msgid "Unable to start the preloader. urls is empty."
-msgstr ""
-
-#: src/Pmpr/Package/Optimization/Preloader/Common.php:80
+#: src/Pmpr/Package/Optimization/Preloader/Preloader.php:200
 msgid ""
 "Unable to start the preloader. maybe your budget expired, please increase "
 "your budget or update your pages."
 msgstr ""
 
-#: src/Pmpr/Package/Optimization/Purge/Ajax.php:45
+#: src/Pmpr/Package/Optimization/Preloader/Preloader.php:205
+msgid "Unable to start the preloader. urls is empty."
+msgstr "قادر به شروع پیش پردازش نیستیم، لیست لینک‌ها خالی است."
+
+#: src/Pmpr/Package/Optimization/Purge/Ajax.php:43
 msgid "require parameter is missing."
 msgstr "پارامتر ضروری وجود ندارد."
 
-#: src/Pmpr/Package/Optimization/Purge/Ajax.php:52
-#: src/Pmpr/Package/Optimization/Purge/Ajax.php:70
+#: src/Pmpr/Package/Optimization/Purge/Ajax.php:50
 msgid ""
 "Cache purged successfully! It may take up to 30 seconds for the cache to be "
 "permanently cleaned."
 msgstr ""
 
-#: src/Pmpr/Package/Optimization/Purge/Ajax.php:55
+#: src/Pmpr/Package/Optimization/Purge/Ajax.php:53
 msgid ""
 "An error occurred while cleaning the cache. Please check log file for further "
 "details."
 msgstr ""
 
-#: src/Pmpr/Package/Optimization/Purge/Ajax.php:74
-msgid "Purge cache failed."
-msgstr "پاک‌سازی کش شکست خورد."
-
-#: src/Pmpr/Package/Optimization/Purge/Purge.php:279
-#, fuzzy
-#| msgid "Optimization Cloudflare - Purge Cache Cron Interval"
-msgid "Optimization - Purge Cache Cron Interval"
-msgstr "کلود فلر بهینه سازی - وقفه کرون جاب پاک‌سازی کش"
-
-#: src/Pmpr/Package/Optimization/Setting.php:51
+#: src/Pmpr/Package/Optimization/Setting.php:54
 msgid "Setting"
 msgstr "تنظیمات"
 
-#: src/Pmpr/Package/Optimization/Setting.php:52
+#: src/Pmpr/Package/Optimization/Setting.php:55
 msgid "Optimization Setting"
-msgstr "تنظیمات بهینه‌سازی"
+msgstr "تنظیمات افزایش سرعت"
 
-#: src/Pmpr/Package/Optimization/Setting.php:61
+#: src/Pmpr/Package/Optimization/Setting.php:64
 msgid "Dashboard"
 msgstr "داشبورد"
 
-#: src/Pmpr/Package/Optimization/Setting.php:65
-#: src/Pmpr/Package/Optimization/Setting.php:94
+#: src/Pmpr/Package/Optimization/Setting.php:68
+#: src/Pmpr/Package/Optimization/Setting.php:88
 msgid "General"
 msgstr "عمومی"
 
-#: src/Pmpr/Package/Optimization/Setting.php:69
-msgid "Enable Optimization"
-msgstr "فعال‌سازی بهینه‌سازی"
-
-#: src/Pmpr/Package/Optimization/Setting.php:70
-msgid ""
-"Check to enable all optimization functionality, you can disable each section "
-"in tabs too."
-msgstr ""
-"فعال کردن قابلیت بهینه سازی، شما می‌توانید هر بخش را در تب مربوط به خود نیز "
-"فعال یا غیر فعال کنید."
-
-#: src/Pmpr/Package/Optimization/Setting.php:78
-#, fuzzy
-#| msgid "Enable Debug"
+#: src/Pmpr/Package/Optimization/Setting.php:72
 msgid "Enable Debug Mode"
-msgstr "فعال حالت دیباگ"
+msgstr "حالت دیباگ"
 
-#: src/Pmpr/Package/Optimization/Setting.php:83
+#: src/Pmpr/Package/Optimization/Setting.php:77
 msgid "Secret Key"
 msgstr "کلید خصوصی"
 
-#: src/Pmpr/Package/Optimization/Setting.php:84
+#: src/Pmpr/Package/Optimization/Setting.php:78
 msgid "Used for preload and purge cronjob."
 msgstr "برای کرون جاب مربوط به پیش بارگیری و پاک‌سازی استفاده خواهد شد."
 
-#: src/Pmpr/Package/Optimization/Setting.php:98
+#: src/Pmpr/Package/Optimization/Setting.php:84
+#: src/Pmpr/Package/Optimization/Setting.php:192
+msgid "Purge"
+msgstr "پاک‌سازی"
+
+#: src/Pmpr/Package/Optimization/Setting.php:92
 msgid "Automatically Purge Cache"
 msgstr "پاک‌سازی کش‌ به صورت خودکار"
 
-#: src/Pmpr/Package/Optimization/Setting.php:100
+#: src/Pmpr/Package/Optimization/Setting.php:94
 msgid "Purge cache for related pages only"
 msgstr "پاک‌سازی کش‌ فایل‌های مرتبط با صفحه مورد نظر"
 
-#: src/Pmpr/Package/Optimization/Setting.php:100
+#: src/Pmpr/Package/Optimization/Setting.php:94
 msgid "(recommended)"
 msgstr "(توصیه شده)"
 
-#: src/Pmpr/Package/Optimization/Setting.php:101
+#: src/Pmpr/Package/Optimization/Setting.php:95
 msgid "Purge whole cache"
 msgstr "پاک‌سازی تمامی کش‌ها"
 
-#: src/Pmpr/Package/Optimization/Setting.php:103
+#: src/Pmpr/Package/Optimization/Setting.php:97
 msgid "Automatically purge the cache when something changes on the website."
 msgstr "در صورت تغییر در وب سایت، کش  را به صورت خودکار پاک‌سازی می‌شود."
 
-#: src/Pmpr/Package/Optimization/Setting.php:108
+#: src/Pmpr/Package/Optimization/Setting.php:102
 msgid "Purge Cache On Comment"
 msgstr "پاک‌سازی کش در هنگام تغییرات در دیدگاه"
 
-#: src/Pmpr/Package/Optimization/Setting.php:109
+#: src/Pmpr/Package/Optimization/Setting.php:103
 msgid ""
 "Automatically purge single post cache when a new comment is inserted into the "
 "database or when a comment is approved or deleted."
@@ -1382,35 +1405,33 @@ msgstr ""
 "در هنگام تغییرات در بخش دیدگاه‌های مربوط به یک نوشته، کش مربوط به آن صفحه را "
 "به صورت خودکار پاک‌سازی ‌می‌شود."
 
-#: src/Pmpr/Package/Optimization/Setting.php:114
+#: src/Pmpr/Package/Optimization/Setting.php:108
 msgid "Pagination Purge"
 msgstr "پاک‌سازی کش صفحه بندی آرشیو"
 
-#: src/Pmpr/Package/Optimization/Setting.php:115
+#: src/Pmpr/Package/Optimization/Setting.php:109
 msgid ""
 "Choice how many of paginated pages, automatically purge of purging archives."
 msgstr ""
 "تعداد صفحاتی صفحه‌بندی که در زمان پاک‌سازی صفحات آرشیو پاک شوند را مشخص کنید."
 
-#: src/Pmpr/Package/Optimization/Setting.php:120
+#: src/Pmpr/Package/Optimization/Setting.php:114
 msgid "Purge OPCache on Flush"
 msgstr "پاک‌سازی OPCache"
 
-#: src/Pmpr/Package/Optimization/Setting.php:121
-#, fuzzy
-#| msgid "Automatically purge the OPcache when Cloudflare cache is purged."
+#: src/Pmpr/Package/Optimization/Setting.php:115
 msgid "Automatically purge the OPcache when cache is purged."
-msgstr "در صورت حذف کش کلود فلر، OPCache نیز به صورت خودکار پاک‌سازی می‌شود."
+msgstr "در صورت حذف کش کلود فلیر، OPCache نیز به صورت خودکار پاک‌سازی می‌شود."
 
-#: src/Pmpr/Package/Optimization/Setting.php:127
+#: src/Pmpr/Package/Optimization/Setting.php:121
 msgid "Woocommerce"
 msgstr "ووکامرس"
 
-#: src/Pmpr/Package/Optimization/Setting.php:131
+#: src/Pmpr/Package/Optimization/Setting.php:125
 msgid "Purge on Quantity Changes"
 msgstr "پاک‌سازی در هنگام تغییر در تعداد محصول"
 
-#: src/Pmpr/Package/Optimization/Setting.php:132
+#: src/Pmpr/Package/Optimization/Setting.php:126
 msgid ""
 "Automatically purge cache for product page and related categories when stock "
 "quantity changes."
@@ -1418,32 +1439,87 @@ msgstr ""
 "پاک‌سازی خودکار کش صفحه محصول و تکسانومی‌های مربوط، زمانی که موجودی انبار تغییر "
 "کند."
 
-#: src/Pmpr/Package/Optimization/Setting.php:137
+#: src/Pmpr/Package/Optimization/Setting.php:131
 msgid "Purge for Quantity Scheduled Sales"
 msgstr "پاک‌سازی کش برای فروش زمانبندی شده"
 
-#: src/Pmpr/Package/Optimization/Setting.php:138
+#: src/Pmpr/Package/Optimization/Setting.php:132
 msgid "Automatically purge cache for scheduled sales."
 msgstr "کش به صورت خودکار، برای فروش‌های زمانبندی شده پاک‌سازی می شود. ."
 
-#: src/Pmpr/Package/Optimization/Setting.php:164
-#, fuzzy
-#| msgid "Purge all cloudflare cache include html and asset."
-msgid "Purge all cache include html and asset and cloudflare cache."
-msgstr "پاک‌سازی کش کلود فلر، برای تمامی صفحات و منابع استاتیکی."
+#: src/Pmpr/Package/Optimization/Setting.php:156
+msgid "Top Speed"
+msgstr "حداکثر سرعت"
 
-#: src/Pmpr/Package/Optimization/Setting.php:168
+#: src/Pmpr/Package/Optimization/Setting.php:163
+msgid "Fail Safe"
+msgstr "حداکثر پایداری"
+
+#: src/Pmpr/Package/Optimization/Setting.php:180
+msgid "Purge Cache"
+msgstr "پاک‌سازی کش‌"
+
+#: src/Pmpr/Package/Optimization/Setting.php:183
+msgid "Purge all cache include html and asset and cloudflare cache."
+msgstr "پاک‌سازی کش کلود فلیر، برای تمامی صفحات و منابع استاتیکی."
+
+#: src/Pmpr/Package/Optimization/Setting.php:187
 msgid "Are you sure about purge all caches?"
 msgstr "آیا در مورد پاک‌سازی همه کش مطمئن هستید؟"
 
-#: src/Pmpr/Package/Optimization/Temp.php:357
+#: src/Pmpr/Package/Optimization/Temp.php:358
 #, php-format
 msgid "Clear this %s"
 msgstr "حذف این %s"
 
-#: src/Pmpr/Package/Optimization/Theme.php:70
+#: src/Pmpr/Package/Optimization/Theme.php:71
 msgid "Loading..."
 msgstr "در حال بارگذاری..."
+
+#~ msgid "Authentication mode is not selected."
+#~ msgstr "نحوه احراز هویت انتخاب نشده است."
+
+#~ msgid "Fill email field."
+#~ msgstr "لطفا فیلد ایمیل را پر کنید."
+
+#~ msgid "Fill API token field."
+#~ msgstr "لطفا فیلد کلید رمزی وب سرویس را پر کنید."
+
+#~ msgid "Fill cloudflare domain name field."
+#~ msgstr "لطفا فیلد نام دامنه کلود فلیر را پر کنید."
+
+#~ msgid "Fill API key field."
+#~ msgstr "لطفا فیلد کلید وب سرویس را پر کنید."
+
+#~ msgid "Select domain name and save changes."
+#~ msgstr "یک نام دامنه را انتخاب کرده و تنظیمات را ذخیره کیند."
+
+#~ msgid "Cloudflare API Key"
+#~ msgstr "کلید وب سرویس کلود فلیر"
+
+#~ msgid "Cloudflare API Token"
+#~ msgstr "کلید رمزی وب سرویس کلود فلیر"
+
+#~ msgid "Enable Optimization"
+#~ msgstr "فعال‌سازی افزایش سرعت"
+
+#~ msgid ""
+#~ "Check to enable all optimization functionality, you can disable each "
+#~ "section in tabs too."
+#~ msgstr ""
+#~ "فعال کردن قابلیت بهینه سازی، شما می‌توانید هر بخش را در تب مربوط به خود نیز "
+#~ "فعال یا غیر فعال کنید."
+
+#~ msgid "Preloader started successfully"
+#~ msgstr "عملیات پیش بارگیری با موفقیت شروع شد"
+
+#~ msgid "Purge cache failed."
+#~ msgstr "پاک‌سازی کش شکست خورد."
+
+#, fuzzy
+#~| msgid "Optimization Cloudflare - Purge Cache Cron Interval"
+#~ msgid "Optimization - Purge Cache Cron Interval"
+#~ msgstr "کلود فلر بهینه سازی - وقفه کرون جاب پاک‌سازی کش"
 
 #~ msgid "Reoptimize"
 #~ msgstr "بهینه‌سازی مجدد"
@@ -2238,9 +2314,6 @@ msgstr "در حال بارگذاری..."
 
 #~ msgid "No results found."
 #~ msgstr "هیچ نتیجه‌ای یافت نشد."
-
-#~ msgid "Add %s to link"
-#~ msgstr "اضافه کردن %s به پیوند"
 
 #~ msgid "Related Posts"
 #~ msgstr "نوشته‌های مرتبط"
@@ -3719,9 +3792,6 @@ msgstr "در حال بارگذاری..."
 #~ msgid "Button"
 #~ msgstr "دکمه"
 
-#~ msgid "Link of Button"
-#~ msgstr "پیوند دکمه"
-
 #~ msgid "Show icon in right of button"
 #~ msgstr "نمایش آیکون در سمت راست دکمه"
 
@@ -4871,11 +4941,6 @@ msgstr "در حال بارگذاری..."
 #~ msgid "Delete group"
 #~ msgstr "حذف"
 
-#, fuzzy
-#~| msgid "Save Changes"
-#~ msgid "Save changes"
-#~ msgstr "ذخیره تغییرات"
-
 #~ msgid "Editing:"
 #~ msgstr "ویرایش:"
 
@@ -5106,9 +5171,6 @@ msgstr "در حال بارگذاری..."
 
 #~ msgid "Password Reset"
 #~ msgstr "بازنشانی گذرواژه"
-
-#~ msgid "Register"
-#~ msgstr "ریجیستر"
 
 #, fuzzy
 #~| msgid "Default Description"
