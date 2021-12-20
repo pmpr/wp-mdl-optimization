@@ -1,7 +1,7 @@
 <?php
 /*   _______________________________________
     |  Obfuscated by PMPR - Php Obfuscator  |
-    |             61b8710debefd             |
+    |             61c0278673873             |
     |_______________________________________|
 */
  namespace Pmpr\Package\Optimization; use Pmpr\Common\Foundation\ORM\DB\Model as BaseClass; abstract class Model extends BaseClass { public function ckgmycmaukqgkosk() { parent::ckgmycmaukqgkosk(); $wksoawcgagcgoask = self::akuociswqmoigkas(); $this->oyeskqayoscwciem()->okgmqaeuaeymaocm($wksoawcgagcgoask); } }
