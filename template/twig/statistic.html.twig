@@ -1,4 +1,4 @@
-<div class="my-3{% if container_class is defined %} {{ container_class|raw }}{% endif %}">
+<div class="my-2{% if container_class is defined %} {{ container_class|raw }}{% endif %}">
     <div class="row">
         <div class="col-12 col-lg-10 mb-3 mb-lg-0">
             <div class="rules-statistics row">
@@ -6,7 +6,7 @@
                     <div class="rules-statistic col-12 col-lg-6 col-xl-3{% if not loop.last %} mb-3 mb-xl-0{% endif %}">
                         <div class="statistic-item statistic-{{ key|esc_attr }}">
                             <div class="statistic-container d-flex justify-content-between">
-                                <div class="statistic-title">{{ item.title|raw }}</div>
+                                <div class="statistic-title my-auto">{{ item.title|raw }}</div>
                                 <div class="statistic-count" data-value="{{ item.value|raw }}"
                                      data-key="{{ key|esc_attr }}">{{ item.value|number|raw }}</div>
                             </div>
