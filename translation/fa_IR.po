@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PMPR Optimization\n"
-"POT-Creation-Date: 2021-12-16 16:39+0330\n"
-"PO-Revision-Date: 2021-12-16 16:41+0330\n"
+"POT-Creation-Date: 2021-12-24 12:59+0330\n"
+"PO-Revision-Date: 2021-12-24 13:00+0330\n"
 "Last-Translator:  Farshad Asgharzade <Farshad_asgharzade@hotmail.com>\n"
 "Language-Team: \n"
 "Language: fa_IR\n"
@@ -384,17 +384,67 @@ msgstr "بارگذاری جاوااسکریپت CDN با تاخیر"
 msgid "Exclude Javascript"
 msgstr "جاوااسکریپت‌های مستثنی"
 
-#: src/Pmpr/Package/Optimization/Bypass/Setting.php:48
+#: src/Pmpr/Package/Optimization/Bypass/Setting.php:45
 msgid "Bypass"
 msgstr "صفحات استثنا"
 
-#: src/Pmpr/Package/Optimization/Bypass/Setting.php:52
-#: src/Pmpr/Package/Optimization/Setting.php:68
-#: src/Pmpr/Package/Optimization/Setting.php:88
+#: src/Pmpr/Package/Optimization/Bypass/Setting.php:49
+#: src/Pmpr/Package/Optimization/Setting.php:62
+#: src/Pmpr/Package/Optimization/Setting.php:82
 msgid "General"
 msgstr "عمومی"
 
-#: src/Pmpr/Package/Optimization/Bypass/Setting.php:55
+#: src/Pmpr/Package/Optimization/Bypass/Setting.php:53
+msgid "Items"
+msgstr "آیتم‌ها‌"
+
+#: src/Pmpr/Package/Optimization/Bypass/Setting.php:57
+msgid "Rule Type"
+msgstr "نوع قاعده"
+
+#: src/Pmpr/Package/Optimization/Bypass/Setting.php:59
+msgid "Static"
+msgstr "ایستا"
+
+#: src/Pmpr/Package/Optimization/Bypass/Setting.php:60
+msgid "Dynamic"
+msgstr "پویا (به صورت url"
+
+#: src/Pmpr/Package/Optimization/Bypass/Setting.php:67
+msgid "Pattern"
+msgstr "الگو"
+
+#: src/Pmpr/Package/Optimization/Bypass/Setting.php:68
+msgid ""
+"By using the asterisk (*), you can create dynamic patterns that can match "
+"many URLs."
+msgstr ""
+
+#: src/Pmpr/Package/Optimization/Bypass/Setting.php:73
+#, fuzzy
+#| msgid "Target Taxonomies"
+msgid "Target (Post Type|Taxonomy)"
+msgstr "تکسونومی‌های هدف"
+
+#: src/Pmpr/Package/Optimization/Bypass/Setting.php:80
+msgid "Posts"
+msgstr "نوشته‌ها"
+
+#: src/Pmpr/Package/Optimization/Bypass/Setting.php:85
+#, fuzzy
+#| msgid "Terms Numbers"
+msgid "Terms"
+msgstr "اعداد ترم‌ها (عبارات)"
+
+#: src/Pmpr/Package/Optimization/Bypass/Setting.php:90
+msgid "Archive too"
+msgstr "همچنین آرشیو"
+
+#: src/Pmpr/Package/Optimization/Bypass/Setting.php:92
+msgid "Item"
+msgstr "آیتم‌"
+
+#: src/Pmpr/Package/Optimization/Bypass/Setting.php:161
 msgid ""
 "The pages selected in this section are completely excluded from the "
 "acceleration process."
@@ -402,88 +452,38 @@ msgstr ""
 "صفحاتی که در این قسمت انتخاب می شوند، به طور کامل از فرآیند افزایش سرعت کنار "
 "گذاشته می شوند."
 
-#: src/Pmpr/Package/Optimization/Bypass/Setting.php:59
-msgid "Items"
-msgstr "آیتم‌ها‌"
-
-#: src/Pmpr/Package/Optimization/Bypass/Setting.php:63
-msgid "Rule Type"
-msgstr "نوع قاعده"
-
-#: src/Pmpr/Package/Optimization/Bypass/Setting.php:65
-msgid "Static"
-msgstr "ایستا"
-
-#: src/Pmpr/Package/Optimization/Bypass/Setting.php:66
-msgid "Dynamic"
-msgstr "پویا (به صورت url"
-
-#: src/Pmpr/Package/Optimization/Bypass/Setting.php:73
-msgid "Pattern"
-msgstr "الگو"
-
-#: src/Pmpr/Package/Optimization/Bypass/Setting.php:74
-msgid ""
-"By using the asterisk (*), you can create dynamic patterns that can match "
-"many URLs."
-msgstr ""
-
-#: src/Pmpr/Package/Optimization/Bypass/Setting.php:79
-#, fuzzy
-#| msgid "Target Taxonomies"
-msgid "Target (Post Type|Taxonomy)"
-msgstr "تکسونومی‌های هدف"
-
-#: src/Pmpr/Package/Optimization/Bypass/Setting.php:86
-msgid "Posts"
-msgstr "نوشته‌ها"
-
-#: src/Pmpr/Package/Optimization/Bypass/Setting.php:91
-#, fuzzy
-#| msgid "Terms Numbers"
-msgid "Terms"
-msgstr "اعداد ترم‌ها (عبارات)"
-
-#: src/Pmpr/Package/Optimization/Bypass/Setting.php:96
-msgid "Archive too"
-msgstr "همچنین آرشیو"
-
-#: src/Pmpr/Package/Optimization/Bypass/Setting.php:98
-msgid "Item"
-msgstr "آیتم‌"
-
-#: src/Pmpr/Package/Optimization/Cloudflare/API.php:168
+#: src/Pmpr/Package/Optimization/Cloudflare/API.php:171
 msgid "Please complete cloudflare tab information"
 msgstr "لطفا اطلاعات برگه کلود فلیر را تکمیل کنید"
 
-#: src/Pmpr/Package/Optimization/Cloudflare/API.php:258
+#: src/Pmpr/Package/Optimization/Cloudflare/API.php:261
 msgid "Unable to retrive zone id due to invalid response data"
 msgstr ""
 
-#: src/Pmpr/Package/Optimization/Cloudflare/API.php:269
+#: src/Pmpr/Package/Optimization/Cloudflare/API.php:272
 msgid "Unable to find domains configured on Cloudflare"
 msgstr ""
 
-#: src/Pmpr/Package/Optimization/Cloudflare/API.php:460
-#: src/Pmpr/Package/Optimization/Cloudflare/API.php:464
+#: src/Pmpr/Package/Optimization/Cloudflare/API.php:463
+#: src/Pmpr/Package/Optimization/Cloudflare/API.php:467
 msgid "Can not fetch page rules."
 msgstr ""
 
-#: src/Pmpr/Package/Optimization/Cloudflare/API.php:468
-#: src/Pmpr/Package/Optimization/Cloudflare/API.php:497
+#: src/Pmpr/Package/Optimization/Cloudflare/API.php:471
+#: src/Pmpr/Package/Optimization/Cloudflare/API.php:500
 msgid "There is not zone id to use"
 msgstr ""
 
-#: src/Pmpr/Package/Optimization/Cloudflare/API.php:501
+#: src/Pmpr/Package/Optimization/Cloudflare/API.php:504
 msgid "There is not page rule to delete"
 msgstr "هیچ قاعده‌ای برای حذف وجود ندارد"
 
-#: src/Pmpr/Package/Optimization/Cloudflare/API.php:728
+#: src/Pmpr/Package/Optimization/Cloudflare/API.php:727
 #, php-format
 msgid "Unable to find %s settings"
 msgstr ""
 
-#: src/Pmpr/Package/Optimization/Cloudflare/API.php:732
+#: src/Pmpr/Package/Optimization/Cloudflare/API.php:731
 #, php-format
 msgid "Unable to get %s settings: %s"
 msgstr ""
@@ -759,7 +759,7 @@ msgstr "راهنمای نصب"
 
 #: src/Pmpr/Package/Optimization/Cloudflare/Setting.php:277
 #: src/Pmpr/Package/Optimization/Page/Ajax.php:122
-#: src/Pmpr/Package/Optimization/Setting.php:179
+#: src/Pmpr/Package/Optimization/Setting.php:171
 msgid "Actions"
 msgstr "عملیات"
 
@@ -828,12 +828,12 @@ msgstr ""
 msgid "Enable"
 msgstr "فعال"
 
-#: src/Pmpr/Package/Optimization/Container.php:144
+#: src/Pmpr/Package/Optimization/Container.php:145
 msgid "Permission denied"
 msgstr "دسترسی مسدود شده است"
 
 #: src/Pmpr/Package/Optimization/Notice.php:23
-#: src/Pmpr/Package/Optimization/Optimization.php:224
+#: src/Pmpr/Package/Optimization/Optimization.php:225
 msgid "Optimization"
 msgstr "افزایش سرعت"
 
@@ -880,11 +880,11 @@ msgstr ""
 "افزایش سرعت %s بدون نیاز به بودجه و به طور خودکار به همه صفحات اعمال می‌شود."
 
 #: src/Pmpr/Package/Optimization/Optimization.php:156
-#: src/Pmpr/Package/Optimization/Page/Model.php:587
+#: src/Pmpr/Package/Optimization/Page/Model.php:589
 msgid "Level 1"
 msgstr "سطح ۱"
 
-#: src/Pmpr/Package/Optimization/Optimization.php:180
+#: src/Pmpr/Package/Optimization/Optimization.php:181
 msgid "Optimization Config Path"
 msgstr "مسیر پیکربندی افزایش سرعت"
 
@@ -1155,61 +1155,61 @@ msgstr "صفحات سطح ۲"
 msgid "Level 2 page"
 msgstr "صفحه سطح ۲"
 
-#: src/Pmpr/Package/Optimization/Page/Model.php:87
+#: src/Pmpr/Package/Optimization/Page/Model.php:89
 msgid "Page"
 msgstr "صفحه"
 
-#: src/Pmpr/Package/Optimization/Page/Model.php:92
+#: src/Pmpr/Package/Optimization/Page/Model.php:94
 msgid "Type"
 msgstr "نوع"
 
-#: src/Pmpr/Package/Optimization/Page/Model.php:96
+#: src/Pmpr/Package/Optimization/Page/Model.php:98
 msgid "Level"
 msgstr "سطح"
 
-#: src/Pmpr/Package/Optimization/Page/Model.php:100
+#: src/Pmpr/Package/Optimization/Page/Model.php:102
 msgid "Status"
 msgstr "وضعیت"
 
-#: src/Pmpr/Package/Optimization/Page/Model.php:247
+#: src/Pmpr/Package/Optimization/Page/Model.php:249
 #, php-format
 msgid "%s of %s pages status changed to %s successfully."
 msgstr "وضعیت %s صفحه از %s صفحه با موفقیت به %s تغییر کرد."
 
-#: src/Pmpr/Package/Optimization/Page/Model.php:443
-#: src/Pmpr/Package/Optimization/Page/Model.php:777
+#: src/Pmpr/Package/Optimization/Page/Model.php:445
+#: src/Pmpr/Package/Optimization/Page/Model.php:779
 msgid "Inactive Page"
 msgstr "غیر فعال‌سازی"
 
-#: src/Pmpr/Package/Optimization/Page/Model.php:444
-#: src/Pmpr/Package/Optimization/Page/Model.php:448
-#: src/Pmpr/Package/Optimization/Page/Model.php:778
+#: src/Pmpr/Package/Optimization/Page/Model.php:446
+#: src/Pmpr/Package/Optimization/Page/Model.php:450
+#: src/Pmpr/Package/Optimization/Page/Model.php:780
 msgid "Ignore Page"
 msgstr "رهاسازی"
 
-#: src/Pmpr/Package/Optimization/Page/Model.php:447
-#: src/Pmpr/Package/Optimization/Page/Model.php:451
-#: src/Pmpr/Package/Optimization/Page/Model.php:776
+#: src/Pmpr/Package/Optimization/Page/Model.php:449
+#: src/Pmpr/Package/Optimization/Page/Model.php:453
+#: src/Pmpr/Package/Optimization/Page/Model.php:778
 msgid "Active Page"
 msgstr "فعال‌سازی"
 
-#: src/Pmpr/Package/Optimization/Page/Model.php:571
+#: src/Pmpr/Package/Optimization/Page/Model.php:573
 msgid "Active"
 msgstr "فعال"
 
-#: src/Pmpr/Package/Optimization/Page/Model.php:572
+#: src/Pmpr/Package/Optimization/Page/Model.php:574
 msgid "Inactive"
 msgstr "غیر فعال‌‌"
 
-#: src/Pmpr/Package/Optimization/Page/Model.php:573
+#: src/Pmpr/Package/Optimization/Page/Model.php:575
 msgid "Ignored"
 msgstr "رها شده"
 
-#: src/Pmpr/Package/Optimization/Page/Model.php:588
+#: src/Pmpr/Package/Optimization/Page/Model.php:590
 msgid "Level 2"
 msgstr "سطح ۲"
 
-#: src/Pmpr/Package/Optimization/Page/Model.php:622
+#: src/Pmpr/Package/Optimization/Page/Model.php:624
 msgid ""
 "Removed page logs history completely removed from database. no change on page "
 "content."
@@ -1217,49 +1217,49 @@ msgstr ""
 "تاریخچه افزایش سرعت صفحه حذف شده به طور کامل از پایگاه داده پاک خواهد شد. "
 "محتوای صفحه بدون تغییر باقی خواهند ماند."
 
-#: src/Pmpr/Package/Optimization/Page/Model.php:626
-#: src/Pmpr/Package/Optimization/Page/Model.php:629
+#: src/Pmpr/Package/Optimization/Page/Model.php:628
+#: src/Pmpr/Package/Optimization/Page/Model.php:631
 msgid "Remove Page"
 msgstr "حذف صفحه"
 
-#: src/Pmpr/Package/Optimization/Page/Model.php:630
+#: src/Pmpr/Package/Optimization/Page/Model.php:632
 msgid "Are you sure about remove this page?"
 msgstr "آیا در مورد حذف این صفحه مطمئن هستید؟"
 
-#: src/Pmpr/Package/Optimization/Page/Model.php:652
+#: src/Pmpr/Package/Optimization/Page/Model.php:654
 msgid "Opt Status"
 msgstr "وضعیت بهینگی"
 
-#: src/Pmpr/Package/Optimization/Page/Model.php:690
+#: src/Pmpr/Package/Optimization/Page/Model.php:692
 #, php-format
 msgid "Page status changed to %s successfully."
 msgstr "وضعیت صفحه با موفقیت به وضعیت %s تغییر کرد."
 
-#: src/Pmpr/Package/Optimization/Page/Model.php:694
+#: src/Pmpr/Package/Optimization/Page/Model.php:696
 msgid "change page status failed."
 msgstr "تغییر وضعیت صفحه با شکست رو به رو شد."
 
-#: src/Pmpr/Package/Optimization/Page/Model.php:730
+#: src/Pmpr/Package/Optimization/Page/Model.php:732
 msgid "Not Optimized"
 msgstr "بهینه‌ نشده"
 
-#: src/Pmpr/Package/Optimization/Page/Model.php:735
+#: src/Pmpr/Package/Optimization/Page/Model.php:737
 msgid "Optimized"
 msgstr "بهینه‌ شده"
 
-#: src/Pmpr/Package/Optimization/Page/Model.php:740
+#: src/Pmpr/Package/Optimization/Page/Model.php:742
 msgid "Not Completely Optimized"
 msgstr "کاملا بهینه نشده"
 
-#: src/Pmpr/Package/Optimization/Page/Model.php:768
+#: src/Pmpr/Package/Optimization/Page/Model.php:770
 msgid "Optimization process runs on pages with active status."
 msgstr "فرآیند افزایش سرعت بر روی صفحات فعال، اجرا می‌شود."
 
-#: src/Pmpr/Package/Optimization/Page/Model.php:769
+#: src/Pmpr/Package/Optimization/Page/Model.php:771
 msgid "Optimization process stops running on pages with inactive status."
 msgstr "فرآیند افزایش سرعت بر روی صفحات غیر فعال، موقتاً متوقف می‌شود."
 
-#: src/Pmpr/Package/Optimization/Page/Model.php:770
+#: src/Pmpr/Package/Optimization/Page/Model.php:772
 msgid ""
 "Optimization process permanently stops on pages with ignored status, but you "
 "may see previous logs."
@@ -1267,34 +1267,34 @@ msgstr ""
 "فرآیند افزایش سرعت بر روی صفحات رها شده، متوقف شده و بودجه آن برای استفاده "
 "برای صفحات دیگر آزاد می‌شود."
 
-#: src/Pmpr/Package/Optimization/Page/Model.php:784
+#: src/Pmpr/Package/Optimization/Page/Model.php:786
 msgid "Ignore"
 msgstr "رهاسازی"
 
-#: src/Pmpr/Package/Optimization/Page/Model.php:791
+#: src/Pmpr/Package/Optimization/Page/Model.php:793
 #, php-format
 msgid "Are you sure about change status of this page to %s?"
 msgstr "آیا در مورد تغییر وضعیت این صفحه به %s مطمئن هستید؟"
 
-#: src/Pmpr/Package/Optimization/Page/Model.php:795
+#: src/Pmpr/Package/Optimization/Page/Model.php:797
 msgid "Page cache will be purged upon this change."
 msgstr "با اعمال این تغییر، کش صفحه پاک‌سازی خواهد شد."
 
-#: src/Pmpr/Package/Optimization/Page/Model.php:811
+#: src/Pmpr/Package/Optimization/Page/Model.php:813
 #, php-format
 msgid "Change Page Status to %s"
 msgstr "تغییر وضعیت صفحه به %s"
 
-#: src/Pmpr/Package/Optimization/Page/Model.php:817
+#: src/Pmpr/Package/Optimization/Page/Model.php:819
 msgid "Change Status"
 msgstr "تغییر وضعیت"
 
-#: src/Pmpr/Package/Optimization/Page/Model.php:829
-#: src/Pmpr/Package/Optimization/Page/Model.php:842
+#: src/Pmpr/Package/Optimization/Page/Model.php:831
+#: src/Pmpr/Package/Optimization/Page/Model.php:844
 msgid "reOptimize"
 msgstr "افزایش سرعت مجدد"
 
-#: src/Pmpr/Package/Optimization/Page/Model.php:837
+#: src/Pmpr/Package/Optimization/Page/Model.php:839
 msgid "Are you sure about reOptimize this page?"
 msgstr "آیا در مورد بهینه سازی مجدد این صفحه مطمئن هستید؟"
 
@@ -1332,60 +1332,60 @@ msgid ""
 "details."
 msgstr ""
 
-#: src/Pmpr/Package/Optimization/Setting.php:54
+#: src/Pmpr/Package/Optimization/Setting.php:48
 msgid "Setting"
 msgstr "تنظیمات"
 
-#: src/Pmpr/Package/Optimization/Setting.php:55
+#: src/Pmpr/Package/Optimization/Setting.php:49
 msgid "Optimization Setting"
 msgstr "تنظیمات افزایش سرعت"
 
-#: src/Pmpr/Package/Optimization/Setting.php:64
+#: src/Pmpr/Package/Optimization/Setting.php:58
 msgid "Dashboard"
 msgstr "داشبورد"
 
-#: src/Pmpr/Package/Optimization/Setting.php:72
+#: src/Pmpr/Package/Optimization/Setting.php:66
 msgid "Enable Debug Mode"
 msgstr "حالت دیباگ"
 
-#: src/Pmpr/Package/Optimization/Setting.php:77
+#: src/Pmpr/Package/Optimization/Setting.php:71
 msgid "Secret Key"
 msgstr "کلید خصوصی"
 
-#: src/Pmpr/Package/Optimization/Setting.php:78
+#: src/Pmpr/Package/Optimization/Setting.php:72
 msgid "Used for preload and purge cronjob."
 msgstr "برای کرون جاب مربوط به پیش بارگیری و پاک‌سازی استفاده خواهد شد."
 
-#: src/Pmpr/Package/Optimization/Setting.php:84
-#: src/Pmpr/Package/Optimization/Setting.php:194
+#: src/Pmpr/Package/Optimization/Setting.php:78
+#: src/Pmpr/Package/Optimization/Setting.php:186
 msgid "Purge"
 msgstr "پاک‌سازی"
 
-#: src/Pmpr/Package/Optimization/Setting.php:92
+#: src/Pmpr/Package/Optimization/Setting.php:86
 msgid "Automatically Purge Cache"
 msgstr "پاک‌سازی کش‌ به صورت خودکار"
 
-#: src/Pmpr/Package/Optimization/Setting.php:94
+#: src/Pmpr/Package/Optimization/Setting.php:88
 msgid "Purge cache for related pages only"
 msgstr "پاک‌سازی کش‌ فایل‌های مرتبط با صفحه مورد نظر"
 
-#: src/Pmpr/Package/Optimization/Setting.php:94
+#: src/Pmpr/Package/Optimization/Setting.php:88
 msgid "(recommended)"
 msgstr "(توصیه شده)"
 
-#: src/Pmpr/Package/Optimization/Setting.php:95
+#: src/Pmpr/Package/Optimization/Setting.php:89
 msgid "Purge whole cache"
 msgstr "پاک‌سازی تمامی کش‌ها"
 
-#: src/Pmpr/Package/Optimization/Setting.php:97
+#: src/Pmpr/Package/Optimization/Setting.php:91
 msgid "Automatically purge the cache when something changes on the website."
 msgstr "در صورت تغییر در وب سایت، کش  را به صورت خودکار پاک‌سازی می‌شود."
 
-#: src/Pmpr/Package/Optimization/Setting.php:102
+#: src/Pmpr/Package/Optimization/Setting.php:96
 msgid "Purge Cache On Comment"
 msgstr "پاک‌سازی کش در هنگام تغییرات در دیدگاه"
 
-#: src/Pmpr/Package/Optimization/Setting.php:103
+#: src/Pmpr/Package/Optimization/Setting.php:97
 msgid ""
 "Automatically purge single post cache when a new comment is inserted into the "
 "database or when a comment is approved or deleted."
@@ -1393,33 +1393,33 @@ msgstr ""
 "در هنگام تغییرات در بخش دیدگاه‌های مربوط به یک نوشته، کش مربوط به آن صفحه را "
 "به صورت خودکار پاک‌سازی ‌می‌شود."
 
-#: src/Pmpr/Package/Optimization/Setting.php:108
+#: src/Pmpr/Package/Optimization/Setting.php:102
 msgid "Pagination Purge"
 msgstr "پاک‌سازی کش صفحه بندی آرشیو"
 
-#: src/Pmpr/Package/Optimization/Setting.php:109
+#: src/Pmpr/Package/Optimization/Setting.php:103
 msgid ""
 "Choice how many of paginated pages, automatically purge of purging archives."
 msgstr ""
 "تعداد صفحاتی صفحه‌بندی که در زمان پاک‌سازی صفحات آرشیو پاک شوند را مشخص کنید."
 
-#: src/Pmpr/Package/Optimization/Setting.php:114
+#: src/Pmpr/Package/Optimization/Setting.php:108
 msgid "Purge OPCache on Flush"
 msgstr "پاک‌سازی OPCache"
 
-#: src/Pmpr/Package/Optimization/Setting.php:115
+#: src/Pmpr/Package/Optimization/Setting.php:109
 msgid "Automatically purge the OPcache when cache is purged."
 msgstr "در صورت حذف کش کلود فلیر، OPCache نیز به صورت خودکار پاک‌سازی می‌شود."
 
-#: src/Pmpr/Package/Optimization/Setting.php:121
+#: src/Pmpr/Package/Optimization/Setting.php:115
 msgid "Woocommerce"
 msgstr "ووکامرس"
 
-#: src/Pmpr/Package/Optimization/Setting.php:125
+#: src/Pmpr/Package/Optimization/Setting.php:119
 msgid "Purge on Quantity Changes"
 msgstr "پاک‌سازی در هنگام تغییر در تعداد محصول"
 
-#: src/Pmpr/Package/Optimization/Setting.php:126
+#: src/Pmpr/Package/Optimization/Setting.php:120
 msgid ""
 "Automatically purge cache for product page and related categories when stock "
 "quantity changes."
@@ -1427,31 +1427,31 @@ msgstr ""
 "پاک‌سازی خودکار کش صفحه محصول و تکسانومی‌های مربوط، زمانی که موجودی انبار تغییر "
 "کند."
 
-#: src/Pmpr/Package/Optimization/Setting.php:131
+#: src/Pmpr/Package/Optimization/Setting.php:125
 msgid "Purge for Quantity Scheduled Sales"
 msgstr "پاک‌سازی کش برای فروش زمانبندی شده"
 
-#: src/Pmpr/Package/Optimization/Setting.php:132
+#: src/Pmpr/Package/Optimization/Setting.php:126
 msgid "Automatically purge cache for scheduled sales."
 msgstr "کش به صورت خودکار، برای فروش‌های زمانبندی شده پاک‌سازی می شود. ."
 
-#: src/Pmpr/Package/Optimization/Setting.php:158
+#: src/Pmpr/Package/Optimization/Setting.php:150
 msgid "Top Speed"
 msgstr "حداکثر سرعت"
 
-#: src/Pmpr/Package/Optimization/Setting.php:165
+#: src/Pmpr/Package/Optimization/Setting.php:157
 msgid "Fail Safe"
 msgstr "حداکثر پایداری"
 
-#: src/Pmpr/Package/Optimization/Setting.php:182
+#: src/Pmpr/Package/Optimization/Setting.php:174
 msgid "Purge Cache"
 msgstr "پاک‌سازی کش‌"
 
-#: src/Pmpr/Package/Optimization/Setting.php:185
+#: src/Pmpr/Package/Optimization/Setting.php:177
 msgid "Purge all cache include html and asset and cloudflare cache."
 msgstr "پاک‌سازی کش کلود فلیر، برای تمامی صفحات و منابع استاتیکی."
 
-#: src/Pmpr/Package/Optimization/Setting.php:189
+#: src/Pmpr/Package/Optimization/Setting.php:181
 msgid "Are you sure about purge all caches?"
 msgstr "آیا در مورد پاک‌سازی همه کش مطمئن هستید؟"
 
