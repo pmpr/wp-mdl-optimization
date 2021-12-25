@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PMPR Optimization\n"
-"POT-Creation-Date: 2021-12-24 12:59+0330\n"
-"PO-Revision-Date: 2021-12-24 13:00+0330\n"
+"POT-Creation-Date: 2021-12-25 11:51+0330\n"
+"PO-Revision-Date: 2021-12-25 11:52+0330\n"
 "Last-Translator:  Farshad Asgharzade <Farshad_asgharzade@hotmail.com>\n"
 "Language-Team: \n"
 "Language: fa_IR\n"
@@ -832,6 +832,18 @@ msgstr "فعال"
 msgid "Permission denied"
 msgstr "دسترسی مسدود شده است"
 
+#: src/Pmpr/Package/Optimization/Manipulate/Manipulate.php:285
+msgid "Not Optimized"
+msgstr "بهینه‌ نشده"
+
+#: src/Pmpr/Package/Optimization/Manipulate/Manipulate.php:290
+msgid "Optimized"
+msgstr "بهینه‌ شده"
+
+#: src/Pmpr/Package/Optimization/Manipulate/Manipulate.php:295
+msgid "Not Completely Optimized"
+msgstr "کاملا بهینه نشده"
+
 #: src/Pmpr/Package/Optimization/Notice.php:23
 #: src/Pmpr/Package/Optimization/Optimization.php:225
 msgid "Optimization"
@@ -934,11 +946,15 @@ msgstr "سرور"
 msgid "Enable Cache"
 msgstr "فعال‌سازی کش"
 
-#: src/Pmpr/Package/Optimization/Page/API.php:31
+#: src/Pmpr/Package/Optimization/Page/API.php:32
 msgid "You are out of the budget"
 msgstr "بودجه شما تمام شده است"
 
-#: src/Pmpr/Package/Optimization/Page/API.php:146
+#: src/Pmpr/Package/Optimization/Page/API.php:149
+msgid "Server error"
+msgstr "خطای سرور"
+
+#: src/Pmpr/Package/Optimization/Page/API.php:153
 msgid "Page is not valid"
 msgstr "صفحه معتبر نیست"
 
@@ -952,6 +968,7 @@ msgid "Remove"
 msgstr "حذف"
 
 #: src/Pmpr/Package/Optimization/Page/Ajax.php:120
+#: src/Pmpr/Package/Optimization/Page/Basic/ListTable.php:52
 msgid "Title"
 msgstr "عنوان"
 
@@ -1079,7 +1096,22 @@ msgstr ""
 "یک قاعده تکراری یافت شده، لطفا مقادیر را با هم ترکیب کنید یا قاعده تکراری را "
 "حذف کنید."
 
-#: src/Pmpr/Package/Optimization/Page/Basic/Page.php:20
+#: src/Pmpr/Package/Optimization/Page/Basic/ListTable.php:53
+#: src/Pmpr/Package/Optimization/Page/Model.php:654
+msgid "Opt Status"
+msgstr "وضعیت بهینگی"
+
+#: src/Pmpr/Package/Optimization/Page/Basic/ListTable.php:76
+#: src/Pmpr/Package/Optimization/Setting.php:174
+msgid "Purge Cache"
+msgstr "پاک‌سازی کش‌"
+
+#: src/Pmpr/Package/Optimization/Page/Basic/ListTable.php:84
+#: src/Pmpr/Package/Optimization/Page/Model.php:817
+msgid "Are you sure about reOptimize this page?"
+msgstr "آیا در مورد بهینه سازی مجدد این صفحه مطمئن هستید؟"
+
+#: src/Pmpr/Package/Optimization/Page/Basic/Page.php:23
 msgid "Level 1 pages"
 msgstr "صفحات سطح ۱"
 
@@ -1093,7 +1125,7 @@ msgstr "صفحات ویژه"
 msgid "%s (Archive)"
 msgstr "%s (آرشیو)"
 
-#: src/Pmpr/Package/Optimization/Page/Common.php:83
+#: src/Pmpr/Package/Optimization/Page/Common.php:85
 msgid "Budget updated successfully"
 msgstr "بودجه با موفقیت به روز شد"
 
@@ -1177,19 +1209,19 @@ msgid "%s of %s pages status changed to %s successfully."
 msgstr "وضعیت %s صفحه از %s صفحه با موفقیت به %s تغییر کرد."
 
 #: src/Pmpr/Package/Optimization/Page/Model.php:445
-#: src/Pmpr/Package/Optimization/Page/Model.php:779
+#: src/Pmpr/Package/Optimization/Page/Model.php:757
 msgid "Inactive Page"
 msgstr "غیر فعال‌سازی"
 
 #: src/Pmpr/Package/Optimization/Page/Model.php:446
 #: src/Pmpr/Package/Optimization/Page/Model.php:450
-#: src/Pmpr/Package/Optimization/Page/Model.php:780
+#: src/Pmpr/Package/Optimization/Page/Model.php:758
 msgid "Ignore Page"
 msgstr "رهاسازی"
 
 #: src/Pmpr/Package/Optimization/Page/Model.php:449
 #: src/Pmpr/Package/Optimization/Page/Model.php:453
-#: src/Pmpr/Package/Optimization/Page/Model.php:778
+#: src/Pmpr/Package/Optimization/Page/Model.php:756
 msgid "Active Page"
 msgstr "فعال‌سازی"
 
@@ -1226,10 +1258,6 @@ msgstr "حذف صفحه"
 msgid "Are you sure about remove this page?"
 msgstr "آیا در مورد حذف این صفحه مطمئن هستید؟"
 
-#: src/Pmpr/Package/Optimization/Page/Model.php:654
-msgid "Opt Status"
-msgstr "وضعیت بهینگی"
-
 #: src/Pmpr/Package/Optimization/Page/Model.php:692
 #, php-format
 msgid "Page status changed to %s successfully."
@@ -1239,27 +1267,15 @@ msgstr "وضعیت صفحه با موفقیت به وضعیت %s تغییر کر
 msgid "change page status failed."
 msgstr "تغییر وضعیت صفحه با شکست رو به رو شد."
 
-#: src/Pmpr/Package/Optimization/Page/Model.php:732
-msgid "Not Optimized"
-msgstr "بهینه‌ نشده"
-
-#: src/Pmpr/Package/Optimization/Page/Model.php:737
-msgid "Optimized"
-msgstr "بهینه‌ شده"
-
-#: src/Pmpr/Package/Optimization/Page/Model.php:742
-msgid "Not Completely Optimized"
-msgstr "کاملا بهینه نشده"
-
-#: src/Pmpr/Package/Optimization/Page/Model.php:770
+#: src/Pmpr/Package/Optimization/Page/Model.php:748
 msgid "Optimization process runs on pages with active status."
 msgstr "فرآیند افزایش سرعت بر روی صفحات فعال، اجرا می‌شود."
 
-#: src/Pmpr/Package/Optimization/Page/Model.php:771
+#: src/Pmpr/Package/Optimization/Page/Model.php:749
 msgid "Optimization process stops running on pages with inactive status."
 msgstr "فرآیند افزایش سرعت بر روی صفحات غیر فعال، موقتاً متوقف می‌شود."
 
-#: src/Pmpr/Package/Optimization/Page/Model.php:772
+#: src/Pmpr/Package/Optimization/Page/Model.php:750
 msgid ""
 "Optimization process permanently stops on pages with ignored status, but you "
 "may see previous logs."
@@ -1267,36 +1283,31 @@ msgstr ""
 "فرآیند افزایش سرعت بر روی صفحات رها شده، متوقف شده و بودجه آن برای استفاده "
 "برای صفحات دیگر آزاد می‌شود."
 
-#: src/Pmpr/Package/Optimization/Page/Model.php:786
+#: src/Pmpr/Package/Optimization/Page/Model.php:764
 msgid "Ignore"
 msgstr "رهاسازی"
 
-#: src/Pmpr/Package/Optimization/Page/Model.php:793
+#: src/Pmpr/Package/Optimization/Page/Model.php:771
 #, php-format
 msgid "Are you sure about change status of this page to %s?"
 msgstr "آیا در مورد تغییر وضعیت این صفحه به %s مطمئن هستید؟"
 
-#: src/Pmpr/Package/Optimization/Page/Model.php:797
+#: src/Pmpr/Package/Optimization/Page/Model.php:775
 msgid "Page cache will be purged upon this change."
 msgstr "با اعمال این تغییر، کش صفحه پاک‌سازی خواهد شد."
 
-#: src/Pmpr/Package/Optimization/Page/Model.php:813
+#: src/Pmpr/Package/Optimization/Page/Model.php:791
 #, php-format
 msgid "Change Page Status to %s"
 msgstr "تغییر وضعیت صفحه به %s"
 
-#: src/Pmpr/Package/Optimization/Page/Model.php:819
+#: src/Pmpr/Package/Optimization/Page/Model.php:797
 msgid "Change Status"
 msgstr "تغییر وضعیت"
 
-#: src/Pmpr/Package/Optimization/Page/Model.php:831
-#: src/Pmpr/Package/Optimization/Page/Model.php:844
+#: src/Pmpr/Package/Optimization/Page/Model.php:809
 msgid "reOptimize"
 msgstr "افزایش سرعت مجدد"
-
-#: src/Pmpr/Package/Optimization/Page/Model.php:839
-msgid "Are you sure about reOptimize this page?"
-msgstr "آیا در مورد بهینه سازی مجدد این صفحه مطمئن هستید؟"
 
 #: src/Pmpr/Package/Optimization/Preloader/API/Heroku.php:40
 msgid "Permalinks list is empty"
@@ -1316,21 +1327,22 @@ msgstr ""
 msgid "Unable to start the preloader. urls is empty."
 msgstr "قادر به شروع پیش پردازش نیستیم، لیست لینک‌ها خالی است."
 
-#: src/Pmpr/Package/Optimization/Purge/Ajax.php:43
+#: src/Pmpr/Package/Optimization/Purge/Ajax.php:46
 msgid "require parameter is missing."
 msgstr "پارامتر ضروری وجود ندارد."
 
-#: src/Pmpr/Package/Optimization/Purge/Ajax.php:50
+#: src/Pmpr/Package/Optimization/Purge/Ajax.php:53
 msgid ""
 "Cache purged successfully! It may take up to 30 seconds for the cache to be "
 "permanently cleaned."
 msgstr ""
 
-#: src/Pmpr/Package/Optimization/Purge/Ajax.php:53
+#: src/Pmpr/Package/Optimization/Purge/Ajax.php:56
 msgid ""
-"An error occurred while cleaning the cache. Please check log file for further "
+"An error occurred while cleaning the cache. Please check log file for more "
 "details."
 msgstr ""
+"مشکلی در فرآیند پاک کردن کش به وجود آمده است، لطفا فایل لاگ را بررسی کنید."
 
 #: src/Pmpr/Package/Optimization/Setting.php:48
 msgid "Setting"
@@ -1442,10 +1454,6 @@ msgstr "حداکثر سرعت"
 #: src/Pmpr/Package/Optimization/Setting.php:157
 msgid "Fail Safe"
 msgstr "حداکثر پایداری"
-
-#: src/Pmpr/Package/Optimization/Setting.php:174
-msgid "Purge Cache"
-msgstr "پاک‌سازی کش‌"
 
 #: src/Pmpr/Package/Optimization/Setting.php:177
 msgid "Purge all cache include html and asset and cloudflare cache."
@@ -4297,9 +4305,6 @@ msgstr "در حال بارگذاری..."
 
 #~ msgid "Product Supported"
 #~ msgstr "پشتیبانی محصولات"
-
-#~ msgid "Serve Area"
-#~ msgstr "منطقه خدمت"
 
 #~ msgid "Available Hours"
 #~ msgstr "ساعات در دسترس"
