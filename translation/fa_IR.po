@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PMPR Optimization\n"
-"POT-Creation-Date: 2021-12-25 11:51+0330\n"
-"PO-Revision-Date: 2021-12-25 11:52+0330\n"
+"POT-Creation-Date: 2021-12-25 13:18+0330\n"
+"PO-Revision-Date: 2021-12-25 13:19+0330\n"
 "Last-Translator:  Farshad Asgharzade <Farshad_asgharzade@hotmail.com>\n"
 "Language-Team: \n"
 "Language: fa_IR\n"
@@ -1327,22 +1327,36 @@ msgstr ""
 msgid "Unable to start the preloader. urls is empty."
 msgstr "قادر به شروع پیش پردازش نیستیم، لیست لینک‌ها خالی است."
 
-#: src/Pmpr/Package/Optimization/Purge/Ajax.php:46
+#: src/Pmpr/Package/Optimization/Purge/Ajax.php:47
 msgid "require parameter is missing."
 msgstr "پارامتر ضروری وجود ندارد."
 
-#: src/Pmpr/Package/Optimization/Purge/Ajax.php:53
+#: src/Pmpr/Package/Optimization/Purge/Ajax.php:54
 msgid ""
 "Cache purged successfully! It may take up to 30 seconds for the cache to be "
 "permanently cleaned."
 msgstr ""
 
-#: src/Pmpr/Package/Optimization/Purge/Ajax.php:56
+#: src/Pmpr/Package/Optimization/Purge/Ajax.php:57
 msgid ""
 "An error occurred while cleaning the cache. Please check log file for more "
 "details."
 msgstr ""
 "مشکلی در فرآیند پاک کردن کش به وجود آمده است، لطفا فایل لاگ را بررسی کنید."
+
+#: src/Pmpr/Package/Optimization/Purge/Common.php:61
+msgid "Can not find info by page id"
+msgstr ""
+
+#: src/Pmpr/Package/Optimization/Purge/Common.php:106
+msgid "Urls are empty for purge urls."
+msgstr "لیست پیوند‌ها برای پاک‌سازی خالی است."
+
+#: src/Pmpr/Package/Optimization/Purge/Common.php:110
+#, fuzzy
+#| msgid "Server error"
+msgid "Purge urls error"
+msgstr "خطای سرور"
 
 #: src/Pmpr/Package/Optimization/Setting.php:48
 msgid "Setting"
@@ -1708,9 +1722,6 @@ msgstr "در حال بارگذاری..."
 
 #~ msgid "Purged specific URLs from Cloudflare cache"
 #~ msgstr "کش کلودفلر پیوند‌های مشخص شده، پاک‌سازی شد"
-
-#~ msgid "Urls for purge is empty."
-#~ msgstr "لیست پیوند‌ها برای پاک‌سازی خالی است."
 
 #~ msgid "Clear Global Cache Interval"
 #~ msgstr "تاخیر در بارگذاری"
