@@ -1,7 +1,7 @@
 <?php
 /*   _______________________________________
     |  Obfuscated by PMPR - Php Obfuscator  |
-    |             61d54d68de54c             |
+    |             61d55de5ebbe6             |
     |_______________________________________|
 */
  namespace Pmpr\Package\Optimization\Asset\Critical; use Pmpr\Package\Optimization\Asset\Common as BaseClass; class Common extends BaseClass { }
