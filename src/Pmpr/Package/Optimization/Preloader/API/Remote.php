@@ -1,0 +1,7 @@
+<?php
+/*   _______________________________________
+    |  Obfuscated by PMPR - Php Obfuscator  |
+    |             622137a05c93e             |
+    |_______________________________________|
+*/
+ namespace Pmpr\Package\Optimization\Preloader\API; use Pmpr\Common\Foundation\Manipulate\Type\ManipulateArray; use Pmpr\Package\Optimization\API\Remote as BaseClass; class Remote extends BaseClass { public function start($egeqeuwiswigogyk = []) : bool { if (is_array($egeqeuwiswigogyk) && count($egeqeuwiswigogyk) > 0) { goto coskmuqsawiaeyqg; } $sogksuscggsicmac = $this->oemauiimmycumcsk(__("\x50\145\x72\x6d\x61\x6c\x69\x6e\153\x73\40\x6c\151\x73\164\x20\151\163\x20\145\155\160\x74\171", PR__PKG__OPTIMIZATION)); goto umccwcqwkoiaakmu; coskmuqsawiaeyqg: $sogksuscggsicmac = $this->eqkieiagqmugguew("\57\x70\162\x65\x6c\157\x61\x64", [self::kugiewcgiawaeiaq => ["\141\160\x69\x6b\145\x79" => $this->eegcqkwceasicmek(), "\160\145\162\155\141\154\151\x6e\153\x73" => $egeqeuwiswigogyk]], self::mswoacegomcucaik); if (isset($sogksuscggsicmac[self::gouqcwikiiygyasc])) { goto gcsosokicycukoyc; } $this->saqqeqmcyyoeqici("\x65\x72\162\157\x72\x20\157\156\x20\160\x72\x65\x6c\x6f\141\x64\x69\156\147", $sogksuscggsicmac); $sogksuscggsicmac = $this->oemauiimmycumcsk(ManipulateArray::get($sogksuscggsicmac, self::eoskkkieowogacws)); goto seqammocqkyswaim; gcsosokicycukoyc: $sogksuscggsicmac = true; seqammocqkyswaim: umccwcqwkoiaakmu: return $sogksuscggsicmac; } }
