@@ -4,4 +4,4 @@
     |             62400e586ca94             |
     |_______________________________________|
 */
- use Pmpr\Module\Optimization\Optimization; Optimization::symcgieuakksimmu();
+ namespace Pmpr\Module\Optimization\Asset\Cleanup; use Pmpr\Module\Optimization\Asset\Common as BaseClass; class Common extends BaseClass { }

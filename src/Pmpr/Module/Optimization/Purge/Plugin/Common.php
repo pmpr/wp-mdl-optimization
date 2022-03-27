@@ -4,4 +4,4 @@
     |             62400e586ca94             |
     |_______________________________________|
 */
- use Pmpr\Module\Optimization\Optimization; Optimization::symcgieuakksimmu();
+ namespace Pmpr\Module\Optimization\Purge\Plugin; use Pmpr\Module\Optimization\Purge\Common as BaseClass; abstract class Common extends BaseClass { }

@@ -1,8 +1,8 @@
 {
-  "name": "pmpr-pkg/wp-pkg-optimization",
+  "name": "pmpr-mod/wp-mod-optimization",
   "type": "project",
   "license": "proprietary",
-  "description": "Optimization Package for Wordpress",
+  "description": "Optimization Module for Wordpress",
   "keywords": [
     "optimization",
     "wordpress",
@@ -18,7 +18,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Pmpr\\Package\\Optimization\\": "src/Pmpr/Package/Optimization"
+      "Pmpr\\Module\\Optimization\\": "src/Pmpr/Module/Optimization"
     },
     "files": [
       "index.php"
