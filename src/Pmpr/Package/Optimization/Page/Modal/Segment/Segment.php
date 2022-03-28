@@ -1,7 +1,0 @@
-<?php
-/*   _______________________________________
-    |  Obfuscated by PMPR - Php Obfuscator  |
-    |             623bbb7c4a174             |
-    |_______________________________________|
-*/
- namespace Pmpr\Package\Optimization\Page\Modal\Segment; use Pmpr\Common\Foundation\FormMaker\Admin\Element\Modal\Segment as BaseClass; use Pmpr\Common\Foundation\Manipulate\Theme\ManipulateHTML; use Pmpr\Common\Foundation\Manipulate\Type\ManipulateArray; use Pmpr\Common\Foundation\Media\Icon\Interfaces\IconFontawesomeInterface; use Pmpr\Package\Optimization\Page\Interfaces\CommonInterface; class Segment extends BaseClass implements CommonInterface { protected function wqwkuqceaqeiquqm() : string { return ManipulateHTML::uuccukgasskgimsq("\x64\x69\x76", ["\x63\154\x61\163\x73" => "\160\162\x2d\x61\x63\x74\x69\x6f\x6e"], ManipulateHTML::uuccukgasskgimsq("\141", ["\x69\144" => "\x72\x75\154\x65\x5f\160\x61\x67\145\137\160\x72\145\166\x69\145\167", "\x68\162\145\146" => "\x23", "\x63\x6c\141\x73\x73" => "\x62\x74\156\x20\142\x74\x6e\x2d\x6f\165\164\154\151\x6e\145\x2d\160\162\151\155\141\x72\x79\40\x72\165\x6c\145\163\55\160\141\147\x65\x73\x2d\x70\x72\145\166\x69\145\x77"], __("\120\141\x67\x65\163\40\x50\x72\x65\166\x69\x65\167", PR__PKG__OPTIMIZATION))); } protected function iiomagmskwiawgyo() : string { return $this->sscegwueamckwmcy($this->ygyygikyocoymgaw("\x6f\x70\x74\x5f\x67\x65\x74\137\163\x74\x61\x74\x69\x73\164\x69\143\163\x5f\150\164\155\154"), '', []); } }

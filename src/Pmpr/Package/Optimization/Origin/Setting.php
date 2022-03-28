@@ -1,7 +1,0 @@
-<?php
-/*   _______________________________________
-    |  Obfuscated by PMPR - Php Obfuscator  |
-    |             623bbb7c4a174             |
-    |_______________________________________|
-*/
- namespace Pmpr\Package\Optimization\Origin; use Pmpr\Common\Foundation\Media\Icon\Interfaces\IconFontawesomeInterface; use Pmpr\Package\Optimization\Tab; class Setting extends Tab { const ksckauceyeiokkow = "\x6f\162\x69\x67\x69\156\137"; const ucmguokmyauimyuo = self::ksckauceyeiokkow . "\145\156\141\142\x6c\x65\137\x63\141\143\x68\145"; public function aucimgwswmgaocae($ywoucyskcquysiwc = []) : array { $ymqmyyeuycgmigyo = $this->aakmagwggmkoiiyu(); $ywoucyskcquysiwc[] = self::sgsmqaoowiyocqaa($ymqmyyeuycgmigyo . "\137\x6f\x72\151\147\151\x6e", __("\117\x72\x69\x67\151\156", PR__PKG__OPTIMIZATION))->sikqggwmmykuiymy(self::cgygmuguceeosoey($ymqmyyeuycgmigyo . "\x5f\x6f\162\x69\147\x69\x6e\137\143\141\143\150\145", __("\103\x61\143\x68\x65", PR__PKG__OPTIMIZATION))->mkksewyosgeumwsa(self::wcwmusaouiqaqeww(self::ucmguokmyauimyuo, __("\105\x6e\141\x62\x6c\x65\x20\103\x61\x63\x68\x65", PR__PKG__OPTIMIZATION)))->saemoowcasogykak(IconFontawesomeInterface::qagokqwiiyqccoky))->saemoowcasogykak(IconFontawesomeInterface::uoowgqkqeyiwoyeu)->jyumyyugiwwiqomk(15); return parent::aucimgwswmgaocae($ywoucyskcquysiwc); } public function aiqeywqiyqcekgiu($qiouiwasaauyaaue, $uusmaiomayssaecw) { $qiouiwasaauyaaue[self::ucmguokmyauimyuo] = true; return parent::aiqeywqiyqcekgiu($qiouiwasaauyaaue, $uusmaiomayssaecw); } }

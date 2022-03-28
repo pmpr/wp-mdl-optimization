@@ -1,7 +1,0 @@
-<?php
-/*   _______________________________________
-    |  Obfuscated by PMPR - Php Obfuscator  |
-    |             61eec5407a60a             |
-    |_______________________________________|
-*/
- namespace Pmpr\Package\Optimization\Preloader\API; use Pmpr\Common\Foundation\Manipulate\Type\ManipulateArray; use Pmpr\Package\Optimization\API\Heroku as BaseClass; class Heroku extends BaseClass { public function start($egeqeuwiswigogyk = []) : bool { if (is_array($egeqeuwiswigogyk) && count($egeqeuwiswigogyk) > 0) { goto cuoqqgaygogsmmic; } $sogksuscggsicmac = $this->oemauiimmycumcsk(__("\x50\145\x72\x6d\x61\x6c\x69\x6e\x6b\163\40\x6c\151\163\x74\40\x69\163\x20\145\x6d\x70\164\171", PR__PKG__OPTIMIZATION)); goto cgewcsueoyaeikgm; cuoqqgaygogsmmic: $sogksuscggsicmac = $this->eqkieiagqmugguew("\57\160\162\x65\154\157\141\x64", [self::kugiewcgiawaeiaq => ["\x61\x70\x69\153\145\x79" => $this->eegcqkwceasicmek(), "\160\x65\x72\x6d\141\154\x69\156\x6b\x73" => $egeqeuwiswigogyk]], self::mswoacegomcucaik); if (isset($sogksuscggsicmac[self::gouqcwikiiygyasc])) { goto qmeoaqmsuseueqiy; } $this->saqqeqmcyyoeqici("\145\162\x72\x6f\162\x20\x6f\156\40\160\162\x65\x6c\157\x61\144\x69\156\147", $sogksuscggsicmac); $sogksuscggsicmac = $this->oemauiimmycumcsk(ManipulateArray::get($sogksuscggsicmac, self::eoskkkieowogacws)); goto ygkcacsyyckescqs; qmeoaqmsuseueqiy: $sogksuscggsicmac = true; ygkcacsyyckescqs: cgewcsueoyaeikgm: return $sogksuscggsicmac; } }

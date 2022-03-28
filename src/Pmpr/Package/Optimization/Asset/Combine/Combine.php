@@ -1,7 +1,0 @@
-<?php
-/*   _______________________________________
-    |  Obfuscated by PMPR - Php Obfuscator  |
-    |             623bbb7c4a174             |
-    |_______________________________________|
-*/
- namespace Pmpr\Package\Optimization\Asset\Combine; use Pmpr\Package\Optimization\Manipulate\ManipulateFile; use Pmpr\Package\Optimization\Manipulate\Manipulate; use Pmpr\Package\Optimization\Notice; class Combine extends Common { public function __construct() { if (!$this->cyowaaeywssoooeo()) { goto ucuoeymyqeokgsya; } parent::__construct(); $this->iemaakgqgqosiecm(); ucuoeymyqeokgsya: } public function iemaakgqgqosiecm() { CSS::symcgieuakksimmu(); } public function cyowaaeywssoooeo() : bool { $ksaameoqigiaoigg = false; if ($skacuygeqykiwiwy = Manipulate::cmaecekuqkwmemms("\x50\122\137\137\x43\x41\103\110\x45\137\x5f\x50\x41\x54\x48")) { goto yuuyikiacmmueosu; } Notice::ymqcyaqqcyuicwqu("\x6f\160\x74\151\x6d\151\x7a\141\164\151\157\x6e\55\143\x6f\155\x62\x69\156\x65\x2d\x70\x61\x74\150", __("\117\x70\x74\151\155\151\172\x61\x74\151\157\x6e\x20\x43\157\x6d\142\151\156\x65\40\x41\x73\163\x65\164\163\x20\x50\141\x74\150", PR__PKG__OPTIMIZATION), $skacuygeqykiwiwy); goto sguskaeaaqcagqgc; yuuyikiacmmueosu: $ksaameoqigiaoigg = ManipulateFile::koymmiyegyskqgck("\117\x50\x54\111\115\x49\132\x41\x54\x49\117\116\x5f\x43\x4f\115\x42\x49\x4e\x45\x5f\x50\x41\124\110", "{$skacuygeqykiwiwy}\x2f\x63\157\155\142"); sguskaeaaqcagqgc: return $ksaameoqigiaoigg; } }
