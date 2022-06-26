@@ -1,7 +1,7 @@
 <?php
 /*   _______________________________________
     |  Obfuscated by PMPR - Php Obfuscator  |
-    |             629e44ab568a6             |
+    |             62b8861f25a3c             |
     |_______________________________________|
 */
- namespace Pmpr\Module\Optimization\Asset; use Pmpr\Module\Optimization\Asset\CDN\CDN; use Pmpr\Module\Optimization\Asset\Cleanup\Cleanup; use Pmpr\Module\Optimization\Asset\Critical\Critical; use Pmpr\Module\Optimization\Asset\Minify\Minify; use Pmpr\Module\Optimization\Asset\Media\Media; class Asset extends Common { public function __construct() { parent::__construct(); $this->iemaakgqgqosiecm(); } public function iemaakgqgqosiecm() { CDN::symcgieuakksimmu(); Media::symcgieuakksimmu(); Delay::symcgieuakksimmu(); Minify::symcgieuakksimmu(); Cleanup::symcgieuakksimmu(); Critical::symcgieuakksimmu(); if (!is_admin()) { goto koukiyqaccegmquc; } Setting::symcgieuakksimmu(); HTAccess::symcgieuakksimmu(); koukiyqaccegmquc: } }
+ namespace Pmpr\Module\Optimization\Asset; use Pmpr\Module\Optimization\Asset\CDN\CDN; use Pmpr\Module\Optimization\Asset\Cleanup\Cleanup; use Pmpr\Module\Optimization\Asset\Critical\Critical; use Pmpr\Module\Optimization\Asset\Minify\Minify; use Pmpr\Module\Optimization\Asset\Media\Media; class Asset extends Common { public function __construct() { parent::__construct(); $this->iemaakgqgqosiecm(); } public function iemaakgqgqosiecm() { CDN::symcgieuakksimmu(); Media::symcgieuakksimmu(); Delay::symcgieuakksimmu(); Minify::symcgieuakksimmu(); Cleanup::symcgieuakksimmu(); Critical::symcgieuakksimmu(); if (!is_admin()) { goto wkiymcoqqiigqaaw; } Setting::symcgieuakksimmu(); HTAccess::symcgieuakksimmu(); wkiymcoqqiigqaaw: } }
