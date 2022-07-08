@@ -1,7 +1,7 @@
 <?php
 /*   _______________________________________
     |  Obfuscated by PMPR - Php Obfuscator  |
-    |             62c270985b578             |
+    |             62c85c689cc91             |
     |_______________________________________|
 */
  namespace Pmpr\Module\Optimization\Page\Basic; use Pmpr\Module\Optimization\Page\Common; class Basic extends Common { public function __construct() { $this->iemaakgqgqosiecm(); parent::__construct(); } public function iemaakgqgqosiecm() { Page::symcgieuakksimmu(); } }
