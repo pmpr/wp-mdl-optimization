@@ -1,7 +1,7 @@
 <?php
 /*   _______________________________________
     |  Obfuscated by PMPR - Php Obfuscator  |
-    |             62cf1b954785e             |
+    |             62cf2522bd2c4             |
     |_______________________________________|
 */
  namespace Pmpr\Module\Optimization\Preloader\Offline; use Pmpr\Common\Foundation\Decorator\DecoratorOption; use Pmpr\Common\Foundation\Manipulate\ManipulateServer; use Pmpr\Module\Optimization\Preloader\Base; class Offline extends Base { public function __construct() { parent::__construct(); $this->iemaakgqgqosiecm(); } public function iemaakgqgqosiecm() { Process::symcgieuakksimmu(); } public function start($auwuoyyagaiegwae) { if (!($acoioasmiqcwagsa = Process::symcgieuakksimmu())) { goto mgwgiesscqoaqcau; } $acoioasmiqcwagsa->mgoekicaagiaeuki($auwuoyyagaiegwae)->save()->ieyosyaaisyquesq(); mgwgiesscqoaqcau: } }
