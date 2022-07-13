@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PMPR Optimization\n"
-"POT-Creation-Date: 2022-05-22 11:53+0430\n"
-"PO-Revision-Date: 2022-05-22 11:53+0430\n"
+"POT-Creation-Date: 2022-07-13 15:31+0430\n"
+"PO-Revision-Date: 2022-07-13 15:34+0430\n"
 "Last-Translator: Farshad Asgharzade <Farshad_asgharzade@hotmail.com>\n"
 "Language-Team: \n"
 "Language: fa_IR\n"
@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 3.0.1\n"
+"X-Generator: Poedit 3.1.1\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-WPHeader: index.php\n"
 "X-Source-Language: en\n"
@@ -26,11 +26,11 @@ msgstr ""
 msgid "Every Fifteen Minutes"
 msgstr "هر پانزده دقیقه"
 
-#: src/Pmpr/Module/Optimization/Asset/Cleanup/Tag.php:130
+#: src/Pmpr/Module/Optimization/Asset/Cleanup/Tag.php:129
 msgid "Optimization: "
 msgstr "افزایش سرعت: "
 
-#: src/Pmpr/Module/Optimization/Asset/Cleanup/Tag.php:132
+#: src/Pmpr/Module/Optimization/Asset/Cleanup/Tag.php:131
 #, php-format
 msgid "Failed to detect the following requirement in your theme: closing %1$s."
 msgid_plural ""
@@ -41,203 +41,211 @@ msgstr[0] ""
 msgid "Combine Assets Path"
 msgstr "مسیر مربوط به ترکیب منابع استاتیکی"
 
+#: src/Pmpr/Module/Optimization/Asset/Critical/CSS/CSS.php:117
+#, fuzzy, php-format
+#| msgid "Critical CSS"
+msgid "Critical CSS: %s"
+msgstr "استایل‌های ضروری"
+
 #: src/Pmpr/Module/Optimization/Asset/Critical/Critical.php:38
 #, fuzzy
 #| msgid "Critical"
 msgid "Critical Path"
 msgstr "استخراح منابع ضروری"
 
-#: src/Pmpr/Module/Optimization/Asset/HTAccess.php:76
+#: src/Pmpr/Module/Optimization/Asset/HTAccess.php:77
 #, php-format
 msgid ""
 "The .htaccess file (%s) could not be edited. Check if the file has write "
 "permissions."
 msgstr ""
 
-#: src/Pmpr/Module/Optimization/Asset/Media/Dominator.php:174
+#: src/Pmpr/Module/Optimization/Asset/Media/Dominator.php:178
 msgid "No Color Dominance Available."
 msgstr ""
 
-#: src/Pmpr/Module/Optimization/Asset/Media/Dominator.php:175
+#: src/Pmpr/Module/Optimization/Asset/Media/Dominator.php:179
 msgid "Check this item for generate dominate colors."
 msgstr "با علامت زدن این گزینه، رنگ‌های پر تکرار این تصویر استخراج می‌شوند."
 
-#: src/Pmpr/Module/Optimization/Asset/Media/Dominator.php:192
+#: src/Pmpr/Module/Optimization/Asset/Media/Dominator.php:196
 msgid "Dominant Color"
 msgstr "رنگ غالب"
 
-#: src/Pmpr/Module/Optimization/Asset/Setting.php:76
+#: src/Pmpr/Module/Optimization/Asset/Setting.php:78
 msgid "Assets"
 msgstr "منابع استاتیکی"
 
-#: src/Pmpr/Module/Optimization/Asset/Setting.php:98
+#: src/Pmpr/Module/Optimization/Asset/Setting.php:102
+msgid "Dynamic Rendering"
+msgstr "داینامیک رندرینگ"
+
+#: src/Pmpr/Module/Optimization/Asset/Setting.php:106
+#: src/Pmpr/Module/Optimization/Asset/Setting.php:175
+#: src/Pmpr/Module/Optimization/Asset/Setting.php:428
+#: src/Pmpr/Module/Optimization/Asset/Setting.php:452
+msgid "Activation"
+msgstr "فعال سازی"
+
+#: src/Pmpr/Module/Optimization/Asset/Setting.php:120
 msgid "Content Delivery Network (CDN)"
 msgstr "شبکه تحویل محتوا (CDN)"
 
-#: src/Pmpr/Module/Optimization/Asset/Setting.php:102
+#: src/Pmpr/Module/Optimization/Asset/Setting.php:124
 msgid "JSDeliver"
 msgstr "جی اس دلیور"
 
-#: src/Pmpr/Module/Optimization/Asset/Setting.php:106
+#: src/Pmpr/Module/Optimization/Asset/Setting.php:128
 msgid "Enable JSDeliver"
 msgstr "جی اس دلیور"
 
-#: src/Pmpr/Module/Optimization/Asset/Setting.php:107
+#: src/Pmpr/Module/Optimization/Asset/Setting.php:129
 msgid "Check this item to replace resources by JSDeliver cdn."
 msgstr ""
 "با علامت زدن این گزینه‌ منابع استاتیکی شما با نسخه جی اس دلیور (در صورتی که "
 "وجود داشته باشد) جایگزین می‌شوند."
 
-#: src/Pmpr/Module/Optimization/Asset/Setting.php:145
+#: src/Pmpr/Module/Optimization/Asset/Setting.php:167
 msgid "Media"
 msgstr "رسانه"
 
-#: src/Pmpr/Module/Optimization/Asset/Setting.php:149
+#: src/Pmpr/Module/Optimization/Asset/Setting.php:171
 msgid "Lazyload"
-msgstr "بارگذاری با تاخیر"
+msgstr "لیزی لود"
 
-#: src/Pmpr/Module/Optimization/Asset/Setting.php:153
-msgid "Enable Lazyload"
-msgstr "بارگذاری با تاخیر"
-
-#: src/Pmpr/Module/Optimization/Asset/Setting.php:161
-#: src/Pmpr/Module/Optimization/Asset/Setting.php:242
+#: src/Pmpr/Module/Optimization/Asset/Setting.php:183
+#: src/Pmpr/Module/Optimization/Asset/Setting.php:264
 msgid "Images"
 msgstr "تصاویر"
 
-#: src/Pmpr/Module/Optimization/Asset/Setting.php:166
+#: src/Pmpr/Module/Optimization/Asset/Setting.php:188
 msgid "iFrame and Videos"
 msgstr "تگ iFrame و Video"
 
-#: src/Pmpr/Module/Optimization/Asset/Setting.php:172
+#: src/Pmpr/Module/Optimization/Asset/Setting.php:194
 msgid "Color Dominator"
 msgstr "رنگ غالب"
 
-#: src/Pmpr/Module/Optimization/Asset/Setting.php:176
+#: src/Pmpr/Module/Optimization/Asset/Setting.php:198
 msgid "Image Color Dominator"
 msgstr "استخراج رنگ از تصویر"
 
-#: src/Pmpr/Module/Optimization/Asset/Setting.php:181
+#: src/Pmpr/Module/Optimization/Asset/Setting.php:203
 msgid "Default Dominator Color"
 msgstr "رنگ غالب پیشفرض"
 
-#: src/Pmpr/Module/Optimization/Asset/Setting.php:194
+#: src/Pmpr/Module/Optimization/Asset/Setting.php:216
 #, php-format
 msgid "Check this item if you want minify %s."
 msgstr "اگر می‌خواهید %s فشرده شود، این آیتم را علامت بزنید."
 
-#: src/Pmpr/Module/Optimization/Asset/Setting.php:198
+#: src/Pmpr/Module/Optimization/Asset/Setting.php:220
 msgid "Minify"
 msgstr "فشرده‌سازی"
 
-#: src/Pmpr/Module/Optimization/Asset/Setting.php:202
+#: src/Pmpr/Module/Optimization/Asset/Setting.php:224
 msgid "Enable Minify"
 msgstr "فعال‌سازی فشرده‌ سازی"
 
-#: src/Pmpr/Module/Optimization/Asset/Setting.php:207
+#: src/Pmpr/Module/Optimization/Asset/Setting.php:229
 msgid "Check this item to enable minify functionality."
 msgstr "برای فعال سازی قابلیت فشرده سازی، این آیتم را علامت بزنید."
 
-#: src/Pmpr/Module/Optimization/Asset/Setting.php:211
+#: src/Pmpr/Module/Optimization/Asset/Setting.php:233
 msgid "Minify HTML"
 msgstr "فشرده‌سازی HTML"
 
-#: src/Pmpr/Module/Optimization/Asset/Setting.php:217
+#: src/Pmpr/Module/Optimization/Asset/Setting.php:239
 msgid "Minify CSS"
 msgstr "فشرده‌سازی CSS"
 
-#: src/Pmpr/Module/Optimization/Asset/Setting.php:223
+#: src/Pmpr/Module/Optimization/Asset/Setting.php:245
 msgid "Minify JS"
 msgstr "فشرده سازی JS"
 
-#: src/Pmpr/Module/Optimization/Asset/Setting.php:238
+#: src/Pmpr/Module/Optimization/Asset/Setting.php:260
 msgid "Cleanup"
 msgstr "پاک‌سازی و تصفیه"
 
-#: src/Pmpr/Module/Optimization/Asset/Setting.php:246
+#: src/Pmpr/Module/Optimization/Asset/Setting.php:268
 msgid "Add Blank Favicon"
 msgstr "افزودن Favicon خالی"
 
-#: src/Pmpr/Module/Optimization/Asset/Setting.php:247
+#: src/Pmpr/Module/Optimization/Asset/Setting.php:269
 msgid ""
 "Add a blank favicon to your WordPress header which will prevent a Missing "
 "Favicon or 404 error."
 msgstr ""
 
-#: src/Pmpr/Module/Optimization/Asset/Setting.php:252
+#: src/Pmpr/Module/Optimization/Asset/Setting.php:274
 msgid "Specify Image Dimensions"
 msgstr "تعین ابعاد تصاویر"
 
-#: src/Pmpr/Module/Optimization/Asset/Setting.php:253
+#: src/Pmpr/Module/Optimization/Asset/Setting.php:275
 msgid "Add width and height attribute to images if not exist."
 msgstr ""
 
-#: src/Pmpr/Module/Optimization/Asset/Setting.php:258
+#: src/Pmpr/Module/Optimization/Asset/Setting.php:280
 msgid "External Images Dimensions"
 msgstr "ابعاد تصاویر خارجی"
 
-#: src/Pmpr/Module/Optimization/Asset/Setting.php:259
+#: src/Pmpr/Module/Optimization/Asset/Setting.php:281
 msgid "Do specify image dimensions for external images."
 msgstr ""
 
-#: src/Pmpr/Module/Optimization/Asset/Setting.php:265
+#: src/Pmpr/Module/Optimization/Asset/Setting.php:287
 msgid "JS & CSS & HTML"
 msgstr "JS و CSS و HTML"
 
-#: src/Pmpr/Module/Optimization/Asset/Setting.php:269
+#: src/Pmpr/Module/Optimization/Asset/Setting.php:291
 msgid "Disable Emojis"
 msgstr "غیرفعال کردن اموجی‌ها"
 
-#: src/Pmpr/Module/Optimization/Asset/Setting.php:270
+#: src/Pmpr/Module/Optimization/Asset/Setting.php:292
 msgid "Removes WordPress Emojis JavaScript file."
 msgstr "حذف فایل جاوااسکریپت اموجی مربوط به وردپرس."
 
-#: src/Pmpr/Module/Optimization/Asset/Setting.php:275
+#: src/Pmpr/Module/Optimization/Asset/Setting.php:297
 msgid "Disable Embeds"
 msgstr "غیرفعال کردن Embeds"
 
-#: src/Pmpr/Module/Optimization/Asset/Setting.php:276
+#: src/Pmpr/Module/Optimization/Asset/Setting.php:298
 msgid "Removes WordPress Embed JavaScript file."
 msgstr "حذف فایل جاوااسکریپت Embed مربوط به وردپرس."
 
-#: src/Pmpr/Module/Optimization/Asset/Setting.php:281
+#: src/Pmpr/Module/Optimization/Asset/Setting.php:303
 msgid "Remove jQuery Migrate"
 msgstr "حذف  JQuery Migrate"
 
-#: src/Pmpr/Module/Optimization/Asset/Setting.php:282
+#: src/Pmpr/Module/Optimization/Asset/Setting.php:304
 msgid "Removes jQuery Migrate JavaScript file."
 msgstr "حذف فایل جاوااسکریپت JQuery Migrate."
 
-#: src/Pmpr/Module/Optimization/Asset/Setting.php:284
-#: src/Pmpr/Module/Optimization/Asset/Setting.php:285
-msgid "This could break things!"
-msgstr "این گزینه می‌تواند بعضی چیز‌ها را دچار مشکل کند!"
-
-#: src/Pmpr/Module/Optimization/Asset/Setting.php:290
+#: src/Pmpr/Module/Optimization/Asset/Setting.php:309
 msgid "Disable Dashicons"
 msgstr "غیرفعال کردن آیکون‌ Dashicons"
 
-#: src/Pmpr/Module/Optimization/Asset/Setting.php:291
+#: src/Pmpr/Module/Optimization/Asset/Setting.php:310
 msgid "Disables dashicons on the front end when not logged in."
 msgstr ""
 "غیرفعال کردن آیکون‌ Dashicons در بخش نمایشی سایت و زمانی که کاربر وارد حساب "
 "کاربری نشده است."
 
-#: src/Pmpr/Module/Optimization/Asset/Setting.php:296
+#: src/Pmpr/Module/Optimization/Asset/Setting.php:315
 msgid "Disable Gutenberg Block Library"
 msgstr ""
 
-#: src/Pmpr/Module/Optimization/Asset/Setting.php:297
+#: src/Pmpr/Module/Optimization/Asset/Setting.php:316
 msgid "Disables gutenberg block library on the front end when not logged in."
 msgstr ""
 "غیرفعال کردن آیکون‌ گوتنربگ در بخش نمایشی سایت و زمانی که کاربر وارد حساب "
 "کاربری نشده است."
 
-#: src/Pmpr/Module/Optimization/Asset/Setting.php:302
+#: src/Pmpr/Module/Optimization/Asset/Setting.php:321
 msgid "Disable Password Strength Meter"
 msgstr "غیرفعال کردن بررسی پسورد"
 
-#: src/Pmpr/Module/Optimization/Asset/Setting.php:303
+#: src/Pmpr/Module/Optimization/Asset/Setting.php:322
 msgid ""
 "Removes WordPress and WooCommerce Password Strength Meter scripts from non "
 "essential pages."
@@ -245,146 +253,130 @@ msgstr ""
 "حذف اسکریپت‌های بررسی قوی بودن پسورد مربوط به وردپرس و ووکامرس، در صفحاتی که "
 "نیازی به این قابلیت ندارند."
 
-#: src/Pmpr/Module/Optimization/Asset/Setting.php:308
+#: src/Pmpr/Module/Optimization/Asset/Setting.php:327
 msgid "Remove HTTP Protocol"
 msgstr "حذف پروتکل HTTP"
 
-#: src/Pmpr/Module/Optimization/Asset/Setting.php:309
+#: src/Pmpr/Module/Optimization/Asset/Setting.php:328
 #, php-format
 msgid "Replace %s with %s in %s tags."
 msgstr ""
 
-#: src/Pmpr/Module/Optimization/Asset/Setting.php:319
+#: src/Pmpr/Module/Optimization/Asset/Setting.php:338
 msgid "Head Tags"
 msgstr "تگ های مربوط به Head"
 
-#: src/Pmpr/Module/Optimization/Asset/Setting.php:323
+#: src/Pmpr/Module/Optimization/Asset/Setting.php:342
 msgid "Disable XML-RPC"
 msgstr "غیر فعال کردن XML-RPC"
 
-#: src/Pmpr/Module/Optimization/Asset/Setting.php:324
+#: src/Pmpr/Module/Optimization/Asset/Setting.php:343
 msgid "Removes WordPress XML-RPC functionality."
 msgstr "حذف قابلیت XML-RPC مربوط به وردپرس."
 
-#: src/Pmpr/Module/Optimization/Asset/Setting.php:329
+#: src/Pmpr/Module/Optimization/Asset/Setting.php:348
 msgid "Remove RSD Link"
 msgstr "حذف پیوند RSD"
 
-#: src/Pmpr/Module/Optimization/Asset/Setting.php:330
+#: src/Pmpr/Module/Optimization/Asset/Setting.php:349
 msgid "Remove RSD (Real Simple Discovery) link tag."
 msgstr "حذف تگ پیوند RSD."
 
-#: src/Pmpr/Module/Optimization/Asset/Setting.php:335
+#: src/Pmpr/Module/Optimization/Asset/Setting.php:354
 msgid "Hide WP Version"
 msgstr "مخفی کردن نسخه وردپرس"
 
-#: src/Pmpr/Module/Optimization/Asset/Setting.php:336
+#: src/Pmpr/Module/Optimization/Asset/Setting.php:355
 msgid ""
 "This is good for security purposes as well, since it hides the WordPress "
 "version you're using."
 msgstr ""
 
-#: src/Pmpr/Module/Optimization/Asset/Setting.php:341
+#: src/Pmpr/Module/Optimization/Asset/Setting.php:360
 msgid "Remove wlwmanifest Link"
 msgstr "حذف پیوند wlwmanifest"
 
-#: src/Pmpr/Module/Optimization/Asset/Setting.php:342
+#: src/Pmpr/Module/Optimization/Asset/Setting.php:361
 msgid ""
 "If you do not use Windows Live Writer to edit your blog contents, then it's "
 "safe to remove this."
 msgstr ""
 
-#: src/Pmpr/Module/Optimization/Asset/Setting.php:347
+#: src/Pmpr/Module/Optimization/Asset/Setting.php:366
 msgid "Remove Shortlink"
 msgstr "حذف shortlink"
 
-#: src/Pmpr/Module/Optimization/Asset/Setting.php:348
+#: src/Pmpr/Module/Optimization/Asset/Setting.php:367
 msgid ""
 "Are you using SEO friendly URLs and do not need the default WordPress "
 "shortlink? you can remove this."
 msgstr ""
 
-#: src/Pmpr/Module/Optimization/Asset/Setting.php:353
+#: src/Pmpr/Module/Optimization/Asset/Setting.php:372
 msgid "Remove REST API"
 msgstr "حذف REST API"
 
-#: src/Pmpr/Module/Optimization/Asset/Setting.php:354
+#: src/Pmpr/Module/Optimization/Asset/Setting.php:373
 msgid ""
 "Are you accessing your content through endpoints? If not, you can remove this."
 msgstr ""
 
-#: src/Pmpr/Module/Optimization/Asset/Setting.php:367
+#: src/Pmpr/Module/Optimization/Asset/Setting.php:389
+msgid "Critical Extraction"
+msgstr "استخراج منابع ضروری"
+
+#: src/Pmpr/Module/Optimization/Asset/Setting.php:393
+msgid "Critical CSS"
+msgstr "استایل‌های ضروری"
+
+#: src/Pmpr/Module/Optimization/Asset/Setting.php:397
+msgid "Enable Critical CSS"
+msgstr "استخراج استایل‌های ضروری"
+
+#: src/Pmpr/Module/Optimization/Asset/Setting.php:403
+msgid "Extra CSS Code"
+msgstr "استایل اضافی"
+
+#: src/Pmpr/Module/Optimization/Asset/Setting.php:420
+msgid "Async Load"
+msgstr "بارگیری آسینکرون"
+
+#: src/Pmpr/Module/Optimization/Asset/Setting.php:424
+msgid "Javascript"
+msgstr "جاوااسکریپت"
+
+#: src/Pmpr/Module/Optimization/Asset/Setting.php:437
+msgid "Activate for CDN Javascript"
+msgstr "فعال سازی برای جاوااسکریپت CDN"
+
+#: src/Pmpr/Module/Optimization/Asset/Setting.php:442
+msgid "Exclude Javascript"
+msgstr "جاوااسکریپت‌های مستثنی"
+
+#: src/Pmpr/Module/Optimization/Asset/Setting.php:448
+msgid "Style (CSS)"
+msgstr "استایل‌ (CSS)"
+
+#: src/Pmpr/Module/Optimization/Asset/Setting.php:461
+msgid "Activate for CDN Style"
+msgstr "فعال سازی برای استایل CDN"
+
+#: src/Pmpr/Module/Optimization/Asset/Setting.php:466
+msgid "Exclude Style"
+msgstr "استایل‌های مستثنی"
+
+#: src/Pmpr/Module/Optimization/Asset/Setting.php:571
 msgid "This setting only applies to Level 2 pages."
 msgstr "این تنظیم فقط به صفحات سطح ۲ اعمال می‌شود."
 
-#: src/Pmpr/Module/Optimization/Asset/Setting.php:372
+#: src/Pmpr/Module/Optimization/Asset/Setting.php:576
 #, php-format
 msgid "Apply to buy or increase the budget through the %s."
 msgstr "برای خرید یا افزایش بودجه از طریق %s اقدام کنید."
 
-#: src/Pmpr/Module/Optimization/Asset/Setting.php:381
-msgid "Critical Extraction"
-msgstr "استخراج منابع ضروری"
-
-#: src/Pmpr/Module/Optimization/Asset/Setting.php:385
-msgid "Critical CSS"
-msgstr "استایل‌های ضروری"
-
-#: src/Pmpr/Module/Optimization/Asset/Setting.php:389
-msgid "Enable Critical CSS"
-msgstr "استخراج استایل‌های ضروری"
-
-#: src/Pmpr/Module/Optimization/Asset/Setting.php:391
+#: src/Pmpr/Module/Optimization/Asset/Setting.php:584
 msgid "Just for Level 2 Pages"
 msgstr "فقط برای صفحات سطح ۲"
-
-#: src/Pmpr/Module/Optimization/Asset/Setting.php:398
-msgid "Extra CSS Code"
-msgstr "استایل اضافی"
-
-#: src/Pmpr/Module/Optimization/Asset/Setting.php:413
-msgid "Delay Load"
-msgstr "بارگذاری با تاخیر"
-
-#: src/Pmpr/Module/Optimization/Asset/Setting.php:417
-msgid "Style (CSS)"
-msgstr "استایل‌ (CSS)"
-
-#: src/Pmpr/Module/Optimization/Asset/Setting.php:421
-msgid "Load Style with Delay"
-msgstr "بارگذاری استایل با تاخیر"
-
-#: src/Pmpr/Module/Optimization/Asset/Setting.php:423
-msgid "Critical CSS Require!"
-msgstr "نیاز به فعال بودن استخراج استایل‌های ضروری است!"
-
-#: src/Pmpr/Module/Optimization/Asset/Setting.php:424
-msgid "You need to enable critical css too, to get a best result."
-msgstr ""
-
-#: src/Pmpr/Module/Optimization/Asset/Setting.php:433
-msgid "Delay CDN Style"
-msgstr "تاخیر در بارگذاری استایل‌های CDN"
-
-#: src/Pmpr/Module/Optimization/Asset/Setting.php:438
-msgid "Exclude Style"
-msgstr "استایل‌های مستثنی"
-
-#: src/Pmpr/Module/Optimization/Asset/Setting.php:444
-msgid "Javascript"
-msgstr "جاوااسکریپت"
-
-#: src/Pmpr/Module/Optimization/Asset/Setting.php:448
-msgid "Load Javascript with Delay"
-msgstr "بارگذاری جاوااسکریپت با تاخیر"
-
-#: src/Pmpr/Module/Optimization/Asset/Setting.php:457
-msgid "Delay CDN Javascript"
-msgstr "بارگذاری جاوااسکریپت CDN با تاخیر"
-
-#: src/Pmpr/Module/Optimization/Asset/Setting.php:462
-msgid "Exclude Javascript"
-msgstr "جاوااسکریپت‌های مستثنی"
 
 #: src/Pmpr/Module/Optimization/Bypass/Setting.php:45
 msgid "Bypass"
@@ -454,7 +446,7 @@ msgstr ""
 "صفحاتی که در این قسمت انتخاب می شوند، به طور کامل از فرآیند افزایش سرعت کنار "
 "گذاشته می شوند."
 
-#: src/Pmpr/Module/Optimization/Cloudflare/API.php:170
+#: src/Pmpr/Module/Optimization/Cloudflare/API.php:168
 msgid "Please complete cloudflare tab information"
 msgstr "لطفا اطلاعات برگه کلود فلیر را تکمیل کنید"
 
@@ -521,11 +513,11 @@ msgstr "قابلیت کش شد صفحات به موفقیت فعال شد"
 msgid "Page cache disabled successfully"
 msgstr "قابلیت کش شد صفحات به موفقیت غیر فعال شد"
 
-#: src/Pmpr/Module/Optimization/Cloudflare/Cloudflare.php:58
+#: src/Pmpr/Module/Optimization/Cloudflare/Cloudflare.php:69
 msgid "Optimization Cloudflare Path"
 msgstr "مسیر کش کلود فلیر"
 
-#: src/Pmpr/Module/Optimization/Cloudflare/Cloudflare.php:109
+#: src/Pmpr/Module/Optimization/Cloudflare/Cloudflare.php:120
 msgid "Purge Post Cache"
 msgstr "پاک‌سازی کش‌ نوشته"
 
@@ -606,7 +598,7 @@ msgid "Select a Domain Name"
 msgstr "انتخاب یک نام دامنه"
 
 #: src/Pmpr/Module/Optimization/Cloudflare/Setting.php:124
-#: src/Pmpr/Module/Optimization/Origin/Cache/Advanced.php:180
+#: src/Pmpr/Module/Optimization/Origin/Cache/Advanced.php:191
 #: src/Pmpr/Module/Optimization/Origin/Cache/WPCache.php:111
 #: src/Pmpr/Module/Optimization/Origin/Cache/WPCache.php:154
 #: src/Pmpr/Module/Optimization/Origin/Setting.php:31
@@ -760,7 +752,7 @@ msgid "Install Guide"
 msgstr "راهنمای نصب"
 
 #: src/Pmpr/Module/Optimization/Cloudflare/Setting.php:275
-#: src/Pmpr/Module/Optimization/Page/Ajax.php:123
+#: src/Pmpr/Module/Optimization/Page/Ajax.php:152
 #: src/Pmpr/Module/Optimization/Setting.php:171
 msgid "Actions"
 msgstr "عملیات"
@@ -830,40 +822,28 @@ msgstr ""
 msgid "Enable"
 msgstr "فعال"
 
-#: src/Pmpr/Module/Optimization/Container.php:145
+#: src/Pmpr/Module/Optimization/Container.php:124
 msgid "Permission denied"
 msgstr "دسترسی مسدود شده است"
 
-#: src/Pmpr/Module/Optimization/Manipulate/Manipulate.php:285
-msgid "Not Optimized"
-msgstr "بهینه‌ نشده"
-
-#: src/Pmpr/Module/Optimization/Manipulate/Manipulate.php:290
-msgid "Optimized"
-msgstr "بهینه‌ شده"
-
-#: src/Pmpr/Module/Optimization/Manipulate/Manipulate.php:295
-msgid "Not Completely Optimized"
-msgstr "کاملا بهینه نشده"
-
-#: src/Pmpr/Module/Optimization/Optimization.php:79
-msgid "Config Path"
-msgstr "مسیر پیکربندی"
-
-#: src/Pmpr/Module/Optimization/Optimization.php:109
+#: src/Pmpr/Module/Optimization/Optimization.php:37
 msgid "Optimization"
 msgstr "افزایش سرعت"
 
-#: src/Pmpr/Module/Optimization/Optimization.php:180
+#: src/Pmpr/Module/Optimization/Optimization.php:85
+msgid "Config Path"
+msgstr "مسیر پیکربندی"
+
+#: src/Pmpr/Module/Optimization/Optimization.php:170
 #, php-format
 msgid "Optimization config file %s generated in %s"
 msgstr "فایل پیکربندی %s در %s ایجاد شد"
 
-#: src/Pmpr/Module/Optimization/Optimization.php:186
+#: src/Pmpr/Module/Optimization/Optimization.php:176
 msgid "Configuration"
 msgstr "پیکربندی"
 
-#: src/Pmpr/Module/Optimization/Origin/Cache/Advanced.php:136
+#: src/Pmpr/Module/Optimization/Origin/Cache/Advanced.php:147
 #, php-format
 msgid "Optimization Advanced Cache file generated successfully in %s."
 msgstr "فایل Advance-cache در %s با موفقیت ایجاد شد."
@@ -916,49 +896,53 @@ msgstr "خطای سرور"
 msgid "Page is not valid"
 msgstr "صفحه معتبر نیست"
 
-#: src/Pmpr/Module/Optimization/Page/Ajax.php:81
+#: src/Pmpr/Module/Optimization/Page/Ajax.php:86
+msgid "level and permalink is require parameters."
+msgstr ""
+
+#: src/Pmpr/Module/Optimization/Page/Ajax.php:110
 #, php-format
 msgid "Please try again after %s hour"
 msgstr "لطفا بعد %s ساعت دوباره امتحان کنید"
 
-#: src/Pmpr/Module/Optimization/Page/Ajax.php:113
+#: src/Pmpr/Module/Optimization/Page/Ajax.php:142
 msgid "Remove"
 msgstr "حذف"
 
-#: src/Pmpr/Module/Optimization/Page/Ajax.php:121
-#: src/Pmpr/Module/Optimization/Page/Basic/ListTable.php:52
+#: src/Pmpr/Module/Optimization/Page/Ajax.php:150
+#: src/Pmpr/Module/Optimization/Page/Basic/ListTable.php:54
 msgid "Title"
 msgstr "عنوان"
 
-#: src/Pmpr/Module/Optimization/Page/Ajax.php:122
+#: src/Pmpr/Module/Optimization/Page/Ajax.php:151
 #: src/Pmpr/Module/Optimization/Page/Modal/Segment/Rule.php:60
 msgid "Page Type"
 msgstr "نوع صفحه"
 
-#: src/Pmpr/Module/Optimization/Page/Ajax.php:127
+#: src/Pmpr/Module/Optimization/Page/Ajax.php:156
 msgid "No result found to show, please change rules and try again."
 msgstr ""
 "نتیجه‌ای برای نمایش یافت نشد، لطفا قواعد را تغییر داده و دوباره امتحان کنید."
 
-#: src/Pmpr/Module/Optimization/Page/Ajax.php:187
+#: src/Pmpr/Module/Optimization/Page/Ajax.php:216
 msgid "Sorry, your requested process terminated, because you are out of budget."
 msgstr "با عرض پوزش، درخواست شما به دلیل کافی نبودن بودجه انجام نشد."
 
-#: src/Pmpr/Module/Optimization/Page/Ajax.php:190
+#: src/Pmpr/Module/Optimization/Page/Ajax.php:219
 #, php-format
 msgid "%s of your requested pages added, the remains are not allow to add."
 msgstr "%s صفحه از صفحات درخواستی شما اضافه شد."
 
-#: src/Pmpr/Module/Optimization/Page/Ajax.php:206
+#: src/Pmpr/Module/Optimization/Page/Ajax.php:235
 #: src/Pmpr/Module/Optimization/Page/Asset.php:80
 msgid "Page list is empty, please redefine pages."
 msgstr ""
 
-#: src/Pmpr/Module/Optimization/Page/Ajax.php:212
+#: src/Pmpr/Module/Optimization/Page/Ajax.php:241
 msgid "Pages added successfully."
 msgstr "صفحات با موفقیت اضافه شدند."
 
-#: src/Pmpr/Module/Optimization/Page/Ajax.php:236
+#: src/Pmpr/Module/Optimization/Page/Ajax.php:265
 msgid ""
 "Sorry you are out of budget, can not change this page status to active. "
 "charge your license from Settings > Dashboard > License"
@@ -966,17 +950,17 @@ msgstr ""
 "متاسفانه بودجه شما تمام شده است، نمی‌توانید وضعیت این صفحه را به فعال تغییر "
 "دهید. از قسمت تنظیمات > داشبورد > لایسنس حساب خود را شارژ کنید"
 
-#: src/Pmpr/Module/Optimization/Page/Ajax.php:247
+#: src/Pmpr/Module/Optimization/Page/Ajax.php:276
 msgid "Require parameter not found, reload page and try again."
 msgstr ""
-"پارامتر‌های ضروری یافت نشدند، لطفا صفحه را بارگذاری مجدد کنید و دوباره امتحان "
+"پارامتر‌های ضروری یافت نشدند، لطفا صفحه را بارگیری مجدد کنید و دوباره امتحان "
 "کنید."
 
-#: src/Pmpr/Module/Optimization/Page/Ajax.php:255
+#: src/Pmpr/Module/Optimization/Page/Ajax.php:284
 msgid "missing parameter, request is not valid."
 msgstr "پارامتر ضروری وجود ندارد، درخواست شما معتبر نیست."
 
-#: src/Pmpr/Module/Optimization/Page/Ajax.php:352
+#: src/Pmpr/Module/Optimization/Page/Ajax.php:381
 msgid "Rules is empty"
 msgstr "قواعد خالی است"
 
@@ -1054,26 +1038,26 @@ msgstr ""
 "یک قاعده تکراری یافت شده، لطفا مقادیر را با هم ترکیب کنید یا قاعده تکراری را "
 "حذف کنید."
 
-#: src/Pmpr/Module/Optimization/Page/Basic/ListTable.php:53
-#: src/Pmpr/Module/Optimization/Page/Model.php:615
+#: src/Pmpr/Module/Optimization/Page/Basic/ListTable.php:55
+#: src/Pmpr/Module/Optimization/Page/Model.php:610
 msgid "Opt Status"
 msgstr "وضعیت بهینگی"
 
-#: src/Pmpr/Module/Optimization/Page/Basic/ListTable.php:76
+#: src/Pmpr/Module/Optimization/Page/Basic/ListTable.php:78
 #: src/Pmpr/Module/Optimization/Setting.php:174
 msgid "Purge Cache"
 msgstr "پاک‌سازی کش‌"
 
-#: src/Pmpr/Module/Optimization/Page/Basic/ListTable.php:83
-#: src/Pmpr/Module/Optimization/Page/Model.php:778
+#: src/Pmpr/Module/Optimization/Page/Basic/ListTable.php:85
+#: src/Pmpr/Module/Optimization/Page/Model.php:821
 msgid "Are you sure about reOptimize this page?"
 msgstr "آیا در مورد بهینه سازی مجدد این صفحه مطمئن هستید؟"
 
-#: src/Pmpr/Module/Optimization/Page/Basic/Page.php:22
+#: src/Pmpr/Module/Optimization/Page/Basic/Page.php:25
 msgid "Level 1 pages"
 msgstr "صفحات سطح ۱"
 
-#: src/Pmpr/Module/Optimization/Page/Basic/Page.php:41
+#: src/Pmpr/Module/Optimization/Page/Basic/Page.php:51
 #, php-format
 msgid ""
 "%s optimization apply automatically to all pages without the need for a "
@@ -1081,8 +1065,7 @@ msgid ""
 msgstr ""
 "افزایش سرعت %s بدون نیاز به بودجه و به طور خودکار به همه صفحات اعمال می‌شود."
 
-#: src/Pmpr/Module/Optimization/Page/Basic/Page.php:42
-#: src/Pmpr/Module/Optimization/Page/Model.php:570
+#: src/Pmpr/Module/Optimization/Page/Basic/Page.php:52
 msgid "Level 1"
 msgstr "سطح ۱"
 
@@ -1199,70 +1182,72 @@ msgstr "افزایش بودجه"
 msgid "Update Numbers"
 msgstr "به روز رسانی اعداد"
 
-#: src/Pmpr/Module/Optimization/Page/Model.php:52
-#: src/Pmpr/Module/Optimization/Page/Model.php:56
+#: src/Pmpr/Module/Optimization/Page/Model.php:50
+#: src/Pmpr/Module/Optimization/Page/Model.php:54
 msgid "Level 2 pages"
 msgstr "صفحات سطح ۲"
 
-#: src/Pmpr/Module/Optimization/Page/Model.php:53
+#: src/Pmpr/Module/Optimization/Page/Model.php:51
 msgid "Level 2 page"
 msgstr "صفحه سطح ۲"
 
-#: src/Pmpr/Module/Optimization/Page/Model.php:71
+#: src/Pmpr/Module/Optimization/Page/Model.php:69
 msgid "Page"
 msgstr "صفحه"
 
-#: src/Pmpr/Module/Optimization/Page/Model.php:76
+#: src/Pmpr/Module/Optimization/Page/Model.php:74
 msgid "Type"
 msgstr "نوع"
+
+#: src/Pmpr/Module/Optimization/Page/Model.php:78
+#: src/Pmpr/Module/Optimization/Page/Model.php:79
+#, php-format
+msgid "Level %s"
+msgstr "سطح %s"
 
 #: src/Pmpr/Module/Optimization/Page/Model.php:80
 msgid "Level"
 msgstr "سطح"
 
 #: src/Pmpr/Module/Optimization/Page/Model.php:84
+msgid "Active"
+msgstr "فعال"
+
+#: src/Pmpr/Module/Optimization/Page/Model.php:85
+msgid "Inactive"
+msgstr "غیر فعال‌‌"
+
+#: src/Pmpr/Module/Optimization/Page/Model.php:86
+msgid "Ignored"
+msgstr "رها شده"
+
+#: src/Pmpr/Module/Optimization/Page/Model.php:87
 msgid "Status"
 msgstr "وضعیت"
 
-#: src/Pmpr/Module/Optimization/Page/Model.php:231
+#: src/Pmpr/Module/Optimization/Page/Model.php:268
 #, php-format
 msgid "%s of %s pages status changed to %s successfully."
 msgstr "وضعیت %s صفحه از %s صفحه با موفقیت به %s تغییر کرد."
 
-#: src/Pmpr/Module/Optimization/Page/Model.php:427
-#: src/Pmpr/Module/Optimization/Page/Model.php:718
+#: src/Pmpr/Module/Optimization/Page/Model.php:435
+#: src/Pmpr/Module/Optimization/Page/Model.php:760
 msgid "Inactive Page"
 msgstr "غیر فعال‌سازی"
 
-#: src/Pmpr/Module/Optimization/Page/Model.php:428
-#: src/Pmpr/Module/Optimization/Page/Model.php:432
-#: src/Pmpr/Module/Optimization/Page/Model.php:719
+#: src/Pmpr/Module/Optimization/Page/Model.php:436
+#: src/Pmpr/Module/Optimization/Page/Model.php:440
+#: src/Pmpr/Module/Optimization/Page/Model.php:761
 msgid "Ignore Page"
 msgstr "رهاسازی"
 
-#: src/Pmpr/Module/Optimization/Page/Model.php:431
-#: src/Pmpr/Module/Optimization/Page/Model.php:435
-#: src/Pmpr/Module/Optimization/Page/Model.php:717
+#: src/Pmpr/Module/Optimization/Page/Model.php:439
+#: src/Pmpr/Module/Optimization/Page/Model.php:443
+#: src/Pmpr/Module/Optimization/Page/Model.php:759
 msgid "Active Page"
 msgstr "فعال‌سازی"
 
-#: src/Pmpr/Module/Optimization/Page/Model.php:554
-msgid "Active"
-msgstr "فعال"
-
-#: src/Pmpr/Module/Optimization/Page/Model.php:555
-msgid "Inactive"
-msgstr "غیر فعال‌‌"
-
-#: src/Pmpr/Module/Optimization/Page/Model.php:556
-msgid "Ignored"
-msgstr "رها شده"
-
-#: src/Pmpr/Module/Optimization/Page/Model.php:571
-msgid "Level 2"
-msgstr "سطح ۲"
-
-#: src/Pmpr/Module/Optimization/Page/Model.php:585
+#: src/Pmpr/Module/Optimization/Page/Model.php:580
 msgid ""
 "Removed page logs history completely removed from database. no change on page "
 "content."
@@ -1270,33 +1255,33 @@ msgstr ""
 "تاریخچه افزایش سرعت صفحه حذف شده به طور کامل از پایگاه داده پاک خواهد شد. "
 "محتوای صفحه بدون تغییر باقی خواهند ماند."
 
-#: src/Pmpr/Module/Optimization/Page/Model.php:589
-#: src/Pmpr/Module/Optimization/Page/Model.php:592
+#: src/Pmpr/Module/Optimization/Page/Model.php:584
+#: src/Pmpr/Module/Optimization/Page/Model.php:587
 msgid "Remove Page"
 msgstr "حذف صفحه"
 
-#: src/Pmpr/Module/Optimization/Page/Model.php:593
+#: src/Pmpr/Module/Optimization/Page/Model.php:588
 msgid "Are you sure about remove this page?"
 msgstr "آیا در مورد حذف این صفحه مطمئن هستید؟"
 
-#: src/Pmpr/Module/Optimization/Page/Model.php:653
+#: src/Pmpr/Module/Optimization/Page/Model.php:727
 #, php-format
 msgid "Page status changed to %s successfully."
 msgstr "وضعیت صفحه با موفقیت به وضعیت %s تغییر کرد."
 
-#: src/Pmpr/Module/Optimization/Page/Model.php:657
+#: src/Pmpr/Module/Optimization/Page/Model.php:733
 msgid "change page status failed."
 msgstr "تغییر وضعیت صفحه با شکست رو به رو شد."
 
-#: src/Pmpr/Module/Optimization/Page/Model.php:709
+#: src/Pmpr/Module/Optimization/Page/Model.php:753
 msgid "Optimization process runs on pages with active status."
 msgstr "فرآیند افزایش سرعت بر روی صفحات فعال، اجرا می‌شود."
 
-#: src/Pmpr/Module/Optimization/Page/Model.php:710
+#: src/Pmpr/Module/Optimization/Page/Model.php:754
 msgid "Optimization process stops running on pages with inactive status."
 msgstr "فرآیند افزایش سرعت بر روی صفحات غیر فعال، موقتاً متوقف می‌شود."
 
-#: src/Pmpr/Module/Optimization/Page/Model.php:711
+#: src/Pmpr/Module/Optimization/Page/Model.php:755
 msgid ""
 "Optimization process permanently stops on pages with ignored status, but you "
 "may see previous logs."
@@ -1304,49 +1289,35 @@ msgstr ""
 "فرآیند افزایش سرعت بر روی صفحات رها شده، متوقف شده و بودجه آن برای استفاده "
 "برای صفحات دیگر آزاد می‌شود."
 
-#: src/Pmpr/Module/Optimization/Page/Model.php:725
+#: src/Pmpr/Module/Optimization/Page/Model.php:767
 msgid "Ignore"
 msgstr "رهاسازی"
 
-#: src/Pmpr/Module/Optimization/Page/Model.php:732
+#: src/Pmpr/Module/Optimization/Page/Model.php:774
 #, php-format
 msgid "Are you sure about change status of this page to %s?"
 msgstr "آیا در مورد تغییر وضعیت این صفحه به %s مطمئن هستید؟"
 
-#: src/Pmpr/Module/Optimization/Page/Model.php:736
+#: src/Pmpr/Module/Optimization/Page/Model.php:781
 msgid "Page cache will be purged upon this change."
 msgstr "با اعمال این تغییر، کش صفحه پاک‌سازی خواهد شد."
 
-#: src/Pmpr/Module/Optimization/Page/Model.php:752
+#: src/Pmpr/Module/Optimization/Page/Model.php:796
 #, php-format
 msgid "Change Page Status to %s"
 msgstr "تغییر وضعیت صفحه به %s"
 
-#: src/Pmpr/Module/Optimization/Page/Model.php:758
+#: src/Pmpr/Module/Optimization/Page/Model.php:802
 msgid "Change Status"
 msgstr "تغییر وضعیت"
 
-#: src/Pmpr/Module/Optimization/Page/Model.php:770
+#: src/Pmpr/Module/Optimization/Page/Model.php:814
 msgid "reOptimize"
 msgstr "افزایش سرعت مجدد"
 
-#: src/Pmpr/Module/Optimization/Preloader/API/Remote.php:41
+#: src/Pmpr/Module/Optimization/Preloader/Online/Remote.php:40
 msgid "Permalinks list is empty"
 msgstr "لیست پیوند‌ها خالی است"
-
-#: src/Pmpr/Module/Optimization/Preloader/Preloader.php:179
-msgid "Nothing to preload"
-msgstr "چیزی برای پیش‌ بارگیری وجود ندارد"
-
-#: src/Pmpr/Module/Optimization/Preloader/Preloader.php:224
-msgid ""
-"Unable to start the preloader. maybe your budget expired, please increase "
-"your budget or update your pages."
-msgstr ""
-
-#: src/Pmpr/Module/Optimization/Preloader/Preloader.php:229
-msgid "Unable to start the preloader. urls is empty."
-msgstr "قادر به شروع پیش پردازش نیستیم، لیست لینک‌ها خالی است."
 
 #: src/Pmpr/Module/Optimization/Purge/Ajax.php:44
 msgid "require parameter is missing."
@@ -1505,7 +1476,50 @@ msgstr "حذف این %s"
 
 #: src/Pmpr/Module/Optimization/Theme.php:71
 msgid "Loading..."
-msgstr "در حال بارگذاری..."
+msgstr "در حال بارگیری..."
+
+#: src/Pmpr/Module/Optimization/Traits/CommonTrait.php:131
+msgid "Not Optimized"
+msgstr "بهینه‌ نشده"
+
+#: src/Pmpr/Module/Optimization/Traits/CommonTrait.php:136
+msgid "Optimization Running"
+msgstr "افزایش سرعت در حال اجراست"
+
+#: src/Pmpr/Module/Optimization/Traits/CommonTrait.php:142
+msgid "Optimized"
+msgstr "بهینه‌ شده"
+
+#: src/Pmpr/Module/Optimization/Traits/CommonTrait.php:147
+msgid "Not Completely Optimized"
+msgstr "کاملا بهینه نشده"
+
+#~ msgid "Load Javascript with Delay"
+#~ msgstr "بارگیری آسی"
+
+#~ msgid "Load Style with Delay"
+#~ msgstr "بارگیری استایل با تاخیر"
+
+#~ msgid "Delay CDN Style"
+#~ msgstr "بارگیری آسینکرون استایل‌های CDN"
+
+#~ msgid "Enable Lazyload"
+#~ msgstr "بارگذاری با تاخیر"
+
+#~ msgid "This could break things!"
+#~ msgstr "این گزینه می‌تواند بعضی چیز‌ها را دچار مشکل کند!"
+
+#~ msgid "Critical CSS Require!"
+#~ msgstr "نیاز به فعال بودن استخراج استایل‌های ضروری است!"
+
+#~ msgid "Level 2"
+#~ msgstr "سطح ۲"
+
+#~ msgid "Nothing to preload"
+#~ msgstr "چیزی برای پیش‌ بارگیری وجود ندارد"
+
+#~ msgid "Unable to start the preloader. urls is empty."
+#~ msgstr "قادر به شروع پیش پردازش نیستیم، لیست لینک‌ها خالی است."
 
 #~ msgid "Optimization Critical Path"
 #~ msgstr "مسیر فایل‌های بحرانی افزایش سرعت"
