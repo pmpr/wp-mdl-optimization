@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PMPR Optimization\n"
-"POT-Creation-Date: 2022-07-13 15:31+0430\n"
-"PO-Revision-Date: 2022-07-13 15:34+0430\n"
+"POT-Creation-Date: 2022-07-13 23:28+0430\n"
+"PO-Revision-Date: 2022-07-13 23:31+0430\n"
 "Last-Translator: Farshad Asgharzade <Farshad_asgharzade@hotmail.com>\n"
 "Language-Team: \n"
 "Language: fa_IR\n"
@@ -22,7 +22,7 @@ msgstr ""
 "X-Poedit-SearchPathExcluded-0: lib\n"
 "X-Poedit-SearchPathExcluded-1: *.js\n"
 
-#: src/Pmpr/Module/Optimization/Asset/CDN/JsDeliver.php:401
+#: src/Pmpr/Module/Optimization/Asset/CDN/JsDeliver.php:416
 msgid "Every Fifteen Minutes"
 msgstr "هر پانزده دقیقه"
 
@@ -365,16 +365,16 @@ msgstr "فعال سازی برای استایل CDN"
 msgid "Exclude Style"
 msgstr "استایل‌های مستثنی"
 
-#: src/Pmpr/Module/Optimization/Asset/Setting.php:571
+#: src/Pmpr/Module/Optimization/Asset/Setting.php:572
 msgid "This setting only applies to Level 2 pages."
 msgstr "این تنظیم فقط به صفحات سطح ۲ اعمال می‌شود."
 
-#: src/Pmpr/Module/Optimization/Asset/Setting.php:576
+#: src/Pmpr/Module/Optimization/Asset/Setting.php:577
 #, php-format
 msgid "Apply to buy or increase the budget through the %s."
 msgstr "برای خرید یا افزایش بودجه از طریق %s اقدام کنید."
 
-#: src/Pmpr/Module/Optimization/Asset/Setting.php:584
+#: src/Pmpr/Module/Optimization/Asset/Setting.php:585
 msgid "Just for Level 2 Pages"
 msgstr "فقط برای صفحات سطح ۲"
 
@@ -752,8 +752,7 @@ msgid "Install Guide"
 msgstr "راهنمای نصب"
 
 #: src/Pmpr/Module/Optimization/Cloudflare/Setting.php:275
-#: src/Pmpr/Module/Optimization/Page/Ajax.php:152
-#: src/Pmpr/Module/Optimization/Setting.php:171
+#: src/Pmpr/Module/Optimization/Page/Ajax.php:150
 msgid "Actions"
 msgstr "عملیات"
 
@@ -896,53 +895,53 @@ msgstr "خطای سرور"
 msgid "Page is not valid"
 msgstr "صفحه معتبر نیست"
 
-#: src/Pmpr/Module/Optimization/Page/Ajax.php:86
+#: src/Pmpr/Module/Optimization/Page/Ajax.php:84
 msgid "level and permalink is require parameters."
 msgstr ""
 
-#: src/Pmpr/Module/Optimization/Page/Ajax.php:110
+#: src/Pmpr/Module/Optimization/Page/Ajax.php:108
 #, php-format
 msgid "Please try again after %s hour"
 msgstr "لطفا بعد %s ساعت دوباره امتحان کنید"
 
-#: src/Pmpr/Module/Optimization/Page/Ajax.php:142
+#: src/Pmpr/Module/Optimization/Page/Ajax.php:140
 msgid "Remove"
 msgstr "حذف"
 
-#: src/Pmpr/Module/Optimization/Page/Ajax.php:150
+#: src/Pmpr/Module/Optimization/Page/Ajax.php:148
 #: src/Pmpr/Module/Optimization/Page/Basic/ListTable.php:54
 msgid "Title"
 msgstr "عنوان"
 
-#: src/Pmpr/Module/Optimization/Page/Ajax.php:151
+#: src/Pmpr/Module/Optimization/Page/Ajax.php:149
 #: src/Pmpr/Module/Optimization/Page/Modal/Segment/Rule.php:60
 msgid "Page Type"
 msgstr "نوع صفحه"
 
-#: src/Pmpr/Module/Optimization/Page/Ajax.php:156
+#: src/Pmpr/Module/Optimization/Page/Ajax.php:154
 msgid "No result found to show, please change rules and try again."
 msgstr ""
 "نتیجه‌ای برای نمایش یافت نشد، لطفا قواعد را تغییر داده و دوباره امتحان کنید."
 
-#: src/Pmpr/Module/Optimization/Page/Ajax.php:216
+#: src/Pmpr/Module/Optimization/Page/Ajax.php:214
 msgid "Sorry, your requested process terminated, because you are out of budget."
 msgstr "با عرض پوزش، درخواست شما به دلیل کافی نبودن بودجه انجام نشد."
 
-#: src/Pmpr/Module/Optimization/Page/Ajax.php:219
+#: src/Pmpr/Module/Optimization/Page/Ajax.php:217
 #, php-format
 msgid "%s of your requested pages added, the remains are not allow to add."
 msgstr "%s صفحه از صفحات درخواستی شما اضافه شد."
 
-#: src/Pmpr/Module/Optimization/Page/Ajax.php:235
+#: src/Pmpr/Module/Optimization/Page/Ajax.php:233
 #: src/Pmpr/Module/Optimization/Page/Asset.php:80
 msgid "Page list is empty, please redefine pages."
 msgstr ""
 
-#: src/Pmpr/Module/Optimization/Page/Ajax.php:241
+#: src/Pmpr/Module/Optimization/Page/Ajax.php:239
 msgid "Pages added successfully."
 msgstr "صفحات با موفقیت اضافه شدند."
 
-#: src/Pmpr/Module/Optimization/Page/Ajax.php:265
+#: src/Pmpr/Module/Optimization/Page/Ajax.php:263
 msgid ""
 "Sorry you are out of budget, can not change this page status to active. "
 "charge your license from Settings > Dashboard > License"
@@ -950,17 +949,17 @@ msgstr ""
 "متاسفانه بودجه شما تمام شده است، نمی‌توانید وضعیت این صفحه را به فعال تغییر "
 "دهید. از قسمت تنظیمات > داشبورد > لایسنس حساب خود را شارژ کنید"
 
-#: src/Pmpr/Module/Optimization/Page/Ajax.php:276
+#: src/Pmpr/Module/Optimization/Page/Ajax.php:274
 msgid "Require parameter not found, reload page and try again."
 msgstr ""
 "پارامتر‌های ضروری یافت نشدند، لطفا صفحه را بارگیری مجدد کنید و دوباره امتحان "
 "کنید."
 
-#: src/Pmpr/Module/Optimization/Page/Ajax.php:284
+#: src/Pmpr/Module/Optimization/Page/Ajax.php:282
 msgid "missing parameter, request is not valid."
 msgstr "پارامتر ضروری وجود ندارد، درخواست شما معتبر نیست."
 
-#: src/Pmpr/Module/Optimization/Page/Ajax.php:381
+#: src/Pmpr/Module/Optimization/Page/Ajax.php:379
 msgid "Rules is empty"
 msgstr "قواعد خالی است"
 
@@ -1044,9 +1043,9 @@ msgid "Opt Status"
 msgstr "وضعیت بهینگی"
 
 #: src/Pmpr/Module/Optimization/Page/Basic/ListTable.php:78
-#: src/Pmpr/Module/Optimization/Setting.php:174
-msgid "Purge Cache"
-msgstr "پاک‌سازی کش‌"
+#: src/Pmpr/Module/Optimization/Page/Model.php:814
+msgid "reOptimize"
+msgstr "افزایش سرعت مجدد"
 
 #: src/Pmpr/Module/Optimization/Page/Basic/ListTable.php:85
 #: src/Pmpr/Module/Optimization/Page/Model.php:821
@@ -1311,30 +1310,28 @@ msgstr "تغییر وضعیت صفحه به %s"
 msgid "Change Status"
 msgstr "تغییر وضعیت"
 
-#: src/Pmpr/Module/Optimization/Page/Model.php:814
-msgid "reOptimize"
-msgstr "افزایش سرعت مجدد"
-
 #: src/Pmpr/Module/Optimization/Preloader/Online/Remote.php:40
 msgid "Permalinks list is empty"
 msgstr "لیست پیوند‌ها خالی است"
 
-#: src/Pmpr/Module/Optimization/Purge/Ajax.php:44
-msgid "require parameter is missing."
-msgstr "پارامتر ضروری وجود ندارد."
-
-#: src/Pmpr/Module/Optimization/Purge/Ajax.php:51
+#: src/Pmpr/Module/Optimization/Purge/Ajax.php:38
+#: src/Pmpr/Module/Optimization/Purge/Ajax.php:74
 msgid ""
 "Cache purged successfully! It may take up to 30 seconds for the cache to be "
 "permanently cleaned."
 msgstr ""
 
-#: src/Pmpr/Module/Optimization/Purge/Ajax.php:54
+#: src/Pmpr/Module/Optimization/Purge/Ajax.php:41
+#: src/Pmpr/Module/Optimization/Purge/Ajax.php:77
 msgid ""
 "An error occurred while cleaning the cache. Please check log file for more "
 "details."
 msgstr ""
 "مشکلی در فرآیند پاک کردن کش به وجود آمده است، لطفا فایل لاگ را بررسی کنید."
+
+#: src/Pmpr/Module/Optimization/Purge/Ajax.php:67
+msgid "require parameter is missing."
+msgstr "پارامتر ضروری وجود ندارد."
 
 #: src/Pmpr/Module/Optimization/Purge/Common.php:59
 msgid "Can not find info by page id"
@@ -1375,7 +1372,6 @@ msgid "Used for preload and purge cronjob."
 msgstr "برای کرون جاب مربوط به پیش بارگیری و پاک‌سازی استفاده خواهد شد."
 
 #: src/Pmpr/Module/Optimization/Setting.php:78
-#: src/Pmpr/Module/Optimization/Setting.php:186
 msgid "Purge"
 msgstr "پاک‌سازی"
 
@@ -1453,21 +1449,33 @@ msgstr "پاک‌سازی کش برای فروش زمانبندی شده"
 msgid "Automatically purge cache for scheduled sales."
 msgstr "کش به صورت خودکار، برای فروش‌های زمانبندی شده پاک‌سازی می شود. ."
 
-#: src/Pmpr/Module/Optimization/Setting.php:150
+#: src/Pmpr/Module/Optimization/Setting.php:151
 msgid "Top Speed"
 msgstr "حداکثر سرعت"
 
-#: src/Pmpr/Module/Optimization/Setting.php:157
+#: src/Pmpr/Module/Optimization/Setting.php:156
 msgid "Fail Safe"
 msgstr "حداکثر پایداری"
 
-#: src/Pmpr/Module/Optimization/Setting.php:177
-msgid "Purge all cache include html and asset and cloudflare cache."
-msgstr "پاک‌سازی کش کلود فلیر، برای تمامی صفحات و منابع استاتیکی."
+#: src/Pmpr/Module/Optimization/Setting.php:168
+msgid "Quick Actions"
+msgstr "عملیات سریع"
 
-#: src/Pmpr/Module/Optimization/Setting.php:181
-msgid "Are you sure about purge all caches?"
-msgstr "آیا در مورد پاک‌سازی همه کش مطمئن هستید؟"
+#: src/Pmpr/Module/Optimization/Setting.php:171
+msgid "Start Preload"
+msgstr "شروع پیش بارگیری"
+
+#: src/Pmpr/Module/Optimization/Setting.php:174
+msgid "Start preloading for not optimized permalinks."
+msgstr "راه‌اندازی پیش بارگیری برای پیوند‌هایی که بهینه نشده‌اند."
+
+#: src/Pmpr/Module/Optimization/Setting.php:178
+msgid "It's take some time, are you sure about start preloading?"
+msgstr "این فرآیند کمی طول خواهد کشید، آیا از شروع پیش بارگیری مطمئن هستید؟"
+
+#: src/Pmpr/Module/Optimization/Setting.php:183
+msgid "Start"
+msgstr "شروع"
 
 #: src/Pmpr/Module/Optimization/Temp.php:357
 #, php-format
@@ -1493,6 +1501,15 @@ msgstr "بهینه‌ شده"
 #: src/Pmpr/Module/Optimization/Traits/CommonTrait.php:147
 msgid "Not Completely Optimized"
 msgstr "کاملا بهینه نشده"
+
+#~ msgid "Purge Cache"
+#~ msgstr "پاک‌سازی کش‌"
+
+#~ msgid "Purge all cache include html and asset and cloudflare cache."
+#~ msgstr "پاک‌سازی کش کلود فلیر، برای تمامی صفحات و منابع استاتیکی."
+
+#~ msgid "Are you sure about purge all caches?"
+#~ msgstr "آیا در مورد پاک‌سازی همه کش مطمئن هستید؟"
 
 #~ msgid "Load Javascript with Delay"
 #~ msgstr "بارگیری آسی"
@@ -1697,18 +1714,12 @@ msgstr "کاملا بهینه نشده"
 #~ "بهینه سازی در حال اجراست: %s پردازش موفق و %s پردازش نا موفق از %s صفحه. "
 #~ "(برای دیدن پیشرفت صفحه را رفرش کنید)"
 
-#~ msgid "Start Preloader"
-#~ msgstr "شروع پیش بارگیری"
-
 #~ msgid ""
 #~ "Start preloading the pages of your website to speed up their inclusion."
 #~ msgstr "شروع پیش بارگیری صفحات وب‌سایت شما به منظور تسریع بهینه‌ سازی."
 
 #~ msgid "Preloading can take some time, are you continue?"
 #~ msgstr "عملیات پیش‌ بارگیری کمی طول خواهد کشید، ادامه می‌دهید؟"
-
-#~ msgid "Start"
-#~ msgstr "شروع"
 
 #~ msgid "Manually Unlock Preloader"
 #~ msgstr "توقف پیش بارگیری"

@@ -1,0 +1,7 @@
+<?php
+/*   _______________________________________
+    |  Obfuscated by PMPR - Php Obfuscator  |
+    |             62cf1b954785e             |
+    |_______________________________________|
+*/
+ namespace Pmpr\Module\Optimization\Preloader; use Exception; use Pmpr\Module\Optimization\Preloader\Offline\Offline; use Pmpr\Module\Optimization\Preloader\Online\Online; class Ajax extends Common { const qoowaucoocioysem = self::wowuwuigyoceikas . "\137\x73\164\x61\x72\x74\x5f\x70\x72\x65\x6c\157\141\x64"; const myikkigscysoykgy = ["\163\x74\141\162\x74" => self::qoowaucoocioysem]; public function wigskegsqequoeks() { $this->koaegcswmcqsiykq(self::qoowaucoocioysem, [$this, "\163\x74\141\x72\x74"]); } public function start() { $occymigcemkqucuw = false; if (!$this->miueaekaaugaccmg($uamcoiueqaamsqma)) { goto geugsymgsiuuqccg; } try { Online::symcgieuakksimmu()->owacqyiaemgywyuy(); Offline::symcgieuakksimmu()->owacqyiaemgywyuy(); $uamcoiueqaamsqma = __("\x50\x72\x65\154\x6f\141\x64\151\156\147\40\x73\x74\141\162\x74\x20\146\157\x72\x20\x6e\x6f\164\40\157\x70\164\x69\155\x69\x7a\x65\x64\40\x70\145\x72\x6d\141\154\x69\156\x6b\163\54\x20\151\x74\47\x73\40\x74\x61\153\x65\40\x73\x6f\155\x65\40\164\x69\x6d\145\56"); $occymigcemkqucuw = true; } catch (Exception $wgaoewqkwgomoaai) { $this->uiagwusgwcassqua($this->kyacickkomkioeyu($wgaoewqkwgomoaai)); } geugsymgsiuuqccg: $this->uaggqsoeugksgooc($occymigcemkqucuw, $uamcoiueqaamsqma); } }
