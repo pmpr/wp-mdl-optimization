@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PMPR Optimization\n"
-"POT-Creation-Date: 2022-07-13 23:28+0430\n"
-"PO-Revision-Date: 2022-07-13 23:31+0430\n"
+"POT-Creation-Date: 2022-07-16 10:20+0430\n"
+"PO-Revision-Date: 2022-07-16 10:21+0430\n"
 "Last-Translator: Farshad Asgharzade <Farshad_asgharzade@hotmail.com>\n"
 "Language-Team: \n"
 "Language: fa_IR\n"
@@ -829,16 +829,16 @@ msgstr "دسترسی مسدود شده است"
 msgid "Optimization"
 msgstr "افزایش سرعت"
 
-#: src/Pmpr/Module/Optimization/Optimization.php:85
+#: src/Pmpr/Module/Optimization/Optimization.php:90
 msgid "Config Path"
 msgstr "مسیر پیکربندی"
 
-#: src/Pmpr/Module/Optimization/Optimization.php:170
+#: src/Pmpr/Module/Optimization/Optimization.php:184
 #, php-format
 msgid "Optimization config file %s generated in %s"
 msgstr "فایل پیکربندی %s در %s ایجاد شد"
 
-#: src/Pmpr/Module/Optimization/Optimization.php:176
+#: src/Pmpr/Module/Optimization/Optimization.php:190
 msgid "Configuration"
 msgstr "پیکربندی"
 
@@ -909,7 +909,7 @@ msgid "Remove"
 msgstr "حذف"
 
 #: src/Pmpr/Module/Optimization/Page/Ajax.php:148
-#: src/Pmpr/Module/Optimization/Page/Basic/ListTable.php:54
+#: src/Pmpr/Module/Optimization/Page/Basic/ListTable.php:101
 msgid "Title"
 msgstr "عنوان"
 
@@ -923,25 +923,25 @@ msgid "No result found to show, please change rules and try again."
 msgstr ""
 "نتیجه‌ای برای نمایش یافت نشد، لطفا قواعد را تغییر داده و دوباره امتحان کنید."
 
-#: src/Pmpr/Module/Optimization/Page/Ajax.php:214
+#: src/Pmpr/Module/Optimization/Page/Ajax.php:216
 msgid "Sorry, your requested process terminated, because you are out of budget."
 msgstr "با عرض پوزش، درخواست شما به دلیل کافی نبودن بودجه انجام نشد."
 
-#: src/Pmpr/Module/Optimization/Page/Ajax.php:217
+#: src/Pmpr/Module/Optimization/Page/Ajax.php:219
 #, php-format
 msgid "%s of your requested pages added, the remains are not allow to add."
 msgstr "%s صفحه از صفحات درخواستی شما اضافه شد."
 
-#: src/Pmpr/Module/Optimization/Page/Ajax.php:233
+#: src/Pmpr/Module/Optimization/Page/Ajax.php:239
 #: src/Pmpr/Module/Optimization/Page/Asset.php:80
 msgid "Page list is empty, please redefine pages."
 msgstr ""
 
-#: src/Pmpr/Module/Optimization/Page/Ajax.php:239
+#: src/Pmpr/Module/Optimization/Page/Ajax.php:245
 msgid "Pages added successfully."
 msgstr "صفحات با موفقیت اضافه شدند."
 
-#: src/Pmpr/Module/Optimization/Page/Ajax.php:263
+#: src/Pmpr/Module/Optimization/Page/Ajax.php:269
 msgid ""
 "Sorry you are out of budget, can not change this page status to active. "
 "charge your license from Settings > Dashboard > License"
@@ -949,17 +949,17 @@ msgstr ""
 "متاسفانه بودجه شما تمام شده است، نمی‌توانید وضعیت این صفحه را به فعال تغییر "
 "دهید. از قسمت تنظیمات > داشبورد > لایسنس حساب خود را شارژ کنید"
 
-#: src/Pmpr/Module/Optimization/Page/Ajax.php:274
+#: src/Pmpr/Module/Optimization/Page/Ajax.php:280
 msgid "Require parameter not found, reload page and try again."
 msgstr ""
 "پارامتر‌های ضروری یافت نشدند، لطفا صفحه را بارگیری مجدد کنید و دوباره امتحان "
 "کنید."
 
-#: src/Pmpr/Module/Optimization/Page/Ajax.php:282
+#: src/Pmpr/Module/Optimization/Page/Ajax.php:288
 msgid "missing parameter, request is not valid."
 msgstr "پارامتر ضروری وجود ندارد، درخواست شما معتبر نیست."
 
-#: src/Pmpr/Module/Optimization/Page/Ajax.php:379
+#: src/Pmpr/Module/Optimization/Page/Ajax.php:385
 msgid "Rules is empty"
 msgstr "قواعد خالی است"
 
@@ -1037,20 +1037,65 @@ msgstr ""
 "یک قاعده تکراری یافت شده، لطفا مقادیر را با هم ترکیب کنید یا قاعده تکراری را "
 "حذف کنید."
 
-#: src/Pmpr/Module/Optimization/Page/Basic/ListTable.php:55
-#: src/Pmpr/Module/Optimization/Page/Model.php:610
-msgid "Opt Status"
-msgstr "وضعیت بهینگی"
-
-#: src/Pmpr/Module/Optimization/Page/Basic/ListTable.php:78
+#: src/Pmpr/Module/Optimization/Page/Basic/ListTable.php:67
 #: src/Pmpr/Module/Optimization/Page/Model.php:814
 msgid "reOptimize"
 msgstr "افزایش سرعت مجدد"
 
-#: src/Pmpr/Module/Optimization/Page/Basic/ListTable.php:85
+#: src/Pmpr/Module/Optimization/Page/Basic/ListTable.php:74
 #: src/Pmpr/Module/Optimization/Page/Model.php:821
 msgid "Are you sure about reOptimize this page?"
 msgstr "آیا در مورد بهینه سازی مجدد این صفحه مطمئن هستید؟"
+
+#: src/Pmpr/Module/Optimization/Page/Basic/ListTable.php:102
+#: src/Pmpr/Module/Optimization/Page/Model.php:610
+msgid "Opt Status"
+msgstr "وضعیت بهینگی"
+
+#: src/Pmpr/Module/Optimization/Page/Basic/ListTable.php:103
+msgid "Date"
+msgstr "تاریخ"
+
+#: src/Pmpr/Module/Optimization/Page/Basic/ListTable.php:121
+#, fuzzy
+#| msgid "%s published"
+msgid "Unpublished"
+msgstr "%s منشتر شد"
+
+#: src/Pmpr/Module/Optimization/Page/Basic/ListTable.php:127
+#, php-format
+msgid "%1$s at %2$s"
+msgstr "‏%1$s در %2$s"
+
+#: src/Pmpr/Module/Optimization/Page/Basic/ListTable.php:129
+msgid "Y/m/d"
+msgstr ""
+
+#: src/Pmpr/Module/Optimization/Page/Basic/ListTable.php:131
+msgid "g:i a"
+msgstr ""
+
+#: src/Pmpr/Module/Optimization/Page/Basic/ListTable.php:140
+#, fuzzy
+#| msgid "%s published"
+msgid "Published"
+msgstr "%s منشتر شد"
+
+#: src/Pmpr/Module/Optimization/Page/Basic/ListTable.php:145
+#, fuzzy
+#| msgid "%s scheduled"
+msgid "Missed schedule"
+msgstr "%s زمانبندی شد"
+
+#: src/Pmpr/Module/Optimization/Page/Basic/ListTable.php:148
+#, fuzzy
+#| msgid "%s scheduled"
+msgid "Scheduled"
+msgstr "%s زمانبندی شد"
+
+#: src/Pmpr/Module/Optimization/Page/Basic/ListTable.php:152
+msgid "Last Modified"
+msgstr ""
 
 #: src/Pmpr/Module/Optimization/Page/Basic/Page.php:25
 msgid "Level 1 pages"
@@ -1067,6 +1112,10 @@ msgstr ""
 #: src/Pmpr/Module/Optimization/Page/Basic/Page.php:52
 msgid "Level 1"
 msgstr "سطح ۱"
+
+#: src/Pmpr/Module/Optimization/Page/Basic/Tab.php:58
+msgid "Search"
+msgstr "جستجو"
 
 #: src/Pmpr/Module/Optimization/Page/Common.php:44
 #: src/Pmpr/Module/Optimization/Page/Modal/Segment/Rule.php:89
@@ -1309,6 +1358,12 @@ msgstr "تغییر وضعیت صفحه به %s"
 #: src/Pmpr/Module/Optimization/Page/Model.php:802
 msgid "Change Status"
 msgstr "تغییر وضعیت"
+
+#: src/Pmpr/Module/Optimization/Preloader/Ajax.php:35
+#, fuzzy
+#| msgid "Start preloading for not optimized permalinks."
+msgid "Preloading start for not optimized permalinks, it's take some time."
+msgstr "راه‌اندازی پیش بارگیری برای پیوند‌هایی که بهینه نشده‌اند."
 
 #: src/Pmpr/Module/Optimization/Preloader/Online/Remote.php:40
 msgid "Permalinks list is empty"
@@ -2273,9 +2328,6 @@ msgstr "کاملا بهینه نشده"
 #~ msgid "Search result for: %s"
 #~ msgstr "نتیجه جستجو برای: %s"
 
-#~ msgid "Search"
-#~ msgstr "جستجو"
-
 #, fuzzy
 #~| msgid "AM"
 #~ msgid "AMP"
@@ -2397,9 +2449,6 @@ msgstr "کاملا بهینه نشده"
 
 #~ msgid "Your comment is awaiting moderation."
 #~ msgstr "دیدگاه شما پس از تایید نمایش داده خواهد شد."
-
-#~ msgid "%1$s at %2$s"
-#~ msgstr "‏%1$s در %2$s"
 
 #, fuzzy
 #~| msgid "Archives"
@@ -3116,12 +3165,6 @@ msgstr "کاملا بهینه نشده"
 
 #~ msgid "%s updated"
 #~ msgstr "%s به روز شد"
-
-#~ msgid "%s published"
-#~ msgstr "%s منشتر شد"
-
-#~ msgid "%s scheduled"
-#~ msgstr "%s زمانبندی شد"
 
 #~ msgid "%s image"
 #~ msgstr "تصویر %s"
@@ -4124,9 +4167,6 @@ msgstr "کاملا بهینه نشده"
 
 #~ msgid "Order By"
 #~ msgstr "مرتب‌شده به وسیله"
-
-#~ msgid "Date"
-#~ msgstr "تاریخ"
 
 #~ msgid "Post ID"
 #~ msgstr "شناسه نوشته"
