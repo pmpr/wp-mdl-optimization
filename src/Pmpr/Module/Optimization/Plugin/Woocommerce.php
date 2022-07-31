@@ -4,4 +4,4 @@
     |             62e645a0a3356             |
     |_______________________________________|
 */
- namespace Pmpr\Module\Optimization\Asset\CDN; use Pmpr\Module\Optimization\Asset\Common as BaseClass; class Common extends BaseClass { }
+ namespace Pmpr\Module\Optimization\Plugin; class Woocommerce extends Common { }
