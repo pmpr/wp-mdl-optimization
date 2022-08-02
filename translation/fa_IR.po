@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PMPR Optimization\n"
-"POT-Creation-Date: 2022-07-16 10:20+0430\n"
-"PO-Revision-Date: 2022-07-16 10:21+0430\n"
+"POT-Creation-Date: 2022-08-02 14:50+0430\n"
+"PO-Revision-Date: 2022-08-02 15:15+0430\n"
 "Last-Translator: Farshad Asgharzade <Farshad_asgharzade@hotmail.com>\n"
 "Language-Team: \n"
 "Language: fa_IR\n"
@@ -415,20 +415,16 @@ msgid ""
 msgstr ""
 
 #: src/Pmpr/Module/Optimization/Bypass/Setting.php:73
-#, fuzzy
-#| msgid "Target Taxonomies"
 msgid "Target (Post Type|Taxonomy)"
-msgstr "تکسونومی‌های هدف"
+msgstr "هدف (نوع پست| تاکسونومی)"
 
 #: src/Pmpr/Module/Optimization/Bypass/Setting.php:80
 msgid "Posts"
 msgstr "نوشته‌ها"
 
 #: src/Pmpr/Module/Optimization/Bypass/Setting.php:85
-#, fuzzy
-#| msgid "Terms Numbers"
 msgid "Terms"
-msgstr "اعداد ترم‌ها (عبارات)"
+msgstr "قوانین و مقررات"
 
 #: src/Pmpr/Module/Optimization/Bypass/Setting.php:90
 msgid "Archive too"
@@ -752,7 +748,7 @@ msgid "Install Guide"
 msgstr "راهنمای نصب"
 
 #: src/Pmpr/Module/Optimization/Cloudflare/Setting.php:275
-#: src/Pmpr/Module/Optimization/Page/Ajax.php:150
+#: src/Pmpr/Module/Optimization/Page/Ajax.php:162
 msgid "Actions"
 msgstr "عملیات"
 
@@ -825,20 +821,20 @@ msgstr "فعال"
 msgid "Permission denied"
 msgstr "دسترسی مسدود شده است"
 
-#: src/Pmpr/Module/Optimization/Optimization.php:37
+#: src/Pmpr/Module/Optimization/Optimization.php:38
 msgid "Optimization"
 msgstr "افزایش سرعت"
 
-#: src/Pmpr/Module/Optimization/Optimization.php:90
+#: src/Pmpr/Module/Optimization/Optimization.php:92
 msgid "Config Path"
 msgstr "مسیر پیکربندی"
 
-#: src/Pmpr/Module/Optimization/Optimization.php:184
+#: src/Pmpr/Module/Optimization/Optimization.php:186
 #, php-format
 msgid "Optimization config file %s generated in %s"
 msgstr "فایل پیکربندی %s در %s ایجاد شد"
 
-#: src/Pmpr/Module/Optimization/Optimization.php:190
+#: src/Pmpr/Module/Optimization/Optimization.php:192
 msgid "Configuration"
 msgstr "پیکربندی"
 
@@ -887,61 +883,63 @@ msgstr "فعال‌سازی کش"
 msgid "You are out of the budget"
 msgstr "بودجه شما تمام شده است"
 
-#: src/Pmpr/Module/Optimization/Page/API.php:149
+#: src/Pmpr/Module/Optimization/Page/API.php:152
 msgid "Server error"
 msgstr "خطای سرور"
 
-#: src/Pmpr/Module/Optimization/Page/API.php:153
+#: src/Pmpr/Module/Optimization/Page/API.php:156
 msgid "Page is not valid"
 msgstr "صفحه معتبر نیست"
 
-#: src/Pmpr/Module/Optimization/Page/Ajax.php:84
+#: src/Pmpr/Module/Optimization/Page/Ajax.php:87
+#: src/Pmpr/Module/Optimization/Traits/CommonTrait.php:199
+msgid ""
+"There is a problem in optimization process, by click on this icon you can "
+"repeat the process again."
+msgstr ""
+
+#: src/Pmpr/Module/Optimization/Page/Ajax.php:96
 msgid "level and permalink is require parameters."
 msgstr ""
 
-#: src/Pmpr/Module/Optimization/Page/Ajax.php:108
+#: src/Pmpr/Module/Optimization/Page/Ajax.php:120
 #, php-format
 msgid "Please try again after %s hour"
 msgstr "لطفا بعد %s ساعت دوباره امتحان کنید"
 
-#: src/Pmpr/Module/Optimization/Page/Ajax.php:140
+#: src/Pmpr/Module/Optimization/Page/Ajax.php:152
 msgid "Remove"
 msgstr "حذف"
 
-#: src/Pmpr/Module/Optimization/Page/Ajax.php:148
-#: src/Pmpr/Module/Optimization/Page/Basic/ListTable.php:101
+#: src/Pmpr/Module/Optimization/Page/Ajax.php:160
+#: src/Pmpr/Module/Optimization/Page/Basic/ListTable.php:103
 msgid "Title"
 msgstr "عنوان"
 
-#: src/Pmpr/Module/Optimization/Page/Ajax.php:149
+#: src/Pmpr/Module/Optimization/Page/Ajax.php:161
 #: src/Pmpr/Module/Optimization/Page/Modal/Segment/Rule.php:60
 msgid "Page Type"
 msgstr "نوع صفحه"
 
-#: src/Pmpr/Module/Optimization/Page/Ajax.php:154
+#: src/Pmpr/Module/Optimization/Page/Ajax.php:166
 msgid "No result found to show, please change rules and try again."
 msgstr ""
 "نتیجه‌ای برای نمایش یافت نشد، لطفا قواعد را تغییر داده و دوباره امتحان کنید."
 
-#: src/Pmpr/Module/Optimization/Page/Ajax.php:216
-msgid "Sorry, your requested process terminated, because you are out of budget."
-msgstr "با عرض پوزش، درخواست شما به دلیل کافی نبودن بودجه انجام نشد."
+#: src/Pmpr/Module/Optimization/Page/Ajax.php:237
+msgid "Pages added successfully."
+msgstr "صفحات با موفقیت اضافه شدند."
 
-#: src/Pmpr/Module/Optimization/Page/Ajax.php:219
-#, php-format
-msgid "%s of your requested pages added, the remains are not allow to add."
-msgstr "%s صفحه از صفحات درخواستی شما اضافه شد."
-
-#: src/Pmpr/Module/Optimization/Page/Ajax.php:239
+#: src/Pmpr/Module/Optimization/Page/Ajax.php:241
 #: src/Pmpr/Module/Optimization/Page/Asset.php:80
 msgid "Page list is empty, please redefine pages."
 msgstr ""
 
-#: src/Pmpr/Module/Optimization/Page/Ajax.php:245
-msgid "Pages added successfully."
-msgstr "صفحات با موفقیت اضافه شدند."
+#: src/Pmpr/Module/Optimization/Page/Ajax.php:247
+msgid "Something wrong on page adding process, please try again."
+msgstr "مشکلی در فرآیند افزودن صفحه وجود دارد، لطفا دوباره امتحان کنید."
 
-#: src/Pmpr/Module/Optimization/Page/Ajax.php:269
+#: src/Pmpr/Module/Optimization/Page/Ajax.php:271
 msgid ""
 "Sorry you are out of budget, can not change this page status to active. "
 "charge your license from Settings > Dashboard > License"
@@ -949,17 +947,17 @@ msgstr ""
 "متاسفانه بودجه شما تمام شده است، نمی‌توانید وضعیت این صفحه را به فعال تغییر "
 "دهید. از قسمت تنظیمات > داشبورد > لایسنس حساب خود را شارژ کنید"
 
-#: src/Pmpr/Module/Optimization/Page/Ajax.php:280
+#: src/Pmpr/Module/Optimization/Page/Ajax.php:279
 msgid "Require parameter not found, reload page and try again."
 msgstr ""
 "پارامتر‌های ضروری یافت نشدند، لطفا صفحه را بارگیری مجدد کنید و دوباره امتحان "
 "کنید."
 
-#: src/Pmpr/Module/Optimization/Page/Ajax.php:288
+#: src/Pmpr/Module/Optimization/Page/Ajax.php:287
 msgid "missing parameter, request is not valid."
 msgstr "پارامتر ضروری وجود ندارد، درخواست شما معتبر نیست."
 
-#: src/Pmpr/Module/Optimization/Page/Ajax.php:385
+#: src/Pmpr/Module/Optimization/Page/Ajax.php:384
 msgid "Rules is empty"
 msgstr "قواعد خالی است"
 
@@ -1037,65 +1035,60 @@ msgstr ""
 "یک قاعده تکراری یافت شده، لطفا مقادیر را با هم ترکیب کنید یا قاعده تکراری را "
 "حذف کنید."
 
-#: src/Pmpr/Module/Optimization/Page/Basic/ListTable.php:67
-#: src/Pmpr/Module/Optimization/Page/Model.php:814
+#: src/Pmpr/Module/Optimization/Page/Basic/ListTable.php:69
+#: src/Pmpr/Module/Optimization/Page/Model.php:805
+#: src/Pmpr/Module/Optimization/Traits/CommonTrait.php:29
 msgid "reOptimize"
 msgstr "افزایش سرعت مجدد"
 
-#: src/Pmpr/Module/Optimization/Page/Basic/ListTable.php:74
-#: src/Pmpr/Module/Optimization/Page/Model.php:821
+#: src/Pmpr/Module/Optimization/Page/Basic/ListTable.php:76
+#: src/Pmpr/Module/Optimization/Traits/CommonTrait.php:36
 msgid "Are you sure about reOptimize this page?"
 msgstr "آیا در مورد بهینه سازی مجدد این صفحه مطمئن هستید؟"
 
-#: src/Pmpr/Module/Optimization/Page/Basic/ListTable.php:102
-#: src/Pmpr/Module/Optimization/Page/Model.php:610
+#: src/Pmpr/Module/Optimization/Page/Basic/ListTable.php:104
+#: src/Pmpr/Module/Optimization/Page/Model.php:602
 msgid "Opt Status"
 msgstr "وضعیت بهینگی"
 
-#: src/Pmpr/Module/Optimization/Page/Basic/ListTable.php:103
+#: src/Pmpr/Module/Optimization/Page/Basic/ListTable.php:105
 msgid "Date"
 msgstr "تاریخ"
 
-#: src/Pmpr/Module/Optimization/Page/Basic/ListTable.php:121
-#, fuzzy
-#| msgid "%s published"
+#: src/Pmpr/Module/Optimization/Page/Basic/ListTable.php:126
 msgid "Unpublished"
-msgstr "%s منشتر شد"
+msgstr "منتشر نشده"
 
-#: src/Pmpr/Module/Optimization/Page/Basic/ListTable.php:127
+#: src/Pmpr/Module/Optimization/Page/Basic/ListTable.php:132
 #, php-format
 msgid "%1$s at %2$s"
 msgstr "‏%1$s در %2$s"
 
-#: src/Pmpr/Module/Optimization/Page/Basic/ListTable.php:129
+#: src/Pmpr/Module/Optimization/Page/Basic/ListTable.php:134
 msgid "Y/m/d"
 msgstr ""
 
-#: src/Pmpr/Module/Optimization/Page/Basic/ListTable.php:131
+#: src/Pmpr/Module/Optimization/Page/Basic/ListTable.php:136
 msgid "g:i a"
 msgstr ""
 
-#: src/Pmpr/Module/Optimization/Page/Basic/ListTable.php:140
-#, fuzzy
-#| msgid "%s published"
-msgid "Published"
-msgstr "%s منشتر شد"
-
 #: src/Pmpr/Module/Optimization/Page/Basic/ListTable.php:145
+msgid "Published"
+msgstr "منتشر شده"
+
+#: src/Pmpr/Module/Optimization/Page/Basic/ListTable.php:150
 #, fuzzy
 #| msgid "%s scheduled"
 msgid "Missed schedule"
 msgstr "%s زمانبندی شد"
 
-#: src/Pmpr/Module/Optimization/Page/Basic/ListTable.php:148
-#, fuzzy
-#| msgid "%s scheduled"
+#: src/Pmpr/Module/Optimization/Page/Basic/ListTable.php:153
 msgid "Scheduled"
-msgstr "%s زمانبندی شد"
+msgstr "برنامه ریزی شده"
 
-#: src/Pmpr/Module/Optimization/Page/Basic/ListTable.php:152
+#: src/Pmpr/Module/Optimization/Page/Basic/ListTable.php:157
 msgid "Last Modified"
-msgstr ""
+msgstr "آخرین به روز رسانی"
 
 #: src/Pmpr/Module/Optimization/Page/Basic/Page.php:25
 msgid "Level 1 pages"
@@ -1113,7 +1106,7 @@ msgstr ""
 msgid "Level 1"
 msgstr "سطح ۱"
 
-#: src/Pmpr/Module/Optimization/Page/Basic/Tab.php:58
+#: src/Pmpr/Module/Optimization/Page/Basic/Tab.php:61
 msgid "Search"
 msgstr "جستجو"
 
@@ -1230,72 +1223,72 @@ msgstr "افزایش بودجه"
 msgid "Update Numbers"
 msgstr "به روز رسانی اعداد"
 
-#: src/Pmpr/Module/Optimization/Page/Model.php:50
-#: src/Pmpr/Module/Optimization/Page/Model.php:54
+#: src/Pmpr/Module/Optimization/Page/Model.php:51
+#: src/Pmpr/Module/Optimization/Page/Model.php:55
 msgid "Level 2 pages"
 msgstr "صفحات سطح ۲"
 
-#: src/Pmpr/Module/Optimization/Page/Model.php:51
+#: src/Pmpr/Module/Optimization/Page/Model.php:52
 msgid "Level 2 page"
 msgstr "صفحه سطح ۲"
 
-#: src/Pmpr/Module/Optimization/Page/Model.php:69
+#: src/Pmpr/Module/Optimization/Page/Model.php:70
 msgid "Page"
 msgstr "صفحه"
 
-#: src/Pmpr/Module/Optimization/Page/Model.php:74
+#: src/Pmpr/Module/Optimization/Page/Model.php:75
 msgid "Type"
 msgstr "نوع"
 
-#: src/Pmpr/Module/Optimization/Page/Model.php:78
 #: src/Pmpr/Module/Optimization/Page/Model.php:79
+#: src/Pmpr/Module/Optimization/Page/Model.php:80
 #, php-format
 msgid "Level %s"
 msgstr "سطح %s"
 
-#: src/Pmpr/Module/Optimization/Page/Model.php:80
+#: src/Pmpr/Module/Optimization/Page/Model.php:81
 msgid "Level"
 msgstr "سطح"
 
-#: src/Pmpr/Module/Optimization/Page/Model.php:84
+#: src/Pmpr/Module/Optimization/Page/Model.php:85
 msgid "Active"
 msgstr "فعال"
 
-#: src/Pmpr/Module/Optimization/Page/Model.php:85
+#: src/Pmpr/Module/Optimization/Page/Model.php:86
 msgid "Inactive"
 msgstr "غیر فعال‌‌"
 
-#: src/Pmpr/Module/Optimization/Page/Model.php:86
+#: src/Pmpr/Module/Optimization/Page/Model.php:87
 msgid "Ignored"
 msgstr "رها شده"
 
-#: src/Pmpr/Module/Optimization/Page/Model.php:87
+#: src/Pmpr/Module/Optimization/Page/Model.php:88
 msgid "Status"
 msgstr "وضعیت"
 
-#: src/Pmpr/Module/Optimization/Page/Model.php:268
+#: src/Pmpr/Module/Optimization/Page/Model.php:258
 #, php-format
 msgid "%s of %s pages status changed to %s successfully."
 msgstr "وضعیت %s صفحه از %s صفحه با موفقیت به %s تغییر کرد."
 
-#: src/Pmpr/Module/Optimization/Page/Model.php:435
-#: src/Pmpr/Module/Optimization/Page/Model.php:760
+#: src/Pmpr/Module/Optimization/Page/Model.php:427
+#: src/Pmpr/Module/Optimization/Page/Model.php:751
 msgid "Inactive Page"
 msgstr "غیر فعال‌سازی"
 
-#: src/Pmpr/Module/Optimization/Page/Model.php:436
-#: src/Pmpr/Module/Optimization/Page/Model.php:440
-#: src/Pmpr/Module/Optimization/Page/Model.php:761
+#: src/Pmpr/Module/Optimization/Page/Model.php:428
+#: src/Pmpr/Module/Optimization/Page/Model.php:432
+#: src/Pmpr/Module/Optimization/Page/Model.php:752
 msgid "Ignore Page"
 msgstr "رهاسازی"
 
-#: src/Pmpr/Module/Optimization/Page/Model.php:439
-#: src/Pmpr/Module/Optimization/Page/Model.php:443
-#: src/Pmpr/Module/Optimization/Page/Model.php:759
+#: src/Pmpr/Module/Optimization/Page/Model.php:431
+#: src/Pmpr/Module/Optimization/Page/Model.php:435
+#: src/Pmpr/Module/Optimization/Page/Model.php:750
 msgid "Active Page"
 msgstr "فعال‌سازی"
 
-#: src/Pmpr/Module/Optimization/Page/Model.php:580
+#: src/Pmpr/Module/Optimization/Page/Model.php:572
 msgid ""
 "Removed page logs history completely removed from database. no change on page "
 "content."
@@ -1303,33 +1296,33 @@ msgstr ""
 "تاریخچه افزایش سرعت صفحه حذف شده به طور کامل از پایگاه داده پاک خواهد شد. "
 "محتوای صفحه بدون تغییر باقی خواهند ماند."
 
-#: src/Pmpr/Module/Optimization/Page/Model.php:584
-#: src/Pmpr/Module/Optimization/Page/Model.php:587
+#: src/Pmpr/Module/Optimization/Page/Model.php:576
+#: src/Pmpr/Module/Optimization/Page/Model.php:579
 msgid "Remove Page"
 msgstr "حذف صفحه"
 
-#: src/Pmpr/Module/Optimization/Page/Model.php:588
+#: src/Pmpr/Module/Optimization/Page/Model.php:580
 msgid "Are you sure about remove this page?"
 msgstr "آیا در مورد حذف این صفحه مطمئن هستید؟"
 
-#: src/Pmpr/Module/Optimization/Page/Model.php:727
+#: src/Pmpr/Module/Optimization/Page/Model.php:718
 #, php-format
 msgid "Page status changed to %s successfully."
 msgstr "وضعیت صفحه با موفقیت به وضعیت %s تغییر کرد."
 
-#: src/Pmpr/Module/Optimization/Page/Model.php:733
+#: src/Pmpr/Module/Optimization/Page/Model.php:724
 msgid "change page status failed."
 msgstr "تغییر وضعیت صفحه با شکست رو به رو شد."
 
-#: src/Pmpr/Module/Optimization/Page/Model.php:753
+#: src/Pmpr/Module/Optimization/Page/Model.php:744
 msgid "Optimization process runs on pages with active status."
 msgstr "فرآیند افزایش سرعت بر روی صفحات فعال، اجرا می‌شود."
 
-#: src/Pmpr/Module/Optimization/Page/Model.php:754
+#: src/Pmpr/Module/Optimization/Page/Model.php:745
 msgid "Optimization process stops running on pages with inactive status."
 msgstr "فرآیند افزایش سرعت بر روی صفحات غیر فعال، موقتاً متوقف می‌شود."
 
-#: src/Pmpr/Module/Optimization/Page/Model.php:755
+#: src/Pmpr/Module/Optimization/Page/Model.php:746
 msgid ""
 "Optimization process permanently stops on pages with ignored status, but you "
 "may see previous logs."
@@ -1337,35 +1330,35 @@ msgstr ""
 "فرآیند افزایش سرعت بر روی صفحات رها شده، متوقف شده و بودجه آن برای استفاده "
 "برای صفحات دیگر آزاد می‌شود."
 
-#: src/Pmpr/Module/Optimization/Page/Model.php:767
+#: src/Pmpr/Module/Optimization/Page/Model.php:758
 msgid "Ignore"
 msgstr "رهاسازی"
 
-#: src/Pmpr/Module/Optimization/Page/Model.php:774
+#: src/Pmpr/Module/Optimization/Page/Model.php:765
 #, php-format
 msgid "Are you sure about change status of this page to %s?"
 msgstr "آیا در مورد تغییر وضعیت این صفحه به %s مطمئن هستید؟"
 
-#: src/Pmpr/Module/Optimization/Page/Model.php:781
+#: src/Pmpr/Module/Optimization/Page/Model.php:772
 msgid "Page cache will be purged upon this change."
 msgstr "با اعمال این تغییر، کش صفحه پاک‌سازی خواهد شد."
 
-#: src/Pmpr/Module/Optimization/Page/Model.php:796
+#: src/Pmpr/Module/Optimization/Page/Model.php:787
 #, php-format
 msgid "Change Page Status to %s"
 msgstr "تغییر وضعیت صفحه به %s"
 
-#: src/Pmpr/Module/Optimization/Page/Model.php:802
+#: src/Pmpr/Module/Optimization/Page/Model.php:793
 msgid "Change Status"
 msgstr "تغییر وضعیت"
 
-#: src/Pmpr/Module/Optimization/Preloader/Ajax.php:35
-#, fuzzy
-#| msgid "Start preloading for not optimized permalinks."
+#: src/Pmpr/Module/Optimization/Preloader/Ajax.php:32
 msgid "Preloading start for not optimized permalinks, it's take some time."
-msgstr "راه‌اندازی پیش بارگیری برای پیوند‌هایی که بهینه نشده‌اند."
+msgstr ""
+"پیش بارگیری برای پیوند‌هایی که بهینه نشده‌اند شروع شد، این فرآیند کمی طول خواهد "
+"کشید."
 
-#: src/Pmpr/Module/Optimization/Preloader/Online/Remote.php:40
+#: src/Pmpr/Module/Optimization/Preloader/Online/Remote.php:38
 msgid "Permalinks list is empty"
 msgstr "لیست پیوند‌ها خالی است"
 
@@ -1388,19 +1381,17 @@ msgstr ""
 msgid "require parameter is missing."
 msgstr "پارامتر ضروری وجود ندارد."
 
-#: src/Pmpr/Module/Optimization/Purge/Common.php:59
+#: src/Pmpr/Module/Optimization/Purge/Traits/PurgeTrait.php:56
 msgid "Can not find info by page id"
-msgstr ""
+msgstr "قادر به یافتن اطلاعات با استفاده از شناسه صفحه نیستیم"
 
-#: src/Pmpr/Module/Optimization/Purge/Common.php:104
+#: src/Pmpr/Module/Optimization/Purge/Traits/PurgeTrait.php:100
 msgid "Urls are empty for purge urls."
 msgstr "لیست پیوند‌ها برای پاک‌سازی خالی است."
 
-#: src/Pmpr/Module/Optimization/Purge/Common.php:108
-#, fuzzy
-#| msgid "Server error"
+#: src/Pmpr/Module/Optimization/Purge/Traits/PurgeTrait.php:104
 msgid "Purge urls error"
-msgstr "خطای سرور"
+msgstr "خطا در پاکسازی کش پیوند‌ها"
 
 #: src/Pmpr/Module/Optimization/Setting.php:48
 msgid "Setting"
@@ -1541,21 +1532,28 @@ msgstr "حذف این %s"
 msgid "Loading..."
 msgstr "در حال بارگیری..."
 
-#: src/Pmpr/Module/Optimization/Traits/CommonTrait.php:131
+#: src/Pmpr/Module/Optimization/Traits/CommonTrait.php:165
 msgid "Not Optimized"
 msgstr "بهینه‌ نشده"
 
-#: src/Pmpr/Module/Optimization/Traits/CommonTrait.php:136
+#: src/Pmpr/Module/Optimization/Traits/CommonTrait.php:170
 msgid "Optimization Running"
 msgstr "افزایش سرعت در حال اجراست"
 
-#: src/Pmpr/Module/Optimization/Traits/CommonTrait.php:142
+#: src/Pmpr/Module/Optimization/Traits/CommonTrait.php:176
 msgid "Optimized"
 msgstr "بهینه‌ شده"
 
-#: src/Pmpr/Module/Optimization/Traits/CommonTrait.php:147
+#: src/Pmpr/Module/Optimization/Traits/CommonTrait.php:181
 msgid "Not Completely Optimized"
 msgstr "کاملا بهینه نشده"
+
+#~ msgid ""
+#~ "Sorry, your requested process terminated, because you are out of budget."
+#~ msgstr "با عرض پوزش، درخواست شما به دلیل کافی نبودن بودجه انجام نشد."
+
+#~ msgid "%s of your requested pages added, the remains are not allow to add."
+#~ msgstr "%s صفحه از صفحات درخواستی شما اضافه شد."
 
 #~ msgid "Purge Cache"
 #~ msgstr "پاک‌سازی کش‌"
@@ -3843,9 +3841,6 @@ msgstr "کاملا بهینه نشده"
 
 #~ msgid "Successfully update."
 #~ msgstr "با موفقیت به‌ روزرسانی شد."
-
-#~ msgid "Something is wrong in update process, please try later."
-#~ msgstr "اشکالی در فرایند به‌روزرسانی رخ داده است، لطفل دوباره امتحان کنید."
 
 #~ msgid "Something is wrong in delete process, please try later."
 #~ msgstr "اشکالی در فرایند حذف رخ داده است، لطفل دوباره امتحان کنید."
