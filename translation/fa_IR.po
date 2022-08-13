@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PMPR Optimization\n"
-"POT-Creation-Date: 2022-08-02 14:50+0430\n"
-"PO-Revision-Date: 2022-08-02 15:15+0430\n"
+"POT-Creation-Date: 2022-08-10 12:03+0430\n"
+"PO-Revision-Date: 2022-08-10 12:03+0430\n"
 "Last-Translator: Farshad Asgharzade <Farshad_asgharzade@hotmail.com>\n"
 "Language-Team: \n"
 "Language: fa_IR\n"
@@ -41,7 +41,7 @@ msgstr[0] ""
 msgid "Combine Assets Path"
 msgstr "مسیر مربوط به ترکیب منابع استاتیکی"
 
-#: src/Pmpr/Module/Optimization/Asset/Critical/CSS/CSS.php:117
+#: src/Pmpr/Module/Optimization/Asset/Critical/CSS/CSS.php:116
 #, fuzzy, php-format
 #| msgid "Critical CSS"
 msgid "Critical CSS: %s"
@@ -383,8 +383,7 @@ msgid "Bypass"
 msgstr "صفحات استثنا"
 
 #: src/Pmpr/Module/Optimization/Bypass/Setting.php:49
-#: src/Pmpr/Module/Optimization/Setting.php:62
-#: src/Pmpr/Module/Optimization/Setting.php:82
+#: src/Pmpr/Module/Optimization/Setting.php:60
 msgid "General"
 msgstr "عمومی"
 
@@ -402,7 +401,7 @@ msgstr "ایستا"
 
 #: src/Pmpr/Module/Optimization/Bypass/Setting.php:60
 msgid "Dynamic"
-msgstr "پویا (به صورت url"
+msgstr "پویا (به صورت پیوند)"
 
 #: src/Pmpr/Module/Optimization/Bypass/Setting.php:67
 msgid "Pattern"
@@ -821,7 +820,55 @@ msgstr "فعال"
 msgid "Permission denied"
 msgstr "دسترسی مسدود شده است"
 
-#: src/Pmpr/Module/Optimization/Optimization.php:38
+#: src/Pmpr/Module/Optimization/Extension/Plugin/Woocommerce/Setting.php:25
+msgid "Woocommerce"
+msgstr "ووکامرس"
+
+#: src/Pmpr/Module/Optimization/Extension/Plugin/Woocommerce/Setting.php:38
+msgid "Purge on Quantity Changes"
+msgstr "پاک‌سازی در هنگام تغییر در تعداد محصول"
+
+#: src/Pmpr/Module/Optimization/Extension/Plugin/Woocommerce/Setting.php:39
+msgid ""
+"Automatically purge cache for product page and related categories when stock "
+"quantity changes."
+msgstr ""
+"پاک‌سازی خودکار کش صفحه محصول و تکسانومی‌های مربوط، زمانی که موجودی انبار تغییر "
+"کند."
+
+#: src/Pmpr/Module/Optimization/Extension/Plugin/Woocommerce/Setting.php:43
+msgid "Purge for Quantity Scheduled Sales"
+msgstr "پاک‌سازی کش برای فروش زمانبندی شده"
+
+#: src/Pmpr/Module/Optimization/Extension/Plugin/Woocommerce/Setting.php:44
+msgid "Automatically purge cache for scheduled sales."
+msgstr "کش به صورت خودکار، برای فروش‌های زمانبندی شده پاک‌سازی می شود. ."
+
+#: src/Pmpr/Module/Optimization/Extension/Setting.php:21
+#, fuzzy
+#| msgid "Rules"
+msgid "Modules"
+msgstr "قواعد"
+
+#: src/Pmpr/Module/Optimization/Extension/Setting.php:25
+msgid "Plugins"
+msgstr "افزونه‌ها"
+
+#: src/Pmpr/Module/Optimization/Extension/Setting.php:29
+msgid "Covers"
+msgstr ""
+
+#: src/Pmpr/Module/Optimization/Extension/Setting.php:33
+#, fuzzy
+#| msgid "Theme"
+msgid "Themes"
+msgstr "پوسته"
+
+#: src/Pmpr/Module/Optimization/Extension/Setting.php:73
+msgid "Extension"
+msgstr "گسترش"
+
+#: src/Pmpr/Module/Optimization/Optimization.php:39
 msgid "Optimization"
 msgstr "افزایش سرعت"
 
@@ -892,7 +939,6 @@ msgid "Page is not valid"
 msgstr "صفحه معتبر نیست"
 
 #: src/Pmpr/Module/Optimization/Page/Ajax.php:87
-#: src/Pmpr/Module/Optimization/Traits/CommonTrait.php:199
 msgid ""
 "There is a problem in optimization process, by click on this icon you can "
 "repeat the process again."
@@ -939,7 +985,7 @@ msgstr ""
 msgid "Something wrong on page adding process, please try again."
 msgstr "مشکلی در فرآیند افزودن صفحه وجود دارد، لطفا دوباره امتحان کنید."
 
-#: src/Pmpr/Module/Optimization/Page/Ajax.php:271
+#: src/Pmpr/Module/Optimization/Page/Ajax.php:272
 msgid ""
 "Sorry you are out of budget, can not change this page status to active. "
 "charge your license from Settings > Dashboard > License"
@@ -947,17 +993,17 @@ msgstr ""
 "متاسفانه بودجه شما تمام شده است، نمی‌توانید وضعیت این صفحه را به فعال تغییر "
 "دهید. از قسمت تنظیمات > داشبورد > لایسنس حساب خود را شارژ کنید"
 
-#: src/Pmpr/Module/Optimization/Page/Ajax.php:279
+#: src/Pmpr/Module/Optimization/Page/Ajax.php:280
 msgid "Require parameter not found, reload page and try again."
 msgstr ""
 "پارامتر‌های ضروری یافت نشدند، لطفا صفحه را بارگیری مجدد کنید و دوباره امتحان "
 "کنید."
 
-#: src/Pmpr/Module/Optimization/Page/Ajax.php:287
+#: src/Pmpr/Module/Optimization/Page/Ajax.php:289
 msgid "missing parameter, request is not valid."
 msgstr "پارامتر ضروری وجود ندارد، درخواست شما معتبر نیست."
 
-#: src/Pmpr/Module/Optimization/Page/Ajax.php:384
+#: src/Pmpr/Module/Optimization/Page/Ajax.php:386
 msgid "Rules is empty"
 msgstr "قواعد خالی است"
 
@@ -1393,59 +1439,59 @@ msgstr "لیست پیوند‌ها برای پاک‌سازی خالی است."
 msgid "Purge urls error"
 msgstr "خطا در پاکسازی کش پیوند‌ها"
 
-#: src/Pmpr/Module/Optimization/Setting.php:48
+#: src/Pmpr/Module/Optimization/Setting.php:46
 msgid "Setting"
 msgstr "تنظیمات"
 
-#: src/Pmpr/Module/Optimization/Setting.php:49
+#: src/Pmpr/Module/Optimization/Setting.php:47
 msgid "Optimization Setting"
 msgstr "تنظیمات افزایش سرعت"
 
-#: src/Pmpr/Module/Optimization/Setting.php:58
+#: src/Pmpr/Module/Optimization/Setting.php:56
 msgid "Dashboard"
 msgstr "داشبورد"
 
-#: src/Pmpr/Module/Optimization/Setting.php:66
+#: src/Pmpr/Module/Optimization/Setting.php:64
 msgid "Enable Debug Mode"
 msgstr "حالت دیباگ"
 
-#: src/Pmpr/Module/Optimization/Setting.php:71
+#: src/Pmpr/Module/Optimization/Setting.php:69
 msgid "Secret Key"
 msgstr "کلید خصوصی"
 
-#: src/Pmpr/Module/Optimization/Setting.php:72
+#: src/Pmpr/Module/Optimization/Setting.php:70
 msgid "Used for preload and purge cronjob."
 msgstr "برای کرون جاب مربوط به پیش بارگیری و پاک‌سازی استفاده خواهد شد."
 
-#: src/Pmpr/Module/Optimization/Setting.php:78
+#: src/Pmpr/Module/Optimization/Setting.php:76
 msgid "Purge"
 msgstr "پاک‌سازی"
 
-#: src/Pmpr/Module/Optimization/Setting.php:86
+#: src/Pmpr/Module/Optimization/Setting.php:80
 msgid "Automatically Purge Cache"
 msgstr "پاک‌سازی کش‌ به صورت خودکار"
 
-#: src/Pmpr/Module/Optimization/Setting.php:88
+#: src/Pmpr/Module/Optimization/Setting.php:82
 msgid "Purge cache for related pages only"
 msgstr "پاک‌سازی کش‌ فایل‌های مرتبط با صفحه مورد نظر"
 
-#: src/Pmpr/Module/Optimization/Setting.php:88
+#: src/Pmpr/Module/Optimization/Setting.php:82
 msgid "(recommended)"
 msgstr "(توصیه شده)"
 
-#: src/Pmpr/Module/Optimization/Setting.php:89
+#: src/Pmpr/Module/Optimization/Setting.php:83
 msgid "Purge whole cache"
 msgstr "پاک‌سازی تمامی کش‌ها"
 
-#: src/Pmpr/Module/Optimization/Setting.php:91
+#: src/Pmpr/Module/Optimization/Setting.php:85
 msgid "Automatically purge the cache when something changes on the website."
 msgstr "در صورت تغییر در وب سایت، کش  را به صورت خودکار پاک‌سازی می‌شود."
 
-#: src/Pmpr/Module/Optimization/Setting.php:96
+#: src/Pmpr/Module/Optimization/Setting.php:90
 msgid "Purge Cache On Comment"
 msgstr "پاک‌سازی کش در هنگام تغییرات در دیدگاه"
 
-#: src/Pmpr/Module/Optimization/Setting.php:97
+#: src/Pmpr/Module/Optimization/Setting.php:91
 msgid ""
 "Automatically purge single post cache when a new comment is inserted into the "
 "database or when a comment is approved or deleted."
@@ -1453,73 +1499,49 @@ msgstr ""
 "در هنگام تغییرات در بخش دیدگاه‌های مربوط به یک نوشته، کش مربوط به آن صفحه را "
 "به صورت خودکار پاک‌سازی ‌می‌شود."
 
-#: src/Pmpr/Module/Optimization/Setting.php:102
+#: src/Pmpr/Module/Optimization/Setting.php:96
 msgid "Pagination Purge"
 msgstr "پاک‌سازی کش صفحه بندی آرشیو"
 
-#: src/Pmpr/Module/Optimization/Setting.php:103
+#: src/Pmpr/Module/Optimization/Setting.php:97
 msgid ""
 "Choice how many of paginated pages, automatically purge of purging archives."
 msgstr ""
 "تعداد صفحاتی صفحه‌بندی که در زمان پاک‌سازی صفحات آرشیو پاک شوند را مشخص کنید."
 
-#: src/Pmpr/Module/Optimization/Setting.php:108
+#: src/Pmpr/Module/Optimization/Setting.php:102
 msgid "Purge OPCache on Flush"
 msgstr "پاک‌سازی OPCache"
 
-#: src/Pmpr/Module/Optimization/Setting.php:109
+#: src/Pmpr/Module/Optimization/Setting.php:103
 msgid "Automatically purge the OPcache when cache is purged."
 msgstr "در صورت حذف کش کلود فلیر، OPCache نیز به صورت خودکار پاک‌سازی می‌شود."
 
-#: src/Pmpr/Module/Optimization/Setting.php:115
-msgid "Woocommerce"
-msgstr "ووکامرس"
-
-#: src/Pmpr/Module/Optimization/Setting.php:119
-msgid "Purge on Quantity Changes"
-msgstr "پاک‌سازی در هنگام تغییر در تعداد محصول"
-
-#: src/Pmpr/Module/Optimization/Setting.php:120
-msgid ""
-"Automatically purge cache for product page and related categories when stock "
-"quantity changes."
-msgstr ""
-"پاک‌سازی خودکار کش صفحه محصول و تکسانومی‌های مربوط، زمانی که موجودی انبار تغییر "
-"کند."
-
-#: src/Pmpr/Module/Optimization/Setting.php:125
-msgid "Purge for Quantity Scheduled Sales"
-msgstr "پاک‌سازی کش برای فروش زمانبندی شده"
-
-#: src/Pmpr/Module/Optimization/Setting.php:126
-msgid "Automatically purge cache for scheduled sales."
-msgstr "کش به صورت خودکار، برای فروش‌های زمانبندی شده پاک‌سازی می شود. ."
-
-#: src/Pmpr/Module/Optimization/Setting.php:151
+#: src/Pmpr/Module/Optimization/Setting.php:124
 msgid "Top Speed"
 msgstr "حداکثر سرعت"
 
-#: src/Pmpr/Module/Optimization/Setting.php:156
+#: src/Pmpr/Module/Optimization/Setting.php:129
 msgid "Fail Safe"
 msgstr "حداکثر پایداری"
 
-#: src/Pmpr/Module/Optimization/Setting.php:168
+#: src/Pmpr/Module/Optimization/Setting.php:141
 msgid "Quick Actions"
 msgstr "عملیات سریع"
 
-#: src/Pmpr/Module/Optimization/Setting.php:171
+#: src/Pmpr/Module/Optimization/Setting.php:144
 msgid "Start Preload"
 msgstr "شروع پیش بارگیری"
 
-#: src/Pmpr/Module/Optimization/Setting.php:174
+#: src/Pmpr/Module/Optimization/Setting.php:147
 msgid "Start preloading for not optimized permalinks."
 msgstr "راه‌اندازی پیش بارگیری برای پیوند‌هایی که بهینه نشده‌اند."
 
-#: src/Pmpr/Module/Optimization/Setting.php:178
+#: src/Pmpr/Module/Optimization/Setting.php:151
 msgid "It's take some time, are you sure about start preloading?"
 msgstr "این فرآیند کمی طول خواهد کشید، آیا از شروع پیش بارگیری مطمئن هستید؟"
 
-#: src/Pmpr/Module/Optimization/Setting.php:183
+#: src/Pmpr/Module/Optimization/Setting.php:156
 msgid "Start"
 msgstr "شروع"
 
@@ -1843,9 +1865,6 @@ msgstr "کاملا بهینه نشده"
 #~ msgid "Day"
 #~ msgstr "روز"
 
-#~ msgid "Rules"
-#~ msgstr "قواعد"
-
 #~ msgid "Never Cache URL(s)"
 #~ msgstr "پیوند‌هایی که هرگز کش نشوند"
 
@@ -2059,9 +2078,6 @@ msgstr "کاملا بهینه نشده"
 
 #~ msgid "Enable Metaboxes"
 #~ msgstr "فعال کردن متاباکس"
-
-#~ msgid "Plugins"
-#~ msgstr "افزونه‌ها"
 
 #~ msgid "Exclude Woocommerce Dynamic Contents"
 #~ msgstr "مستثنی کردن محتوای داینامیک ووکامرس"
@@ -2644,9 +2660,6 @@ msgstr "کاملا بهینه نشده"
 
 #~ msgid "Internal Link"
 #~ msgstr "لینک داخلی"
-
-#~ msgid "External Link"
-#~ msgstr "لینک به بیرون"
 
 #~ msgid "%s Title"
 #~ msgstr "عنوان %s"
@@ -4522,9 +4535,6 @@ msgstr "کاملا بهینه نشده"
 
 #~ msgid "Page navigation"
 #~ msgstr "ناوربری صفحه"
-
-#~ msgid "Theme"
-#~ msgstr "پوسته"
 
 #~ msgid "Choose website logo."
 #~ msgstr "لگوی وب‌سایت را انتخاب کنید."
