@@ -1,7 +1,7 @@
 <?php
 /*   _______________________________________
     |  Obfuscated by PMPR - Php Obfuscator  |
-    |             62fab2e386f55             |
+    |             630109f80ebad             |
     |_______________________________________|
 */
  namespace Pmpr\Module\Optimization\Extension\Cover; use Pmpr\Module\Optimization\Extension\Common; class Cover extends Common { }
