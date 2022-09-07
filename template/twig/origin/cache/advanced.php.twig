@@ -20,14 +20,13 @@ $classes = [
 if (file_exists($cachePath)
     && file_exists($configPath)) {
 
-    $isDebug = defined('WP_DEBUG') && WP_DEBUG;
     spl_autoload_register(
-        function ($class) use ($classes, $vendorPath, $isDebug) {
+        function ($class) use ($classes, $vendorPath) {
 
             if (isset($classes[$class])) {
 
                 $file = $classes[$class];
-            } elseif (strpos($class, 'Monolog\\') === 0 && $isDebug) {
+            } elseif (strpos($class, 'Monolog\\') === 0) {
 
                 $file = "{$vendorPath}/monolog/monolog/src/" . str_replace('\\', '/', $class) . '.php';
             } elseif (strpos($class, 'Symfony\\') === 0) {
