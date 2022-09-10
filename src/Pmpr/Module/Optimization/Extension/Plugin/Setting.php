@@ -1,7 +1,7 @@
 <?php
 /*   _______________________________________
     |  Obfuscated by PMPR - Php Obfuscator  |
-    |             631c41f851e37             |
+    |             631ce1ad2f186             |
     |_______________________________________|
 */
  namespace Pmpr\Module\Optimization\Extension\Plugin; use Pmpr\Module\Optimization\Extension\SubTab; abstract class Setting extends SubTab { public function __construct() { $this->section = self::akoscweoqiuiiooo; parent::__construct(); } }

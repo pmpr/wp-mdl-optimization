@@ -1,0 +1,7 @@
+<?php
+/*   _______________________________________
+    |  Obfuscated by PMPR - Php Obfuscator  |
+    |             631ce1ad2f186             |
+    |_______________________________________|
+*/
+ namespace Pmpr\Module\Optimization\Preloader\Online; use Pmpr\Common\Foundation\Manipulate\Type\ManipulateArray; use Pmpr\Module\Optimization\API\Remote; use WP_Error; class API extends Remote { public function start(array $egeqeuwiswigogyk = []) { if (is_array($egeqeuwiswigogyk) && count($egeqeuwiswigogyk) > 0) { goto siqagquguiemuoku; } $sogksuscggsicmac = $this->oemauiimmycumcsk(__("\x50\x65\162\x6d\x61\154\x69\156\153\x73\40\154\151\163\164\x20\x69\x73\40\x65\155\160\x74\x79", PR__MDL__OPTIMIZATION)); goto ycakugokkqkuqyiu; siqagquguiemuoku: $sogksuscggsicmac = $this->eqkieiagqmugguew("\x2f\160\x72\x65\154\x6f\x61\x64", [self::kugiewcgiawaeiaq => ["\x61\160\x69\153\x65\171" => $this->eegcqkwceasicmek(), "\160\145\162\155\141\154\x69\156\x6b\x73" => $egeqeuwiswigogyk]], self::mswoacegomcucaik); if (is_wp_error($sogksuscggsicmac)) { goto coywmiyqgsweuiic; } $sogksuscggsicmac = $sogksuscggsicmac[self::gouqcwikiiygyasc] ?? $this->oemauiimmycumcsk(ManipulateArray::get($sogksuscggsicmac, self::eoskkkieowogacws)); coywmiyqgsweuiic: ycakugokkqkuqyiu: return $sogksuscggsicmac; } public function yucicikmqgicagas($aokagokqyuysuksm) : string { $sogksuscggsicmac = $this->uiqqikcuycqyeooa($aokagokqyuysuksm, "\160\162\x65\x6c\157\x61\144"); return ManipulateArray::get($sogksuscggsicmac, self::ciywsqoeiymemsys); } }

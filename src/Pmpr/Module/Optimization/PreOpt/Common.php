@@ -4,4 +4,4 @@
     |             631ce1ad2f186             |
     |_______________________________________|
 */
- use Pmpr\Module\Optimization\Optimization; Optimization::symcgieuakksimmu();
+ namespace Pmpr\Module\Optimization\PreOpt; use Pmpr\Module\Optimization\Container; abstract class Common extends Container { }
