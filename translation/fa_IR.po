@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PMPR Optimization\n"
-"POT-Creation-Date: 2022-08-16 14:47+0430\n"
-"PO-Revision-Date: 2022-08-16 14:47+0430\n"
+"POT-Creation-Date: 2023-01-03 16:27+0330\n"
+"PO-Revision-Date: 2023-01-03 16:29+0330\n"
 "Last-Translator: Farshad Asgharzade <Farshad_asgharzade@hotmail.com>\n"
 "Language-Team: \n"
 "Language: fa_IR\n"
@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 3.1.1\n"
+"X-Generator: Poedit 3.2.2\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-WPHeader: index.php\n"
 "X-Source-Language: en\n"
@@ -42,16 +42,13 @@ msgid "Combine Assets Path"
 msgstr "مسیر مربوط به ترکیب منابع استاتیکی"
 
 #: src/Pmpr/Module/Optimization/Asset/Critical/CSS/CSS.php:116
-#, fuzzy, php-format
-#| msgid "Critical CSS"
+#, php-format
 msgid "Critical CSS: %s"
-msgstr "استایل‌های ضروری"
+msgstr "استایل‌های ضروری: %s"
 
 #: src/Pmpr/Module/Optimization/Asset/Critical/Critical.php:38
-#, fuzzy
-#| msgid "Critical"
 msgid "Critical Path"
-msgstr "استخراح منابع ضروری"
+msgstr "مسیربحرانی"
 
 #: src/Pmpr/Module/Optimization/Asset/HTAccess.php:77
 #, php-format
@@ -845,10 +842,8 @@ msgid "Automatically purge cache for scheduled sales."
 msgstr "کش به صورت خودکار، برای فروش‌های زمانبندی شده پاک‌سازی می شود. ."
 
 #: src/Pmpr/Module/Optimization/Extension/Setting.php:21
-#, fuzzy
-#| msgid "Rules"
 msgid "Modules"
-msgstr "قواعد"
+msgstr "ماژول‌ها"
 
 #: src/Pmpr/Module/Optimization/Extension/Setting.php:25
 msgid "Plugins"
@@ -859,29 +854,27 @@ msgid "Covers"
 msgstr ""
 
 #: src/Pmpr/Module/Optimization/Extension/Setting.php:33
-#, fuzzy
-#| msgid "Theme"
 msgid "Themes"
-msgstr "پوسته"
+msgstr "پوسته‌ها"
 
 #: src/Pmpr/Module/Optimization/Extension/Setting.php:73
 msgid "Extension"
 msgstr "گسترش"
 
-#: src/Pmpr/Module/Optimization/Optimization.php:36
+#: src/Pmpr/Module/Optimization/Optimization.php:37
 msgid "Optimization"
 msgstr "افزایش سرعت"
 
-#: src/Pmpr/Module/Optimization/Optimization.php:89
+#: src/Pmpr/Module/Optimization/Optimization.php:91
 msgid "Config Path"
 msgstr "مسیر پیکربندی"
 
-#: src/Pmpr/Module/Optimization/Optimization.php:186
+#: src/Pmpr/Module/Optimization/Optimization.php:187
 #, php-format
 msgid "Optimization config file %s generated in %s"
 msgstr "فایل پیکربندی %s در %s ایجاد شد"
 
-#: src/Pmpr/Module/Optimization/Optimization.php:192
+#: src/Pmpr/Module/Optimization/Optimization.php:193
 msgid "Configuration"
 msgstr "پیکربندی"
 
@@ -1003,7 +996,7 @@ msgstr ""
 msgid "missing parameter, request is not valid."
 msgstr "پارامتر ضروری وجود ندارد، درخواست شما معتبر نیست."
 
-#: src/Pmpr/Module/Optimization/Page/Ajax.php:386
+#: src/Pmpr/Module/Optimization/Page/Ajax.php:391
 msgid "Rules is empty"
 msgstr "قواعد خالی است"
 
@@ -1083,12 +1076,12 @@ msgstr ""
 
 #: src/Pmpr/Module/Optimization/Page/Basic/ListTable.php:74
 #: src/Pmpr/Module/Optimization/Page/Model.php:805
-#: src/Pmpr/Module/Optimization/Traits/CommonTrait.php:29
+#: src/Pmpr/Module/Optimization/Traits/CommonTrait.php:55
 msgid "reOptimize"
 msgstr "افزایش سرعت مجدد"
 
 #: src/Pmpr/Module/Optimization/Page/Basic/ListTable.php:81
-#: src/Pmpr/Module/Optimization/Traits/CommonTrait.php:36
+#: src/Pmpr/Module/Optimization/Traits/CommonTrait.php:62
 msgid "Are you sure about reOptimize this page?"
 msgstr "آیا در مورد بهینه سازی مجدد این صفحه مطمئن هستید؟"
 
@@ -1123,10 +1116,8 @@ msgid "Published"
 msgstr "منتشر شده"
 
 #: src/Pmpr/Module/Optimization/Page/Basic/ListTable.php:157
-#, fuzzy
-#| msgid "%s scheduled"
 msgid "Missed schedule"
-msgstr "%s زمانبندی شد"
+msgstr "زمانبندی از دست رفته"
 
 #: src/Pmpr/Module/Optimization/Page/Basic/ListTable.php:160
 msgid "Scheduled"
@@ -1334,19 +1325,19 @@ msgstr "وضعیت"
 msgid "%s of %s pages status changed to %s successfully."
 msgstr "وضعیت %s صفحه از %s صفحه با موفقیت به %s تغییر کرد."
 
-#: src/Pmpr/Module/Optimization/Page/Model.php:427
+#: src/Pmpr/Module/Optimization/Page/Model.php:417
 #: src/Pmpr/Module/Optimization/Page/Model.php:751
 msgid "Inactive Page"
 msgstr "غیر فعال‌سازی"
 
-#: src/Pmpr/Module/Optimization/Page/Model.php:428
-#: src/Pmpr/Module/Optimization/Page/Model.php:432
+#: src/Pmpr/Module/Optimization/Page/Model.php:418
+#: src/Pmpr/Module/Optimization/Page/Model.php:422
 #: src/Pmpr/Module/Optimization/Page/Model.php:752
 msgid "Ignore Page"
 msgstr "رهاسازی"
 
-#: src/Pmpr/Module/Optimization/Page/Model.php:431
-#: src/Pmpr/Module/Optimization/Page/Model.php:435
+#: src/Pmpr/Module/Optimization/Page/Model.php:421
+#: src/Pmpr/Module/Optimization/Page/Model.php:425
 #: src/Pmpr/Module/Optimization/Page/Model.php:750
 msgid "Active Page"
 msgstr "فعال‌سازی"
@@ -1415,13 +1406,33 @@ msgstr "تغییر وضعیت صفحه به %s"
 msgid "Change Status"
 msgstr "تغییر وضعیت"
 
+#: src/Pmpr/Module/Optimization/Page/Tool.php:24
+msgid "Add Special Pages"
+msgstr "افزودن صفحات ویژه"
+
+#: src/Pmpr/Module/Optimization/Page/Tool.php:32
+msgid "Search Special Pages"
+msgstr "جستجوی صفحات ویژه"
+
+#: src/Pmpr/Module/Optimization/Page/Tool.php:38
+msgid "Special Pages Preview"
+msgstr "پیش نمایش صفحات ویژه"
+
+#: src/Pmpr/Module/Optimization/Page/Tool.php:44
+msgid "Special Pages Budget"
+msgstr "شارژ صفحات ویژه"
+
+#: src/Pmpr/Module/Optimization/Page/Tool.php:46
+msgid "Annual budget per page count"
+msgstr "شارژ سالانه به ازای تعداد صفحه"
+
 #: src/Pmpr/Module/Optimization/Preloader/Ajax.php:32
 msgid "Preloading start for not optimized permalinks, it's take some time."
 msgstr ""
 "پیش بارگیری برای پیوند‌هایی که بهینه نشده‌اند شروع شد، این فرآیند کمی طول خواهد "
 "کشید."
 
-#: src/Pmpr/Module/Optimization/Preloader/Online/Remote.php:38
+#: src/Pmpr/Module/Optimization/Preloader/Online/API.php:38
 msgid "Permalinks list is empty"
 msgstr "لیست پیوند‌ها خالی است"
 
@@ -1511,10 +1522,8 @@ msgid "Purge Cache On Upgrader Complete"
 msgstr "پاک‌سازی کش در هنگام تغییرات در دیدگاه"
 
 #: src/Pmpr/Module/Optimization/Setting.php:91
-#, fuzzy
-#| msgid "Automatically purge the OPcache when cache is purged."
 msgid "Automatically purge the cache when the upgrader process is complete"
-msgstr "در صورت حذف کش کلود فلیر، OPCache نیز به صورت خودکار پاک‌سازی می‌شود."
+msgstr "پس از تکمیل فرآیند ارتقا، کش را به صورت خودکار پاک کنید"
 
 #: src/Pmpr/Module/Optimization/Setting.php:96
 msgid "Purge Cache On Comment"
@@ -1583,19 +1592,19 @@ msgstr "حذف این %s"
 msgid "Loading..."
 msgstr "در حال بارگیری..."
 
-#: src/Pmpr/Module/Optimization/Traits/CommonTrait.php:185
+#: src/Pmpr/Module/Optimization/Traits/CommonTrait.php:216
 msgid "Not Optimized"
 msgstr "بهینه‌ نشده"
 
-#: src/Pmpr/Module/Optimization/Traits/CommonTrait.php:190
+#: src/Pmpr/Module/Optimization/Traits/CommonTrait.php:221
 msgid "Optimization Running"
 msgstr "افزایش سرعت در حال اجراست"
 
-#: src/Pmpr/Module/Optimization/Traits/CommonTrait.php:196
+#: src/Pmpr/Module/Optimization/Traits/CommonTrait.php:227
 msgid "Optimized"
 msgstr "بهینه‌ شده"
 
-#: src/Pmpr/Module/Optimization/Traits/CommonTrait.php:201
+#: src/Pmpr/Module/Optimization/Traits/CommonTrait.php:232
 msgid "Not Completely Optimized"
 msgstr "کاملا بهینه نشده"
 
