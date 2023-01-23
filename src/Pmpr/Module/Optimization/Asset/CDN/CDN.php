@@ -1,7 +1,7 @@
 <?php
 /*   _______________________________________
     |  Obfuscated by PMPR - Php Obfuscator  |
-    |             63ccf32654208             |
+    |             63ce1908259ad             |
     |_______________________________________|
 */
  namespace Pmpr\Module\Optimization\Asset\CDN; use Pmpr\Module\Optimization\Asset\Setting; class CDN extends Common { public function __construct() { parent::__construct(); $this->iemaakgqgqosiecm(); } public function iemaakgqgqosiecm() { if (!$this->weysguygiseoukqw(Setting::sewumqkiymkquogk, false)) { goto yoqsigmoyaaceqky; } JsDeliver::symcgieuakksimmu(); yoqsigmoyaaceqky: } }

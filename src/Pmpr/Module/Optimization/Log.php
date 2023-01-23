@@ -1,7 +1,7 @@
 <?php
 /*   _______________________________________
     |  Obfuscated by PMPR - Php Obfuscator  |
-    |             63ccf32654208             |
+    |             63ce1908259ad             |
     |_______________________________________|
 */
  namespace Pmpr\Module\Optimization; class Log extends Model { public function ckgmycmaukqgkosk() { parent::ckgmycmaukqgkosk(); $this->oyeskqayoscwciem()->myysgyqcumekoueo()->wiskakymeaywyeuw(false); } }
