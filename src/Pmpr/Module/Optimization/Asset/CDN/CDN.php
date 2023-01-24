@@ -1,7 +1,7 @@
 <?php
 /*   _______________________________________
     |  Obfuscated by PMPR - Php Obfuscator  |
-    |             63ce42dbc0828             |
+    |             63d04ce34c3b0             |
     |_______________________________________|
 */
- namespace Pmpr\Module\Optimization\Asset\CDN; use Pmpr\Module\Optimization\Asset\Setting; class CDN extends Common { public function __construct() { parent::__construct(); $this->iemaakgqgqosiecm(); } public function iemaakgqgqosiecm() { if (!$this->weysguygiseoukqw(Setting::sewumqkiymkquogk, false)) { goto yoqsigmoyaaceqky; } JsDeliver::symcgieuakksimmu(); yoqsigmoyaaceqky: } }
+ namespace Pmpr\Module\Optimization\Asset\CDN; use Pmpr\Module\Optimization\Asset\Setting; class CDN extends Common { public function __construct() { parent::__construct(); $this->iemaakgqgqosiecm(); } public function iemaakgqgqosiecm() { if (!$this->weysguygiseoukqw(Setting::sewumqkiymkquogk, false)) { goto suqckoccuyeeymww; } JsDeliver::symcgieuakksimmu(); suqckoccuyeeymww: } }
