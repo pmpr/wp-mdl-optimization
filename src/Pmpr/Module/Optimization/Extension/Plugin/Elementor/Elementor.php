@@ -1,7 +1,7 @@
 <?php
 /*   _______________________________________
     |  Obfuscated by PMPR - Php Obfuscator  |
-    |             643273713ba62             |
+    |             65195c0b0f495             |
     |_______________________________________|
 */
  namespace Pmpr\Module\Optimization\Extension\Plugin\Elementor; use Pmpr\Module\Optimization\Extension\Common; class Elementor extends Common { public function __construct() { parent::__construct(); $this->iemaakgqgqosiecm(); } public function iemaakgqgqosiecm() { Purge::symcgieuakksimmu(); } }
