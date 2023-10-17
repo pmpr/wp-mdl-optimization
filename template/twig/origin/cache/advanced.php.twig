@@ -8,9 +8,20 @@ use {{ use|raw }};
 
 define('CACHE_ADVANCED_CACHE', true);
 
-$cachePath  = '{{ cache_path|raw }}';
+function opt_advanced_cache_get_path($path) {
+
+   if (defined('PR_ENV_SLD')) {
+
+       $path = sprintf($path, PR_ENV_SLD);
+   }
+
+   return $path;
+}
+
+$cachePath  = opt_advanced_cache_get_path('{{ cache_path|raw }}');
+$configPath = opt_advanced_cache_get_path('{{ config_path|raw }}');
 $vendorPath = '{{ vendor_path|raw }}';
-$configPath = '{{ config_path|raw }}';
+
 $classes = [
 {%- for key, class in classes %}
     "{{ key|namespace }}" => "{{ class }}",

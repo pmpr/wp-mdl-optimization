@@ -1,7 +1,7 @@
 <?php
 /*   _______________________________________
     |  Obfuscated by PMPR - Php Obfuscator  |
-    |             652e61ac134c6             |
+    |             652e84fe9c69b             |
     |_______________________________________|
 */
  namespace Pmpr\Module\Optimization\Preloader\Online; use Pmpr\Module\Optimization\Preloader\Base; use Pmpr\Module\Optimization\Preloader\Manager; class Online extends Base { public function __construct() { parent::__construct(); $this->iemaakgqgqosiecm(); } public function iemaakgqgqosiecm() { Process::symcgieuakksimmu(); } public function start($auwuoyyagaiegwae) { if (!($ekacyecmisewiayg = API::symcgieuakksimmu())) { goto uqkqmseoeemyaqck; } $sogksuscggsicmac = $ekacyecmisewiayg->start($auwuoyyagaiegwae); if (is_numeric($sogksuscggsicmac)) { goto uckeuuaqimqamuyc; } foreach ($auwuoyyagaiegwae as $eeamcawaiqocomwy) { $this->ieskuycqsewokycq($eeamcawaiqocomwy); awikkaqmmuqkukma: } giiucsyqgcooaima: goto mieeugiewckceagc; uckeuuaqimqamuyc: if (!($acoioasmiqcwagsa = Process::symcgieuakksimmu())) { goto qcywwqceiqogcoyo; } $acoioasmiqcwagsa->mykuoqakuiwsoiss([self::gouqcwikiiygyasc => $sogksuscggsicmac, self::eimuuyqioyqiqwgq => $auwuoyyagaiegwae])->save()->ieyosyaaisyquesq(); qcywwqceiqogcoyo: mieeugiewckceagc: uqkqmseoeemyaqck: } public function mgyqciwsceoswuoq(int $gaeqamemwmwsyukm = 0) : bool { $sogksuscggsicmac = Manager::symcgieuakksimmu()->qwmwewiqecwieoue($gaeqamemwmwsyukm); return $sogksuscggsicmac && !is_wp_error($sogksuscggsicmac); } }
