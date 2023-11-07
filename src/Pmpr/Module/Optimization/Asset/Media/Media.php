@@ -1,7 +1,7 @@
 <?php
 /*   _______________________________________
     |  Obfuscated by PMPR - Php Obfuscator  |
-    |             653524d4a234f             |
+    |             654a156d8f54b             |
     |_______________________________________|
 */
- namespace Pmpr\Module\Optimization\Asset\Media; use Pmpr\Module\Optimization\Asset\Setting; class Media extends Common { public function __construct() { parent::__construct(); $this->iemaakgqgqosiecm(); } public function iemaakgqgqosiecm() { if (!$this->weysguygiseoukqw(Setting::moosyqmaqgsikgcg)) { goto mcqucouuiuoagqwc; } LazyLoad::symcgieuakksimmu(); mcqucouuiuoagqwc: } }
+ namespace Pmpr\Module\Optimization\Asset\Media; use Pmpr\Module\Optimization\Asset\Setting; class Media extends Common { public function mameiwsayuyquoeq() { if (!$this->weysguygiseoukqw(Setting::moosyqmaqgsikgcg)) { goto asoecuscmsyusmkg; } LazyLoad::symcgieuakksimmu(); asoecuscmsyusmkg: } }

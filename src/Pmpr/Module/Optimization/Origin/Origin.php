@@ -1,7 +1,7 @@
 <?php
 /*   _______________________________________
     |  Obfuscated by PMPR - Php Obfuscator  |
-    |             653524d4a234f             |
+    |             654a156d8f54b             |
     |_______________________________________|
 */
- namespace Pmpr\Module\Optimization\Origin; use Pmpr\Common\Foundation\Decorator\DecoratorQuery; use Pmpr\Module\Optimization\Origin\Cache\Cache; class Origin extends Common { public function __construct() { parent::__construct(); $this->iemaakgqgqosiecm(); } public function iemaakgqgqosiecm() { if (!DecoratorQuery::goecwaaykqoaaagg()) { goto iqcogmsguwoikame; } Setting::symcgieuakksimmu(); iqcogmsguwoikame: if (!$this->ayywsmwowwsesusw()) { goto gimmuoqwckiseaik; } Cache::symcgieuakksimmu(); gimmuoqwckiseaik: } }
+ namespace Pmpr\Module\Optimization\Origin; use Pmpr\Module\Optimization\Origin\Cache\Cache; class Origin extends Common { public function mameiwsayuyquoeq() { if (!$this->uwkmaywceaaaigwo()->owicscwgeuqcqaig()->goecwaaykqoaaagg()) { goto ocmagamuyawyiyka; } Setting::symcgieuakksimmu(); ocmagamuyawyiyka: if (!$this->ayywsmwowwsesusw()) { goto amqgiisymksuuuss; } Cache::symcgieuakksimmu(); amqgiisymksuuuss: } }
