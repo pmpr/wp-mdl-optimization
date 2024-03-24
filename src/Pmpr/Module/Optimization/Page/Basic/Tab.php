@@ -1,7 +1,0 @@
-<?php
-/*   _______________________________________
-    |  Obfuscated by PMPR - Php Obfuscator  |
-    |             6554aae47c553             |
-    |_______________________________________|
-*/
- namespace Pmpr\Module\Optimization\Page\Basic; use Pmpr\Common\Foundation\Manipulate\ManipulateServer; use Pmpr\Common\Foundation\Page\Admin\Tab as BaseClass; class Tab extends BaseClass { protected ?ListTable $listTable = null; public function __construct($aasascamegmwqmqk, $aokagokqyuysuksm = '', $meqocwsecsywiiqs = '', $ukwokcuqauuosmoo = '', $sqqewmoeaekuyyas = 1) { $this->listTable = $aasascamegmwqmqk; parent::__construct($aokagokqyuysuksm, $meqocwsecsywiiqs, $ukwokcuqauuosmoo, $sqqewmoeaekuyyas); } public function waeasakssissiuqg() : ?ListTable { return $this->listTable; } public function eiieguqemowyacgi() { $qsyooiqcmkcieyuk = $this->waeasakssissiuqg(); if (!$qsyooiqcmkcieyuk) { goto yamyagayiooyeekg; } $qsyooiqcmkcieyuk->prepare_items(); yamyagayiooyeekg: parent::eiieguqemowyacgi(); } public function gayqqwwuycceosii() : array { return ["\164\141\142" => $this->mwikyscisascoeea(), self::imywcsggckkcywgk => $this->oyqkaeooscmcweyc("\x62\141\163\151\143\137\160\x61\147\x65"), "\163\x65\x61\x72\143\150\x5f\x74\x65\x78\x74" => __("\123\x65\x61\x72\x63\x68", PR__MDL__OPTIMIZATION), "\154\151\x73\x74\137\164\141\142\x6c\145" => $this->waeasakssissiuqg(), self::uwceyikaaaqgkkee => "\164\141\142"]; } }

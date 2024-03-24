@@ -1,7 +1,0 @@
-<?php
-/*   _______________________________________
-    |  Obfuscated by PMPR - Php Obfuscator  |
-    |             6554aae47c553             |
-    |_______________________________________|
-*/
- namespace Pmpr\Module\Optimization\Asset\Critical; use Pmpr\Common\Foundation\Manipulate\ManipulateAjax; use Pmpr\Module\Optimization\Manipulate\ManipulateFile; use Pmpr\Common\Foundation\Manipulate\ManipulateServer; use Pmpr\Module\Optimization\Manipulate\Manipulate as BaseClass; class Manipulate extends BaseClass { public static function guugkagukymokgas(?string $mkomwsiykqigmqca) { $occimwuwscksgwaw = self::cmaecekuqkwmemms("\120\x52\137\117\120\x54\137\103\x52\x49\124\x49\103\101\x4c\137\120\101\x54\110"); return untrailingslashit($occimwuwscksgwaw) . $mkomwsiykqigmqca; } public static function csyeqcysyissgowm(?string $migiiksoiymissge = null, ?string $mkomwsiykqigmqca = null) : ?string { if ($migiiksoiymissge) { goto kgikoagqwkuocesg; } if (ManipulateAjax::mcgoysmkqsqooceq()) { goto awaaowoqskgokwiy; } $migiiksoiymissge = ManipulateServer::ekcymmyqoceukosc(); goto uqiekawkwcegsumy; awaaowoqskgokwiy: $migiiksoiymissge = ManipulateServer::ayueggmoqeeukqmq("\x70\x65\162\x6d\141\154\x69\x6e\153", null); uqiekawkwcegsumy: kgikoagqwkuocesg: $ieqwoiuickwucauq = ManipulateFile::usoyisqwsqsegiam($migiiksoiymissge); $mmicssmagyqiooei = trailingslashit(self::guugkagukymokgas($mkomwsiykqigmqca)) . $ieqwoiuickwucauq; return trailingslashit($mmicssmagyqiooei) . "\x73\x74\171\154\145\163\x2e\143\163\x73"; } }

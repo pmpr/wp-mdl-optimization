@@ -1,7 +1,0 @@
-<?php
-/*   _______________________________________
-    |  Obfuscated by PMPR - Php Obfuscator  |
-    |             6554aae47c553             |
-    |_______________________________________|
-*/
- namespace Pmpr\Module\Optimization\Page\Modal\Segment; use Pmpr\Common\Foundation\Interfaces\IconInterface; class Preview extends Segment { public function __construct() { $this->icon = IconInterface::sogokmmgmqesmyum; $this->title = __("\120\141\147\145\x73\x20\x50\x72\x65\x76\x69\145\x77", PR__MDL__OPTIMIZATION); parent::__construct(); } public function ecwgiiuacoaokqkw() { $this->mkksewyosgeumwsa(self::aikamsoikcwsewac("\162\165\x6c\145\x73\x5f\x70\141\x67\145\x73\x5f\x70\162\145\166\151\x65\167\137\x73\x74\x61\164\165\163")->kkauggiwqygmwesc($this->iiomagmskwiawgyo()))->mkksewyosgeumwsa(self::aikamsoikcwsewac("\157\x70\164\137\x72\x75\x6c\145\x5f\160\162\145\x76\151\145\x77\137\165\x72\154\x73"))->igmamuiesywmkgeu(__("\101\144\144\x20\x50\x61\147\x65\163", PR__MDL__OPTIMIZATION), ["\143\x6c\141\163\163" => "\157\x70\164\x2d\x61\144\x64\55\x72\165\x6c\x65\163\55\160\x61\147\145\x73\40\x62\x75\x74\164\x6f\x6e\55\160\162\151\x6d\141\162\171"])->igmamuiesywmkgeu(__("\x52\145\x73\145\x74\40\103\150\x61\x6e\147\x65\x73", PR__MDL__OPTIMIZATION), ["\143\x6c\x61\x73\x73" => "\x6f\160\164\x2d\162\145\x73\x65\x74\55\x63\x68\x61\x6e\x67\145\x73\x20\x6f\x70\164\x2d\x73\150\x6f\x77\55\x72\x75\x6c\x65\x73\55\x70\162\145\166\151\145\x77\40\x62\x75\164\x74\157\x6e\x2d\x73\145\143\x6f\x6e\x64\141\162\171\40\x64\x2d\156\157\x6e\145"]); } }

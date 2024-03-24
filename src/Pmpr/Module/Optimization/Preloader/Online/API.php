@@ -1,7 +1,0 @@
-<?php
-/*   _______________________________________
-    |  Obfuscated by PMPR - Php Obfuscator  |
-    |             6554aae47c553             |
-    |_______________________________________|
-*/
- namespace Pmpr\Module\Optimization\Preloader\Online; use Pmpr\Module\Optimization\API\Remote; use WP_Error; class API extends Remote { public function start(array $egeqeuwiswigogyk = []) { if (is_array($egeqeuwiswigogyk) && count($egeqeuwiswigogyk) > 0) { goto sckioayasmkcoeoo; } $sogksuscggsicmac = $this->oemauiimmycumcsk(__("\x50\145\x72\155\141\x6c\151\x6e\153\x73\x20\154\151\163\164\40\x69\163\x20\x65\155\x70\164\171", PR__MDL__OPTIMIZATION)); goto yssqmyoaokkksukc; sckioayasmkcoeoo: $sogksuscggsicmac = $this->eqkieiagqmugguew("\x2f\152\157\142\x2f\x70\162\145\x6c\x6f\x61\144", [self::kugiewcgiawaeiaq => ["\141\x70\x69\153\145\171" => $this->eegcqkwceasicmek(), "\x70\x65\x72\155\x61\x6c\x69\x6e\153\x73" => $egeqeuwiswigogyk]], self::mswoacegomcucaik); if (is_wp_error($sogksuscggsicmac)) { goto eyiwqgqcsqakwqss; } $sogksuscggsicmac = $sogksuscggsicmac[self::gouqcwikiiygyasc] ?? $this->oemauiimmycumcsk($this->caokeucsksukesyo()->ywqgcuymeiswqyqc()->get($sogksuscggsicmac, self::eoskkkieowogacws)); eyiwqgqcsqakwqss: yssqmyoaokkksukc: return $sogksuscggsicmac; } public function yucicikmqgicagas($aokagokqyuysuksm) : string { $sogksuscggsicmac = $this->uiqqikcuycqyeooa($aokagokqyuysuksm, "\x70\162\145\x6c\x6f\x61\144"); return $this->caokeucsksukesyo()->ywqgcuymeiswqyqc()->get($sogksuscggsicmac, self::ciywsqoeiymemsys); } }

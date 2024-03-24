@@ -1,0 +1,7 @@
+<?php
+/*   _______________________________________
+    |  Obfuscated by PMPR - Php Obfuscator  |
+    |             66000aba21b1a             |
+    |_______________________________________|
+*/
+ namespace Pmpr\Module\Optimization\Optimizer\Cache; use Pmpr\Module\Optimization\Optimizer\Cache\VirtualBrowser\VirtualBrowser; use Pmpr\Module\Optimization\Optimizer\Cache\HTML\HTML; class Cache extends Common { public function kgquecmsgcouyaya() { $this->cecaguuoecmccuse("\x63\157\x6d\155\x65\156\x74\137\143\x6f\x6f\x6b\151\x65\x5f\154\151\x66\x65\x74\151\155\x65", [$this, "\x61\141\x63\x67\165\151\x71\x6b\x67\x79\x79\x69\155\x79\x67\153"]); $this->aqaqisyssqeomwom(self::kgswyesggeyekgmg . "\x63\141\x63\150\x65\x5f\x71\x75\x65\162\x79\137\163\x74\162\151\x6e\x67\x73", [$this, "\145\153\x61\x79\141\143\x65\x6b\x73\x79\x79\171\x6f\x61\171\x65"]); } public function mameiwsayuyquoeq() { HTML::symcgieuakksimmu(); WPCache::symcgieuakksimmu(); VirtualBrowser::symcgieuakksimmu(); } public function aacguiqkgyyimygk($uagwomscgeccywsq) { return $this->ocksiywmkyaqseou(self::kgswyesggeyekgmg . "\x63\141\143\150\145\137\143\x6f\155\155\145\x6e\x74\x5f\143\x6f\x6f\153\x69\145\x5f\154\151\146\145\x74\151\155\145", 3 * MINUTE_IN_SECONDS); } public function ekayaceksyyyoaye($kewscequsakouquq) { global $is_nginx; if (!$is_nginx) { goto wkgskiuiukiuyque; } $kewscequsakouquq[] = "\x71"; wkgskiuiukiuyque: return $kewscequsakouquq; } }

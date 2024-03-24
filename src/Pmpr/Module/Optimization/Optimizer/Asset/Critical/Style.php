@@ -1,0 +1,7 @@
+<?php
+/*   _______________________________________
+    |  Obfuscated by PMPR - Php Obfuscator  |
+    |             66000aba21b1a             |
+    |_______________________________________|
+*/
+ namespace Pmpr\Module\Optimization\Optimizer\Asset\Critical; use Pmpr\Module\Optimization\Optimizer\Asset\Setting; use Pmpr\Module\Optimization\Optimizer\Buffer\Engine; use Pmpr\Module\Optimization\Traits\PageManagerEngineTrait; class Style extends Engine { use PageManagerEngineTrait; public function kgquecmsgcouyaya() { $this->miasamwyaiagioug([$this, "\x73\157\x71\x63\x71\x79\161\141\165\163\x73\x61\141\157\151\171"], 999); } public function soqcqyqaussaaoiy($moooemyaqewumiay) { if (!($ioogqcsymweeowew = (string) $this->wkagassgcaqeosio()->owimqaiqokakwisa(self::eoeewcigeywcquis))) { goto syiyemqigyugagks; } if (!($goauowqewmiegoeg = $this->weysguygiseoukqw(Setting::ciqeeymywqaykcss, ''))) { goto xogaycsaesgqeqig; } $ioogqcsymweeowew .= $goauowqewmiegoeg; xogaycsaesgqeqig: if (!$ioogqcsymweeowew) { goto gsiaskgsukseumig; } $kswaimykcacqyaay = $this->caokeucsksukesyo()->wgqqgewcmcemoewo()->qiokaomckmywuwqo(wp_strip_all_tags($ioogqcsymweeowew), [self::gouqcwikiiygyasc => "\x6f\160\164\x2d\x63\162\151\164\151\143\x61\x6c\55\143\163\163"]); $moooemyaqewumiay = preg_replace("\x23\74\57\x74\x69\x74\154\145\x3e\x23\x69\x55", "\74\x2f\x74\151\x74\x6c\x65\x3e{$kswaimykcacqyaay}", $moooemyaqewumiay, 1); gsiaskgsukseumig: syiyemqigyugagks: return $moooemyaqewumiay; } }

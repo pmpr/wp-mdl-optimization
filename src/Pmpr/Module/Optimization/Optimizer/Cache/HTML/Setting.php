@@ -1,0 +1,7 @@
+<?php
+/*   _______________________________________
+    |  Obfuscated by PMPR - Php Obfuscator  |
+    |             66000aba21b1a             |
+    |_______________________________________|
+*/
+ namespace Pmpr\Module\Optimization\Optimizer\Cache\HTML; use Pmpr\Common\Foundation\Interfaces\IconInterface; use Pmpr\Module\Optimization\Setting\SettingSegment; class Setting extends SettingSegment { const ygcmeykickqoayeo = "\150\164\155\x6c\137\x63\141\143\150\x65"; const aqaeiauuykqeiyoi = self::ygcmeykickqoayeo . "\137\143\141\143\x68\x65\137\x65\x6e\141\142\154\x65"; public function ykwqaukkycogooii() { $this->ogimmkwaymekmoky($this->mkcwgaeaaweamyyg(self::ygcmeykickqoayeo)->jyumyyugiwwiqomk(0)->saemoowcasogykak(IconInterface::wyikeiwemqwyaquo)->gswweykyogmsyawy(__("\110\x54\x4d\114\x20\x43\x61\x63\150\145", PR__MDL__OPTIMIZATION))->gucwmccyimoagwcm(__("\103\x61\143\150\x65\40\x63\157\x6e\146\x69\x67\x75\x72\x61\x74\151\x6f\x6e\40\x66\x6f\x20\x48\x54\115\114", PR__MDL__OPTIMIZATION))->kwkugmqouisgkqig($this->ycgeeoiieoiakgam(self::ioomakeyqiqowgmk)->saemoowcasogykak(IconInterface::wukkqukiiuuoyiiy)->gswweykyogmsyawy(__("\107\x65\x6e\x65\x72\x61\x6c", PR__MDL__OPTIMIZATION))->mkksewyosgeumwsa($this->wcwmusaouiqaqeww(self::aqaeiauuykqeiyoi)->gswweykyogmsyawy(__("\x45\x6e\x61\142\x6c\145\x20\x48\124\115\114\x20\103\x61\x63\x68\145", PR__MDL__OPTIMIZATION))))); } public function aiqeywqiyqcekgiu($qiouiwasaauyaaue, $uusmaiomayssaecw) { $qiouiwasaauyaaue[self::aqaeiauuykqeiyoi] = true; return parent::aiqeywqiyqcekgiu($qiouiwasaauyaaue, $uusmaiomayssaecw); } }
