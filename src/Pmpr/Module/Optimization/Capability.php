@@ -1,0 +1,7 @@
+<?php
+/*   _______________________________________
+    |  Obfuscated by PMPR - Php Obfuscator  |
+    |             661cd103ef1d7             |
+    |_______________________________________|
+*/
+ namespace Pmpr\Module\Optimization; use WP_Role; class Capability extends Container { public function wigskegsqequoeks() { $this->waqewsckuayqguos(self::kgswyesggeyekgmg . self::yyicwqsqaecyqwco, [$this, "\151\x71\157\x67\x75\x6f\163\143\x71\x75\x65\157\155\x71\163\153"])->waqewsckuayqguos(self::kgswyesggeyekgmg . self::uoawqiomwkwwaucs, [$this, "\x75\x79\x73\163\x6d\x71\163\x77\171\x6b\141\147\x65\x65\153\151"]); } public function iqoguoscqueomqsk() { if (!($oeucsuyqysaciasy = $this->wqucueaimeucqqgq())) { goto uougwgeyiokewkkm; } foreach ($this->ggqekkkocygywmoy() as $eogowigeyucaauig) { $oeucsuyqysaciasy->add_cap($eogowigeyucaauig); gygwewcqsmwqismo: } amgsueumgaguceaa: uougwgeyiokewkkm: } public function uyssmqswykageeki() { if (!($oeucsuyqysaciasy = $this->wqucueaimeucqqgq())) { goto ucqmumuygcywwqma; } foreach ($this->ggqekkkocygywmoy() as $eogowigeyucaauig) { $oeucsuyqysaciasy->remove_cap($eogowigeyucaauig); ukqocwewouckikso: } gommacygsykyussk: ucqmumuygcywwqma: } public function wqucueaimeucqqgq() : ?WP_Role { return $this->uwkmaywceaaaigwo()->issssuygyewuaswa()->aqciiewawiwecoou(self::wiukckegkqeumqug); } public function ggqekkkocygywmoy() : array { return [self::wwgqqgayyagycysu]; } }

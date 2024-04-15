@@ -1,71 +1,61 @@
 {% extends get_template('../../../advanced.php', _self) %}
 
-{% block content %}
+{% block use %}
     {% for use in uses %}
-        use {{ use|raw }};
+use {{ use|raw }};
     {% endfor %}
+{% endblock %}
 
-    define('PR_OPTIMIZATION_ADVANCED_CACHE', true);
+{% block content %}
+define('PR_OPTIMIZATION_ADVANCED_CACHE', true);
 
-    function opt_advanced_cache_get_path($path) {
-
+function opt_advanced_cache_get_path($path) {
     if (defined('PR_ENV_SLD')) {
-
-    $path = sprintf($path, PR_ENV_SLD);
+        $path = sprintf($path, PR_ENV_SLD);
     }
-
     return $path;
-    }
+}
 
-    $cachePath  = opt_advanced_cache_get_path('{{ cache_path|raw }}');
-    $configPath = opt_advanced_cache_get_path('{{ config_path|raw }}');
-    $vendorPath = '{{ vendor_path|raw }}';
+$cachePath  = opt_advanced_cache_get_path('{{ cache_path|raw }}');
+$configPath = opt_advanced_cache_get_path('{{ config_path|raw }}');
+$vendorPath = '{{ vendor_path|raw }}';
 
-    $classes = [
-    {%- for key, class in classes %}
-        "{{ key|namespace }}" => "{{ class }}",
-    {% endfor -%}
-    ];
+$classes = [
+{%- for key, class in classes %}
+    "{{ key|namespace }}" => "{{ class }}",
+{% endfor -%}
+];
 
-    if (file_exists($cachePath)
+if (file_exists($cachePath)
     && file_exists($configPath)) {
 
-    spl_autoload_register(
-    function ($class) use ($classes, $vendorPath) {
+    spl_autoload_register(static function ($class) use ($classes, $vendorPath) {
+        if (isset($classes[$class])) {
+            $file = $classes[$class];
+        } elseif (strpos($class, 'Monolog\\') === 0) {
+             $file = "{$vendorPath}/monolog/monolog/src/" . str_replace('\\', '/', $class) . '.php';
+        } elseif (strpos($class, 'Symfony\\') === 0) {
+            $file = "{$vendorPath}/symfony/filesystem/Filesystem.php";
+        } elseif (strpos($class, 'Psr\\Log\\') === 0) {
+            $file = "{$vendorPath}/psr/log/" . str_replace('\\', '/', $class) . '.php';
+        } else {
+            return;
+        }
+        if (file_exists($file)) {
+            require_once $file;
+        }
+    });
 
-    if (isset($classes[$class])) {
+    if (class_exists(Buffer::class)) {
 
-    $file = $classes[$class];
-    } elseif (strpos($class, 'Monolog\\') === 0) {
-
-    $file = "{$vendorPath}/monolog/monolog/src/" . str_replace('\\', '/', $class) . '.php';
-    } elseif (strpos($class, 'Symfony\\') === 0) {
-
-    $file = "{$vendorPath}/symfony/filesystem/Filesystem.php";
-    } elseif (strpos($class, 'Psr\\Log\\') === 0) {
-
-    $file = "{$vendorPath}/psr/log/" . str_replace('\\', '/', $class) . '.php';
-    } else {
-    return;
-    }
-    if (file_exists($file)) {
-    require_once $file;
-    }
-    }
-    );
-
-    if (class_exists('\{{ namespace|raw }}\Buffer')) {
-
-    $config = new Config(['path' => $configPath]);
-    new Buffer(new Test($config), $config, ['path' => $cachePath]);
+        $config = new Config(['path' => $configPath]);
+        new Buffer(new Test($config), $config, ['path' => $cachePath]);
     } elseif (!defined('DONT_PERFORMANCE_OPTIMIZE')) {
 
-    define('DONT_PERFORMANCE_OPTIMIZE', true);
-    }
-    } else {
-    if (!defined('PR_OPTIMIZATION_ADVANCED_CACHE')) {
+        define('DONT_PERFORMANCE_OPTIMIZE', true);
+    } else if (!defined('PR_OPTIMIZATION_ADVANCED_CACHE')) {
 
-    define('PR_OPTIMIZATION_ADVANCED_CACHE_PROBLEM', true);
+        define('PR_OPTIMIZATION_ADVANCED_CACHE_PROBLEM', true);
     }
-    }
+}
 {% endblock %}
