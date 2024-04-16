@@ -13,8 +13,13 @@
     "ext-libxml": "*",
     "matthiasmullie/minify": "1.3.63",
     "ksubileau/color-thief-php": "1.4.1",
-    "pmpr-cmn/wp-cmn-foundation": "~1.3",
+    "pmpr-cmn/wp-cmn-foundation": "~1.4",
     "websharks/html-compressor": "170420.24924"
+  },
+  "prod-require": {
+    "php": "7.4",
+    "wordpress": "6.0",
+    "wp-cmn-foundation": "latest"
   },
   "autoload": {
     "psr-4": {
@@ -25,5 +30,5 @@
     ]
   },
   "minimum-stability": "dev",
-  "version": "1.2.84"
+  "version": "1.2.85"
 }
