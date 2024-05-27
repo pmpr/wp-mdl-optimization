@@ -1,7 +1,7 @@
 <?php
 /*   _______________________________________
     |  Obfuscated by PMPR - Php Obfuscator  |
-    |             6648bed4e3da1             |
+    |             6654cb65a9906             |
     |_______________________________________|
 */
- namespace Pmpr\Module\Optimization\Optimizer\Cache\Purge; abstract class Engine extends Common { public function caoeosiqwyaauaio(string $mkomwsiykqigmqca) : bool { $iiaumsgauuyeqksw = $this->caokeucsksukesyo()->iuekyyeesukysksy()->kcciqwskewsuaemk(); return !$iiaumsgauuyeqksw->exists($mkomwsiykqigmqca) || $iiaumsgauuyeqksw->remove($mkomwsiykqigmqca); } public abstract function gimogqqgyqwiwsmi() : bool; public abstract function qsiwaqwsyasqsqcq(...$ywmkwiwkosakssii) : bool; }
+ namespace Pmpr\Module\Optimization\Optimizer\Cache\Purge; abstract class Engine extends Common { public function caoeosiqwyaauaio(string $mkomwsiykqigmqca) : bool { $miiyyswuessymmwe = $this->caokeucsksukesyo()->iuekyyeesukysksy(); $iiaumsgauuyeqksw = $miiyyswuessymmwe->kcciqwskewsuaemk(); return !$iiaumsgauuyeqksw->exists($mkomwsiykqigmqca) || $iiaumsgauuyeqksw->remove($mkomwsiykqigmqca); } public abstract function gimogqqgyqwiwsmi() : bool; public abstract function qsiwaqwsyasqsqcq(...$ywmkwiwkosakssii) : bool; }
