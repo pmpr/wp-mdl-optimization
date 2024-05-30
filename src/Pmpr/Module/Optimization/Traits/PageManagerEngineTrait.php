@@ -1,7 +1,7 @@
 <?php
 /*   _______________________________________
     |  Obfuscated by PMPR - Php Obfuscator  |
-    |             66585f57028db             |
+    |             665872dfe6b03             |
     |_______________________________________|
 */
  namespace Pmpr\Module\Optimization\Traits; use Pmpr\Module\Optimization\PageManager\Engine; trait PageManagerEngineTrait { protected ?Engine $pageManagerEngine = null; public function wkagassgcaqeosio() : Engine { if ($this->pageManagerEngine) { goto qgegkeomwscwwiuw; } $this->pageManagerEngine = Engine::symcgieuakksimmu(); qgegkeomwscwwiuw: return $this->pageManagerEngine; } }
