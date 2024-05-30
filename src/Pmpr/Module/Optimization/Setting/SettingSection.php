@@ -1,7 +1,7 @@
 <?php
 /*   _______________________________________
     |  Obfuscated by PMPR - Php Obfuscator  |
-    |             665875e35aad0             |
+    |             6658781c3e0dc             |
     |_______________________________________|
 */
  namespace Pmpr\Module\Optimization\Setting; use Pmpr\Common\Foundation\FormGenerator\Backend\Setting\Section; use Pmpr\Module\Optimization\Traits\AlertTrait; class SettingSection extends Section { use AlertTrait; public function ikcgmcycisiccyuc() { $this->setting = Setting::symcgieuakksimmu(); } }

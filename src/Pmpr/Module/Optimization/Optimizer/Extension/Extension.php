@@ -1,7 +1,7 @@
 <?php
 /*   _______________________________________
     |  Obfuscated by PMPR - Php Obfuscator  |
-    |             665875e35aad0             |
+    |             6658781c3e0dc             |
     |_______________________________________|
 */
  namespace Pmpr\Module\Optimization\Optimizer\Extension; use Pmpr\Module\Optimization\Optimizer\Extension\Cover\Cover; use Pmpr\Module\Optimization\Optimizer\Extension\Module\Module; use Pmpr\Module\Optimization\Optimizer\Extension\Plugin\Plugin; use Pmpr\Module\Optimization\Optimizer\Extension\Theme\Theme; class Extension extends Common { public function mameiwsayuyquoeq() { Cover::symcgieuakksimmu(); Theme::symcgieuakksimmu(); Module::symcgieuakksimmu(); Plugin::symcgieuakksimmu(); Setting::symcgieuakksimmu(); } }

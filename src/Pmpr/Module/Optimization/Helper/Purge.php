@@ -1,7 +1,7 @@
 <?php
 /*   _______________________________________
     |  Obfuscated by PMPR - Php Obfuscator  |
-    |             665875e35aad0             |
+    |             6658781c3e0dc             |
     |_______________________________________|
 */
  namespace Pmpr\Module\Optimization\Helper; class Purge extends Common { public function ckuaeyecaekkkwqs($post = null) : bool { $macmssugksugukws = [self::ywskismomwmcsqam, self::scwmgoegsukauoku, self::cssaaweyquokqaeq, self::aqugcqsyeisayuog, self::sgoswgskyiiwkyuo]; $iueymcwwscwqkiyq = $this->caokeucsksukesyo()->ayueggmoqeeukqmq()->ucwmcwqmqwaymkkc($post); if (!in_array($iueymcwwscwqkiyq, $macmssugksugukws, true)) { goto cmsiuimsiycomyay; } return false; cmsiuimsiycomyay: $gcgsqcoqciockquc = $this->uwkmaywceaaaigwo()->ogciwyoqgciosgcw()->oequuauskyumwyau(); return !($gcgsqcoqciockquc && self::ukwaycqmyyuekwqg === $gcgsqcoqciockquc->action); } }
