@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PMPR Optimization\n"
-"POT-Creation-Date: 2024-06-01 11:40+0330\n"
-"PO-Revision-Date: 2024-06-01 11:40+0330\n"
+"POT-Creation-Date: 2024-06-01 21:35+0330\n"
+"PO-Revision-Date: 2024-06-01 21:36+0330\n"
 "Last-Translator: Farshad Asgharzade <pmpr.dev@gmail.com>\n"
 "Language-Team: \n"
 "Language: fa_IR\n"
@@ -317,7 +317,7 @@ msgstr "گزارش مرورگر مجازی"
 
 #: src/Pmpr/Module/Optimization/Optimizer/Cache/WPCache.php:94
 #: src/Pmpr/Module/Optimization/Optimizer/Cache/WPCache.php:154
-#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Setting.php:87
+#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Setting.php:211
 msgid "Cache"
 msgstr "کش"
 
@@ -1363,7 +1363,7 @@ msgid "Subscription and Charge Coins"
 msgstr "اشتراک و شارژ سکه"
 
 #: src/Pmpr/Module/Optimization/Subscription/Page.php:41
-#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Setting.php:54
+#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Setting.php:158
 msgid "Account"
 msgstr "حساب کاربری"
 
@@ -1525,29 +1525,24 @@ msgstr "شبکه تحویل محتوا"
 msgid "Adapt with CDNs"
 msgstr "با CDN‌ها سازگار شوید"
 
-#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/API.php:240
+#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/API.php:215
 msgid "Unable to retrive zone id due to invalid response data"
 msgstr ""
 
-#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/API.php:256
+#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/API.php:231
 msgid "Unable to find domains configured on Cloudflare"
 msgstr ""
 
-#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/API.php:299
-#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/API.php:365
-msgid "There is not zone id to use"
+#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/API.php:382
+msgid "Ruleset ID not specified."
 msgstr ""
 
-#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/API.php:369
-msgid "There is not page rule to delete"
-msgstr "هیچ قاعده‌ای برای حذف وجود ندارد"
-
-#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/API.php:594
+#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/API.php:621
 #, php-format
 msgid "Unable to find %s settings: %s"
 msgstr ""
 
-#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/API.php:598
+#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/API.php:625
 #, php-format
 msgid "Unable to get %s settings: %s"
 msgstr ""
@@ -1576,127 +1571,329 @@ msgid "on"
 msgstr "روشن"
 
 #: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Ajax.php:114
-msgid "Page cache enabled successfully"
-msgstr "قابلیت کش شد صفحات به موفقیت فعال شد"
+msgid "Cloudflare cache enabled successfully"
+msgstr "کش کلوفلیر با موفقیت فعال شد"
 
 #: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Ajax.php:125
-msgid "Page cache disabled successfully"
-msgstr "قابلیت کش شد صفحات به موفقیت غیر فعال شد"
+msgid "Cloudflare cache disabled successfully"
+msgstr "کش کلوفلیر با موفقیت غیر فعال شد"
 
-#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Cloudflare.php:60
-#, fuzzy, php-format
-#| msgid "Please complete cloudflare tab information"
+#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Cloudflare.php:73
+#, php-format
 msgid "Please complete cloudflare tab information: %s"
-msgstr "لطفا اطلاعات برگه کلود فلیر را تکمیل کنید"
+msgstr "لطفا اطلاعات برگه کلودفلیر را تکمیل کنید: %s"
 
-#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Cloudflare.php:185
+#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Cloudflare.php:166
 msgid "Purge Post Cache"
 msgstr "پاک‌سازی کش‌ نوشته"
 
-#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Engine.php:258
-#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Engine.php:265
-#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Engine.php:276
-#, fuzzy, php-format
-#| msgid "Cloudflare Dashboard"
+#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Engine.php:273
+#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Engine.php:280
+#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Engine.php:291
+#, php-format
 msgid "Cloudflare %s not entered!"
-msgstr "داشبورد کلود فلیر"
+msgstr "%s کلوفلیر وارد نشده است!"
 
-#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Engine.php:258
-#, fuzzy
-#| msgid "Email"
+#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Engine.php:273
 msgid "e-mail"
 msgstr "ایمیل"
 
-#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Engine.php:265
-#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Setting.php:66
-#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Setting.php:78
+#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Engine.php:280
+#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Setting.php:174
+#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Setting.php:186
 msgid "API Token"
 msgstr "توکن وب سرویس (API Token)"
 
-#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Engine.php:270
+#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Engine.php:285
 msgid "There is a problem on fetching related domain to entered api token."
 msgstr ""
 
-#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Engine.php:276
-#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Setting.php:65
-#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Setting.php:73
+#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Engine.php:291
+#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Setting.php:127
+#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Setting.php:131
+#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Setting.php:173
+#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Setting.php:181
 msgid "API Key"
 msgstr "کلید وب سرویس (API Key)"
 
-#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Engine.php:281
+#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Engine.php:296
 msgid "There is a problem on fetching related zone id to entered api key."
 msgstr ""
 
-#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Setting.php:49
+#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Setting.php:52
+#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Setting.php:70
 msgid "Cloudflare"
-msgstr "کلود فلیر"
+msgstr "کلودفلیر"
 
-#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Setting.php:50
+#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Setting.php:53
 msgid "Cloudflare cloud service management"
-msgstr "مدیریت سرویس ابری کلود فلیر"
-
-#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Setting.php:58
-msgid "Cloudflare e-mail"
-msgstr "ایمیل کلود فلیر"
-
-#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Setting.php:59
-msgid "The email address you use to log in to Cloudflare."
-msgstr "آدرس ایمیلی که شما برای ورد به حساب‌کاربری خود در کلود فلیر استفاده می‌کنید."
+msgstr "مدیریت سرویس ابری کلودفلیر"
 
 #: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Setting.php:64
+msgid "Cloudflare Dashboard"
+msgstr "داشبورد کلودفلیر"
+
+#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Setting.php:67
+#, php-format
+msgid "%1$s or %2$s on %3$s"
+msgstr "در %3$s %1$s یا %2$s"
+
+#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Setting.php:68
+msgid "Login"
+msgstr "وارد شوید"
+
+#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Setting.php:69
+msgid "Sign up"
+msgstr "ثبت نام کنید"
+
+#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Setting.php:72
+#, php-format
+msgid "Add %s domain"
+msgstr "دامنه %s را اضافه کنید"
+
+#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Setting.php:74
+#, php-format
+msgid "In %s page chose %s plan from below of list"
+msgstr "در صفحه %s پلن %s را از پایین لیست انتخاب کنید"
+
+#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Setting.php:79
+#, php-format
+msgid "In %s page click on %s and in %s window click on %s"
+msgstr "در صفحه %s روی %s کلیک کنید و در پنجره %s روی دکمه %s کلیک کنید"
+
+#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Setting.php:86
+#, php-format
+msgid ""
+"In %s page based on %s and %s remove previous name servers of %s and replace "
+"cloudflare name savers and click on %s"
+msgstr ""
+"در صفحه %s طبق آیتم‌های شماره %s و %s نیم سرور‌های قبلی دامنه %s را حذف و نیم "
+"سرورهای کلود فلیر را جایگزین کرده و روی دکمه %s کلیک کنید"
+
+#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Setting.php:95
+msgid "Do this by logging in to your domain registrar panel"
+msgstr ""
+"این مرحله را از طریق ورود به پنل مدیریت دامنه خود، مثل ایرنیک برای دامنه‌های ir، "
+"انجام دهید"
+
+#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Setting.php:100
+#, php-format
+msgid "In %s page click on %s"
+msgstr "در صفحه %s روی %s کلیک کنید"
+
+#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Setting.php:105
+#, php-format
+msgid ""
+"Click on %s in profile menu and in %s tab in %s segment, click on %s related to "
+"%s%s. In %s modal enter your password and click on %s and copy key text for use "
+"on next steps"
+msgstr ""
+"در منوی کاربری بر روی %s کلیک کرده و در برگه %s در بخش %s روی دکمه %s مربوط به "
+"%s کلیک کنید.%s در پنجره %s رمز خود را وارد کرده و بر روی دکمه‌ی %s کلیک کنید و "
+"متن کلید را برای استفاده در ادامه کار کپی کنید"
+
+#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Setting.php:118
+msgid "Wordpress Admin"
+msgstr "پنل ادمین وردپرس"
+
+#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Setting.php:121
+#, php-format
+msgid "Enter the email you registered with on cloudflare in the %s field"
+msgstr "ایمیلی که با آن در کلود فلیر ثبت نام کردید را در فیلد %s وارد کنید"
+
+#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Setting.php:122
+#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Setting.php:166
+msgid "Cloudflare e-mail"
+msgstr "ایمیل کلودفلیر"
+
+#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Setting.php:125
+#, php-format
+msgid "Put the %s on the %s"
+msgstr "%s را روی %s قرار دهید"
+
+#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Setting.php:126
+msgid "Authentication mode"
+msgstr "نحوه احراز هویت"
+
+#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Setting.php:130
+#, php-format
+msgid "Put the text of the key copied in the previous steps in the %s field"
+msgstr "متن کلید کپی شده از مراحل قبل را در فیلد %s وارد کنید"
+
+#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Setting.php:134
+#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Setting.php:148
+#, php-format
+msgid "Click on %s button"
+msgstr "روی دکمه %s کلیک کنید"
+
+#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Setting.php:135
+#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Setting.php:149
+msgid "Save changes"
+msgstr "ذخیره تغییرات"
+
+#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Setting.php:138
+#, php-format
+msgid "In the %s field, select %s"
+msgstr "در فیلد %s، دامنه %s را انتخاب کنید"
+
+#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Setting.php:139
+msgid "Domain Name"
+msgstr "نام دامنه"
+
+#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Setting.php:144
+msgid ""
+"If your domain name is not in the list, reload the WordPress admin panel page"
+msgstr ""
+"در صورتی که نام دامنه شما در لیست وجود نداشت صفحه پنل ادمین وردپرس را رفرش کنید"
+
+#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Setting.php:163
+msgid "Connection"
+msgstr "اتصال"
+
+#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Setting.php:167
+msgid "The email address you use to log in to Cloudflare."
+msgstr "آدرس ایمیلی که شما برای ورد به حساب‌کاربری خود در کلودفلیر استفاده می‌کنید."
+
+#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Setting.php:172
 msgid "Authentication Mode"
 msgstr "نحوه احراز هویت"
 
-#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Setting.php:67
+#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Setting.php:175
 msgid "Authentication mode to use to connect to your Cloudflare account."
-msgstr "نوع احراز هویت به منظور اتصال به حساب کاربری شما بر روی کلود فلیر."
+msgstr "نوع احراز هویت به منظور اتصال به حساب کاربری شما بر روی کلودفلیر."
 
-#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Setting.php:74
+#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Setting.php:182
 msgid "The global API key extrapolated from your Cloudflare account."
 msgstr ""
-"کلید وب سرویس کلود فلیر که ‌می‌توانید آن را در حساب کاربری خود در کلود فلیر بیابید."
+"کلید وب سرویس کلودفلیر که ‌می‌توانید آن را در حساب کاربری خود در کلودفلیر بیابید."
 
-#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Setting.php:79
+#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Setting.php:187
 msgid "The API token extrapolated from your Cloudflare account."
 msgstr ""
-"کلید رمزی وب سرویس کلود فلیر که ‌می‌توانید آن را در حساب کاربری خود در کلود فلیر "
+"کلید رمزی وب سرویس کلودفلیر که ‌می‌توانید آن را در حساب کاربری خود در کلودفلیر "
 "بیابید."
 
-#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Setting.php:92
-msgid "Cloudflare Cache-Control max-age"
-msgstr "مقدار Cache-control max-age مربوط به کلود فلیر"
+#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Setting.php:191
+msgid "Zone ID"
+msgstr ""
 
-#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Setting.php:94
-#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Setting.php:103
+#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Setting.php:199
+msgid "Guide"
+msgstr "راهنما"
+
+#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Setting.php:215
+msgid "Purge HTML pages only"
+msgstr "تنها فایل‌های HTML را پاک‌سازی کن"
+
+#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Setting.php:216
+msgid ""
+"Purge only the cached HTML pages instead of the whole Cloudflare cache (asset + "
+"pages)."
+msgstr ""
+"به جای پاک‌سازی کل کش کلودفلیر (شامل منابع استاتیکی و HTML)، فقط HTML را پاک کن."
+
+#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Setting.php:221
+msgid "Cloudflare Cache-Control max-age"
+msgstr "مقدار Cache-control max-age مربوط به کلودفلیر"
+
+#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Setting.php:223
+#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Setting.php:232
 msgid "Don't touch if you don't know what is it. Must be greater than zero."
 msgstr ""
 "اگر اطلاعات کافی در مورد این گزینه‌را ندارید لطفا آن را تغییر ندهید. مقدار این "
 "گزینه باید بیشتر از صفر باشد."
 
-#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Setting.php:95
+#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Setting.php:224
 #, php-format
 msgid "Recommended %s"
 msgstr "%s توصیه می‌شود"
 
-#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Setting.php:101
+#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Setting.php:230
 msgid "Browser Cache-Control max-age"
 msgstr "مقدار Cache-control max-age مربوط به مرورگر"
 
-#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Setting.php:104
+#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Setting.php:233
 #, php-format
 msgid "Recommended a value between %s and %s"
 msgstr "مقداری بین %s و %s توصیه می‌شود"
 
-#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Setting.php:109
-msgid "Purge HTML pages only"
-msgstr "تنها فایل‌های HTML را پاک‌سازی کن"
+#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Setting.php:240
+msgid "Disable Cloudflare Cache"
+msgstr "غیر فعال کردن کش کلودفلیر"
 
-#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Setting.php:110
+#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Setting.php:244
+#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Setting.php:302
+msgid "Cloudflare Cache"
+msgstr "کش کلودفلیر"
+
+#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Setting.php:249
+msgid "Disable cloudflare cache functionality for all pages and asset."
+msgstr "غیر فعال کردن قابلیت کش کلودفلیر برای تمامی صفحات و منابع استاتیکی."
+
+#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Setting.php:253
 msgid ""
-"Purge only the cached HTML pages instead of the whole Cloudflare cache (asset + "
-"pages)."
+"Disable cloudflare cache can speed down your website. Are you sure you want to "
+"continue?"
 msgstr ""
-"به جای پاک‌سازی کل کش کلود فلیر (شامل منابع استاتیکی و HTML)، فقط HTML را پاک کن."
+"فعال کردن حالت توسعه قابلیت کش کلودفلیر را برای سایت شما غیر فعال خواهد کرد. آیا "
+"از انجام این کار مطمئن هستید؟"
+
+#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Setting.php:258
+#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Setting.php:290
+msgid "Disable"
+msgstr "غیرفعال"
+
+#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Setting.php:268
+msgid "Disable Development Mode"
+msgstr "غیر فعال کردن حالت توسعه"
+
+#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Setting.php:269
+msgid "Enable Development Mode"
+msgstr "فعال کردن حالت توسعه"
+
+#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Setting.php:274
+msgid "Cloudflare Development Mode"
+msgstr "حالت توسعه کلودفلیر"
+
+#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Setting.php:279
+msgid "Temporarily bypass cloudflare cache. See changes to your site in realtime."
+msgstr ""
+"معلق کردن کش کلودفلیر به صورت موقت، به منظور مشاهده تغییرات سایت به صورت لحظه‌ای."
+
+#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Setting.php:284
+msgid ""
+"Disabling Development Mode turns on cloudflare caching for your site. Are you "
+"sure you want to continue?"
+msgstr ""
+"فعال کردن حالت توسعه قابلیت کش کلودفلیر را برای سایت شما غیر فعال خواهد کرد. آیا "
+"از انجام این کار مطمئن هستید؟"
+
+#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Setting.php:285
+msgid ""
+"Enabling Development Mode turns off cloudflare caching for your site. Are you "
+"sure you want to continue?"
+msgstr ""
+"فعال کردن حالت توسعه قابلیت کش کلودفلیر را برای سایت شما غیر فعال خواهد کرد. آیا "
+"از انجام این کار مطمئن هستید؟"
+
+#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Setting.php:290
+#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Setting.php:315
+msgid "Enable"
+msgstr "فعال"
+
+#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Setting.php:298
+msgid "Enable Cloudflare Cache"
+msgstr "فعال‌ سازی کش کلودفلیر"
+
+#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Setting.php:307
+msgid "Enable cloudflare cache functionality for all pages and asset."
+msgstr "غیر فعال کردن قابلیت کش کلودفلیر برای تمامی صفحات و منابع استاتیکی."
+
+#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Setting.php:310
+msgid "Enabling cloudflare cache can boost your site load speed, continue?"
+msgstr ""
+"فعال کردن حالت توسعه قابلیت کش کلودفلیر را برای سایت شما غیر فعال خواهد کرد. آیا "
+"از انجام این کار مطمئن هستید؟"
 
 #: src/Pmpr/Module/Optimization/Traits/AlertTrait.php:39
 msgid "Options that consume coins."
@@ -1709,6 +1906,12 @@ msgstr "افزایش سرعت مجدد"
 #: src/Pmpr/Module/Optimization/Traits/CommonTrait.php:86
 msgid "Are you sure about reOptimize this page?"
 msgstr "آیا در مورد بهینه سازی مجدد این صفحه مطمئن هستید؟"
+
+#~ msgid "Cloudflare Quick Actions"
+#~ msgstr "عملیات سریع کلودفلیر"
+
+#~ msgid "There is not page rule to delete"
+#~ msgstr "هیچ قاعده‌ای برای حذف وجود ندارد"
 
 #~ msgid "Preloading..."
 #~ msgstr "در حال پیش بارگیری..."
@@ -1952,9 +2155,6 @@ msgstr "آیا در مورد بهینه سازی مجدد این صفحه مطم
 #~ "صفحاتی که در این قسمت انتخاب می شوند، به طور کامل از فرآیند افزایش سرعت کنار "
 #~ "گذاشته می شوند."
 
-#~ msgid "Authentication mode"
-#~ msgstr "نحوه احراز هویت"
-
 #~ msgid "The Global API Key extrapolated from your Cloudflare account."
 #~ msgstr ""
 #~ "کلید وب سرویس کلود فلیر که ‌می‌توانید آن را در حساب کاربری خود در کلود فلیر "
@@ -1964,9 +2164,6 @@ msgstr "آیا در مورد بهینه سازی مجدد این صفحه مطم
 #~ msgstr ""
 #~ "کلید رمزی وب سرویس کلود فلیر که ‌می‌توانید آن را در حساب کاربری خود در کلود "
 #~ "فلیر بیابید."
-
-#~ msgid "Domain Name"
-#~ msgstr "نام دامنه"
 
 #~ msgid ""
 #~ "Select the domain for which you want to enable the cache and click on Update "
@@ -1978,129 +2175,17 @@ msgstr "آیا در مورد بهینه سازی مجدد این صفحه مطم
 #~ msgid "Select a Domain Name"
 #~ msgstr "انتخاب یک نام دامنه"
 
-#~ msgid "%1$s or %2$s on %3$s"
-#~ msgstr "در %3$s %1$s یا %2$s"
-
-#~ msgid "Sign up"
-#~ msgstr "ثبت نام کنید"
-
-#~ msgid "Login"
-#~ msgstr "وارد شوید"
-
-#~ msgid "Add %s domain"
-#~ msgstr "دامنه %s را اضافه کنید"
-
-#~ msgid "In %s page chose %s plan from below of list"
-#~ msgstr "در صفحه %s پلن %s را از پایین لیست انتخاب کنید"
-
-#~ msgid "In %s page click on %s and in %s window click on %s"
-#~ msgstr "در صفحه %s روی %s کلیک کنید و در پنجره %s روی دکمه %s کلیک کنید"
-
-#~ msgid ""
-#~ "In %s page based on %s and %s remove previous name servers of %s and replace "
-#~ "cloudflare name savers and click on %s"
-#~ msgstr ""
-#~ "در صفحه %s طبق آیتم‌های شماره %s و %s نیم سرور‌های قبلی دامنه %s را حذف و نیم "
-#~ "سرورهای کلود فلیر را جایگزین کرده و روی دکمه %s کلیک کنید"
-
-#~ msgid "Do this by logging in to your domain registrar panel"
-#~ msgstr ""
-#~ "این مرحله را از طریق ورود به پنل مدیریت دامنه خود، مثل ایرنیک برای دامنه‌های "
-#~ "ir، انجام دهید"
-
-#~ msgid "In %s page click on %s"
-#~ msgstr "در صفحه %s روی %s کلیک کنید"
-
-#~ msgid ""
-#~ "Click on %s in profile menu and in %s tab in %s segment, click on %s related "
-#~ "to %s%s. In %s modal enter your password and click on %s and copy key text "
-#~ "for use on next steps"
-#~ msgstr ""
-#~ "در منوی کاربری بر روی %s کلیک کرده و در برگه %s در بخش %s روی دکمه %s مربوط "
-#~ "به %s کلیک کنید.%s در پنجره %s رمز خود را وارد کرده و بر روی دکمه‌ی %s کلیک "
-#~ "کنید و متن کلید را برای استفاده در ادامه کار کپی کنید"
-
-#~ msgid "Wordpress Admin"
-#~ msgstr "پنل ادمین وردپرس"
-
-#~ msgid "Enter the email you registered with on cloudflare in the %s field"
-#~ msgstr "ایمیلی که با آن در کلود فلیر ثبت نام کردید را در فیلد %s وارد کنید"
-
-#~ msgid "Put the %s on the %s"
-#~ msgstr "%s را روی %s قرار دهید"
-
-#~ msgid "Put the text of the key copied in the previous steps in the %s field"
-#~ msgstr "متن کلید کپی شده از مراحل قبل را در فیلد %s وارد کنید"
-
-#~ msgid "Click on %s button"
-#~ msgstr "روی دکمه %s کلیک کنید"
-
-#~ msgid "Save changes"
-#~ msgstr "ذخیره تغییرات"
-
-#~ msgid "In the %s field, select %s"
-#~ msgstr "در فیلد %s، دامنه %s را انتخاب کنید"
-
-#~ msgid ""
-#~ "If your domain name is not in the list, reload the WordPress admin panel page"
-#~ msgstr ""
-#~ "در صورتی که نام دامنه شما در لیست وجود نداشت صفحه پنل ادمین وردپرس را رفرش "
-#~ "کنید"
-
 #~ msgid "Install Guide"
 #~ msgstr "راهنمای نصب"
 
 #~ msgid "Disable Caching"
 #~ msgstr "غیر فعال کردن کش"
 
-#~ msgid "Disable cloudflare cache functionality for all pages and asset."
-#~ msgstr "غیر فعال کردن قابلیت کش کلود فلیر برای تمامی صفحات و منابع استاتیکی."
-
-#~ msgid ""
-#~ "Disable cloudflare cache can speed down your website. Are you sure you want "
-#~ "to continue?"
-#~ msgstr ""
-#~ "فعال کردن حالت توسعه قابلیت کش کلود فلیر را برای سایت شما غیر فعال خواهد کرد. "
-#~ "آیا از انجام این کار مطمئن هستید؟"
-
-#~ msgid "Disable"
-#~ msgstr "غیرفعال"
-
-#~ msgid "Disable Development Mode"
-#~ msgstr "غیر فعال کردن حالت توسعه"
-
-#~ msgid "Enable Development Mode"
-#~ msgstr "فعال کردن حالت توسعه"
-
-#~ msgid ""
-#~ "Temporarily bypass cloudflare cache. See changes to your site in realtime."
-#~ msgstr ""
-#~ "معلق کردن کش کلود فلیر به صورت موقت، به منظور مشاهده تغییرات سایت به صورت "
-#~ "لحظه‌ای."
-
-#~ msgid ""
-#~ "Enabling Development Mode turns off cloudflare caching for your site. Are you "
-#~ "sure you want to continue?"
-#~ msgstr ""
-#~ "فعال کردن حالت توسعه قابلیت کش کلود فلیر را برای سایت شما غیر فعال خواهد کرد. "
-#~ "آیا از انجام این کار مطمئن هستید؟"
-
 #~ msgid "Change Mode"
 #~ msgstr "تغییر حالت"
 
 #~ msgid "Enable Caching"
 #~ msgstr "کش صفحات"
-
-#~ msgid "Enable cloudflare cache functionality for all pages and asset."
-#~ msgstr "غیر فعال کردن قابلیت کش کلود فلیر برای تمامی صفحات و منابع استاتیکی."
-
-#~ msgid "Enabling cloudflare cache can boost your site load speed, continue?"
-#~ msgstr ""
-#~ "فعال کردن حالت توسعه قابلیت کش کلود فلیر را برای سایت شما غیر فعال خواهد کرد. "
-#~ "آیا از انجام این کار مطمئن هستید؟"
-
-#~ msgid "Enable"
-#~ msgstr "فعال"
 
 #~ msgid "WooCommerce"
 #~ msgstr "ووکامرس"
@@ -2502,9 +2587,6 @@ msgstr "آیا در مورد بهینه سازی مجدد این صفحه مطم
 
 #~ msgid "Fail Safe"
 #~ msgstr "حداکثر پایداری"
-
-#~ msgid "Quick Actions"
-#~ msgstr "عملیات سریع"
 
 #~ msgid "Start Preload"
 #~ msgstr "شروع پیش بارگیری"
@@ -3083,9 +3165,6 @@ msgstr "آیا در مورد بهینه سازی مجدد این صفحه مطم
 
 #~ msgid "Publish Date"
 #~ msgstr "تاریخ انتشار"
-
-#~ msgid "Purge Cloudflare Cache"
-#~ msgstr "پاکسازی کش‌ کلود فلر"
 
 #~ msgid "License"
 #~ msgstr "لایسنس"
@@ -3840,9 +3919,6 @@ msgstr "آیا در مورد بهینه سازی مجدد این صفحه مطم
 
 #~ msgid "Check this item to enable contact form functionality."
 #~ msgstr "با علامت زدن این گزینه، عملکرد فرم ارتباط با ما فعال می‌شود."
-
-#~ msgid "IP Collection"
-#~ msgstr "نگه‌داری آی پی"
 
 #, fuzzy
 #~| msgid "Check this item to enable mailer functionality."
