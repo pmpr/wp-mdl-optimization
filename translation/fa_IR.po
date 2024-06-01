@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PMPR Optimization\n"
-"POT-Creation-Date: 2024-05-25 15:42+0330\n"
-"PO-Revision-Date: 2024-05-25 15:49+0330\n"
+"POT-Creation-Date: 2024-06-01 11:40+0330\n"
+"PO-Revision-Date: 2024-06-01 11:40+0330\n"
 "Last-Translator: Farshad Asgharzade <pmpr.dev@gmail.com>\n"
 "Language-Team: \n"
 "Language: fa_IR\n"
@@ -175,7 +175,7 @@ msgstr ""
 "پیوندها یا الگوهای که می‌توانند فایل‌های جاوااسکریپت یا اسکریپت‌های Inline را "
 "شناسایی کنند،تا از فرایند تاخیر در بارگیری مستثنی شوند را تعیین کنید."
 
-#: src/Pmpr/Module/Optimization/Optimizer/Cache/HTML/HTML.php:50
+#: src/Pmpr/Module/Optimization/Optimizer/Cache/HTML/HTML.php:49
 msgid "HTML Cache Path"
 msgstr "مسیر کش HTML"
 
@@ -317,7 +317,7 @@ msgstr "گزارش مرورگر مجازی"
 
 #: src/Pmpr/Module/Optimization/Optimizer/Cache/WPCache.php:94
 #: src/Pmpr/Module/Optimization/Optimizer/Cache/WPCache.php:154
-#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Setting.php:88
+#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Setting.php:87
 msgid "Cache"
 msgstr "کش"
 
@@ -340,6 +340,12 @@ msgstr "WP_CACHE مقدار دهی نشده است"
 #: src/Pmpr/Module/Optimization/Optimizer/Cache/WPCache.php:183
 msgid "WP_CACHE is set to false"
 msgstr "مقدار WP_CACHE به false تغییر کرد"
+
+#: src/Pmpr/Module/Optimization/Optimizer/Extension/Plugin/CDN/Cloudflare.php:41
+msgid ""
+"Cloudflare's HTTP/2 Server Push is incompatible with the features of Remove "
+"Unused CSS. We strongly recommend disabling it."
+msgstr ""
 
 #: src/Pmpr/Module/Optimization/Optimizer/Extension/Setting.php:18
 msgid "Extension"
@@ -659,7 +665,7 @@ msgid "Optimize %s"
 msgstr "بهینه سازی %s"
 
 #: src/Pmpr/Module/Optimization/Optimizer/SpecialPage/Search/Setting.php:21
-#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:229
+#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:230
 #: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:69
 msgid "Search Page"
 msgstr "صفحه جستجو"
@@ -759,13 +765,13 @@ msgstr "پردازش دیگری قبلا شروع شده است."
 
 #: src/Pmpr/Module/Optimization/PageManager/Engine.php:769
 #: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:70
-#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:197
+#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:198
 msgid "Cached"
 msgstr "کش شده"
 
 #: src/Pmpr/Module/Optimization/PageManager/Engine.php:772
 #: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:67
-#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:205
+#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:206
 msgid "Not Cached"
 msgstr "کش نشده"
 
@@ -943,12 +949,12 @@ msgid "Type"
 msgstr "نوع"
 
 #: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:68
-#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:208
+#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:209
 msgid "Preloading"
 msgstr "در حال پیش بارگیری"
 
 #: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:69
-#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:201
+#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:202
 #: src/Pmpr/Module/Optimization/PageManager/Model/Run/Common.php:58
 msgid "Failed"
 msgstr "ناموفق"
@@ -963,50 +969,50 @@ msgstr "وضعیت کش"
 msgid "Pattern"
 msgstr "الگو"
 
-#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:100
+#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:101
 #, php-format
 msgid "Delete %s page"
 msgstr "حذف صفحه %s"
 
-#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:102
+#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:103
 msgid "It is possible to delete the page by editing the connected pattern."
 msgstr "حذف صفحه از طریق ویرایش الگوی متصل امکان پذیر است."
 
-#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:103
+#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:104
 msgid "Would you like to edit the connected pattern to the page?"
 msgstr "آیا مایل به ویرایش الگوی متصل به صفحه را هستید؟"
 
-#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:109
+#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:110
 msgid "Edit Connected Pattern"
 msgstr "ویرایش الگوی متصل"
 
-#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:113
+#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:114
 msgid "Delete"
 msgstr "حذف"
 
-#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:129
-#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:134
+#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:130
+#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:135
 #: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:526
 #: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:533
 #: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:539
 msgid "Re-Optimize"
 msgstr "بهینه سازی مجدد"
 
-#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:131
+#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:132
 #: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:560
 msgid "Are you sure about re-optimize page?"
 msgstr "آیا از بهینه سازی مجدد صفحه مطمئن هستید؟"
 
-#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:141
+#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:142
 msgid "Purge Cache"
 msgstr "پاک‌سازی کش‌"
 
-#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:226
+#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:227
 #: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:68
 msgid "Home Page"
 msgstr "صفحه اصلی"
 
-#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:232
+#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:233
 msgid "Notfound Page"
 msgstr "صفحه ۴۰۴"
 
@@ -1357,7 +1363,7 @@ msgid "Subscription and Charge Coins"
 msgstr "اشتراک و شارژ سکه"
 
 #: src/Pmpr/Module/Optimization/Subscription/Page.php:41
-#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Setting.php:55
+#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Setting.php:54
 msgid "Account"
 msgstr "حساب کاربری"
 
@@ -1519,157 +1525,178 @@ msgstr "شبکه تحویل محتوا"
 msgid "Adapt with CDNs"
 msgstr "با CDN‌ها سازگار شوید"
 
-#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/API.php:167
-msgid "Please complete cloudflare tab information"
-msgstr "لطفا اطلاعات برگه کلود فلیر را تکمیل کنید"
-
-#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/API.php:263
+#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/API.php:240
 msgid "Unable to retrive zone id due to invalid response data"
 msgstr ""
 
-#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/API.php:274
+#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/API.php:256
 msgid "Unable to find domains configured on Cloudflare"
 msgstr ""
 
-#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/API.php:469
-#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/API.php:473
-msgid "Can not fetch page rules."
-msgstr ""
-
-#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/API.php:477
-#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/API.php:506
+#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/API.php:299
+#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/API.php:365
 msgid "There is not zone id to use"
 msgstr ""
 
-#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/API.php:510
+#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/API.php:369
 msgid "There is not page rule to delete"
 msgstr "هیچ قاعده‌ای برای حذف وجود ندارد"
 
-#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/API.php:738
+#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/API.php:594
 #, php-format
-msgid "Unable to find %s settings"
+msgid "Unable to find %s settings: %s"
 msgstr ""
 
-#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/API.php:742
+#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/API.php:598
 #, php-format
 msgid "Unable to get %s settings: %s"
 msgstr ""
 
-#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Ajax.php:46
+#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Ajax.php:49
 #, php-format
 msgid "Development mode change successfully to %s"
 msgstr "حالت توسعه با موفقیت به %s تغییر یافت"
 
-#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Ajax.php:52
+#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Ajax.php:58
 #, php-format
 msgid "Development Mode is already %s"
 msgstr "حالت توسعه قبلا %s شده است"
 
-#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Ajax.php:57
+#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Ajax.php:67
 #, php-format
 msgid "%s mode is not valid, valid modes is %s and %s"
 msgstr ""
 
-#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Ajax.php:81
+#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Ajax.php:92
 msgid "off"
 msgstr "خاموش"
 
-#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Ajax.php:81
+#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Ajax.php:93
 msgid "on"
 msgstr "روشن"
 
-#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Ajax.php:97
+#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Ajax.php:114
 msgid "Page cache enabled successfully"
 msgstr "قابلیت کش شد صفحات به موفقیت فعال شد"
 
-#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Ajax.php:101
+#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Ajax.php:125
 msgid "Page cache disabled successfully"
 msgstr "قابلیت کش شد صفحات به موفقیت غیر فعال شد"
 
-#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Cloudflare.php:152
+#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Cloudflare.php:60
+#, fuzzy, php-format
+#| msgid "Please complete cloudflare tab information"
+msgid "Please complete cloudflare tab information: %s"
+msgstr "لطفا اطلاعات برگه کلود فلیر را تکمیل کنید"
+
+#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Cloudflare.php:185
 msgid "Purge Post Cache"
 msgstr "پاک‌سازی کش‌ نوشته"
 
-#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Setting.php:50
-msgid "Cloudflare"
-msgstr "کلود فلیر"
+#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Engine.php:258
+#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Engine.php:265
+#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Engine.php:276
+#, fuzzy, php-format
+#| msgid "Cloudflare Dashboard"
+msgid "Cloudflare %s not entered!"
+msgstr "داشبورد کلود فلیر"
 
-#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Setting.php:51
-msgid "Cloudflare cloud service management"
-msgstr "مدیریت سرویس ابری کلود فلیر"
+#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Engine.php:258
+#, fuzzy
+#| msgid "Email"
+msgid "e-mail"
+msgstr "ایمیل"
 
-#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Setting.php:59
-msgid "Cloudflare e-mail"
-msgstr "ایمیل کلود فلیر"
-
-#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Setting.php:60
-msgid "The email address you use to log in to Cloudflare."
-msgstr "آدرس ایمیلی که شما برای ورد به حساب‌کاربری خود در کلود فلیر استفاده می‌کنید."
-
-#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Setting.php:65
-msgid "Authentication Mode"
-msgstr "نحوه احراز هویت"
-
+#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Engine.php:265
 #: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Setting.php:66
-#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Setting.php:74
-msgid "API Key"
-msgstr "کلید وب سرویس (API Key)"
-
-#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Setting.php:67
-#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Setting.php:79
+#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Setting.php:78
 msgid "API Token"
 msgstr "توکن وب سرویس (API Token)"
 
-#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Setting.php:68
+#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Engine.php:270
+msgid "There is a problem on fetching related domain to entered api token."
+msgstr ""
+
+#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Engine.php:276
+#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Setting.php:65
+#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Setting.php:73
+msgid "API Key"
+msgstr "کلید وب سرویس (API Key)"
+
+#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Engine.php:281
+msgid "There is a problem on fetching related zone id to entered api key."
+msgstr ""
+
+#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Setting.php:49
+msgid "Cloudflare"
+msgstr "کلود فلیر"
+
+#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Setting.php:50
+msgid "Cloudflare cloud service management"
+msgstr "مدیریت سرویس ابری کلود فلیر"
+
+#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Setting.php:58
+msgid "Cloudflare e-mail"
+msgstr "ایمیل کلود فلیر"
+
+#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Setting.php:59
+msgid "The email address you use to log in to Cloudflare."
+msgstr "آدرس ایمیلی که شما برای ورد به حساب‌کاربری خود در کلود فلیر استفاده می‌کنید."
+
+#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Setting.php:64
+msgid "Authentication Mode"
+msgstr "نحوه احراز هویت"
+
+#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Setting.php:67
 msgid "Authentication mode to use to connect to your Cloudflare account."
 msgstr "نوع احراز هویت به منظور اتصال به حساب کاربری شما بر روی کلود فلیر."
 
-#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Setting.php:75
+#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Setting.php:74
 msgid "The global API key extrapolated from your Cloudflare account."
 msgstr ""
 "کلید وب سرویس کلود فلیر که ‌می‌توانید آن را در حساب کاربری خود در کلود فلیر بیابید."
 
-#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Setting.php:80
+#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Setting.php:79
 msgid "The API token extrapolated from your Cloudflare account."
 msgstr ""
 "کلید رمزی وب سرویس کلود فلیر که ‌می‌توانید آن را در حساب کاربری خود در کلود فلیر "
 "بیابید."
 
-#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Setting.php:93
+#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Setting.php:92
 msgid "Cloudflare Cache-Control max-age"
 msgstr "مقدار Cache-control max-age مربوط به کلود فلیر"
 
-#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Setting.php:95
-#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Setting.php:104
+#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Setting.php:94
+#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Setting.php:103
 msgid "Don't touch if you don't know what is it. Must be greater than zero."
 msgstr ""
 "اگر اطلاعات کافی در مورد این گزینه‌را ندارید لطفا آن را تغییر ندهید. مقدار این "
 "گزینه باید بیشتر از صفر باشد."
 
-#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Setting.php:96
+#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Setting.php:95
 #, php-format
 msgid "Recommended %s"
 msgstr "%s توصیه می‌شود"
 
-#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Setting.php:102
+#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Setting.php:101
 msgid "Browser Cache-Control max-age"
 msgstr "مقدار Cache-control max-age مربوط به مرورگر"
 
-#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Setting.php:105
+#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Setting.php:104
 #, php-format
 msgid "Recommended a value between %s and %s"
 msgstr "مقداری بین %s و %s توصیه می‌شود"
 
-#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Setting.php:110
+#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Setting.php:109
 msgid "Purge HTML pages only"
 msgstr "تنها فایل‌های HTML را پاک‌سازی کن"
 
-#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Setting.php:111
+#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Setting.php:110
 msgid ""
 "Purge only the cached HTML pages instead of the whole Cloudflare cache (asset + "
 "pages)."
 msgstr ""
-"به حای پاک‌سازی کل کش کلود فلیر (شامل منابع استاتیکی و HTML)، فقط HTML را پاک کن."
+"به جای پاک‌سازی کل کش کلود فلیر (شامل منابع استاتیکی و HTML)، فقط HTML را پاک کن."
 
 #: src/Pmpr/Module/Optimization/Traits/AlertTrait.php:39
 msgid "Options that consume coins."
@@ -1950,9 +1977,6 @@ msgstr "آیا در مورد بهینه سازی مجدد این صفحه مطم
 
 #~ msgid "Select a Domain Name"
 #~ msgstr "انتخاب یک نام دامنه"
-
-#~ msgid "Cloudflare Dashboard"
-#~ msgstr "داشبورد کلود فلیر"
 
 #~ msgid "%1$s or %2$s on %3$s"
 #~ msgstr "در %3$s %1$s یا %2$s"
@@ -3801,9 +3825,6 @@ msgstr "آیا در مورد بهینه سازی مجدد این صفحه مطم
 
 #~ msgid "Subject"
 #~ msgstr "موضوع"
-
-#~ msgid "Email"
-#~ msgstr "ایمیل"
 
 #~ msgid "Logged in as %s."
 #~ msgstr "با عنوان %s وارد شده‌اید."

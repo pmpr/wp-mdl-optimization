@@ -1,7 +1,7 @@
 <?php
 /*   _______________________________________
     |  Obfuscated by PMPR - Php Obfuscator  |
-    |             665ad6e880229             |
+    |             665ad9ca28a94             |
     |_______________________________________|
 */
  namespace Pmpr\Module\Optimization\Optimizer\SpecialPage; use Pmpr\Module\Optimization\Optimizer\Common as BaseClass; abstract class Common extends BaseClass { }
