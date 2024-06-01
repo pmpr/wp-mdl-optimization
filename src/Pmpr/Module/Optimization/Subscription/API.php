@@ -1,7 +1,7 @@
 <?php
 /*   _______________________________________
     |  Obfuscated by PMPR - Php Obfuscator  |
-    |             665af54c961e2             |
+    |             665af79314d69             |
     |_______________________________________|
 */
- namespace Pmpr\Module\Optimization\Subscription; use Pmpr\Module\Optimization\API\Manager; class API extends Manager { public function __construct() { parent::__construct(); $this->domain .= "\57\x73\x75\142\163\143\162\151\160\164\x69\x6f\x6e"; } public function msyoakwyskammgqi() { $sogksuscggsicmac = $this->eqkieiagqmugguew("\x2f\x66\145\x74\x63\150\x2d\x64\x61\164\141"); if (!($sogksuscggsicmac && is_array($sogksuscggsicmac))) { goto goacqqsgaaigyuaw; } $sogksuscggsicmac = $this->caokeucsksukesyo()->ywqgcuymeiswqyqc()->get($sogksuscggsicmac, self::uiwqcumqkgikqyue, []); goacqqsgaaigyuaw: return $sogksuscggsicmac; } }
+ namespace Pmpr\Module\Optimization\Subscription; use Pmpr\Module\Optimization\API\Manager; class API extends Manager { public function __construct() { parent::__construct(); $this->domain .= "\57\x73\x75\142\163\x63\x72\151\160\x74\151\x6f\x6e"; } public function msyoakwyskammgqi() { $sogksuscggsicmac = $this->eqkieiagqmugguew("\57\146\x65\164\x63\x68\55\x64\141\164\x61"); if (!($sogksuscggsicmac && is_array($sogksuscggsicmac))) { goto goacqqsgaaigyuaw; } $sogksuscggsicmac = $this->caokeucsksukesyo()->ywqgcuymeiswqyqc()->get($sogksuscggsicmac, self::uiwqcumqkgikqyue, []); goacqqsgaaigyuaw: return $sogksuscggsicmac; } }
