@@ -1,7 +1,7 @@
 <?php
 /*   _______________________________________
     |  Obfuscated by PMPR - Php Obfuscator  |
-    |             665ada53dffd1             |
+    |             665adb172afec             |
     |_______________________________________|
 */
- namespace Pmpr\Module\Optimization\Optimizer\Extension\Plugin; use Pmpr\Module\Optimization\Setting\SettingSection; class Setting extends SettingSection { public function ikcgmcycisiccyuc() { $this->segment = "\x65\x78\164\145\x6e\x73\x69\157\x6e"; parent::ikcgmcycisiccyuc(); } }
+ namespace Pmpr\Module\Optimization\Optimizer\Extension\Plugin; use Pmpr\Module\Optimization\Setting\SettingSection; class Setting extends SettingSection { public function ikcgmcycisiccyuc() { $this->segment = "\x65\170\164\x65\x6e\163\151\x6f\x6e"; parent::ikcgmcycisiccyuc(); } }
