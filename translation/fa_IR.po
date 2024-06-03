@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PMPR Optimization\n"
-"POT-Creation-Date: 2024-06-02 21:27+0330\n"
-"PO-Revision-Date: 2024-06-02 21:34+0330\n"
+"POT-Creation-Date: 2024-06-03 23:45+0330\n"
+"PO-Revision-Date: 2024-06-03 23:48+0330\n"
 "Last-Translator: Farshad Asgharzade <pmpr.dev@gmail.com>\n"
 "Language-Team: \n"
 "Language: fa_IR\n"
@@ -181,7 +181,7 @@ msgstr "مسیر کش HTML"
 
 #: src/Pmpr/Module/Optimization/Optimizer/Cache/HTML/Preload/Setting.php:36
 #: src/Pmpr/Module/Optimization/Optimizer/Cache/HTML/Preload/Setting.php:73
-#: src/Pmpr/Module/Optimization/PageManager/Engine.php:925
+#: src/Pmpr/Module/Optimization/PageManager/Engine.php:941
 msgid "Cache Preloader"
 msgstr "پیش بارگیر کش"
 
@@ -230,7 +230,7 @@ msgstr "زمان معقول برای ایجاد کش صفحات"
 
 #: src/Pmpr/Module/Optimization/Optimizer/Cache/HTML/Preload/Setting.php:65
 #: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:62
-#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:47
+#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:51
 #: src/Pmpr/Module/Optimization/ThirdParty/CDN/Asset/CDNData.php:38
 msgid "Inactive"
 msgstr "غیر فعال‌‌"
@@ -268,7 +268,7 @@ msgstr "کش HTML مجزا برای موبایل"
 #: src/Pmpr/Module/Optimization/Optimizer/Cache/HTML/Setting.php:43
 #: src/Pmpr/Module/Optimization/Optimizer/Cache/HTML/Setting.php:54
 #: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:61
-#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:46
+#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:50
 #: src/Pmpr/Module/Optimization/ThirdParty/CDN/Asset/CDNData.php:36
 msgid "Active"
 msgstr "فعال"
@@ -645,7 +645,7 @@ msgid "Optimize image, vide and ..."
 msgstr "بهینه‌سازی تصویر، ویدیو و ..."
 
 #: src/Pmpr/Module/Optimization/Optimizer/SpecialPage/Notfound/Setting.php:19
-#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:70
+#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:74
 #, php-format
 msgid "%s Page"
 msgstr "صفحه %s"
@@ -666,7 +666,7 @@ msgstr "بهینه سازی %s"
 
 #: src/Pmpr/Module/Optimization/Optimizer/SpecialPage/Search/Setting.php:21
 #: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:230
-#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:69
+#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:73
 msgid "Search Page"
 msgstr "صفحه جستجو"
 
@@ -722,7 +722,7 @@ msgid "create it"
 msgstr "آن را ایجاد کنید"
 
 #: src/Pmpr/Module/Optimization/Optimizer/SpecialPage/Setting.php:20
-#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:53
+#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:57
 msgid "Special Pages"
 msgstr "صفحات خاص"
 
@@ -731,83 +731,89 @@ msgid "Search, 404 and ..."
 msgstr "صفحه جستجو،  صفحه ۴۰۴ و ..."
 
 #: src/Pmpr/Module/Optimization/PageManager/Ajax.php:156
-#, fuzzy
-#| msgid "URL is not matched to pattern."
 msgid "There is no remote run for pattern."
-msgstr "لینک بر الگو منطبق نیست."
+msgstr ""
 
-#: src/Pmpr/Module/Optimization/PageManager/Ajax.php:190
+#: src/Pmpr/Module/Optimization/PageManager/Ajax.php:183
+msgid "Pages cache purged successfully."
+msgstr "کش صفحات با موفقیت پاکسازی شد."
+
+#: src/Pmpr/Module/Optimization/PageManager/Ajax.php:186
+msgid "Something wrong on purging pages cache."
+msgstr "مشکلی در فرآیند پاک شدن کش صفحات اتفاق افتاد."
+
+#: src/Pmpr/Module/Optimization/PageManager/Ajax.php:195
 msgid "Pattern Not Found"
 msgstr "الگو یافت نشد."
 
-#: src/Pmpr/Module/Optimization/PageManager/Ajax.php:221
-#: src/Pmpr/Module/Optimization/PageManager/Ajax.php:242
+#: src/Pmpr/Module/Optimization/PageManager/Ajax.php:226
+#: src/Pmpr/Module/Optimization/PageManager/Ajax.php:247
 msgid "URL is not matched to pattern."
 msgstr "لینک بر الگو منطبق نیست."
 
-#: src/Pmpr/Module/Optimization/PageManager/Ajax.php:271
+#: src/Pmpr/Module/Optimization/PageManager/Ajax.php:276
 #, php-format
 msgid "Some page not add. %s"
 msgstr "برخی از صفحات اضافه نشدند. %s"
 
-#: src/Pmpr/Module/Optimization/PageManager/Ajax.php:276
+#: src/Pmpr/Module/Optimization/PageManager/Ajax.php:281
 msgid "Pattern already setuped."
 msgstr "الگو قبلا راه‌اندازی شده است."
 
-#: src/Pmpr/Module/Optimization/PageManager/Ajax.php:322
+#: src/Pmpr/Module/Optimization/PageManager/Ajax.php:327
 msgid "Can not connect to server right now, please try later or contact us."
 msgstr ""
 "در حال حاضر نمی توان به سرور متصل شد، لطفاً بعداً امتحان کنید یا با ما تماس بگیرید."
 
-#: src/Pmpr/Module/Optimization/PageManager/Ajax.php:333
+#: src/Pmpr/Module/Optimization/PageManager/Ajax.php:338
 msgid "Another process already started."
 msgstr "پردازش دیگری قبلا شروع شده است."
 
-#: src/Pmpr/Module/Optimization/PageManager/Engine.php:769
+#: src/Pmpr/Module/Optimization/PageManager/Engine.php:772
 #: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:70
 #: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:198
 msgid "Cached"
 msgstr "کش شده"
 
-#: src/Pmpr/Module/Optimization/PageManager/Engine.php:772
+#: src/Pmpr/Module/Optimization/PageManager/Engine.php:775
 #: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:67
 #: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:206
 msgid "Not Cached"
 msgstr "کش نشده"
 
-#: src/Pmpr/Module/Optimization/PageManager/Engine.php:775
-#: src/Pmpr/Module/Optimization/PageManager/Engine.php:826
-#: src/Pmpr/Module/Optimization/PageManager/Engine.php:855
+#: src/Pmpr/Module/Optimization/PageManager/Engine.php:778
+#: src/Pmpr/Module/Optimization/PageManager/Engine.php:796
+#: src/Pmpr/Module/Optimization/PageManager/Engine.php:851
 msgid "Awaiting Setup"
 msgstr "در انتظار راه‌اندازی"
 
-#: src/Pmpr/Module/Optimization/PageManager/Engine.php:801
+#: src/Pmpr/Module/Optimization/PageManager/Engine.php:814
 msgid "Optimizing..."
 msgstr "در حال بهینه سازی..."
 
-#: src/Pmpr/Module/Optimization/PageManager/Engine.php:844
+#: src/Pmpr/Module/Optimization/PageManager/Engine.php:864
 msgid "Checking pages cache..."
 msgstr "در حال بررسی کش صفحات..."
 
-#: src/Pmpr/Module/Optimization/PageManager/Engine.php:850
+#: src/Pmpr/Module/Optimization/PageManager/Engine.php:870
 msgid "Awaiting Optimize Pattern"
 msgstr "در انتظار بهینه سازی الگو"
 
-#: src/Pmpr/Module/Optimization/PageManager/Engine.php:881
+#: src/Pmpr/Module/Optimization/PageManager/Engine.php:897
 #, php-format
 msgid "Cache Preloader is %s. %s"
 msgstr "پیش بارگیر کش %s است. %s"
 
-#: src/Pmpr/Module/Optimization/PageManager/Engine.php:882
+#: src/Pmpr/Module/Optimization/PageManager/Engine.php:898
 #, php-format
 msgid "You can %s it through the settings section."
 msgstr "برای %s آن می‌توانید از طریق بخش تنظیمات اقدام کنید."
 
-#: src/Pmpr/Module/Optimization/PageManager/Engine.php:888
+#: src/Pmpr/Module/Optimization/PageManager/Engine.php:904
 msgid "active for all pages"
 msgstr "برای همه صفحات فعال"
 
-#: src/Pmpr/Module/Optimization/PageManager/Engine.php:889
+#: src/Pmpr/Module/Optimization/PageManager/Engine.php:905
 msgid ""
 "This situation, despite the advantage of shorter cache creation time for all "
 "pages, is associated with high inode consumption."
@@ -815,16 +821,16 @@ msgstr ""
 "این وضعیت، علیرغم مزیت کوتاهتر شدن زمان ایجاد کش برای همه صفحات، با مصرف زیاد "
 "تعداد inode همراه است."
 
-#: src/Pmpr/Module/Optimization/PageManager/Engine.php:893
-#: src/Pmpr/Module/Optimization/PageManager/Engine.php:904
+#: src/Pmpr/Module/Optimization/PageManager/Engine.php:909
+#: src/Pmpr/Module/Optimization/PageManager/Engine.php:920
 msgid "deactivate"
 msgstr "غیر فعال سازی"
 
-#: src/Pmpr/Module/Optimization/PageManager/Engine.php:899
+#: src/Pmpr/Module/Optimization/PageManager/Engine.php:915
 msgid "active for impression pages"
 msgstr "برای صفحات پر بازدید فعال"
 
-#: src/Pmpr/Module/Optimization/PageManager/Engine.php:900
+#: src/Pmpr/Module/Optimization/PageManager/Engine.php:916
 msgid ""
 "This situation will create the cache of the most visited pages as soon as "
 "possible, while consuming a reasonable number of inodes."
@@ -832,11 +838,11 @@ msgstr ""
 "این وضعیت، در عین مصرف معقول تعداد inode، کش صفحات پر بازدید را در اولین زمان "
 "ممکن ایجاد خواهد کرد."
 
-#: src/Pmpr/Module/Optimization/PageManager/Engine.php:910
+#: src/Pmpr/Module/Optimization/PageManager/Engine.php:926
 msgid "inactive"
 msgstr "غیر فعال"
 
-#: src/Pmpr/Module/Optimization/PageManager/Engine.php:911
+#: src/Pmpr/Module/Optimization/PageManager/Engine.php:927
 msgid ""
 "This situation is accompanied by a longer cache creation time for all pages, "
 "despite the low consumption of inodes."
@@ -844,35 +850,33 @@ msgstr ""
 "این وضعیت علیرغم مصرف کم تعداد inode، با طولانی‌تر شدن زمان ایجاد کش برای همه "
 "صفحات همراه است."
 
-#: src/Pmpr/Module/Optimization/PageManager/Engine.php:915
+#: src/Pmpr/Module/Optimization/PageManager/Engine.php:931
 msgid "activate"
 msgstr "فعال سازی"
 
-#: src/Pmpr/Module/Optimization/PageManager/Engine.php:931
+#: src/Pmpr/Module/Optimization/PageManager/Engine.php:947
 msgid "Change Preload Setting"
 msgstr "تغییر تنظیمات پیش بارگیر"
 
-#: src/Pmpr/Module/Optimization/PageManager/Engine.php:936
+#: src/Pmpr/Module/Optimization/PageManager/Engine.php:952
 msgid "Creating Cache"
 msgstr "در حال ایجاد کش"
 
-#: src/Pmpr/Module/Optimization/PageManager/Engine.php:944
+#: src/Pmpr/Module/Optimization/PageManager/Engine.php:960
 msgid "With Preloader"
 msgstr "با استفاده از پیش بارگیر"
 
-#: src/Pmpr/Module/Optimization/PageManager/Engine.php:953
+#: src/Pmpr/Module/Optimization/PageManager/Engine.php:969
 msgid "Without Preloader"
 msgstr "بدون استفاده از پیش بارگیر"
 
-#: src/Pmpr/Module/Optimization/PageManager/Engine.php:973
+#: src/Pmpr/Module/Optimization/PageManager/Engine.php:989
 msgid "All Pages Cached."
 msgstr "همه صفحات کش‌ شده‌اند."
 
-#: src/Pmpr/Module/Optimization/PageManager/Engine.php:977
-#, fuzzy
-#| msgid "URL is not matched to pattern."
+#: src/Pmpr/Module/Optimization/PageManager/Engine.php:993
 msgid "There is no page for pattern."
-msgstr "لینک بر الگو منطبق نیست."
+msgstr "صفحه‌ای برای این الگو یافت نشد."
 
 #: src/Pmpr/Module/Optimization/PageManager/Model/Impression.php:20
 msgid "Impression"
@@ -889,7 +893,7 @@ msgstr "پیوند"
 
 #: src/Pmpr/Module/Optimization/PageManager/Model/Impression.php:36
 #: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:63
-#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:45
+#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:49
 #: src/Pmpr/Module/Optimization/PageManager/Model/Run/Common.php:60
 #: src/Pmpr/Module/Optimization/PageManager/Search/History.php:46
 #: src/Pmpr/Module/Optimization/ThirdParty/CDN/Asset/CDNData.php:35
@@ -910,7 +914,7 @@ msgid "Page"
 msgstr "صفحه"
 
 #: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:31
-#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:96
+#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:100
 msgid "Pages"
 msgstr "صفحات"
 
@@ -919,9 +923,9 @@ msgid "Identifier"
 msgstr "شناسه"
 
 #: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:45
-#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:52
-#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:59
-#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:187
+#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:56
+#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:63
+#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:191
 msgid "Post Type"
 msgstr "نوع نوشته"
 
@@ -930,8 +934,8 @@ msgid "Taxonomy"
 msgstr "طبقه‌بندی"
 
 #: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:47
-#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:71
-#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:222
+#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:75
+#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:226
 msgid "Special Page"
 msgstr "صفحه ویژه"
 
@@ -944,7 +948,7 @@ msgid "Discriminator"
 msgstr "جداکننده"
 
 #: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:53
-#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:55
+#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:59
 msgid "Type"
 msgstr "نوع"
 
@@ -964,7 +968,7 @@ msgid "Cache Status"
 msgstr "وضعیت کش"
 
 #: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:76
-#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:29
+#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:33
 #: src/Pmpr/Module/Optimization/PageManager/Model/Run/Common.php:39
 msgid "Pattern"
 msgstr "الگو"
@@ -992,14 +996,14 @@ msgstr "حذف"
 
 #: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:130
 #: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:135
-#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:526
-#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:533
-#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:539
+#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:530
+#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:537
+#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:543
 msgid "Re-Optimize"
 msgstr "بهینه سازی مجدد"
 
 #: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:132
-#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:560
+#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:602
 msgid "Are you sure about re-optimize page?"
 msgstr "آیا از بهینه سازی مجدد صفحه مطمئن هستید؟"
 
@@ -1008,7 +1012,7 @@ msgid "Purge Cache"
 msgstr "پاک‌سازی کش‌"
 
 #: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:227
-#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:68
+#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:72
 msgid "Home Page"
 msgstr "صفحه اصلی"
 
@@ -1016,153 +1020,171 @@ msgstr "صفحه اصلی"
 msgid "Notfound Page"
 msgstr "صفحه ۴۰۴"
 
-#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:30
+#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:34
 msgid "Patterns"
 msgstr "الگوها"
 
-#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:41
+#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:45
 msgid "Pattern Name"
 msgstr "نام الگو"
 
-#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:54
+#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:58
 msgid "Archives"
 msgstr "بایگانی‌ها"
 
-#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:63
+#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:67
 msgid "Taxonomies"
 msgstr "طبقه‌بندی‌ها"
 
-#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:75
-#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:211
+#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:79
+#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:215
 msgid "Date Archive"
 msgstr "بایگانی تاریخ"
 
-#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:79
-#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:217
+#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:83
+#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:221
 msgid "Author Archive"
 msgstr "بایگانی نویسنده"
 
-#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:83
+#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:87
 msgid "Filter Type"
 msgstr "نوع فیلتر"
 
-#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:84
+#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:88
 msgid "All Pages"
 msgstr "همه صفحات"
 
-#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:85
+#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:89
 msgid "All except this"
 msgstr "همه به جز"
 
-#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:86
+#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:90
 msgid "Just these"
 msgstr "فقط اینها"
 
-#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:87
+#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:91
 msgid "Remain Pages"
 msgstr "صفحات باقیمانده"
 
-#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:92
+#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:96
 msgid "Filter"
 msgstr "فیلتر"
 
-#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:114
+#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:118
 #, php-format
 msgid "Posts %s Archive"
 msgstr "بایگانی %s نوشته‌ها"
 
-#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:116
+#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:120
 msgid "Yearly"
 msgstr "سالانه"
 
-#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:117
+#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:121
 msgid "Monthly"
 msgstr "ماهانه"
 
-#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:118
+#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:122
 msgid "Daily"
 msgstr "روزانه"
 
-#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:147
+#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:151
 #, php-format
 msgid "%s Archive Page"
 msgstr "صفحه بایگانی %s"
 
-#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:153
+#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:157
 #, php-format
 msgid "List of Posts for each %s"
 msgstr "لیست نوشته‌ها برای هر %s"
 
-#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:173
+#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:177
 #, php-format
 msgid "Write a descriptive name for this pattern, like %s or %s"
 msgstr "یک نام گویا برای این الگو بنویسید، مانند %s یا %s"
 
-#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:174
+#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:178
 msgid "All Posts"
 msgstr "همه نوشته‌ها"
 
-#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:175
+#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:179
 msgid "Categories and Tags"
 msgstr "دسته‌بندی‌ها و برچسب‌ها"
 
-#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:201
+#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:205
 msgid "Post Types Archive"
 msgstr "بایگانی نوع نوشته‌ها"
 
-#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:206
+#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:210
 msgid "Taxonomies Archive"
 msgstr "بایگانی تکسونومی‌ها"
 
-#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:218
+#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:222
 msgid "List of articles related to each author."
 msgstr "لیست نوشته‌های مربوط به هر نویسنده."
 
-#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:228
+#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:232
 msgid "Posts Filter Type"
 msgstr "نوع فیلتر نوشته‌ها"
 
-#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:233
+#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:237
 msgid "Posts Filter"
 msgstr "فیلتر نوشته‌ها"
 
-#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:438
+#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:442
 msgid "Please select a post type."
 msgstr "لطفا یک نوع نوشته انتخاب کنید."
 
-#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:445
+#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:449
 msgid "Please select a special page."
 msgstr "لطفا یک صفحه خاص را انتخاب کنید."
 
-#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:451
+#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:455
 msgid ""
 "This special page already selected in another pattern and you can not select it."
 msgstr ""
 "این صفحه خاص پیش از این درالگوی دیگری انتخاب شده است و شما نمی‌توانید دوباره آن "
 "را انتخاب کنید."
 
-#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:462
+#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:466
 msgid "Selected type is not valid."
 msgstr "نوع انتخابی معتبر نیست."
 
-#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:479
+#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:483
 msgid "Inactive options are matched and selected with previous patterns."
 msgstr "گزینه‌های غیر فعال، با الگوهای قبلی منطبق و انتخاب شده‌اند."
 
-#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:503
+#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:507
 msgid "Setup Pattern"
 msgstr "راه‌اندازی الگو"
 
-#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:509
-#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:515
+#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:513
+#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:519
 msgid "Setup"
 msgstr "راه‌اندازی"
 
-#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:565
+#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:549
+#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:557
+#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:563
+msgid "Purge Pages Cache"
+msgstr "پاکسازی کش صفحات"
+
+#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:551
+msgid "Are you sure about purge cache?"
+msgstr "آیا از پاکسازی کش صفحات مطمئن هستید؟"
+
+#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:552
+msgid ""
+"Preload is enable and after purge pages cache, regenerate cache file started "
+"automatically."
+msgstr ""
+"پیش بارگیر فعال است و بعد از پاکسازی کش صفحات،‌ فرآیند ایجاد خودکار کش صفحات آغاز "
+"می‌شود."
+
+#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:607
 msgid "Candidate Page Link"
 msgstr "لینک صفحه کاندید"
 
-#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:569
+#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:611
 msgid ""
 "The pages of each template must have the same design and layout. In the "
 "meantime, some pages with a slight difference have more diverse visual elements "
@@ -1172,7 +1194,7 @@ msgstr ""
 "اختلاف جزئی، از المان‌های بصری متنوع‌تری برخوردارند و لذا انتخاب مناسب‌تری به عنوان "
 "صفحه کاندید آن الگو هستند."
 
-#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:570
+#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:612
 msgid ""
 "If left blank, a random page will be selected from among the target pages of "
 "this template."
@@ -1180,52 +1202,52 @@ msgstr ""
 "در صورتی که خالی رها کنید، یک صفحه تصادفی از بین صفحات هدف این الگو انتخاب خواهد "
 "شد."
 
-#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:598
+#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:640
 #, php-format
 msgid "It may take about %s for all target pages to reach the maximum speed."
 msgstr "رسیدن همه صفحات هدف به سقف سرعت، ممکن است %s به طول بیانجامد."
 
-#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:624
+#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:666
 msgid "Unlimited"
 msgstr "نامحدود"
 
-#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:632
+#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:674
 msgid "Target Pages Count"
 msgstr "تعداد صفحات هدف"
 
-#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:633
-#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:733
+#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:675
+#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:775
 #, php-format
 msgid "%s Pages"
 msgstr "%s صفحه"
 
-#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:636
+#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:678
 msgid "Setup Cost"
 msgstr "هزینه راه‌اندازی"
 
-#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:637
+#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:679
 #, php-format
 msgid "%s Coins"
 msgstr "%s سکه"
 
-#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:640
+#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:682
 msgid "Setup Time"
 msgstr "مدت زمان راه‌اندازی"
 
-#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:641
+#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:683
 #, php-format
 msgid "%s Seconds"
 msgstr "%s ثانیه"
 
-#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:712
+#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:754
 msgid "Pattern Cache"
 msgstr "کش الگو"
 
-#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:713
+#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:755
 msgid "Latest Run Status"
 msgstr "وضعیت آخرین اجرا"
 
-#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:714
+#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:756
 msgid "Target Pages Cache"
 msgstr "کش صفحات هدف"
 
@@ -1788,7 +1810,7 @@ msgstr ""
 
 #: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Setting.php:191
 msgid "Zone ID"
-msgstr ""
+msgstr "شناسه دامنه"
 
 #: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Setting.php:199
 msgid "Guide"
@@ -1907,6 +1929,12 @@ msgstr "افزایش سرعت مجدد"
 msgid "Are you sure about reOptimize this page?"
 msgstr "آیا در مورد بهینه سازی مجدد این صفحه مطمئن هستید؟"
 
+#~ msgid "Preload Pages"
+#~ msgstr "پیش بارگیری صفحات"
+
+#~ msgid "You can cache pages faster by preloading them, continue?"
+#~ msgstr "می‌توانید با پیش بارگیری صفحات را سریع تر کش کنید، ادامه می‌دهید؟"
+
 #~ msgid "Purge HTML pages only"
 #~ msgstr "تنها فایل‌های HTML را پاک‌سازی کن"
 
@@ -1970,9 +1998,6 @@ msgstr "آیا در مورد بهینه سازی مجدد این صفحه مطم
 
 #~ msgid "Enable GZIP Cache"
 #~ msgstr "فعال سازی کش GZIP"
-
-#~ msgid "Are you sure about purge of the page cache?"
-#~ msgstr "آیا از پاکسازی کش صفحه مطمئن هستید؟"
 
 #~ msgid "Purchases Report"
 #~ msgstr "گزارش خریدها"
@@ -2969,9 +2994,6 @@ msgstr "آیا در مورد بهینه سازی مجدد این صفحه مطم
 #~ msgid "your apikey is empty."
 #~ msgstr "کلید وب سرویس حساب شما پر نشده است."
 
-#~ msgid "Preload Page"
-#~ msgstr "پیش بارگیری صفحه"
-
 #, fuzzy
 #~| msgid "Preloading can take some time, are you continue?"
 #~ msgid "Preloading can take some times, are you continue?"
@@ -3124,9 +3146,6 @@ msgstr "آیا در مورد بهینه سازی مجدد این صفحه مطم
 
 #~ msgid "Preloader is not enabled"
 #~ msgstr "پیش‌ بارگیری فعال نیست"
-
-#~ msgid "All cache purged successfully."
-#~ msgstr "تمامی کش با موفقیت پاک‌سازی شد."
 
 #~ msgid "Purge Whole Cache"
 #~ msgstr "پاک‌سازی همه کش‌"
@@ -3673,11 +3692,6 @@ msgstr "آیا در مورد بهینه سازی مجدد این صفحه مطم
 
 #~ msgid "Words"
 #~ msgstr "کلمات"
-
-#, fuzzy
-#~| msgid "Something went wrong no changes saved."
-#~ msgid "Something wrong on save your message."
-#~ msgstr "مشکلی به وجود آمده است، تغییرات ذخیره نشد."
 
 #, fuzzy
 #~| msgid "Ops!!! Something is wrong."
