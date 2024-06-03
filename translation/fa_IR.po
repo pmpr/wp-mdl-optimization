@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PMPR Optimization\n"
-"POT-Creation-Date: 2024-06-01 21:35+0330\n"
-"PO-Revision-Date: 2024-06-01 21:36+0330\n"
+"POT-Creation-Date: 2024-06-02 21:27+0330\n"
+"PO-Revision-Date: 2024-06-02 21:34+0330\n"
 "Last-Translator: Farshad Asgharzade <pmpr.dev@gmail.com>\n"
 "Language-Team: \n"
 "Language: fa_IR\n"
@@ -1547,36 +1547,49 @@ msgstr ""
 msgid "Unable to get %s settings: %s"
 msgstr ""
 
-#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Ajax.php:49
+#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Ajax.php:48
+msgid "Cloudflare cache disabled successfully"
+msgstr "کش کلوفلیر با موفقیت غیر فعال شد"
+
+#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Ajax.php:61
+msgid "Cloudflare cache enabled successfully"
+msgstr "کش کلوفلیر با موفقیت فعال شد"
+
+#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Ajax.php:70
+#, php-format
+msgid "%s status is not valid, valid modes is %s and %s"
+msgstr ""
+
+#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Ajax.php:100
 #, php-format
 msgid "Development mode change successfully to %s"
 msgstr "حالت توسعه با موفقیت به %s تغییر یافت"
 
-#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Ajax.php:58
+#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Ajax.php:109
 #, php-format
 msgid "Development Mode is already %s"
 msgstr "حالت توسعه قبلا %s شده است"
 
-#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Ajax.php:67
+#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Ajax.php:118
 #, php-format
 msgid "%s mode is not valid, valid modes is %s and %s"
 msgstr ""
 
-#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Ajax.php:92
+#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Ajax.php:133
 msgid "off"
 msgstr "خاموش"
 
-#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Ajax.php:93
+#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Ajax.php:134
 msgid "on"
 msgstr "روشن"
 
-#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Ajax.php:114
-msgid "Cloudflare cache enabled successfully"
-msgstr "کش کلوفلیر با موفقیت فعال شد"
+#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Ajax.php:145
+msgid "enable"
+msgstr "فعال"
 
-#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Ajax.php:125
-msgid "Cloudflare cache disabled successfully"
-msgstr "کش کلوفلیر با موفقیت غیر فعال شد"
+#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Ajax.php:146
+msgid "disable"
+msgstr "غیرفعال"
 
 #: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Cloudflare.php:73
 #, php-format
@@ -1781,17 +1794,6 @@ msgstr ""
 msgid "Guide"
 msgstr "راهنما"
 
-#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Setting.php:215
-msgid "Purge HTML pages only"
-msgstr "تنها فایل‌های HTML را پاک‌سازی کن"
-
-#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Setting.php:216
-msgid ""
-"Purge only the cached HTML pages instead of the whole Cloudflare cache (asset + "
-"pages)."
-msgstr ""
-"به جای پاک‌سازی کل کش کلودفلیر (شامل منابع استاتیکی و HTML)، فقط HTML را پاک کن."
-
 #: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Setting.php:221
 msgid "Cloudflare Cache-Control max-age"
 msgstr "مقدار Cache-control max-age مربوط به کلودفلیر"
@@ -1822,7 +1824,7 @@ msgid "Disable Cloudflare Cache"
 msgstr "غیر فعال کردن کش کلودفلیر"
 
 #: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Setting.php:244
-#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Setting.php:302
+#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Setting.php:304
 msgid "Cloudflare Cache"
 msgstr "کش کلودفلیر"
 
@@ -1835,32 +1837,32 @@ msgid ""
 "Disable cloudflare cache can speed down your website. Are you sure you want to "
 "continue?"
 msgstr ""
-"فعال کردن حالت توسعه قابلیت کش کلودفلیر را برای سایت شما غیر فعال خواهد کرد. آیا "
-"از انجام این کار مطمئن هستید؟"
+"غیر فعال کردن کش کلودفلیر می‌تواند باعث کاهش سرعت سایت‌تان شود. آیا از انجام این "
+"کار مطمئن هستید؟"
 
 #: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Setting.php:258
-#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Setting.php:290
+#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Setting.php:291
 msgid "Disable"
 msgstr "غیرفعال"
 
-#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Setting.php:268
+#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Setting.php:269
 msgid "Disable Development Mode"
 msgstr "غیر فعال کردن حالت توسعه"
 
-#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Setting.php:269
+#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Setting.php:270
 msgid "Enable Development Mode"
 msgstr "فعال کردن حالت توسعه"
 
-#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Setting.php:274
+#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Setting.php:275
 msgid "Cloudflare Development Mode"
 msgstr "حالت توسعه کلودفلیر"
 
-#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Setting.php:279
+#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Setting.php:280
 msgid "Temporarily bypass cloudflare cache. See changes to your site in realtime."
 msgstr ""
 "معلق کردن کش کلودفلیر به صورت موقت، به منظور مشاهده تغییرات سایت به صورت لحظه‌ای."
 
-#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Setting.php:284
+#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Setting.php:285
 msgid ""
 "Disabling Development Mode turns on cloudflare caching for your site. Are you "
 "sure you want to continue?"
@@ -1868,7 +1870,7 @@ msgstr ""
 "فعال کردن حالت توسعه قابلیت کش کلودفلیر را برای سایت شما غیر فعال خواهد کرد. آیا "
 "از انجام این کار مطمئن هستید؟"
 
-#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Setting.php:285
+#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Setting.php:286
 msgid ""
 "Enabling Development Mode turns off cloudflare caching for your site. Are you "
 "sure you want to continue?"
@@ -1876,24 +1878,22 @@ msgstr ""
 "فعال کردن حالت توسعه قابلیت کش کلودفلیر را برای سایت شما غیر فعال خواهد کرد. آیا "
 "از انجام این کار مطمئن هستید؟"
 
-#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Setting.php:290
-#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Setting.php:315
+#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Setting.php:291
+#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Setting.php:317
 msgid "Enable"
 msgstr "فعال"
 
-#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Setting.php:298
+#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Setting.php:300
 msgid "Enable Cloudflare Cache"
 msgstr "فعال‌ سازی کش کلودفلیر"
 
-#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Setting.php:307
+#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Setting.php:309
 msgid "Enable cloudflare cache functionality for all pages and asset."
-msgstr "غیر فعال کردن قابلیت کش کلودفلیر برای تمامی صفحات و منابع استاتیکی."
+msgstr "فعال کردن قابلیت کش کلودفلیر برای تمامی صفحات و منابع استاتیکی."
 
-#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Setting.php:310
+#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Setting.php:312
 msgid "Enabling cloudflare cache can boost your site load speed, continue?"
-msgstr ""
-"فعال کردن حالت توسعه قابلیت کش کلودفلیر را برای سایت شما غیر فعال خواهد کرد. آیا "
-"از انجام این کار مطمئن هستید؟"
+msgstr "فعال کردن کش کلودفلیر می‌تواند سرعت سایت‌تان را بهتر کند. ادامه می‌دهید؟"
 
 #: src/Pmpr/Module/Optimization/Traits/AlertTrait.php:39
 msgid "Options that consume coins."
@@ -1906,6 +1906,16 @@ msgstr "افزایش سرعت مجدد"
 #: src/Pmpr/Module/Optimization/Traits/CommonTrait.php:86
 msgid "Are you sure about reOptimize this page?"
 msgstr "آیا در مورد بهینه سازی مجدد این صفحه مطمئن هستید؟"
+
+#~ msgid "Purge HTML pages only"
+#~ msgstr "تنها فایل‌های HTML را پاک‌سازی کن"
+
+#~ msgid ""
+#~ "Purge only the cached HTML pages instead of the whole Cloudflare cache (asset "
+#~ "+ pages)."
+#~ msgstr ""
+#~ "به جای پاک‌سازی کل کش کلودفلیر (شامل منابع استاتیکی و HTML)، فقط HTML را پاک "
+#~ "کن."
 
 #~ msgid "Cloudflare Quick Actions"
 #~ msgstr "عملیات سریع کلودفلیر"
@@ -7261,9 +7271,6 @@ msgstr "آیا در مورد بهینه سازی مجدد این صفحه مطم
 #~ msgstr "به وسیله"
 
 #~ msgid "Enabled"
-#~ msgstr "فعال"
-
-#~ msgid "enabled"
 #~ msgstr "فعال"
 
 #~ msgid "Bad Behavior"
