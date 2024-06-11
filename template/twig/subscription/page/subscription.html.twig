@@ -1,39 +1,37 @@
 <div class="row">
     {% for plan in plans %}
         <div class="col-12 col-md-6 col-lg-3">
-            <div class="pr-card" data-type="{% if plan.active %}primary{% else %}{% endif %}">
-                <div class="pr-card-header text-center">
-                    <strong class="pr-card-title">{{ plan.title|raw }}</strong>
-                </div>
-                {% if plan.items is not empty %}
-                    <div class="pr-card-separator"></div>
-                    <div class="pr-card-content">
-                        <ul class="m-0">
-                            {% for item in plan.items %}
-                                <li class="d-flex justify-content-between {% if not loop.last %}mb-2{% else %}m-0{% endif %}">
-                                    <div>
-                                        {{ render_icon(item.icon, {class: 'icon-sm icon-primary mr-2'}) }}
-                                        {{ item.title|raw }}
-                                    </div>
-                                    <strong>{{ item.value|raw }}</strong>
-                                </li>
-                            {% endfor %}
-                        </ul>
-                    </div>
-                {% endif %}
-                {% if plan.features is not empty %}
-                    <div class="pr-card-separator"></div>
-                    <div class="pr-card-content text-center">
-                        <ul class="m-0">
-                            {% for feature in plan.features %}
-                                <li class="{% if not loop.last %}mb-2{% else %}m-0{% endif %}">{{ feature|raw }}</li>
-                            {% endfor %}
-                        </ul>
-                    </div>
-                {% endif %}
-                <div class="pr-card-separator"></div>
-                <div class="pr-card-footer">{{ plan.button|raw }}</div>
-            </div>
+
+            {% set plan_items %}
+                <ul class="m-0">
+                    {% for item in plan.items %}
+                        <li class="d-flex justify-content-between {% if not loop.last %}mb-2{% else %}m-0{% endif %}">
+                            <div>
+                                {{ render_icon(item.icon, {class: 'icon-sm icon-primary mr-2'}) }}
+                                {{ item.title|raw }}
+                            </div>
+                            <strong>{{ item.value|raw }}</strong>
+                        </li>
+                    {% endfor %}
+                </ul>
+            {% endset %}
+
+            {% set plan_features %}
+                <ul class="m-0">
+                    {% for feature in plan.features %}
+                        <li class="{% if not loop.last %}mb-2{% else %}m-0{% endif %}">{{ feature|raw }}</li>
+                    {% endfor %}
+                </ul>
+            {% endset %}
+
+            {{ render_backend_card({
+                type: (plan.active ? 'primary' : ''),
+                header: plan.title,
+                footer: plan.button,
+                content: [plan_items, plan_features],
+                header_class: 'text-center',
+                content_class: 'text-center'
+            }) }}
         </div>
     {% endfor %}
 </div>

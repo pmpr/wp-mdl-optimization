@@ -1,21 +1,22 @@
 <div class="row">
     {% for card in cards %}
         <div class="col-12 col-md-6 col-lg-4">
-            <div class="pr-card">
-                <div class="pr-card-header text-center">
-                    <strong class="pr-card-title">{{ card.title|raw }}</strong>
-                </div>
-                <div class="pr-card-separator"></div>
-                <div class="pr-card-content">{{ card.table|raw }}</div>
-            </div>
+            {{ render_backend_card({
+                header: card.title,
+                content: card.table,
+                header_class: 'text-center'
+            }) }}
         </div>
     {% endfor %}
     <div class="col-12 col-lg-4">
-        <div class="pr-card">
-            <div class="pr-card-content text-center">
-                <p class="mb-3">{{ update.guide|raw }}</p>
-                {{ update.button|raw }}
-            </div>
-        </div>
+        {% set card_content %}
+            <p class="mb-3">{{ update.guide|raw }}</p>
+            {{ update.button|raw }}
+        {% endset %}
+        {{ render_backend_card({
+            header: card.title,
+            content: [card_content],
+            content_class: 'text-center'
+        }) }}
     </div>
 </div>
