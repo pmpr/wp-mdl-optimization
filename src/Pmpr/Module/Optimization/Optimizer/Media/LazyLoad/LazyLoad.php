@@ -1,7 +1,7 @@
 <?php
 /*   _______________________________________
     |  Obfuscated by PMPR - Php Obfuscator  |
-    |             666978e4a7c7f             |
+    |             6673f43f6aa4f             |
     |_______________________________________|
 */
- namespace Pmpr\Module\Optimization\Optimizer\Media\LazyLoad; class LazyLoad extends Common { public function mameiwsayuyquoeq() { if (!$this->weysguygiseoukqw(Setting::owqmaigscwikmwgg)) { goto sggawugoykqcmsug; } Engine::symcgieuakksimmu(); sggawugoykqcmsug: Setting::symcgieuakksimmu(); } }
+ namespace Pmpr\Module\Optimization\Optimizer\Media\LazyLoad; class LazyLoad extends Common { public function mameiwsayuyquoeq() { if (!$this->weysguygiseoukqw(Setting::owqmaigscwikmwgg)) { goto owgsameoayaogsma; } Engine::symcgieuakksimmu(); owgsameoayaogsma: Setting::symcgieuakksimmu(); } }

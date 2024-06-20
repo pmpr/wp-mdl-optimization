@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PMPR Optimization\n"
-"POT-Creation-Date: 2024-06-10 11:58+0330\n"
-"PO-Revision-Date: 2024-06-10 11:59+0330\n"
+"POT-Creation-Date: 2024-06-19 12:13+0330\n"
+"PO-Revision-Date: 2024-06-19 12:13+0330\n"
 "Last-Translator: Farshad Asgharzade <pmpr.dev@gmail.com>\n"
 "Language-Team: \n"
 "Language: fa_IR\n"
@@ -92,6 +92,7 @@ msgstr ""
 "این کار مطمئن هستید؟"
 
 #: src/Pmpr/Module/Optimization/Dashboard/Page.php:117
+#: src/Pmpr/Module/Optimization/Subscription/Model/Purchase.php:14
 msgid "Purchase"
 msgstr "خرید"
 
@@ -108,25 +109,25 @@ msgstr "گزارش خرید و مصرف"
 msgid "Quick Actions"
 msgstr "عملیات سریع"
 
-#: src/Pmpr/Module/Optimization/Optimization.php:27
+#: src/Pmpr/Module/Optimization/Optimization.php:28
 msgid "Optimization"
 msgstr "افزایش سرعت"
 
-#: src/Pmpr/Module/Optimization/Optimization.php:125
+#: src/Pmpr/Module/Optimization/Optimization.php:126
 #, php-format
 msgid "Optimization config file %s generated in %s"
 msgstr "فایل پیکربندی %s در %s ایجاد شد"
 
-#: src/Pmpr/Module/Optimization/Optimization.php:131
+#: src/Pmpr/Module/Optimization/Optimization.php:132
 msgid "Configuration"
 msgstr "پیکربندی"
 
 #: src/Pmpr/Module/Optimization/Optimizer/Advanced.php:76
 #, php-format
-msgid "Optimization Advanced Cache file generated successfully in %s."
-msgstr "فایل Advance-cache در %s با موفقیت ایجاد شد."
+msgid "Optimization Advanced file generated successfully in %s."
+msgstr "فایل advanced در %s با موفقیت ایجاد شد."
 
-#: src/Pmpr/Module/Optimization/Optimizer/Advanced.php:94
+#: src/Pmpr/Module/Optimization/Optimizer/Advanced.php:95
 #, php-format
 msgid "Advanced File(%s)"
 msgstr "فایل پیشرفته (%s)"
@@ -397,29 +398,29 @@ msgstr ""
 msgid "Virtual Browser Cache Path"
 msgstr "گزارش مرورگر مجازی"
 
-#: src/Pmpr/Module/Optimization/Optimizer/Cache/WPCache.php:94
-#: src/Pmpr/Module/Optimization/Optimizer/Cache/WPCache.php:154
+#: src/Pmpr/Module/Optimization/Optimizer/Cache/WPCache.php:93
+#: src/Pmpr/Module/Optimization/Optimizer/Cache/WPCache.php:153
 #: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Setting.php:211
 msgid "Cache"
 msgstr "کش"
 
-#: src/Pmpr/Module/Optimization/Optimizer/Cache/WPCache.php:136
+#: src/Pmpr/Module/Optimization/Optimizer/Cache/WPCache.php:135
 msgid "WP_CACHE value"
 msgstr "مقدار WP_CACHE"
 
-#: src/Pmpr/Module/Optimization/Optimizer/Cache/WPCache.php:156
+#: src/Pmpr/Module/Optimization/Optimizer/Cache/WPCache.php:155
 msgid "The WP_CACHE constant needs to be set to true for Cache to work properly"
 msgstr ""
 
-#: src/Pmpr/Module/Optimization/Optimizer/Cache/WPCache.php:165
+#: src/Pmpr/Module/Optimization/Optimizer/Cache/WPCache.php:164
 msgid "WP_CACHE is set to true"
 msgstr "مقدار WP_CACHE به true تغییر کرد"
 
-#: src/Pmpr/Module/Optimization/Optimizer/Cache/WPCache.php:174
+#: src/Pmpr/Module/Optimization/Optimizer/Cache/WPCache.php:173
 msgid "WP_CACHE is not set"
 msgstr "WP_CACHE مقدار دهی نشده است"
 
-#: src/Pmpr/Module/Optimization/Optimizer/Cache/WPCache.php:183
+#: src/Pmpr/Module/Optimization/Optimizer/Cache/WPCache.php:182
 msgid "WP_CACHE is set to false"
 msgstr "مقدار WP_CACHE به false تغییر کرد"
 
@@ -1031,6 +1032,7 @@ msgstr "جداکننده"
 
 #: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:53
 #: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:58
+#: src/Pmpr/Module/Optimization/Subscription/Model/Purchase.php:31
 msgid "Type"
 msgstr "نوع"
 
@@ -1471,83 +1473,151 @@ msgstr "تنظیمات افزایش سرعت"
 msgid "Setting"
 msgstr "تنظیمات"
 
-#: src/Pmpr/Module/Optimization/Subscription/Ajax.php:34
+#: src/Pmpr/Module/Optimization/Subscription/Ajax.php:35
 msgid "fetched data is empty."
 msgstr "اطلاعات دریافی خالی است."
 
-#: src/Pmpr/Module/Optimization/Subscription/Ajax.php:38
+#: src/Pmpr/Module/Optimization/Subscription/Ajax.php:39
 msgid "Data fetched successfully."
 msgstr "اطلاعات با موفقیت به روز شد."
 
-#: src/Pmpr/Module/Optimization/Subscription/Engine.php:113
+#: src/Pmpr/Module/Optimization/Subscription/Engine.php:134
 msgid "Unknown"
 msgstr "نامعلوم"
 
-#: src/Pmpr/Module/Optimization/Subscription/Engine.php:114
+#: src/Pmpr/Module/Optimization/Subscription/Engine.php:135
+#: src/Pmpr/Module/Optimization/Subscription/Engine.php:322
+#: src/Pmpr/Module/Optimization/Subscription/Model/Purchase.php:84
+#: src/Pmpr/Module/Optimization/Subscription/Model/Purchase.php:104
 #, php-format
 msgid "%s coins"
 msgstr "%s سکه"
 
-#: src/Pmpr/Module/Optimization/Subscription/Engine.php:121
+#: src/Pmpr/Module/Optimization/Subscription/Engine.php:148
+msgid "Expired"
+msgstr "منقضی شده"
+
+#: src/Pmpr/Module/Optimization/Subscription/Engine.php:152
 #, php-format
 msgid "%s Day"
 msgid_plural "%s Days"
 msgstr[0] "%s روز"
 
-#: src/Pmpr/Module/Optimization/Subscription/Engine.php:125
-#: src/Pmpr/Module/Optimization/Subscription/Engine.php:128
+#: src/Pmpr/Module/Optimization/Subscription/Engine.php:166
+#: src/Pmpr/Module/Optimization/Subscription/Engine.php:169
 msgid "Subscription Plan"
 msgstr "پلن اشتراک"
 
-#: src/Pmpr/Module/Optimization/Subscription/Engine.php:132
+#: src/Pmpr/Module/Optimization/Subscription/Engine.php:173
 msgid "Plan Period"
 msgstr "مدت زمان اشتراک"
 
-#: src/Pmpr/Module/Optimization/Subscription/Engine.php:136
+#: src/Pmpr/Module/Optimization/Subscription/Engine.php:177
 msgid "Remaining Time"
 msgstr "مدت باقی مانده"
 
-#: src/Pmpr/Module/Optimization/Subscription/Engine.php:140
+#: src/Pmpr/Module/Optimization/Subscription/Engine.php:181
 msgid "Count of Initial Coins"
 msgstr "تعداد سکه اولیه"
 
-#: src/Pmpr/Module/Optimization/Subscription/Engine.php:144
-#: src/Pmpr/Module/Optimization/Subscription/Engine.php:173
+#: src/Pmpr/Module/Optimization/Subscription/Engine.php:185
+#: src/Pmpr/Module/Optimization/Subscription/Engine.php:214
 msgid "Used Coins"
 msgstr "تعداد سکه مصرف شده"
 
-#: src/Pmpr/Module/Optimization/Subscription/Engine.php:148
-#: src/Pmpr/Module/Optimization/Subscription/Engine.php:177
+#: src/Pmpr/Module/Optimization/Subscription/Engine.php:189
+#: src/Pmpr/Module/Optimization/Subscription/Engine.php:218
 msgid "Remain Coins"
 msgstr "تعداد سکه باقی مانده"
 
-#: src/Pmpr/Module/Optimization/Subscription/Engine.php:154
+#: src/Pmpr/Module/Optimization/Subscription/Engine.php:195
 msgid "Extra Coin"
 msgstr "سکه اضافی"
 
-#: src/Pmpr/Module/Optimization/Subscription/Engine.php:157
+#: src/Pmpr/Module/Optimization/Subscription/Engine.php:198
 msgid "Latest Purchase Count"
 msgstr "تعداد آخرین خرید"
 
-#: src/Pmpr/Module/Optimization/Subscription/Engine.php:161
+#: src/Pmpr/Module/Optimization/Subscription/Engine.php:202
 msgid "Latest Purchase Date"
 msgstr "تاریخ آخرین خرید"
 
-#: src/Pmpr/Module/Optimization/Subscription/Engine.php:165
+#: src/Pmpr/Module/Optimization/Subscription/Engine.php:206
 msgid "Expire Date"
 msgstr "تاریخ انقضا"
 
-#: src/Pmpr/Module/Optimization/Subscription/Engine.php:166
+#: src/Pmpr/Module/Optimization/Subscription/Engine.php:207
 msgid "Without expire date"
 msgstr "بدون انقضا"
 
-#: src/Pmpr/Module/Optimization/Subscription/Engine.php:169
+#: src/Pmpr/Module/Optimization/Subscription/Engine.php:210
 msgid "All Coins Count"
 msgstr "جمع کل سکه‌ها"
 
-#: src/Pmpr/Module/Optimization/Subscription/Engine.php:229
+#: src/Pmpr/Module/Optimization/Subscription/Engine.php:299
 msgid "View the Full Report"
 msgstr "مشاهده گزارش کامل"
+
+#: src/Pmpr/Module/Optimization/Subscription/Engine.php:319
+msgid "Extract Critical CSS"
+msgstr "استخراج استایل‌ ضروری"
+
+#: src/Pmpr/Module/Optimization/Subscription/Engine.php:320
+msgid "Extract LCP Element"
+msgstr "استخراج عنصر LCP"
+
+#: src/Pmpr/Module/Optimization/Subscription/Engine.php:323
+msgid "Subscription Plans"
+msgstr "پلن‌های اشتراک"
+
+#: src/Pmpr/Module/Optimization/Subscription/Engine.php:327
+msgid "There is not data to show you, please refresh page or contact us."
+msgstr ""
+"در حال حاضر اطلاعاتی برای نمایش وجود ندارد، لطفا صفحه را رفرش کنید و یا با ما "
+"تماس بگیرید."
+
+#: src/Pmpr/Module/Optimization/Subscription/Model/Purchase.php:15
+msgid "Purchases"
+msgstr "خرید‌ها"
+
+#: src/Pmpr/Module/Optimization/Subscription/Model/Purchase.php:27
+#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Asset/CDNData.php:30
+msgid "Origin"
+msgstr "سرور"
+
+#: src/Pmpr/Module/Optimization/Subscription/Model/Purchase.php:32
+msgid "Subscription"
+msgstr "اشتراک"
+
+#: src/Pmpr/Module/Optimization/Subscription/Model/Purchase.php:33
+msgid "Extra Coins"
+msgstr "سکه اضافی"
+
+#: src/Pmpr/Module/Optimization/Subscription/Model/Purchase.php:37
+msgid "Purchase Date"
+msgstr "تاریخ خرید"
+
+#: src/Pmpr/Module/Optimization/Subscription/Model/Purchase.php:41
+msgid "Extra Information"
+msgstr "اطلاعات بیشتر"
+
+#: src/Pmpr/Module/Optimization/Subscription/Model/Purchase.php:45
+msgid "Price"
+msgstr "قیمت"
+
+#: src/Pmpr/Module/Optimization/Subscription/Model/Purchase.php:58
+msgid "Title"
+msgstr "عنوان"
+
+#: src/Pmpr/Module/Optimization/Subscription/Model/Purchase.php:90
+#, php-format
+msgid "Buy %s"
+msgstr "خرید %s"
+
+#: src/Pmpr/Module/Optimization/Subscription/Model/Purchase.php:99
+#, php-format
+msgid "Expired at %s"
+msgstr "در %s منقضی می‌شود"
 
 #: src/Pmpr/Module/Optimization/Subscription/Page.php:33
 msgid "Subscription and Charge Coins"
@@ -1569,6 +1639,14 @@ msgstr "خرید یا تمدید اشتراک"
 #: src/Pmpr/Module/Optimization/Subscription/Page.php:50
 msgid "Subscription plans and purchase coin"
 msgstr "پلن‌های اشتراک و خرید سکه"
+
+#: src/Pmpr/Module/Optimization/Subscription/Page.php:56
+msgid "Purchases Report"
+msgstr "گزارش خرید‌ها"
+
+#: src/Pmpr/Module/Optimization/Subscription/Page.php:57
+msgid "Subscription and extra purchases report"
+msgstr "گزارش اشتراک و خرید‌ سکه‌های اضافی"
 
 #: src/Pmpr/Module/Optimization/Subscription/Page.php:63
 msgid "Usages Report"
@@ -1611,10 +1689,6 @@ msgstr "آیتم‌های CDN"
 #: src/Pmpr/Module/Optimization/ThirdParty/CDN/Asset/CDNData.php:19
 msgid "CDN Data Item"
 msgstr "آیتم‌ CDN"
-
-#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Asset/CDNData.php:30
-msgid "Origin"
-msgstr "سرور"
 
 #: src/Pmpr/Module/Optimization/ThirdParty/CDN/Asset/CDNData.php:31
 msgid "JSDeliver"
@@ -1685,12 +1759,22 @@ msgstr "کش کلوفلیر با موفقیت فعال شد"
 msgid "%s status is not valid, valid modes is %s and %s"
 msgstr ""
 
-#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Cloudflare.php:110
+#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Cloudflare.php:116
+#, php-format
+msgid "Can not get cloudflare zones list: %s"
+msgstr ""
+
+#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Cloudflare.php:146
+#, php-format
+msgid "Can not get cloudflare development mode: %s"
+msgstr "نمی توان حالت توسعه کلودفلیر را دریافت کرد: %s"
+
+#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Cloudflare.php:165
 #, php-format
 msgid "Please complete cloudflare tab information: %s"
 msgstr "لطفا اطلاعات برگه کلودفلیر را تکمیل کنید: %s"
 
-#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Cloudflare.php:203
+#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Cloudflare.php:205
 msgid "Purge Post Cache"
 msgstr "پاک‌سازی کش‌ نوشته"
 
@@ -1963,9 +2047,22 @@ msgstr "فعال کردن کش کلودفلیر می‌تواند سرعت سا�
 msgid "Enable"
 msgstr "فعال"
 
-#: src/Pmpr/Module/Optimization/Traits/AlertTrait.php:39
-msgid "Options that consume coins."
-msgstr "گزینه‌هایی که سکه مصرف می کنند."
+#: src/Pmpr/Module/Optimization/Traits/AlertTrait.php:30
+#, php-format
+msgid "Options that %s."
+msgstr "گزینه‌هایی که %s."
+
+#: src/Pmpr/Module/Optimization/Traits/AlertTrait.php:34
+msgid "Service Fee"
+msgstr "هزینه خدمات"
+
+#: src/Pmpr/Module/Optimization/Traits/AlertTrait.php:36
+msgid "The cost of providing services for subscribers with different panels."
+msgstr "هزینه ارائه خدمات برای مشتریان با پنل های مختلف."
+
+#: src/Pmpr/Module/Optimization/Traits/AlertTrait.php:40
+msgid "consume coins"
+msgstr "سکه مصرف می‌کنند"
 
 #: src/Pmpr/Module/Optimization/Traits/CommonTrait.php:82
 msgid "reOptimize"
@@ -1974,6 +2071,12 @@ msgstr "افزایش سرعت مجدد"
 #: src/Pmpr/Module/Optimization/Traits/CommonTrait.php:86
 msgid "Are you sure about reOptimize this page?"
 msgstr "آیا در مورد بهینه سازی مجدد این صفحه مطمئن هستید؟"
+
+#~ msgid "Plan"
+#~ msgstr "پلن"
+
+#~ msgid "Detect LCP Item"
+#~ msgstr "شناسایی آیتم LCP"
 
 #~ msgid "Development Mode is already %s"
 #~ msgstr "حالت توسعه قبلا %s شده است"
@@ -2070,9 +2173,6 @@ msgstr "آیا در مورد بهینه سازی مجدد این صفحه مطم
 
 #~ msgid "Enable GZIP Cache"
 #~ msgstr "فعال سازی کش GZIP"
-
-#~ msgid "Subscription and extra purchases report"
-#~ msgstr "گزارش اشتراک و خرید‌ سکه‌های اضافی"
 
 #~ msgid "%s coin per request"
 #~ msgstr "%s سکه برای هر درخواست"
@@ -2189,9 +2289,6 @@ msgstr "آیا در مورد بهینه سازی مجدد این صفحه مطم
 
 #~ msgid "Day"
 #~ msgstr "روز"
-
-#~ msgid "Title"
-#~ msgstr "عنوان"
 
 #~ msgid "Auto Add"
 #~ msgstr "اضافه شدن اتوماتیک"
@@ -4039,9 +4136,6 @@ msgstr "آیا در مورد بهینه سازی مجدد این صفحه مطم
 #~ "در صورتی که کاربر قبل از اتمام محدودیت زمانی، پیام جدیدی را ارسال کند، نمایش "
 #~ "داده می‌شود."
 
-#~ msgid "Information"
-#~ msgstr "اطلاعات"
-
 #~ msgid "Enable Contact Information"
 #~ msgstr "فعال سازی اطلاعات تماس"
 
@@ -4197,11 +4291,6 @@ msgstr "آیا در مورد بهینه سازی مجدد این صفحه مطم
 #~ msgstr "آیکون"
 
 #, fuzzy
-#~| msgid "Select Type"
-#~ msgid "Select Item #%d"
-#~ msgstr "انتخاب نوع"
-
-#, fuzzy
 #~| msgid "Delete"
 #~ msgid "Delete Permanently"
 #~ msgstr "حذف"
@@ -4247,9 +4336,6 @@ msgstr "آیا در مورد بهینه سازی مجدد این صفحه مطم
 
 #~ msgid "Develop and Design"
 #~ msgstr "طراحی و توسعه"
-
-#~ msgid "By %s"
-#~ msgstr "توسط %s"
 
 #~ msgid "Engineer Peyman Mohamadpour design and development team"
 #~ msgstr "تیم طراحی و توسعه مهندس پیمان محمدپور"
@@ -5257,9 +5343,6 @@ msgstr "آیا در مورد بهینه سازی مجدد این صفحه مطم
 
 #~ msgid "Rights"
 #~ msgstr "باید‌ها"
-
-#~ msgid "Services"
-#~ msgstr "خدمات"
 
 #~ msgid "Service Details"
 #~ msgstr "جزئیات خدمت"
@@ -6878,11 +6961,6 @@ msgstr "آیا در مورد بهینه سازی مجدد این صفحه مطم
 
 #~ msgid "Total Time: %s"
 #~ msgstr "زمان:‌ %s"
-
-#, fuzzy
-#~| msgid "IP: %s"
-#~ msgid "Price: %s"
-#~ msgstr "آی پی:‌ %s"
 
 #, fuzzy
 #~| msgid "Hour"
