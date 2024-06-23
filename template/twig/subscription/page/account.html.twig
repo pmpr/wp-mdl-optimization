@@ -10,11 +10,10 @@
     {% endfor %}
     <div class="col-12 col-lg-4">
         {% set card_content %}
-            <p class="mb-3">{{ update.guide|raw }}</p>
-            {{ update.button|raw }}
+            {{ sync|raw }}
         {% endset %}
         {{ render_backend_card({
-            header: card.title,
+            header: quick_action_title,
             content: [card_content],
             content_class: 'text-center'
         }) }}

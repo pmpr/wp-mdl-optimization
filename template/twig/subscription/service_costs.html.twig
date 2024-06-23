@@ -1,4 +1,4 @@
-<table class="table table-borderless table-striped">
+<table class="table mb-0 table-borderless table-striped">
     <thead>
     <tr>
         <th></th>
@@ -16,7 +16,7 @@
         <tr>
             <th>{{ metric|raw }}</th>
             {% for plan in plans %}
-                <td class="text-center">{{ coin_mask|format(plan.usage[name ~ '_usage']|number)|raw }}</td>
+                <td class="text-center">{{ coin_mask|format(plan[name ~ '_usage']|number)|raw }}</td>
             {% endfor %}
         </tr>
     {% endfor %}

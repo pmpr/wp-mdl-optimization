@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PMPR Optimization\n"
-"POT-Creation-Date: 2024-06-19 12:13+0330\n"
-"PO-Revision-Date: 2024-06-19 12:13+0330\n"
+"POT-Creation-Date: 2024-06-22 14:56+0330\n"
+"PO-Revision-Date: 2024-06-22 14:56+0330\n"
 "Last-Translator: Farshad Asgharzade <pmpr.dev@gmail.com>\n"
 "Language-Team: \n"
 "Language: fa_IR\n"
@@ -48,34 +48,33 @@ msgstr ""
 msgid "Dashboard"
 msgstr "داشبورد"
 
-#: src/Pmpr/Module/Optimization/Dashboard/Page.php:55
-msgid "Purge All Cache"
-msgstr "پاک‌سازی کل کش"
+#: src/Pmpr/Module/Optimization/Dashboard/Page.php:62
+#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:146
+msgid "Purge Cache"
+msgstr "پاک‌ سازی کش‌"
 
-#: src/Pmpr/Module/Optimization/Dashboard/Page.php:59
-#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Setting.php:269
+#: src/Pmpr/Module/Optimization/Dashboard/Page.php:66
 msgid "Disable Development Mode"
 msgstr "غیر فعال کردن حالت توسعه"
 
-#: src/Pmpr/Module/Optimization/Dashboard/Page.php:60
-#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Setting.php:270
+#: src/Pmpr/Module/Optimization/Dashboard/Page.php:67
 msgid "Enable Development Mode"
 msgstr "فعال کردن حالت توسعه"
 
-#: src/Pmpr/Module/Optimization/Dashboard/Page.php:66
-#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:616
+#: src/Pmpr/Module/Optimization/Dashboard/Page.php:75
+#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:628
 msgid "Are you sure about purge cache?"
 msgstr "آیا از پاکسازی کش صفحات مطمئن هستید؟"
 
-#: src/Pmpr/Module/Optimization/Dashboard/Page.php:67
-#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:617
+#: src/Pmpr/Module/Optimization/Dashboard/Page.php:76
+#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:629
 msgid ""
 "Preload is enable and after purge cache, regenerate cache file started "
 "automatically."
 msgstr ""
 "پیش بارگیر فعال است و بعد از پاکسازی کش صفحات،‌ فرآیند ایجاد خودکار کش آغاز می‌شود."
 
-#: src/Pmpr/Module/Optimization/Dashboard/Page.php:81
+#: src/Pmpr/Module/Optimization/Dashboard/Page.php:90
 msgid ""
 "Disabling Development Mode turns on caching for your site. Are you sure you want "
 "to continue?"
@@ -83,7 +82,7 @@ msgstr ""
 "فعال کردن حالت توسعه قابلیت کش را برای سایت شما غیر فعال خواهد کرد. آیا از انجام "
 "این کار مطمئن هستید؟"
 
-#: src/Pmpr/Module/Optimization/Dashboard/Page.php:82
+#: src/Pmpr/Module/Optimization/Dashboard/Page.php:91
 msgid ""
 "Enabling Development Mode turns off caching for your site. Are you sure you want "
 "to continue?"
@@ -91,21 +90,26 @@ msgstr ""
 "فعال کردن حالت توسعه قابلیت کش را برای سایت شما غیر فعال خواهد کرد. آیا از انجام "
 "این کار مطمئن هستید؟"
 
-#: src/Pmpr/Module/Optimization/Dashboard/Page.php:117
+#: src/Pmpr/Module/Optimization/Dashboard/Page.php:100
+msgid "Development Mode"
+msgstr "حالت توسعه"
+
+#: src/Pmpr/Module/Optimization/Dashboard/Page.php:126
 #: src/Pmpr/Module/Optimization/Subscription/Model/Purchase.php:14
 msgid "Purchase"
 msgstr "خرید"
 
-#: src/Pmpr/Module/Optimization/Dashboard/Page.php:124
+#: src/Pmpr/Module/Optimization/Dashboard/Page.php:133
 #: src/Pmpr/Module/Optimization/PageManager/Model/Run/Remote.php:27
 msgid "Usage"
 msgstr "مصرف"
 
-#: src/Pmpr/Module/Optimization/Dashboard/Page.php:135
+#: src/Pmpr/Module/Optimization/Dashboard/Page.php:144
 msgid "Purchase and Consumption Report"
 msgstr "گزارش خرید و مصرف"
 
-#: src/Pmpr/Module/Optimization/Dashboard/Page.php:138
+#: src/Pmpr/Module/Optimization/Dashboard/Page.php:147
+#: src/Pmpr/Module/Optimization/Subscription/Page.php:79
 msgid "Quick Actions"
 msgstr "عملیات سریع"
 
@@ -264,7 +268,7 @@ msgstr "مسیر کش HTML"
 
 #: src/Pmpr/Module/Optimization/Optimizer/Cache/HTML/Preload/Setting.php:36
 #: src/Pmpr/Module/Optimization/Optimizer/Cache/HTML/Preload/Setting.php:73
-#: src/Pmpr/Module/Optimization/PageManager/Engine.php:942
+#: src/Pmpr/Module/Optimization/PageManager/Engine.php:997
 msgid "Cache Preloader"
 msgstr "پیش بارگیر کش"
 
@@ -440,7 +444,7 @@ msgstr "پیکربندی ماژول‌ها، کاورها، افزونه‌ها 
 
 #: src/Pmpr/Module/Optimization/Optimizer/HTML/Cleanup/Setting.php:48
 msgid "Cleanup"
-msgstr "پاک‌سازی"
+msgstr "پاک‌ سازی"
 
 #: src/Pmpr/Module/Optimization/Optimizer/HTML/Cleanup/Setting.php:49
 msgid "By removing unnecessary items, you can increase the page load speed."
@@ -543,7 +547,7 @@ msgid ""
 "This is good for security purposes as well, since it hides the WordPress version "
 "you're using."
 msgstr ""
-"پنهان کردن نسخه وردپرس خود علاوه بر پاک‌سازی،‌ می‌تواند کاربرد امنیتی نیز داشته "
+"پنهان کردن نسخه وردپرس خود علاوه بر پاک‌ سازی،‌ می‌تواند کاربرد امنیتی نیز داشته "
 "باشد."
 
 #: src/Pmpr/Module/Optimization/Optimizer/HTML/Cleanup/Setting.php:114
@@ -651,7 +655,7 @@ msgstr "مدیریت HTML"
 
 #: src/Pmpr/Module/Optimization/Optimizer/HTML/Setting.php:22
 msgid "Cleanup, Minify and ..."
-msgstr "پاک‌سازی، کوتاه‌سازی و ..."
+msgstr "پاک‌ سازی، کوتاه‌سازی و ..."
 
 #: src/Pmpr/Module/Optimization/Optimizer/Media/ImageDimension/Setting.php:27
 msgid "Imag Dimensions"
@@ -852,51 +856,51 @@ msgstr ""
 msgid "Another process already started."
 msgstr "پردازش دیگری قبلا شروع شده است."
 
-#: src/Pmpr/Module/Optimization/PageManager/Engine.php:773
+#: src/Pmpr/Module/Optimization/PageManager/Engine.php:828
 #: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:70
 #: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:202
 msgid "Cached"
 msgstr "کش شده"
 
-#: src/Pmpr/Module/Optimization/PageManager/Engine.php:776
+#: src/Pmpr/Module/Optimization/PageManager/Engine.php:831
 #: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:67
 #: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:210
 msgid "Not Cached"
 msgstr "کش نشده"
 
-#: src/Pmpr/Module/Optimization/PageManager/Engine.php:779
-#: src/Pmpr/Module/Optimization/PageManager/Engine.php:797
+#: src/Pmpr/Module/Optimization/PageManager/Engine.php:834
 #: src/Pmpr/Module/Optimization/PageManager/Engine.php:852
+#: src/Pmpr/Module/Optimization/PageManager/Engine.php:907
 msgid "Awaiting Setup"
 msgstr "در انتظار راه‌اندازی"
 
-#: src/Pmpr/Module/Optimization/PageManager/Engine.php:815
+#: src/Pmpr/Module/Optimization/PageManager/Engine.php:870
 msgid "Optimizing..."
 msgstr "در حال بهینه سازی..."
 
-#: src/Pmpr/Module/Optimization/PageManager/Engine.php:865
+#: src/Pmpr/Module/Optimization/PageManager/Engine.php:920
 msgid "Checking pages cache..."
 msgstr "در حال بررسی کش صفحات..."
 
-#: src/Pmpr/Module/Optimization/PageManager/Engine.php:871
+#: src/Pmpr/Module/Optimization/PageManager/Engine.php:926
 msgid "Awaiting Optimize Pattern"
 msgstr "در انتظار بهینه سازی الگو"
 
-#: src/Pmpr/Module/Optimization/PageManager/Engine.php:898
+#: src/Pmpr/Module/Optimization/PageManager/Engine.php:953
 #, php-format
 msgid "Cache Preloader is %s. %s"
 msgstr "پیش بارگیر کش %s است. %s"
 
-#: src/Pmpr/Module/Optimization/PageManager/Engine.php:899
+#: src/Pmpr/Module/Optimization/PageManager/Engine.php:954
 #, php-format
 msgid "You can %s it through the settings section."
 msgstr "برای %s آن می‌توانید از طریق بخش تنظیمات اقدام کنید."
 
-#: src/Pmpr/Module/Optimization/PageManager/Engine.php:905
+#: src/Pmpr/Module/Optimization/PageManager/Engine.php:960
 msgid "active for all pages"
 msgstr "برای همه صفحات فعال"
 
-#: src/Pmpr/Module/Optimization/PageManager/Engine.php:906
+#: src/Pmpr/Module/Optimization/PageManager/Engine.php:961
 msgid ""
 "This situation, despite the advantage of shorter cache creation time for all "
 "pages, is associated with high inode consumption."
@@ -904,16 +908,16 @@ msgstr ""
 "این وضعیت، علیرغم مزیت کوتاهتر شدن زمان ایجاد کش برای همه صفحات، با مصرف زیاد "
 "تعداد inode همراه است."
 
-#: src/Pmpr/Module/Optimization/PageManager/Engine.php:910
-#: src/Pmpr/Module/Optimization/PageManager/Engine.php:921
+#: src/Pmpr/Module/Optimization/PageManager/Engine.php:965
+#: src/Pmpr/Module/Optimization/PageManager/Engine.php:976
 msgid "deactivate"
 msgstr "غیر فعال سازی"
 
-#: src/Pmpr/Module/Optimization/PageManager/Engine.php:916
+#: src/Pmpr/Module/Optimization/PageManager/Engine.php:971
 msgid "active for impression pages"
 msgstr "برای صفحات پر بازدید فعال"
 
-#: src/Pmpr/Module/Optimization/PageManager/Engine.php:917
+#: src/Pmpr/Module/Optimization/PageManager/Engine.php:972
 msgid ""
 "This situation will create the cache of the most visited pages as soon as "
 "possible, while consuming a reasonable number of inodes."
@@ -921,11 +925,11 @@ msgstr ""
 "این وضعیت، در عین مصرف معقول تعداد inode، کش صفحات پر بازدید را در اولین زمان "
 "ممکن ایجاد خواهد کرد."
 
-#: src/Pmpr/Module/Optimization/PageManager/Engine.php:927
+#: src/Pmpr/Module/Optimization/PageManager/Engine.php:982
 msgid "inactive"
 msgstr "غیر فعال"
 
-#: src/Pmpr/Module/Optimization/PageManager/Engine.php:928
+#: src/Pmpr/Module/Optimization/PageManager/Engine.php:983
 msgid ""
 "This situation is accompanied by a longer cache creation time for all pages, "
 "despite the low consumption of inodes."
@@ -933,31 +937,31 @@ msgstr ""
 "این وضعیت علیرغم مصرف کم تعداد inode، با طولانی‌تر شدن زمان ایجاد کش برای همه "
 "صفحات همراه است."
 
-#: src/Pmpr/Module/Optimization/PageManager/Engine.php:932
+#: src/Pmpr/Module/Optimization/PageManager/Engine.php:987
 msgid "activate"
 msgstr "فعال سازی"
 
-#: src/Pmpr/Module/Optimization/PageManager/Engine.php:948
+#: src/Pmpr/Module/Optimization/PageManager/Engine.php:1003
 msgid "Change Preload Setting"
 msgstr "تغییر تنظیمات پیش بارگیر"
 
-#: src/Pmpr/Module/Optimization/PageManager/Engine.php:953
+#: src/Pmpr/Module/Optimization/PageManager/Engine.php:1008
 msgid "Creating Cache"
 msgstr "در حال ایجاد کش"
 
-#: src/Pmpr/Module/Optimization/PageManager/Engine.php:961
+#: src/Pmpr/Module/Optimization/PageManager/Engine.php:1016
 msgid "With Preloader"
 msgstr "با استفاده از پیش بارگیر"
 
-#: src/Pmpr/Module/Optimization/PageManager/Engine.php:970
+#: src/Pmpr/Module/Optimization/PageManager/Engine.php:1025
 msgid "Without Preloader"
 msgstr "بدون استفاده از پیش بارگیر"
 
-#: src/Pmpr/Module/Optimization/PageManager/Engine.php:990
+#: src/Pmpr/Module/Optimization/PageManager/Engine.php:1045
 msgid "All Pages Cached."
 msgstr "همه صفحات کش‌ شده‌اند."
 
-#: src/Pmpr/Module/Optimization/PageManager/Engine.php:994
+#: src/Pmpr/Module/Optimization/PageManager/Engine.php:1049
 msgid "There is no page for pattern."
 msgstr "صفحه‌ای برای این الگو یافت نشد."
 
@@ -1084,20 +1088,16 @@ msgstr "حذف"
 
 #: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:134
 #: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:139
-#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:597
-#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:604
-#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:608
+#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:609
+#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:616
+#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:620
 msgid "Re-Optimize"
 msgstr "بهینه سازی مجدد"
 
 #: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:136
-#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:662
+#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:674
 msgid "Are you sure about re-optimize page?"
 msgstr "آیا از بهینه سازی مجدد صفحه مطمئن هستید؟"
-
-#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:146
-msgid "Purge Cache"
-msgstr "پاک‌سازی کش‌"
 
 #: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:231
 #: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:71
@@ -1247,49 +1247,49 @@ msgstr "نوع فیلتر نوشته‌ها"
 msgid "Posts Filter"
 msgstr "فیلتر نوشته‌ها"
 
-#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:513
+#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:525
 msgid "Please select a post type."
 msgstr "لطفا یک نوع نوشته انتخاب کنید."
 
-#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:520
+#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:532
 msgid "Please select a special page."
 msgstr "لطفا یک صفحه خاص را انتخاب کنید."
 
-#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:526
+#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:538
 msgid ""
 "This special page already selected in another pattern and you can not select it."
 msgstr ""
 "این صفحه خاص پیش از این درالگوی دیگری انتخاب شده است و شما نمی‌توانید دوباره آن "
 "را انتخاب کنید."
 
-#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:537
+#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:549
 msgid "Selected type is not valid."
 msgstr "نوع انتخابی معتبر نیست."
 
-#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:554
+#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:566
 msgid "Inactive options are matched and selected with previous patterns."
 msgstr "گزینه‌های غیر فعال، با الگوهای قبلی منطبق و انتخاب شده‌اند."
 
-#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:578
+#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:590
 msgid "Setup Pattern"
 msgstr "راه‌اندازی الگو"
 
-#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:584
-#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:588
+#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:596
+#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:600
 msgid "Setup"
 msgstr "راه‌اندازی"
 
-#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:614
-#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:622
 #: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:626
+#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:634
+#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:638
 msgid "Purge Pages Cache"
 msgstr "پاکسازی کش صفحات"
 
-#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:667
+#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:679
 msgid "Candidate Page Link"
 msgstr "لینک صفحه کاندید"
 
-#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:671
+#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:683
 msgid ""
 "The pages of each template must have the same design and layout. In the "
 "meantime, some pages with a slight difference have more diverse visual elements "
@@ -1299,7 +1299,7 @@ msgstr ""
 "اختلاف جزئی، از المان‌های بصری متنوع‌تری برخوردارند و لذا انتخاب مناسب‌تری به عنوان "
 "صفحه کاندید آن الگو هستند."
 
-#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:672
+#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:684
 msgid ""
 "If left blank, a random page will be selected from among the target pages of "
 "this template."
@@ -1307,52 +1307,52 @@ msgstr ""
 "در صورتی که خالی رها کنید، یک صفحه تصادفی از بین صفحات هدف این الگو انتخاب خواهد "
 "شد."
 
-#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:700
+#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:712
 #, php-format
 msgid "It may take about %s for all target pages to reach the maximum speed."
 msgstr "رسیدن همه صفحات هدف به سقف سرعت، ممکن است %s به طول بیانجامد."
 
-#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:729
+#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:741
 msgid "Unlimited"
 msgstr "نامحدود"
 
-#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:737
+#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:749
 msgid "Target Pages Count"
 msgstr "تعداد صفحات هدف"
 
-#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:738
-#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:838
+#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:750
+#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:850
 #, php-format
 msgid "%s Pages"
 msgstr "%s صفحه"
 
-#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:741
+#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:753
 msgid "Setup Cost"
 msgstr "هزینه راه‌اندازی"
 
-#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:742
+#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:754
 #, php-format
 msgid "%s Coins"
 msgstr "%s سکه"
 
-#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:745
+#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:757
 msgid "Setup Time"
 msgstr "مدت زمان راه‌اندازی"
 
-#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:746
+#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:758
 #, php-format
 msgid "%s Seconds"
 msgstr "%s ثانیه"
 
-#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:817
+#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:829
 msgid "Pattern Cache"
 msgstr "کش الگو"
 
-#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:818
+#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:830
 msgid "Latest Run Status"
 msgstr "وضعیت آخرین اجرا"
 
-#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:819
+#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:831
 msgid "Target Pages Cache"
 msgstr "کش صفحات هدف"
 
@@ -1481,96 +1481,123 @@ msgstr "اطلاعات دریافی خالی است."
 msgid "Data fetched successfully."
 msgstr "اطلاعات با موفقیت به روز شد."
 
-#: src/Pmpr/Module/Optimization/Subscription/Engine.php:134
+#: src/Pmpr/Module/Optimization/Subscription/Engine.php:137
+msgid "Sync Data"
+msgstr "همگام سازی داده‌ها"
+
+#: src/Pmpr/Module/Optimization/Subscription/Engine.php:141
+msgid ""
+"The data associated with your account is updated with the server at regular "
+"intervals. To ensure the latest update, you can update your account data with "
+"the server now."
+msgstr ""
+"داده‌های مرتبط با حساب کاربری شما، در بازه‌های زمانی منظم، با سرور به روز می‌شوند. "
+"برای اطمینان از آخرین به‌روزرسانی، میتوانید همین حالا داده‌های مرتبط با حساب "
+"کاربری خود را با سرور به روز کنید."
+
+#: src/Pmpr/Module/Optimization/Subscription/Engine.php:172
 msgid "Unknown"
 msgstr "نامعلوم"
 
-#: src/Pmpr/Module/Optimization/Subscription/Engine.php:135
-#: src/Pmpr/Module/Optimization/Subscription/Engine.php:322
+#: src/Pmpr/Module/Optimization/Subscription/Engine.php:173
+#: src/Pmpr/Module/Optimization/Subscription/Engine.php:434
 #: src/Pmpr/Module/Optimization/Subscription/Model/Purchase.php:84
 #: src/Pmpr/Module/Optimization/Subscription/Model/Purchase.php:104
 #, php-format
 msgid "%s coins"
 msgstr "%s سکه"
 
-#: src/Pmpr/Module/Optimization/Subscription/Engine.php:148
+#: src/Pmpr/Module/Optimization/Subscription/Engine.php:185
 msgid "Expired"
 msgstr "منقضی شده"
 
-#: src/Pmpr/Module/Optimization/Subscription/Engine.php:152
+#: src/Pmpr/Module/Optimization/Subscription/Engine.php:189
 #, php-format
 msgid "%s Day"
 msgid_plural "%s Days"
 msgstr[0] "%s روز"
 
-#: src/Pmpr/Module/Optimization/Subscription/Engine.php:166
-#: src/Pmpr/Module/Optimization/Subscription/Engine.php:169
+#: src/Pmpr/Module/Optimization/Subscription/Engine.php:216
+msgid "No Purchase"
+msgstr "بدون خرید"
+
+#: src/Pmpr/Module/Optimization/Subscription/Engine.php:221
+#: src/Pmpr/Module/Optimization/Subscription/Engine.php:224
 msgid "Subscription Plan"
 msgstr "پلن اشتراک"
 
-#: src/Pmpr/Module/Optimization/Subscription/Engine.php:173
+#: src/Pmpr/Module/Optimization/Subscription/Engine.php:228
 msgid "Plan Period"
 msgstr "مدت زمان اشتراک"
 
-#: src/Pmpr/Module/Optimization/Subscription/Engine.php:177
+#: src/Pmpr/Module/Optimization/Subscription/Engine.php:232
 msgid "Remaining Time"
 msgstr "مدت باقی مانده"
 
-#: src/Pmpr/Module/Optimization/Subscription/Engine.php:181
+#: src/Pmpr/Module/Optimization/Subscription/Engine.php:236
 msgid "Count of Initial Coins"
 msgstr "تعداد سکه اولیه"
 
-#: src/Pmpr/Module/Optimization/Subscription/Engine.php:185
-#: src/Pmpr/Module/Optimization/Subscription/Engine.php:214
+#: src/Pmpr/Module/Optimization/Subscription/Engine.php:240
+#: src/Pmpr/Module/Optimization/Subscription/Engine.php:269
 msgid "Used Coins"
 msgstr "تعداد سکه مصرف شده"
 
-#: src/Pmpr/Module/Optimization/Subscription/Engine.php:189
-#: src/Pmpr/Module/Optimization/Subscription/Engine.php:218
+#: src/Pmpr/Module/Optimization/Subscription/Engine.php:244
+#: src/Pmpr/Module/Optimization/Subscription/Engine.php:273
 msgid "Remain Coins"
 msgstr "تعداد سکه باقی مانده"
 
-#: src/Pmpr/Module/Optimization/Subscription/Engine.php:195
+#: src/Pmpr/Module/Optimization/Subscription/Engine.php:250
 msgid "Extra Coin"
 msgstr "سکه اضافی"
 
-#: src/Pmpr/Module/Optimization/Subscription/Engine.php:198
+#: src/Pmpr/Module/Optimization/Subscription/Engine.php:253
 msgid "Latest Purchase Count"
 msgstr "تعداد آخرین خرید"
 
-#: src/Pmpr/Module/Optimization/Subscription/Engine.php:202
+#: src/Pmpr/Module/Optimization/Subscription/Engine.php:257
 msgid "Latest Purchase Date"
 msgstr "تاریخ آخرین خرید"
 
-#: src/Pmpr/Module/Optimization/Subscription/Engine.php:206
+#: src/Pmpr/Module/Optimization/Subscription/Engine.php:261
 msgid "Expire Date"
 msgstr "تاریخ انقضا"
 
-#: src/Pmpr/Module/Optimization/Subscription/Engine.php:207
+#: src/Pmpr/Module/Optimization/Subscription/Engine.php:262
 msgid "Without expire date"
 msgstr "بدون انقضا"
 
-#: src/Pmpr/Module/Optimization/Subscription/Engine.php:210
+#: src/Pmpr/Module/Optimization/Subscription/Engine.php:265
 msgid "All Coins Count"
 msgstr "جمع کل سکه‌ها"
 
-#: src/Pmpr/Module/Optimization/Subscription/Engine.php:299
+#: src/Pmpr/Module/Optimization/Subscription/Engine.php:354
 msgid "View the Full Report"
 msgstr "مشاهده گزارش کامل"
 
-#: src/Pmpr/Module/Optimization/Subscription/Engine.php:319
+#: src/Pmpr/Module/Optimization/Subscription/Engine.php:401
+#: src/Pmpr/Module/Optimization/Subscription/Engine.php:419
+msgid "Your Subscription"
+msgstr "اشتراک شما"
+
+#: src/Pmpr/Module/Optimization/Subscription/Engine.php:407
+msgid "New"
+msgstr "جدید"
+
+#: src/Pmpr/Module/Optimization/Subscription/Engine.php:431
 msgid "Extract Critical CSS"
 msgstr "استخراج استایل‌ ضروری"
 
-#: src/Pmpr/Module/Optimization/Subscription/Engine.php:320
+#: src/Pmpr/Module/Optimization/Subscription/Engine.php:432
 msgid "Extract LCP Element"
 msgstr "استخراج عنصر LCP"
 
-#: src/Pmpr/Module/Optimization/Subscription/Engine.php:323
+#: src/Pmpr/Module/Optimization/Subscription/Engine.php:435
 msgid "Subscription Plans"
 msgstr "پلن‌های اشتراک"
 
-#: src/Pmpr/Module/Optimization/Subscription/Engine.php:327
+#: src/Pmpr/Module/Optimization/Subscription/Engine.php:439
 msgid "There is not data to show you, please refresh page or contact us."
 msgstr ""
 "در حال حاضر اطلاعاتی برای نمایش وجود ندارد، لطفا صفحه را رفرش کنید و یا با ما "
@@ -1656,29 +1683,21 @@ msgstr "گزارش استفاده"
 msgid "Coins usage report"
 msgstr "گزارش استفاده سکه"
 
-#: src/Pmpr/Module/Optimization/Subscription/Page.php:79
-msgid "THis is a guide text!"
-msgstr ""
-
-#: src/Pmpr/Module/Optimization/Subscription/Page.php:81
-msgid "Fetch Account Last Info"
-msgstr "دریافت اطلاعات حساب"
-
-#: src/Pmpr/Module/Optimization/Subscription/Page.php:115
+#: src/Pmpr/Module/Optimization/Subscription/Page.php:111
 msgid "Initial Coin"
 msgstr "تعداد سکه اولیه"
 
-#: src/Pmpr/Module/Optimization/Subscription/Page.php:117
+#: src/Pmpr/Module/Optimization/Subscription/Page.php:113
 #, php-format
 msgid "%s Coin"
 msgid_plural "%s Coins"
 msgstr[0] "%s سکه"
 
-#: src/Pmpr/Module/Optimization/Subscription/Page.php:120
+#: src/Pmpr/Module/Optimization/Subscription/Page.php:116
 msgid "Validity Duration"
 msgstr "مدت اعتبار"
 
-#: src/Pmpr/Module/Optimization/Subscription/Page.php:146
+#: src/Pmpr/Module/Optimization/Subscription/Page.php:141
 msgid "Buy Now!"
 msgstr "الان بخرید!"
 
@@ -1776,7 +1795,7 @@ msgstr "لطفا اطلاعات برگه کلودفلیر را تکمیل کنی
 
 #: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Cloudflare.php:205
 msgid "Purge Post Cache"
-msgstr "پاک‌سازی کش‌ نوشته"
+msgstr "پاک‌ سازی کش‌ نوشته"
 
 #: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Engine.php:273
 #: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Engine.php:280
@@ -1997,70 +2016,20 @@ msgstr "مقدار Cache-control max-age مربوط به مرورگر"
 msgid "Recommended a value between %s and %s"
 msgstr "مقداری بین %s و %s توصیه می‌شود"
 
-#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Setting.php:240
-msgid "Disable Cloudflare Cache"
-msgstr "غیر فعال کردن کش کلودفلیر"
-
-#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Setting.php:244
-#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Setting.php:291
-msgid "Cloudflare Cache"
-msgstr "کش کلودفلیر"
-
-#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Setting.php:249
-msgid "Disable cloudflare cache functionality for all pages and asset."
-msgstr "غیر فعال کردن قابلیت کش کلودفلیر برای تمامی صفحات و منابع استاتیکی."
-
-#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Setting.php:253
-msgid ""
-"Disable cloudflare cache can speed down your website. Are you sure you want to "
-"continue?"
-msgstr ""
-"غیر فعال کردن کش کلودفلیر می‌تواند باعث کاهش سرعت سایت‌تان شود. آیا از انجام این "
-"کار مطمئن هستید؟"
-
-#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Setting.php:258
-msgid "Disable"
-msgstr "غیرفعال"
-
-#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Setting.php:275
-msgid "Cloudflare Development Mode"
-msgstr "حالت توسعه کلودفلیر"
-
-#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Setting.php:280
-msgid "Temporarily bypass cloudflare cache. See changes to your site in realtime."
-msgstr ""
-"معلق کردن کش کلودفلیر به صورت موقت، به منظور مشاهده تغییرات سایت به صورت لحظه‌ای."
-
-#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Setting.php:287
-msgid "Enable Cloudflare Cache"
-msgstr "فعال‌ سازی کش کلودفلیر"
-
-#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Setting.php:296
-msgid "Enable cloudflare cache functionality for all pages and asset."
-msgstr "فعال کردن قابلیت کش کلودفلیر برای تمامی صفحات و منابع استاتیکی."
-
-#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Setting.php:299
-msgid "Enabling cloudflare cache can boost your site load speed, continue?"
-msgstr "فعال کردن کش کلودفلیر می‌تواند سرعت سایت‌تان را بهتر کند. ادامه می‌دهید؟"
-
-#: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Setting.php:304
-msgid "Enable"
-msgstr "فعال"
-
 #: src/Pmpr/Module/Optimization/Traits/AlertTrait.php:30
 #, php-format
 msgid "Options that %s."
 msgstr "گزینه‌هایی که %s."
 
-#: src/Pmpr/Module/Optimization/Traits/AlertTrait.php:34
+#: src/Pmpr/Module/Optimization/Traits/AlertTrait.php:35
 msgid "Service Fee"
 msgstr "هزینه خدمات"
 
-#: src/Pmpr/Module/Optimization/Traits/AlertTrait.php:36
+#: src/Pmpr/Module/Optimization/Traits/AlertTrait.php:38
 msgid "The cost of providing services for subscribers with different panels."
 msgstr "هزینه ارائه خدمات برای مشتریان با پنل های مختلف."
 
-#: src/Pmpr/Module/Optimization/Traits/AlertTrait.php:40
+#: src/Pmpr/Module/Optimization/Traits/AlertTrait.php:42
 msgid "consume coins"
 msgstr "سکه مصرف می‌کنند"
 
@@ -2071,6 +2040,55 @@ msgstr "افزایش سرعت مجدد"
 #: src/Pmpr/Module/Optimization/Traits/CommonTrait.php:86
 msgid "Are you sure about reOptimize this page?"
 msgstr "آیا در مورد بهینه سازی مجدد این صفحه مطمئن هستید؟"
+
+#~ msgid "Fetch Account Last Info"
+#~ msgstr "دریافت اطلاعات حساب"
+
+#~ msgid "Purge All Cache"
+#~ msgstr "پاک‌سازی کل کش"
+
+#~ msgid "Your Subscription (%s)"
+#~ msgstr "اشتراک شما (%s)"
+
+#~ msgid "Disable Cloudflare Cache"
+#~ msgstr "غیر فعال کردن کش کلودفلیر"
+
+#~ msgid "Cloudflare Cache"
+#~ msgstr "کش کلودفلیر"
+
+#~ msgid "Disable cloudflare cache functionality for all pages and asset."
+#~ msgstr "غیر فعال کردن قابلیت کش کلودفلیر برای تمامی صفحات و منابع استاتیکی."
+
+#~ msgid ""
+#~ "Disable cloudflare cache can speed down your website. Are you sure you want "
+#~ "to continue?"
+#~ msgstr ""
+#~ "غیر فعال کردن کش کلودفلیر می‌تواند باعث کاهش سرعت سایت‌تان شود. آیا از انجام "
+#~ "این کار مطمئن هستید؟"
+
+#~ msgid "Disable"
+#~ msgstr "غیرفعال"
+
+#~ msgid "Cloudflare Development Mode"
+#~ msgstr "حالت توسعه کلودفلیر"
+
+#~ msgid ""
+#~ "Temporarily bypass cloudflare cache. See changes to your site in realtime."
+#~ msgstr ""
+#~ "معلق کردن کش کلودفلیر به صورت موقت، به منظور مشاهده تغییرات سایت به صورت "
+#~ "لحظه‌ای."
+
+#~ msgid "Enable Cloudflare Cache"
+#~ msgstr "فعال‌ سازی کش کلودفلیر"
+
+#~ msgid "Enable cloudflare cache functionality for all pages and asset."
+#~ msgstr "فعال کردن قابلیت کش کلودفلیر برای تمامی صفحات و منابع استاتیکی."
+
+#~ msgid "Enabling cloudflare cache can boost your site load speed, continue?"
+#~ msgstr "فعال کردن کش کلودفلیر می‌تواند سرعت سایت‌تان را بهتر کند. ادامه می‌دهید؟"
+
+#~ msgid "Enable"
+#~ msgstr "فعال"
 
 #~ msgid "Plan"
 #~ msgstr "پلن"
@@ -5483,9 +5501,6 @@ msgstr "آیا در مورد بهینه سازی مجدد این صفحه مطم
 #~ msgid "Organization"
 #~ msgstr "موسسه"
 
-#~ msgid "Now"
-#~ msgstr "امروز"
-
 #~ msgid "Wikipedia"
 #~ msgstr "ویکی‌پدیا"
 
@@ -5633,11 +5648,6 @@ msgstr "آیا در مورد بهینه سازی مجدد این صفحه مطم
 
 #~ msgid "Served Area"
 #~ msgstr "منطقه خدمت رسانی"
-
-#, fuzzy
-#~| msgid "Static Data"
-#~ msgid "Place Data"
-#~ msgstr "داده ایجادی"
 
 #~ msgid "City"
 #~ msgstr "شهر"
