@@ -1,7 +1,7 @@
 <?php
 /*   _______________________________________
     |  Obfuscated by PMPR - Php Obfuscator  |
-    |             66788399683ac             |
+    |             6681a8b6b9a73             |
     |_______________________________________|
 */
  namespace Pmpr\Module\Optimization\Optimizer\Asset\Critical; class Critical extends Common { public function mameiwsayuyquoeq() { Style::symcgieuakksimmu(); } }
