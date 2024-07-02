@@ -32,12 +32,13 @@ if (file_exists($cachePath)
     spl_autoload_register(static function ($class) use ($classes, $vendorPath) {
         if (isset($classes[$class])) {
             $file = $classes[$class];
-        } elseif (strpos($class, 'Monolog\\') === 0) {
-             $file = "{$vendorPath}/monolog/monolog/src/" . str_replace('\\', '/', $class) . '.php';
-        } elseif (strpos($class, 'Symfony\\') === 0) {
+        } elseif (str_starts_with($class, 'Monolog\\')) {
+            $file = "{$vendorPath}/monolog/monolog/src/" . str_replace('\\', '/', $class) . '.php';
+        } elseif (str_starts_with($class, 'Symfony\\')) {
             $file = "{$vendorPath}/symfony/filesystem/Filesystem.php";
-        } elseif (strpos($class, 'Psr\\Log\\') === 0) {
-            $file = "{$vendorPath}/psr/log/" . str_replace('\\', '/', $class) . '.php';
+        } elseif (str_starts_with($class, 'Psr\\Log\\')) {
+            $parts = explode('\\', $class);
+            $file = "{$vendorPath}/psr/log/src/" . end($parts) . '.php';
         } else {
             return;
         }
