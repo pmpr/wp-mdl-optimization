@@ -1,7 +1,7 @@
 <?php
 /*   _______________________________________
     |  Obfuscated by PMPR - Php Obfuscator  |
-    |             6686aaf854850             |
+    |             6686f091293fe             |
     |_______________________________________|
 */
  namespace Pmpr\Module\Optimization\Optimizer\Asset; use Pmpr\Module\Optimization\Optimizer\Asset\Critical\Critical; use Pmpr\Module\Optimization\Optimizer\Asset\Defer\Defer; use Pmpr\Module\Optimization\Optimizer\Asset\Delay\Delay; use Pmpr\Module\Optimization\Optimizer\Asset\Font\Font; class Asset extends Common { public function mameiwsayuyquoeq() { Delay::symcgieuakksimmu(); Font::symcgieuakksimmu(); Defer::symcgieuakksimmu(); Setting::symcgieuakksimmu(); Preload::symcgieuakksimmu(); Critical::symcgieuakksimmu(); } }

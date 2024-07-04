@@ -4374,7 +4374,7 @@ msgstr "آیا در مورد بهینه سازی مجدد این صفحه مطم
 #~ msgstr "طراحی و توسعه"
 
 #~ msgid "Engineer Peyman Mohamadpour design and development team"
-#~ msgstr "تیم طراحی و توسعه مهندس پیمان محمدپور"
+#~ msgstr "تیم طراحی و توسعه دکتر پیمان محمدپور"
 
 #~ msgid "Lock"
 #~ msgstr "قفل"
