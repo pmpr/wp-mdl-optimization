@@ -10,6 +10,14 @@ use {{ use|raw }};
 define('PR_OPTIMIZATION_ADVANCED_CACHE', true);
 
 function opt_advanced_cache_get_path($path) {
+
+    if (!defined('PR_ENV_SLD')) {
+        $baseConfigPath = '{{ base_config_path|raw }}';
+        if (file_exists($baseConfigPath)) {
+            require_once $baseConfigPath;
+        }
+    }
+
     if (defined('PR_ENV_SLD')) {
         $path = sprintf($path, PR_ENV_SLD);
     }
