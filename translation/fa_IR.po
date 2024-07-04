@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PMPR Optimization\n"
 "POT-Creation-Date: 2024-07-04 14:00+0330\n"
-"PO-Revision-Date: 2024-07-04 14:00+0330\n"
+"PO-Revision-Date: 2024-07-04 14:53+0330\n"
 "Last-Translator: Farshad Asgharzade <pmpr.dev@gmail.com>\n"
 "Language-Team: \n"
 "Language: fa_IR\n"
@@ -818,10 +818,8 @@ msgid "Search, 404 and ..."
 msgstr "صفحه جستجو،  صفحه ۴۰۴ و ..."
 
 #: src/Pmpr/Module/Optimization/PageManager/Ajax.php:137
-#, fuzzy
-#| msgid "Fake data generated successfully."
 msgid "Pattern data cached successfully."
-msgstr "داده‌های فیک با موفقیت ایجاد شدند."
+msgstr "داده‌های مربوط به الگو با موفقیت کش شدند."
 
 #: src/Pmpr/Module/Optimization/PageManager/Ajax.php:140
 msgid "JSON"
@@ -829,7 +827,7 @@ msgstr ""
 
 #: src/Pmpr/Module/Optimization/PageManager/Ajax.php:144
 msgid "Pattern manual optimize not available right now!"
-msgstr ""
+msgstr "بهینه سازی دستی الگو در حال حاضر در دسترس نیست!"
 
 #: src/Pmpr/Module/Optimization/PageManager/Ajax.php:181
 msgid "There is no remote run for pattern."
@@ -1301,22 +1299,16 @@ msgstr "پاکسازی کش صفحات"
 
 #: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:647
 #: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:661
-#, fuzzy
-#| msgid "Pattern Name"
 msgid "Pattern Manual Optimize"
-msgstr "نام الگو"
+msgstr "بهینه‌سازی دستی الگو"
 
 #: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:651
-#, fuzzy
-#| msgid "Optimize %s"
 msgid "Optimize Content"
-msgstr "بهینه سازی %s"
+msgstr "محتوای بهینه‌سازی"
 
 #: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:657
-#, fuzzy
-#| msgid "Optimized"
 msgid "Optimize"
-msgstr "بهینه‌ شده"
+msgstr "بهینه سازی"
 
 #: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:703
 msgid "Candidate Page Link"

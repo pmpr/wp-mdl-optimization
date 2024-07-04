@@ -1,7 +1,7 @@
 <?php
 /*   _______________________________________
     |  Obfuscated by PMPR - Php Obfuscator  |
-    |             6686855490492             |
+    |             6686866696d41             |
     |_______________________________________|
 */
  namespace Pmpr\Module\Optimization\Optimizer\Cache\VirtualBrowser\Purge; use Pmpr\Module\Optimization\Optimizer\Cache\VirtualBrowser\Common; class Ajax extends Common { }
