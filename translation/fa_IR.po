@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PMPR Optimization\n"
-"POT-Creation-Date: 2024-07-04 22:48+0330\n"
-"PO-Revision-Date: 2024-07-04 22:49+0330\n"
+"POT-Creation-Date: 2024-07-05 00:13+0330\n"
+"PO-Revision-Date: 2024-07-05 00:14+0330\n"
 "Last-Translator: Farshad Asgharzade <pmpr.dev@gmail.com>\n"
 "Language-Team: \n"
 "Language: fa_IR\n"
@@ -1008,14 +1008,12 @@ msgid "Included"
 msgstr "مشمول"
 
 #: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:30
-#: src/Pmpr/Module/Optimization/PageManager/Model/Run/Common.php:40
-msgid "Page"
-msgstr "صفحه"
+msgid "Target Page"
+msgstr "صفحه هدف"
 
 #: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:31
-#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:117
-msgid "Pages"
-msgstr "صفحات"
+msgid "Target Pages"
+msgstr "صفحات هدف"
 
 #: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:41
 msgid "Identifier"
@@ -1199,6 +1197,10 @@ msgstr "گالری"
 msgid "Product Image Type"
 msgstr "نوع تصویر محصول"
 
+#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:117
+msgid "Pages"
+msgstr "صفحات"
+
 #: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:141
 #, php-format
 msgid "Posts %s Archive"
@@ -1380,6 +1382,10 @@ msgstr "وضعیت آخرین اجرا"
 #: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:857
 msgid "Target Pages Cache"
 msgstr "کش صفحات هدف"
+
+#: src/Pmpr/Module/Optimization/PageManager/Model/Run/Common.php:40
+msgid "Page"
+msgstr "صفحه"
 
 #: src/Pmpr/Module/Optimization/PageManager/Model/Run/Common.php:41
 msgid "Target Type"
