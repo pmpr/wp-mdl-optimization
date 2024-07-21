@@ -1,7 +1,7 @@
 <?php
 /*   _______________________________________
     |  Obfuscated by PMPR - Php Obfuscator  |
-    |             669ada83915b0             |
+    |             669d7139a54fa             |
     |_______________________________________|
 */
  namespace Pmpr\Module\Optimization\Optimizer\Extension\Plugin; use Pmpr\Module\Optimization\Optimizer\Extension\Plugin\CDN\CDN; use Pmpr\Module\Optimization\Optimizer\Extension\Plugin\Ecommerce\Ecommerce; use Pmpr\Module\Optimization\Optimizer\Extension\Plugin\I18N\I18N; use Pmpr\Module\Optimization\Optimizer\Extension\Plugin\PageBuilder\PageBuilder; use Pmpr\Module\Optimization\Optimizer\Extension\Plugin\SEO\SEO; class Plugin extends Common { public function mameiwsayuyquoeq() { Setting::symcgieuakksimmu(); CDN::symcgieuakksimmu(); SEO::symcgieuakksimmu(); I18N::symcgieuakksimmu(); Ecommerce::symcgieuakksimmu(); PageBuilder::symcgieuakksimmu(); } }
