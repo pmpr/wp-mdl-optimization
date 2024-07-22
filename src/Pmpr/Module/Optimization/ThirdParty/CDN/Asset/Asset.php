@@ -1,7 +1,7 @@
 <?php
 /*   _______________________________________
     |  Obfuscated by PMPR - Php Obfuscator  |
-    |             669d7139a54fa             |
+    |             669eebb592725             |
     |_______________________________________|
 */
  namespace Pmpr\Module\Optimization\ThirdParty\CDN\Asset; use Pmpr\Module\Optimization\ThirdParty\CDN\Asset\JSDeliver\JSDeliver; class Asset extends Common { public function mameiwsayuyquoeq() { Setting::symcgieuakksimmu(); JSDeliver::symcgieuakksimmu(); } }
