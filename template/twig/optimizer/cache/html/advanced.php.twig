@@ -1,4 +1,4 @@
-{% extends get_template('../../../advanced.php', _self) %}
+{% extends get_template('../advanced.php', _self) %}
 
 {% block use %}
     {% for use in uses %}
@@ -34,6 +34,11 @@ $classes = [
 {% endfor -%}
 ];
 
+$advanced404 = __DIR__ . '/advanced-404.php';
+if(file_exists($advanced404)) {
+    require_once $advanced404;
+}
+
 if (file_exists($cachePath)
     && file_exists($configPath)) {
 
@@ -42,11 +47,16 @@ if (file_exists($cachePath)
             $file = $classes[$class];
         } elseif (str_starts_with($class, 'Monolog\\')) {
             $file = "{$vendorPath}/monolog/monolog/src/" . str_replace('\\', '/', $class) . '.php';
+        }elseif (str_starts_with($class, 'Detection\\')) {
+            $file = "{$vendorPath}/mobiledetect/mobiledetectlib/src/" . str_replace(['Detection\\', '\\'], ['', '/'], $class) . '.php';
         } elseif (str_starts_with($class, 'Symfony\\')) {
             $file = "{$vendorPath}/symfony/filesystem/Filesystem.php";
         } elseif (str_starts_with($class, 'Psr\\Log\\')) {
             $parts = explode('\\', $class);
             $file = "{$vendorPath}/psr/log/src/" . end($parts) . '.php';
+        } elseif (str_starts_with($class, 'Psr\\SimpleCache\\')) {
+            $parts = explode('\\', $class);
+            $file = "{$vendorPath}/psr/simple-cache/src/" . end($parts) . '.php';
         } else {
             return;
         }
