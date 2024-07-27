@@ -1,7 +1,7 @@
 <?php
 /*   _______________________________________
     |  Obfuscated by PMPR - Php Obfuscator  |
-    |             66a58598b21ed             |
+    |             66a5875d8609d             |
     |_______________________________________|
 */
- namespace Pmpr\Module\Optimization\ThirdParty\CDN\Asset; use Pmpr\Common\Foundation\Interfaces\IconInterface; use Pmpr\Module\Optimization\Setting\SettingSegment; class Setting extends SettingSegment { public function ykwqaukkycogooii() { $this->ogimmkwaymekmoky($this->mkcwgaeaaweamyyg("\x61\x73\163\145\x74\x5f\143\x64\156")->jyumyyugiwwiqomk(30)->saemoowcasogykak(IconInterface::wywqyoieokiocqks)->gswweykyogmsyawy(__("\103\157\156\164\145\x6e\x74\x20\x44\x65\x6c\151\x76\145\x72\171\40\x4e\x65\x74\x77\x6f\x72\153", PR__MDL__OPTIMIZATION))->gucwmccyimoagwcm(__("\101\144\141\x70\x74\x20\167\151\x74\150\x20\103\104\116\x73", PR__MDL__OPTIMIZATION))); } }
+ namespace Pmpr\Module\Optimization\ThirdParty\CDN\Asset; use Pmpr\Common\Foundation\Interfaces\IconInterface; use Pmpr\Module\Optimization\Setting\SettingSegment; class Setting extends SettingSegment { public function ykwqaukkycogooii() { $this->ogimmkwaymekmoky($this->mkcwgaeaaweamyyg("\141\163\x73\x65\x74\x5f\143\144\x6e")->jyumyyugiwwiqomk(30)->saemoowcasogykak(IconInterface::wywqyoieokiocqks)->gswweykyogmsyawy(__("\103\157\156\164\145\156\164\40\104\145\154\151\166\145\162\x79\40\x4e\145\164\167\157\x72\x6b", PR__MDL__OPTIMIZATION))->gucwmccyimoagwcm(__("\x41\144\x61\160\x74\40\x77\x69\x74\150\x20\103\104\x4e\x73", PR__MDL__OPTIMIZATION))); } }
