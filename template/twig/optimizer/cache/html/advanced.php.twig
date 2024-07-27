@@ -7,6 +7,7 @@ use {{ use|raw }};
 {% endblock %}
 
 {% block content %}
+define('PR_OPTIMIZATION_VERSION', '{{ version|raw }}');
 define('PR_OPTIMIZATION_ADVANCED_CACHE', true);
 
 function opt_advanced_cache_get_path($path) {

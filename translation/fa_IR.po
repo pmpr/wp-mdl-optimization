@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PMPR Optimization\n"
-"POT-Creation-Date: 2024-07-26 04:20+0330\n"
-"PO-Revision-Date: 2024-07-26 04:22+0330\n"
+"POT-Creation-Date: 2024-07-28 02:12+0330\n"
+"PO-Revision-Date: 2024-07-28 02:22+0330\n"
 "Last-Translator: Farshad Asgharzade <pmpr.dev@gmail.com>\n"
 "Language-Team: \n"
 "Language: fa_IR\n"
@@ -46,7 +46,7 @@ msgstr "غیرفعال شد"
 #: src/Pmpr/Module/Optimization/Dashboard/Ajax.php:71
 #, php-format
 msgid "%s mode is not valid, valid modes is %s and %s"
-msgstr ""
+msgstr "مود %s معتبر نیست، مود‌های معتبر %s و %s هستند"
 
 #: src/Pmpr/Module/Optimization/Dashboard/Page.php:29
 msgid "Dashboard"
@@ -255,12 +255,12 @@ msgstr ""
 "پیوندها یا الگوهای که می‌توانند فایل‌های جاوااسکریپت یا اسکریپت‌های Inline را "
 "شناسایی کنند،تا از فرایند تاخیر در بارگیری مستثنی شوند را تعیین کنید."
 
-#: src/Pmpr/Module/Optimization/Optimizer/Cache/Advanced.php:78
+#: src/Pmpr/Module/Optimization/Optimizer/Cache/Advanced.php:88
 #, php-format
-msgid "Optimization Advanced file generated successfully in %s."
-msgstr "فایل advanced در %s با موفقیت ایجاد شد."
+msgid "Optimization %s file generated successfully in %s."
+msgstr "فایل %s در %s با موفقیت ایجاد شد."
 
-#: src/Pmpr/Module/Optimization/Optimizer/Cache/Advanced.php:97
+#: src/Pmpr/Module/Optimization/Optimizer/Cache/Advanced.php:107
 #, php-format
 msgid "Advanced File(%s)"
 msgstr "فایل پیشرفته (%s)"
@@ -477,20 +477,17 @@ msgid "Search, 404 and ..."
 msgstr "صفحه جستجو،  صفحه ۴۰۴ و ..."
 
 #: src/Pmpr/Module/Optimization/Optimizer/Cache/VirtualBrowser/Engine.php:169
-#, fuzzy, php-format
-#| msgid "Virtual Browser Logs"
+#, php-format
 msgid "Virtual browser status failed: %s"
-msgstr "گزارش‌های مرورگر مجازی"
+msgstr "وضعیت مرورگر مجازی به شکست تغییر کرد: %s"
 
 #: src/Pmpr/Module/Optimization/Optimizer/Cache/VirtualBrowser/Engine.php:234
 msgid "Result fetched but can not cache it."
 msgstr "نتیجه دریافت شد، اما قادر به کش کردن آن نبودیم."
 
 #: src/Pmpr/Module/Optimization/Optimizer/Cache/VirtualBrowser/VirtualBrowser.php:41
-#, fuzzy
-#| msgid "Virtual Browser Log"
 msgid "Virtual Browser Cache Path"
-msgstr "گزارش مرورگر مجازی"
+msgstr "مسیر فایل‌های کش مرورگر مجازی"
 
 #: src/Pmpr/Module/Optimization/Optimizer/Cache/WPCache.php:93
 #: src/Pmpr/Module/Optimization/Optimizer/Cache/WPCache.php:153
@@ -835,7 +832,7 @@ msgstr "بهینه سازی دستی الگو در حال حاضر در دستر
 
 #: src/Pmpr/Module/Optimization/PageManager/Ajax.php:181
 msgid "There is no remote run for pattern."
-msgstr ""
+msgstr "هیچ اجرای ریموتی برای الگو یافت نشد."
 
 #: src/Pmpr/Module/Optimization/PageManager/Ajax.php:208
 msgid "Pages cache purged successfully."
@@ -873,12 +870,12 @@ msgid "Another process already started."
 msgstr "پردازش دیگری قبلا شروع شده است."
 
 #: src/Pmpr/Module/Optimization/PageManager/Engine.php:880
-#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:61
+#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:60
 msgid "Cached"
 msgstr "کش شده"
 
 #: src/Pmpr/Module/Optimization/PageManager/Engine.php:890
-#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:60
+#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:61
 msgid "Not Cached"
 msgstr "کش نشده"
 
@@ -1070,24 +1067,24 @@ msgid "Page Type"
 msgstr "نوع صفحه"
 
 #: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:169
-msgid "Desktop Not Cached"
-msgstr "دسکتاپ کش نشده"
-
-#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:170
 msgid "Desktop Cached"
 msgstr "دسکتاپ کش شده"
+
+#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:170
+msgid "Desktop Not Cached"
+msgstr "دسکتاپ کش نشده"
 
 #: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:171
 msgid "Desktop Cache Status"
 msgstr "وضعیت کش دسکتاپ"
 
 #: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:176
-msgid "Mobile Not Cached"
-msgstr "موبایل کش نشده"
-
-#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:177
 msgid "Mobile Cached"
 msgstr "موبایل کش شده"
+
+#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:177
+msgid "Mobile Not Cached"
+msgstr "موبایل کش نشده"
 
 #: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:178
 msgid "Mobile Cache Status"
@@ -1502,16 +1499,12 @@ msgid "Action"
 msgstr "عملیات"
 
 #: src/Pmpr/Module/Optimization/PageManager/Model/Run/Remote.php:14
-#, fuzzy
-#| msgid "Virtual Browser Log"
 msgid "VirtualBrowser Run"
-msgstr "گزارش مرورگر مجازی"
+msgstr "اجرا‌ی مرورگر مجازی"
 
 #: src/Pmpr/Module/Optimization/PageManager/Model/Run/Remote.php:15
-#, fuzzy
-#| msgid "Virtual Browser Logs"
 msgid "VirtualBrowser Runs"
-msgstr "گزارش‌های مرورگر مجازی"
+msgstr "اجرا‌های مرورگر مجازی"
 
 #: src/Pmpr/Module/Optimization/PageManager/Model/Run/Remote.php:27
 msgid "Usage"
@@ -1837,25 +1830,25 @@ msgstr "با CDN‌ها سازگار شوید"
 
 #: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/API.php:215
 msgid "Unable to retrive zone id due to invalid response data"
-msgstr ""
+msgstr "قادر به دریافت شناسه دامنه شما کلودفلیر شما نیستیم"
 
 #: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/API.php:231
 msgid "Unable to find domains configured on Cloudflare"
-msgstr ""
+msgstr "قادر به یافتن دامنه‌های پیکربندی شده روی کلودفلیر نیستیم"
 
 #: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/API.php:382
 msgid "Ruleset ID not specified."
-msgstr ""
+msgstr "شناسه ruleset مشخص نشده است."
 
 #: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/API.php:618
 #, php-format
 msgid "Unable to find %s settings: %s"
-msgstr ""
+msgstr "قادر به یافتن تنظیمات %s نیستیم: %s"
 
 #: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/API.php:622
 #, php-format
 msgid "Unable to get %s settings: %s"
-msgstr ""
+msgstr "قادر به دریافت تنظیمات %s نیستیم: %s"
 
 #: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Ajax.php:47
 msgid "Cloudflare cache disabled successfully"
@@ -1868,12 +1861,12 @@ msgstr "کش کلوفلیر با موفقیت فعال شد"
 #: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Ajax.php:69
 #, php-format
 msgid "%s status is not valid, valid modes is %s and %s"
-msgstr ""
+msgstr "وضعیت %s معتبر نیست، حالت‌های معتبر %s و %s هستند"
 
 #: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Cloudflare.php:116
 #, php-format
 msgid "Can not get cloudflare zones list: %s"
-msgstr ""
+msgstr "نمی‌توان لیست دامنه‌های کلودفلیر اکانت شما را دریافت کرد: %s"
 
 #: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Cloudflare.php:146
 #, php-format
