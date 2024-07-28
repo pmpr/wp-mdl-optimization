@@ -1,7 +1,7 @@
 <?php
 /*   _______________________________________
     |  Obfuscated by PMPR - Php Obfuscator  |
-    |             66a5875d8609d             |
+    |             66a68e6136ef8             |
     |_______________________________________|
 */
  namespace Pmpr\Module\Optimization\Dashboard; class Dashboard extends Common { public function mameiwsayuyquoeq() { Page::symcgieuakksimmu(); if (!$this->caokeucsksukesyo()->owicscwgeuqcqaig()->mcgoysmkqsqooceq()) { goto cecuyayqoioasumi; } Ajax::symcgieuakksimmu(); cecuyayqoioasumi: } }
