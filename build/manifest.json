@@ -1,19 +1,11 @@
 {
-  "delay.js": "/js/delay.d5u2tVaIC.js",
-  "lazyload.js": "/js/lazyload.d5u2tVaIC.js",
-  "lcp-item.js": "/js/lcp-item.d5u2tVaIC.js",
-  "frontend-metrics.js": "/js/frontend-metrics.d5u2tVaIC.js",
-  "page.js": "/js/page.d5u2tVaIC.js",
-  "admin.css": "/css/admin.d5u2tVaIC.css",
-  "admin.js": "/js/admin.d5u2tVaIC.js",
-  "metrics.js": "/js/metrics.d5u2tVaIC.js",
-  "dashboard.js": "/js/dashboard.d5u2tVaIC.js",
-  "pagemanager.css": "/css/pagemanager.d5u2tVaIC.css",
-  "pagemanager.js": "/js/pagemanager.d5u2tVaIC.js",
-  "subscription.js": "/js/subscription.d5u2tVaIC.js",
-  "sort_both.png": "/8b117faa9d4dd934d6bbbd9f0cdb2459.png",
-  "sort_asc.png": "/4bba59196d7ce26196967adefd7c5c3f.png",
-  "sort_desc.png": "/c4196d3286cc33244c83af3398675a6a.png",
-  "sort_desc_disabled.png": "/27ac5d1bc294b1fae0564fe461a6304d.png",
-  "sort_asc_disabled.png": "/07c018ae0160704a329067ec7fbdc614.png"
+  "delay.js": "/js/delay.bf6XAJLIi.js",
+  "lazyload.js": "/js/lazyload.bf6XAJLIi.js",
+  "lcp-item.js": "/js/lcp-item.bf6XAJLIi.js",
+  "frontend-metrics.js": "/js/frontend-metrics.bf6XAJLIi.js",
+  "backend.css": "/css/backend.bf6XAJLIi.css",
+  "backend.js": "/js/backend.bf6XAJLIi.js",
+  "metrics.js": "/js/metrics.bf6XAJLIi.js",
+  "dashboard.js": "/js/dashboard.bf6XAJLIi.js",
+  "subscription.js": "/js/subscription.bf6XAJLIi.js"
 }
