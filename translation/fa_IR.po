@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PMPR Optimization\n"
-"POT-Creation-Date: 2024-08-08 02:08+0330\n"
-"PO-Revision-Date: 2024-08-08 02:08+0330\n"
+"POT-Creation-Date: 2024-08-09 02:15+0330\n"
+"PO-Revision-Date: 2024-08-09 02:16+0330\n"
 "Last-Translator: Farshad Asgharzade <pmpr.dev@gmail.com>\n"
 "Language-Team: \n"
 "Language: fa_IR\n"
@@ -351,7 +351,7 @@ msgid "Page-level cache management"
 msgstr "مدیریت کش در سطح صفحه"
 
 #: src/Pmpr/Module/Optimization/Optimizer/Cache/HTML/Setting.php:31
-#: src/Pmpr/Module/Optimization/PageManager/SpeedTest/Setting.php:62
+#: src/Pmpr/Module/Optimization/PageManager/SpeedTest/Setting.php:64
 msgid "General"
 msgstr "عمومی"
 
@@ -1852,35 +1852,35 @@ msgstr "تست سرعت صفحات منتخب"
 msgid "By Google Pagespeed Tool"
 msgstr "با ابزار گوگل پیچ اسپید"
 
-#: src/Pmpr/Module/Optimization/PageManager/SpeedTest/Setting.php:35
+#: src/Pmpr/Module/Optimization/PageManager/SpeedTest/Setting.php:34
 #, php-format
 msgid ""
 "Access to the pages of your site is blocked by Google to perform the page speed "
 "test and you will encounter the error %s. To solve the problem, check the "
-"firewall settings on your site's server or cloud service (Cloudflare) and make "
-"the necessary access."
+"firewall settings on program, your site's server or cloud service (Cloudflare) "
+"and make the necessary access."
 msgstr ""
 "دسترسی به صفحات سایت شما از طرف گوگل برای انجام تست پیج اسپید مسدود است و با "
-"خطای %s مواجه می‌شود. برای رفع مشکل، تنظیمات فایروال را در سرور یا سرویس ابری "
-"(کلود فلیر) سایت خود بررسی کرده و دسترسی لازم را ایجاد کنید."
+"خطای %s مواجه می‌شود. برای رفع مشکل، تنظیمات فایروال را در برنامه، سرور یا سرویس "
+"ابری (کلود فلیر) سایت خود بررسی کرده و دسترسی لازم را ایجاد کنید."
 
-#: src/Pmpr/Module/Optimization/PageManager/SpeedTest/Setting.php:39
+#: src/Pmpr/Module/Optimization/PageManager/SpeedTest/Setting.php:40
 msgid "Resume Speed Test"
 msgstr "از سر گیری تست سرعت"
 
-#: src/Pmpr/Module/Optimization/PageManager/SpeedTest/Setting.php:40
+#: src/Pmpr/Module/Optimization/PageManager/SpeedTest/Setting.php:41
 msgid "Did you solve the access problem?"
 msgstr "آیا مشکل دسترسی را حل کردید؟"
 
-#: src/Pmpr/Module/Optimization/PageManager/SpeedTest/Setting.php:44
+#: src/Pmpr/Module/Optimization/PageManager/SpeedTest/Setting.php:45
 msgid "Yes, I fix it"
 msgstr "بله،‌ حل کردم"
 
-#: src/Pmpr/Module/Optimization/PageManager/SpeedTest/Setting.php:51
+#: src/Pmpr/Module/Optimization/PageManager/SpeedTest/Setting.php:50
 msgid "I created the necessary access"
 msgstr "دسترسی لازم را ایجاد کردم"
 
-#: src/Pmpr/Module/Optimization/PageManager/SpeedTest/Setting.php:63
+#: src/Pmpr/Module/Optimization/PageManager/SpeedTest/Setting.php:65
 msgid ""
 "Performing a speed test automatically with the Google PageSpeed tool, for those "
 "selected pages that are marked as speed test candidates."
@@ -1888,27 +1888,27 @@ msgstr ""
 "انجام تست سرعت به صورت خودکار با ابزار گوگل پیج اسپید،‌ برای آن دسته از صفحات "
 "منتخب که به عنوان کاندید تست سرعت علامت گذاری شده‌اند."
 
-#: src/Pmpr/Module/Optimization/PageManager/SpeedTest/Setting.php:66
+#: src/Pmpr/Module/Optimization/PageManager/SpeedTest/Setting.php:68
 msgid "Do Speed Test"
 msgstr "انجام تست سرعت"
 
-#: src/Pmpr/Module/Optimization/PageManager/SpeedTest/Setting.php:67
+#: src/Pmpr/Module/Optimization/PageManager/SpeedTest/Setting.php:69
 msgid "OFF"
 msgstr "خاموش"
 
-#: src/Pmpr/Module/Optimization/PageManager/SpeedTest/Setting.php:71
+#: src/Pmpr/Module/Optimization/PageManager/SpeedTest/Setting.php:73
 msgid "ON"
 msgstr "روشن"
 
-#: src/Pmpr/Module/Optimization/PageManager/SpeedTest/Setting.php:77
+#: src/Pmpr/Module/Optimization/PageManager/SpeedTest/Setting.php:79
 msgid "Speed Test Initiator"
 msgstr "آغازگر تست سرعت"
 
-#: src/Pmpr/Module/Optimization/PageManager/SpeedTest/Setting.php:78
+#: src/Pmpr/Module/Optimization/PageManager/SpeedTest/Setting.php:80
 msgid "Page Cache Event"
 msgstr "رخداد ایجاد کش صفحه"
 
-#: src/Pmpr/Module/Optimization/PageManager/SpeedTest/Setting.php:80
+#: src/Pmpr/Module/Optimization/PageManager/SpeedTest/Setting.php:82
 msgid "In Certain Time Periods"
 msgstr "در بازه‌های زمانی مشخص"
 
