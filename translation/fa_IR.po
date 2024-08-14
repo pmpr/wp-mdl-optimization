@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PMPR Optimization\n"
-"POT-Creation-Date: 2024-08-09 02:15+0330\n"
-"PO-Revision-Date: 2024-08-09 02:16+0330\n"
+"POT-Creation-Date: 2024-08-13 02:43+0330\n"
+"PO-Revision-Date: 2024-08-13 02:43+0330\n"
 "Last-Translator: Farshad Asgharzade <pmpr.dev@gmail.com>\n"
 "Language-Team: \n"
 "Language: fa_IR\n"
@@ -274,7 +274,7 @@ msgstr "مسیر کش HTML"
 
 #: src/Pmpr/Module/Optimization/Optimizer/Cache/HTML/Preload/Setting.php:36
 #: src/Pmpr/Module/Optimization/Optimizer/Cache/HTML/Preload/Setting.php:73
-#: src/Pmpr/Module/Optimization/PageManager/Engine.php:1096
+#: src/Pmpr/Module/Optimization/PageManager/Engine.php:1097
 msgid "Cache Preloader"
 msgstr "پیش بارگیر کش"
 
@@ -323,7 +323,7 @@ msgstr "زمان معقول برای ایجاد کش صفحات"
 
 #: src/Pmpr/Module/Optimization/Optimizer/Cache/HTML/Preload/Setting.php:65
 #: src/Pmpr/Module/Optimization/Optimizer/Cache/HTML/Setting.php:54
-#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:99
+#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:333
 #: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:55
 #: src/Pmpr/Module/Optimization/ThirdParty/CDN/Asset/CDNData.php:39
 msgid "Inactive"
@@ -342,6 +342,10 @@ msgstr "زمان طولانی برای ایجاد کش صفحات"
 msgid "Can not purge cache right now. please try later."
 msgstr "در حال حاضر قادر به حذف کش نیستیم، لطفا بعدا دوباره تلاش کنید."
 
+#: src/Pmpr/Module/Optimization/Optimizer/Cache/HTML/Purge/Setting.php:26
+msgid "Purge Elected Page's Cache"
+msgstr "پاک سازی کش صفحات منتخب"
+
 #: src/Pmpr/Module/Optimization/Optimizer/Cache/HTML/Setting.php:26
 msgid "Elected Page's Cache"
 msgstr "کش صفحات منتخب"
@@ -351,7 +355,7 @@ msgid "Page-level cache management"
 msgstr "مدیریت کش در سطح صفحه"
 
 #: src/Pmpr/Module/Optimization/Optimizer/Cache/HTML/Setting.php:31
-#: src/Pmpr/Module/Optimization/PageManager/SpeedTest/Setting.php:64
+#: src/Pmpr/Module/Optimization/PageManager/SpeedTest/Setting.php:65
 msgid "General"
 msgstr "عمومی"
 
@@ -364,7 +368,7 @@ msgid "Separate HTML Cache For Mobile"
 msgstr "کش HTML مجزا برای موبایل"
 
 #: src/Pmpr/Module/Optimization/Optimizer/Cache/HTML/Setting.php:43
-#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:98
+#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:332
 #: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:54
 #: src/Pmpr/Module/Optimization/ThirdParty/CDN/Asset/CDNData.php:37
 msgid "Active"
@@ -873,28 +877,28 @@ msgstr "بهینه‌سازی تصویر، ویدیو و ..."
 
 #: src/Pmpr/Module/Optimization/PageManager/Ajax.php:89
 msgid "Speed Test functionality for candidate pages resumed."
-msgstr "عملیات تست سرعت صفحات منتخبی که کاندید شده‌اند از سر گرفته شد."
+msgstr "انجام تست سرعت برای صفحات منتخبی که کاندید شده‌اند از سر گرفته شد."
 
 #: src/Pmpr/Module/Optimization/PageManager/Ajax.php:107
-#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:267
+#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:144
 msgid "Normal"
 msgstr "عادی"
 
 #: src/Pmpr/Module/Optimization/PageManager/Ajax.php:108
-#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:68
-#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:268
+#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:145
+#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:302
 msgid "Important"
 msgstr "مهم شده"
 
 #: src/Pmpr/Module/Optimization/PageManager/Ajax.php:115
-#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:326
-#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:333
+#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:203
+#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:210
 msgid "Dont Take Speed Test"
 msgstr "تست سرعت نگیر"
 
 #: src/Pmpr/Module/Optimization/PageManager/Ajax.php:116
-#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:327
-#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:334
+#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:204
+#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:211
 msgid "Take Speed Test"
 msgstr "تست سرعت بگیر"
 
@@ -978,29 +982,25 @@ msgstr "در انتظار راه‌اندازی"
 msgid "Optimizing..."
 msgstr "در حال بهینه سازی..."
 
-#: src/Pmpr/Module/Optimization/PageManager/Engine.php:1016
-msgid "Checking pages cache..."
-msgstr "در حال بررسی کش صفحات..."
-
-#: src/Pmpr/Module/Optimization/PageManager/Engine.php:1022
+#: src/Pmpr/Module/Optimization/PageManager/Engine.php:1023
 msgid "Awaiting Optimize Pattern"
 msgstr "در انتظار بهینه سازی الگو"
 
-#: src/Pmpr/Module/Optimization/PageManager/Engine.php:1052
+#: src/Pmpr/Module/Optimization/PageManager/Engine.php:1053
 #, php-format
 msgid "Cache Preloader is %s. %s"
 msgstr "پیش بارگیر کش %s است. %s"
 
-#: src/Pmpr/Module/Optimization/PageManager/Engine.php:1053
+#: src/Pmpr/Module/Optimization/PageManager/Engine.php:1054
 #, php-format
 msgid "You can %s it through the settings section."
 msgstr "برای %s آن می‌توانید از طریق بخش تنظیمات اقدام کنید."
 
-#: src/Pmpr/Module/Optimization/PageManager/Engine.php:1059
+#: src/Pmpr/Module/Optimization/PageManager/Engine.php:1060
 msgid "active for all pages"
 msgstr "برای همه صفحات فعال"
 
-#: src/Pmpr/Module/Optimization/PageManager/Engine.php:1060
+#: src/Pmpr/Module/Optimization/PageManager/Engine.php:1061
 msgid ""
 "This situation, despite the advantage of shorter cache creation time for all "
 "pages, is associated with high inode consumption."
@@ -1008,16 +1008,16 @@ msgstr ""
 "این وضعیت، علیرغم مزیت کوتاهتر شدن زمان ایجاد کش برای همه صفحات، با مصرف زیاد "
 "تعداد inode همراه است."
 
-#: src/Pmpr/Module/Optimization/PageManager/Engine.php:1064
-#: src/Pmpr/Module/Optimization/PageManager/Engine.php:1075
+#: src/Pmpr/Module/Optimization/PageManager/Engine.php:1065
+#: src/Pmpr/Module/Optimization/PageManager/Engine.php:1076
 msgid "deactivate"
 msgstr "غیر فعال سازی"
 
-#: src/Pmpr/Module/Optimization/PageManager/Engine.php:1070
+#: src/Pmpr/Module/Optimization/PageManager/Engine.php:1071
 msgid "active for impression pages"
 msgstr "برای صفحات پر بازدید فعال"
 
-#: src/Pmpr/Module/Optimization/PageManager/Engine.php:1071
+#: src/Pmpr/Module/Optimization/PageManager/Engine.php:1072
 msgid ""
 "This situation will create the cache of the most visited pages as soon as "
 "possible, while consuming a reasonable number of inodes."
@@ -1025,11 +1025,11 @@ msgstr ""
 "این وضعیت، در عین مصرف معقول تعداد inode، کش صفحات پر بازدید را در اولین زمان "
 "ممکن ایجاد خواهد کرد."
 
-#: src/Pmpr/Module/Optimization/PageManager/Engine.php:1081
+#: src/Pmpr/Module/Optimization/PageManager/Engine.php:1082
 msgid "inactive"
 msgstr "غیر فعال"
 
-#: src/Pmpr/Module/Optimization/PageManager/Engine.php:1082
+#: src/Pmpr/Module/Optimization/PageManager/Engine.php:1083
 msgid ""
 "This situation is accompanied by a longer cache creation time for all pages, "
 "despite the low consumption of inodes."
@@ -1037,31 +1037,31 @@ msgstr ""
 "این وضعیت علیرغم مصرف کم تعداد inode، با طولانی‌تر شدن زمان ایجاد کش برای همه "
 "صفحات همراه است."
 
-#: src/Pmpr/Module/Optimization/PageManager/Engine.php:1086
+#: src/Pmpr/Module/Optimization/PageManager/Engine.php:1087
 msgid "activate"
 msgstr "فعال سازی"
 
-#: src/Pmpr/Module/Optimization/PageManager/Engine.php:1102
+#: src/Pmpr/Module/Optimization/PageManager/Engine.php:1103
 msgid "Change Preload Setting"
 msgstr "تغییر تنظیمات پیش بارگیر"
 
-#: src/Pmpr/Module/Optimization/PageManager/Engine.php:1107
+#: src/Pmpr/Module/Optimization/PageManager/Engine.php:1108
 msgid "Create Cache"
 msgstr "ایجاد کش"
 
-#: src/Pmpr/Module/Optimization/PageManager/Engine.php:1115
+#: src/Pmpr/Module/Optimization/PageManager/Engine.php:1116
 msgid "Preloader ON"
 msgstr "پیش بارگیر روشن"
 
-#: src/Pmpr/Module/Optimization/PageManager/Engine.php:1124
+#: src/Pmpr/Module/Optimization/PageManager/Engine.php:1125
 msgid "Preloader OFF"
 msgstr "پیش بارگیر خاموش"
 
-#: src/Pmpr/Module/Optimization/PageManager/Engine.php:1144
+#: src/Pmpr/Module/Optimization/PageManager/Engine.php:1145
 msgid "All Pages Cached."
 msgstr "همه صفحات کش‌ شده‌اند."
 
-#: src/Pmpr/Module/Optimization/PageManager/Engine.php:1148
+#: src/Pmpr/Module/Optimization/PageManager/Engine.php:1149
 msgid "There is no page for pattern."
 msgstr "صفحه‌ای برای این الگو یافت نشد."
 
@@ -1074,12 +1074,12 @@ msgid "Impressions"
 msgstr "صفحات پر بازدید"
 
 #: src/Pmpr/Module/Optimization/PageManager/Model/Impression.php:32
-#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:89
+#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:323
 msgid "URL"
 msgstr "پیوند"
 
 #: src/Pmpr/Module/Optimization/PageManager/Model/Impression.php:36
-#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:100
+#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:334
 #: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:53
 #: src/Pmpr/Module/Optimization/PageManager/Model/Run/Common.php:60
 #: src/Pmpr/Module/Optimization/PageManager/Search/History.php:46
@@ -1097,7 +1097,7 @@ msgid "Included"
 msgstr "مشمول"
 
 #: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:37
-#: src/Pmpr/Module/Optimization/PageManager/SpeedTest/Model.php:107
+#: src/Pmpr/Module/Optimization/PageManager/SpeedTest/Model.php:108
 msgid "Elected Page"
 msgstr "صفحه منتخب"
 
@@ -1106,109 +1106,32 @@ msgstr "صفحه منتخب"
 msgid "Elected Pages"
 msgstr "صفحات منتخب"
 
-#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:64
-msgid "Identifier"
-msgstr "شناسه"
-
-#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:72
-msgid "Speed Test Candidate"
-msgstr "کاندید تست سرعت"
-
 #: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:77
-#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:67
-#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:74
-#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:268
-msgid "Post Type"
-msgstr "نوع نوشته"
-
-#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:78
-msgid "Taxonomy"
-msgstr "طبقه‌بندی"
-
-#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:79
-#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:95
-#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:307
-msgid "Special Page"
-msgstr "صفحه ویژه"
-
-#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:80
-#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:694
-msgid "Archive"
-msgstr "آرشیو"
-
-#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:81
-msgid "Discriminator"
-msgstr "جداکننده"
-
-#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:85
-msgid "Page Type"
-msgstr "نوع صفحه"
-
-#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:94
-msgid "Metrics"
-msgstr "معیارها"
-
-#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:104
-msgid "Desktop Cached"
-msgstr "دسکتاپ کش شده"
-
-#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:105
-msgid "Desktop Not Cached"
-msgstr "دسکتاپ کش نشده"
-
-#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:106
-msgid "Desktop Cache Status"
-msgstr "وضعیت کش دسکتاپ"
-
-#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:111
-msgid "Mobile Cached"
-msgstr "موبایل کش شده"
-
-#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:112
-msgid "Mobile Not Cached"
-msgstr "موبایل کش نشده"
-
-#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:113
-msgid "Mobile Cache Status"
-msgstr "وضعیت کش موبایل"
-
-#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:118
-#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:37
-#: src/Pmpr/Module/Optimization/PageManager/Model/Run/Common.php:39
-msgid "Pattern"
-msgstr "الگو"
-
-#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:123
-#: src/Pmpr/Module/Optimization/PageManager/SpeedTest/Model.php:37
-msgid "Speed Test"
-msgstr "تست سرعت"
-
-#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:201
 msgid "View Page"
 msgstr "مشاهده صفحه"
 
-#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:231
+#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:107
 #, php-format
 msgid "Delete %s elected page"
 msgstr "حذف صفحه منتخب %s"
 
-#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:233
+#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:109
 msgid "It is possible to delete the elected page by editing the connected pattern."
 msgstr "حذف صفحه منتخب از طریق ویرایش الگوی متصل امکان پذیر است."
 
-#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:234
+#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:110
 msgid "Would you like to edit the connected pattern to the elected page?"
 msgstr "آیا مایل به ویرایش الگوی متصل به صفحه منتخب را هستید؟"
 
-#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:240
+#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:116
 msgid "Edit Connected Pattern"
 msgstr "ویرایش الگوی متصل"
 
-#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:244
+#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:120
 msgid "Delete"
 msgstr "حذف"
 
-#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:259
+#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:136
 #, php-format
 msgid ""
 "Pages that are marked as important pages (%s) will always be displayed at the "
@@ -1217,38 +1140,38 @@ msgstr ""
 "صفحاتی که به عنوان صفحه مهم (%s) علامتگذاری می‌شوند، همیشه در ابتدای لیست نمایش "
 "داده خواهند شد."
 
-#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:263
-#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:322
+#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:140
+#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:199
 #, php-format
 msgid "Page: %s"
 msgstr "صفحه: %s"
 
-#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:265
+#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:142
 #, php-format
 msgid "Would you like to change the status of the above page to a %s page?"
 msgstr "آیا مایل به تغییر وضعیت صفحه فوق به صفحه %s هستید؟"
 
-#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:274
+#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:151
 msgid "Make Page Normal"
 msgstr "صفحه عادی شود"
 
-#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:275
+#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:152
 msgid "Make Page Important"
 msgstr "صفحه مهم شود"
 
-#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:283
+#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:160
 msgid "Change Page Important or Normal Status"
 msgstr "تغییر وضعیت مهم یا عادی بودن صفحه"
 
-#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:292
+#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:169
 msgid "Yes, Make Page Normal"
 msgstr "بله، صفحه عادی شود"
 
-#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:293
+#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:170
 msgid "Yes, Make Page Important"
 msgstr "بله، صفحه مهم شود"
 
-#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:314
+#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:191
 #, php-format
 msgid ""
 "From the pages that are marked as speed test candidates (%s), according to the "
@@ -1257,65 +1180,142 @@ msgstr ""
 "از صفحاتی که به عنوان کاندید انجام تست سرعت (%s) علامتگذاری می‌شوند، با توجه به "
 "%s، تست سرعت پیج اسپید گرفته می‌شود."
 
-#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:317
+#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:194
 msgid "Applied Settings"
 msgstr "تنظیمات اعمال شده"
 
-#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:323
+#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:200
 #, php-format
 msgid "Do you want to change the status of the above page to %s?"
 msgstr "آیا مایل به تغییر وضعیت صفحه فوق به %s هستید؟"
 
-#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:342
+#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:219
 msgid "Change Page Speed Test Status"
 msgstr "تغییر وضعیت تست سرعت صفحه"
 
-#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:351
+#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:228
 msgid "Yes, Dont Take Speed Test"
 msgstr "بله، تست سرعت نگیر"
 
-#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:352
+#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:229
 msgid "Yes, Take Speed Test"
 msgstr "بله، تست سرعت بگیر"
 
-#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:367
+#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:244
 msgid "Deactivate"
 msgstr "غیر فعال‌ سازی"
 
-#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:367
+#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:244
 msgid "Activate"
 msgstr "فعال‌سازی"
 
-#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:371
+#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:248
 #, php-format
 msgid "%s the Page"
 msgstr "%s صفحه"
 
-#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:374
+#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:251
 msgid "Deactivating the page will prevent optimization of that page, are you sure?"
 msgstr ""
 "غیر فعال سازی یک صفحه جلوی بهینه سازی آن صفحه را خواهد گرفت،‌آیا مطمئن هستید؟"
 
-#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:375
+#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:252
 msgid "Activating the page will resume optimizing that page, do you continue?"
 msgstr "با فعال سازی صفحه بهینه سازی آن صفحه از سر گرفته می‌شود، آیا ادامه می‌دهید؟"
 
-#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:393
-#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:395
+#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:270
+#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:272
 msgid "Add New Elected Page"
 msgstr "افزودن صفحه منتخب جدید"
 
-#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:397
+#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:274
 msgid "It is possible to add a new elected page by editing or adding a pattern."
 msgstr "افزودن صفحه منتخب جدید از طریق ویرایش یا افزودن الگو امکان پذیر است."
 
-#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:398
+#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:275
 msgid "Would you like to see get all patterns page?"
 msgstr "آیا مایل به مشاهده لیست الگو‌ها هستید؟"
 
-#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:404
+#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:281
 msgid "Ge Patterns List"
 msgstr "رفتن به لیست الگو‌ها"
+
+#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:298
+msgid "Identifier"
+msgstr "شناسه"
+
+#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:306
+msgid "Speed Test Candidate"
+msgstr "کاندید تست سرعت"
+
+#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:311
+#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:67
+#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:74
+#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:268
+msgid "Post Type"
+msgstr "نوع نوشته"
+
+#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:312
+msgid "Taxonomy"
+msgstr "طبقه‌بندی"
+
+#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:313
+#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:95
+#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:307
+msgid "Special Page"
+msgstr "صفحه ویژه"
+
+#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:314
+#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:694
+msgid "Archive"
+msgstr "آرشیو"
+
+#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:315
+msgid "Discriminator"
+msgstr "جداکننده"
+
+#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:319
+msgid "Page Type"
+msgstr "نوع صفحه"
+
+#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:328
+msgid "Metrics"
+msgstr "معیارها"
+
+#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:338
+msgid "Desktop Cached"
+msgstr "دسکتاپ کش شده"
+
+#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:339
+msgid "Desktop Not Cached"
+msgstr "دسکتاپ کش نشده"
+
+#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:340
+msgid "Desktop Cache Status"
+msgstr "وضعیت کش دسکتاپ"
+
+#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:345
+msgid "Mobile Cached"
+msgstr "موبایل کش شده"
+
+#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:346
+msgid "Mobile Not Cached"
+msgstr "موبایل کش نشده"
+
+#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:347
+msgid "Mobile Cache Status"
+msgstr "وضعیت کش موبایل"
+
+#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:352
+#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:37
+#: src/Pmpr/Module/Optimization/PageManager/Model/Run/Common.php:39
+msgid "Pattern"
+msgstr "الگو"
+
+#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:357
+#: src/Pmpr/Module/Optimization/PageManager/SpeedTest/Model.php:37
+msgid "Speed Test"
+msgstr "تست سرعت"
 
 #: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:490
 msgid "Publish Date"
@@ -1384,7 +1384,7 @@ msgid "Archives"
 msgstr "بایگانی‌ها"
 
 #: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:70
-#: src/Pmpr/Module/Optimization/PageManager/SpeedTest/Model.php:48
+#: src/Pmpr/Module/Optimization/PageManager/SpeedTest/Model.php:49
 #: src/Pmpr/Module/Optimization/Subscription/Model/Purchase.php:31
 msgid "Type"
 msgstr "نوع"
@@ -1767,78 +1767,83 @@ msgstr "اضافه شد"
 msgid "Speed Tests"
 msgstr "تست‌های سرعت"
 
-#: src/Pmpr/Module/Optimization/PageManager/SpeedTest/Model.php:49
+#: src/Pmpr/Module/Optimization/PageManager/SpeedTest/Model.php:50
 msgid "Before"
 msgstr "قبل"
 
-#: src/Pmpr/Module/Optimization/PageManager/SpeedTest/Model.php:50
+#: src/Pmpr/Module/Optimization/PageManager/SpeedTest/Model.php:51
 msgid "After"
 msgstr "بعد"
 
-#: src/Pmpr/Module/Optimization/PageManager/SpeedTest/Model.php:55
+#: src/Pmpr/Module/Optimization/PageManager/SpeedTest/Model.php:56
 msgid "Lightspeed Version"
 msgstr "نسخه لایت‌هاوس"
 
-#: src/Pmpr/Module/Optimization/PageManager/SpeedTest/Model.php:59
+#: src/Pmpr/Module/Optimization/PageManager/SpeedTest/Model.php:60
 msgid "Desktop Score"
 msgstr "امتیاز دسکتاپ"
 
-#: src/Pmpr/Module/Optimization/PageManager/SpeedTest/Model.php:63
+#: src/Pmpr/Module/Optimization/PageManager/SpeedTest/Model.php:64
 #, fuzzy
 #| msgid "Desktop"
 msgid "Desktop CLS"
 msgstr "دسکتاپ"
 
-#: src/Pmpr/Module/Optimization/PageManager/SpeedTest/Model.php:67
+#: src/Pmpr/Module/Optimization/PageManager/SpeedTest/Model.php:68
 #, fuzzy
 #| msgid "Desktop"
 msgid "Desktop TBT"
 msgstr "دسکتاپ"
 
-#: src/Pmpr/Module/Optimization/PageManager/SpeedTest/Model.php:71
+#: src/Pmpr/Module/Optimization/PageManager/SpeedTest/Model.php:72
 #, fuzzy
 #| msgid "Desktop"
 msgid "Desktop LCP"
 msgstr "دسکتاپ"
 
-#: src/Pmpr/Module/Optimization/PageManager/SpeedTest/Model.php:75
+#: src/Pmpr/Module/Optimization/PageManager/SpeedTest/Model.php:76
 #, fuzzy
 #| msgid "Desktop"
 msgid "Desktop FCP"
 msgstr "دسکتاپ"
 
-#: src/Pmpr/Module/Optimization/PageManager/SpeedTest/Model.php:79
-#: src/Pmpr/Module/Optimization/PageManager/SpeedTest/Model.php:103
-msgid "Mobile Speed Index"
-msgstr ""
+#: src/Pmpr/Module/Optimization/PageManager/SpeedTest/Model.php:80
+#, fuzzy
+#| msgid "Desktop Score"
+msgid "Desktop Speed Index"
+msgstr "امتیاز دسکتاپ"
 
-#: src/Pmpr/Module/Optimization/PageManager/SpeedTest/Model.php:83
+#: src/Pmpr/Module/Optimization/PageManager/SpeedTest/Model.php:84
 msgid "Mobile Score"
 msgstr "امتیاز موبایل"
 
-#: src/Pmpr/Module/Optimization/PageManager/SpeedTest/Model.php:87
+#: src/Pmpr/Module/Optimization/PageManager/SpeedTest/Model.php:88
 #, fuzzy
 #| msgid "Mobile"
 msgid "Mobile CLS"
 msgstr "موبایل"
 
-#: src/Pmpr/Module/Optimization/PageManager/SpeedTest/Model.php:91
+#: src/Pmpr/Module/Optimization/PageManager/SpeedTest/Model.php:92
 #, fuzzy
 #| msgid "Mobile"
 msgid "Mobile TBT"
 msgstr "موبایل"
 
-#: src/Pmpr/Module/Optimization/PageManager/SpeedTest/Model.php:95
+#: src/Pmpr/Module/Optimization/PageManager/SpeedTest/Model.php:96
 #, fuzzy
 #| msgid "Mobile"
 msgid "Mobile LCP"
 msgstr "موبایل"
 
-#: src/Pmpr/Module/Optimization/PageManager/SpeedTest/Model.php:99
+#: src/Pmpr/Module/Optimization/PageManager/SpeedTest/Model.php:100
 #, fuzzy
 #| msgid "Mobile"
 msgid "Mobile FCP"
 msgstr "موبایل"
+
+#: src/Pmpr/Module/Optimization/PageManager/SpeedTest/Model.php:104
+msgid "Mobile Speed Index"
+msgstr ""
 
 #: src/Pmpr/Module/Optimization/PageManager/SpeedTest/Page.php:18
 msgid "Elected Pages's Speed"
@@ -1864,23 +1869,30 @@ msgstr ""
 "خطای %s مواجه می‌شود. برای رفع مشکل، تنظیمات فایروال را در برنامه، سرور یا سرویس "
 "ابری (کلود فلیر) سایت خود بررسی کرده و دسترسی لازم را ایجاد کنید."
 
-#: src/Pmpr/Module/Optimization/PageManager/SpeedTest/Setting.php:40
-msgid "Resume Speed Test"
-msgstr "از سر گیری تست سرعت"
-
 #: src/Pmpr/Module/Optimization/PageManager/SpeedTest/Setting.php:41
-msgid "Did you solve the access problem?"
-msgstr "آیا مشکل دسترسی را حل کردید؟"
+msgid "Fix access to pagespeed test"
+msgstr "رفع مشکل دسترسی برای تست پیج اسپید"
 
-#: src/Pmpr/Module/Optimization/PageManager/SpeedTest/Setting.php:45
-msgid "Yes, I fix it"
-msgstr "بله،‌ حل کردم"
+#: src/Pmpr/Module/Optimization/PageManager/SpeedTest/Setting.php:42
+msgid ""
+"If by creating or editing the appropriate Security Rule in the program, firewall "
+"server or cloud service of the site, you have provided the necessary access from "
+"the Google client to the pages of your site and fixed the 403 Forbidden error, "
+"click on the button below."
+msgstr ""
+"در صورتی که با ایجاد یا ویرایش Security Rule مناسب در برنامه، فایروال سرور یا "
+"سرویس ابری سایت، دسترسی لازم از سوی کلاینت گوگل به صفحات سایت خود را فراهم و "
+"خطای 403 Forbidden را رفع کرده‌اید، روی دکمه زیر کلیک کنید."
 
-#: src/Pmpr/Module/Optimization/PageManager/SpeedTest/Setting.php:50
+#: src/Pmpr/Module/Optimization/PageManager/SpeedTest/Setting.php:46
+msgid "I created access"
+msgstr "دسترسی را ایجاد کردم"
+
+#: src/Pmpr/Module/Optimization/PageManager/SpeedTest/Setting.php:51
 msgid "I created the necessary access"
 msgstr "دسترسی لازم را ایجاد کردم"
 
-#: src/Pmpr/Module/Optimization/PageManager/SpeedTest/Setting.php:65
+#: src/Pmpr/Module/Optimization/PageManager/SpeedTest/Setting.php:66
 msgid ""
 "Performing a speed test automatically with the Google PageSpeed tool, for those "
 "selected pages that are marked as speed test candidates."
@@ -1888,27 +1900,27 @@ msgstr ""
 "انجام تست سرعت به صورت خودکار با ابزار گوگل پیج اسپید،‌ برای آن دسته از صفحات "
 "منتخب که به عنوان کاندید تست سرعت علامت گذاری شده‌اند."
 
-#: src/Pmpr/Module/Optimization/PageManager/SpeedTest/Setting.php:68
+#: src/Pmpr/Module/Optimization/PageManager/SpeedTest/Setting.php:69
 msgid "Do Speed Test"
 msgstr "انجام تست سرعت"
 
-#: src/Pmpr/Module/Optimization/PageManager/SpeedTest/Setting.php:69
+#: src/Pmpr/Module/Optimization/PageManager/SpeedTest/Setting.php:70
 msgid "OFF"
 msgstr "خاموش"
 
-#: src/Pmpr/Module/Optimization/PageManager/SpeedTest/Setting.php:73
+#: src/Pmpr/Module/Optimization/PageManager/SpeedTest/Setting.php:74
 msgid "ON"
 msgstr "روشن"
 
-#: src/Pmpr/Module/Optimization/PageManager/SpeedTest/Setting.php:79
+#: src/Pmpr/Module/Optimization/PageManager/SpeedTest/Setting.php:80
 msgid "Speed Test Initiator"
 msgstr "آغازگر تست سرعت"
 
-#: src/Pmpr/Module/Optimization/PageManager/SpeedTest/Setting.php:80
+#: src/Pmpr/Module/Optimization/PageManager/SpeedTest/Setting.php:81
 msgid "Page Cache Event"
 msgstr "رخداد ایجاد کش صفحه"
 
-#: src/Pmpr/Module/Optimization/PageManager/SpeedTest/Setting.php:82
+#: src/Pmpr/Module/Optimization/PageManager/SpeedTest/Setting.php:83
 msgid "In Certain Time Periods"
 msgstr "در بازه‌های زمانی مشخص"
 
@@ -1927,7 +1939,7 @@ msgstr "اطلاعات بیشتر"
 msgid "Speed Test status failed: %s"
 msgstr "تست سرعت با شکست مواجه شد: %s"
 
-#: src/Pmpr/Module/Optimization/PageManager/SpeedTest/SpeedTest.php:292
+#: src/Pmpr/Module/Optimization/PageManager/SpeedTest/SpeedTest.php:295
 msgid "Result fetched but can not save it."
 msgstr "نتیجه دریافت شد ولی قادر به ذخیره آن نبودیم."
 
@@ -2542,6 +2554,18 @@ msgstr "افزایش سرعت مجدد"
 #: src/Pmpr/Module/Optimization/Traits/CommonTrait.php:86
 msgid "Are you sure about reOptimize this page?"
 msgstr "آیا در مورد بهینه سازی مجدد این صفحه مطمئن هستید؟"
+
+#~ msgid "Checking pages cache..."
+#~ msgstr "در حال بررسی کش صفحات..."
+
+#~ msgid "Resume Speed Test"
+#~ msgstr "از سر گیری تست سرعت"
+
+#~ msgid "Did you solve the access problem?"
+#~ msgstr "آیا مشکل دسترسی را حل کردید؟"
+
+#~ msgid "Yes, I fix it"
+#~ msgstr "بله،‌ حل کردم"
 
 #~ msgid "Your site is closed (%s) by Google for page speed testing."
 #~ msgstr "سایت شما از طرف گوگل، برای انجام تست پیج اسپید بسته (%s) است."

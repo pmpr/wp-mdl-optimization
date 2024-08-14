@@ -1,7 +1,7 @@
 <?php
 /*   _______________________________________
     |  Obfuscated by PMPR - Php Obfuscator  |
-    |             66b9397c5c62b             |
+    |             66bd21640c7ca             |
     |_______________________________________|
 */
- namespace Pmpr\Module\Optimization\Helper; class Purge extends Common { public function ckuaeyecaekkkwqs($post = null) : bool { $macmssugksugukws = [self::ywskismomwmcsqam, self::scwmgoegsukauoku, self::cssaaweyquokqaeq, self::aqugcqsyeisayuog, self::sgoswgskyiiwkyuo]; $iueymcwwscwqkiyq = $this->caokeucsksukesyo()->ayueggmoqeeukqmq()->ucwmcwqmqwaymkkc($post); if (!in_array($iueymcwwscwqkiyq, $macmssugksugukws, true)) { goto eieiwacwqkgsewai; } return false; eieiwacwqkgsewai: $gcgsqcoqciockquc = $this->uwkmaywceaaaigwo()->ogciwyoqgciosgcw()->oequuauskyumwyau(); return !($gcgsqcoqciockquc && self::ukwaycqmyyuekwqg === $gcgsqcoqciockquc->action); } }
+ namespace Pmpr\Module\Optimization\Helper; class Purge extends Common { public function ckuaeyecaekkkwqs($post = null) : bool { $macmssugksugukws = [self::ywskismomwmcsqam, self::scwmgoegsukauoku, self::cssaaweyquokqaeq, self::aqugcqsyeisayuog, self::sgoswgskyiiwkyuo]; $iueymcwwscwqkiyq = $this->caokeucsksukesyo()->ayueggmoqeeukqmq()->ucwmcwqmqwaymkkc($post); if (!in_array($iueymcwwscwqkiyq, $macmssugksugukws, true)) { goto gskaqcgccswmuqsy; } return false; gskaqcgccswmuqsy: $gcgsqcoqciockquc = $this->uwkmaywceaaaigwo()->ogciwyoqgciosgcw()->oequuauskyumwyau(); return !($gcgsqcoqciockquc && self::ukwaycqmyyuekwqg === $gcgsqcoqciockquc->action); } }

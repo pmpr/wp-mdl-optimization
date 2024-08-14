@@ -1,7 +1,7 @@
 <?php
 /*   _______________________________________
     |  Obfuscated by PMPR - Php Obfuscator  |
-    |             66b9397c5c62b             |
+    |             66bd21640c7ca             |
     |_______________________________________|
 */
- namespace Pmpr\Module\Optimization\Optimizer\Buffer; use Pmpr\Module\Optimization\Optimizer\Common; abstract class Engine extends Common { public final function miasamwyaiagioug($ekiuyucoiagmscgy, int $sqqewmoeaekuyyas = 10) : self { $this->aqaqisyssqeomwom(self::scskcyisyowcuagq, $ekiuyucoiagmscgy, $sqqewmoeaekuyyas); return $this; } public function uakokyiygeukkwyq($sociqikgoyemqaac) { return preg_replace("\x2f\74\x21\x2d\x2d\50\x2e\52\x29\55\x2d\76\x2f\125\151\163", '', $sociqikgoyemqaac); } }
+ namespace Pmpr\Module\Optimization\Optimizer\Buffer; use Pmpr\Module\Optimization\Optimizer\Common; abstract class Engine extends Common { public final function miasamwyaiagioug($ekiuyucoiagmscgy, int $sqqewmoeaekuyyas = 10) : self { $this->aqaqisyssqeomwom(self::scskcyisyowcuagq, $ekiuyucoiagmscgy, $sqqewmoeaekuyyas); return $this; } public function uakokyiygeukkwyq($sociqikgoyemqaac) { return preg_replace("\x2f\x3c\x21\x2d\x2d\x28\x2e\52\51\x2d\55\76\57\125\151\x73", '', $sociqikgoyemqaac); } }
