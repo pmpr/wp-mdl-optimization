@@ -1,7 +1,7 @@
 <?php
 /*   _______________________________________
     |  Obfuscated by PMPR - Php Obfuscator  |
-    |             66bd253c8f77d             |
+    |             66c31d5dd19f7             |
     |_______________________________________|
 */
- namespace Pmpr\Module\Optimization\Optimizer\Cache\SpecialPage\Notfound; use Pmpr\Module\Optimization\Optimizer\Cache\SpecialPage\Common as BaseClass; abstract class Common extends BaseClass { const yciuqmyagwugyggw = "\x6e\x6f\x74\146\x6f\x75\156\x64\x5f\x66\x69\x6c\145\137\x6e\141\155\145"; }
+ namespace Pmpr\Module\Optimization\Optimizer\Cache\SpecialPage\Notfound; use Pmpr\Module\Optimization\Optimizer\Cache\SpecialPage\Common as BaseClass; abstract class Common extends BaseClass { const yciuqmyagwugyggw = "\156\157\164\146\157\165\156\x64\137\x66\151\x6c\145\137\156\141\x6d\x65"; }

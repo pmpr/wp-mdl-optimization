@@ -1,0 +1,21 @@
+iframe#calc_metrics {
+    top: 0;
+    right: 0;
+    position: fixed;
+    -ms-zoom: 0.01;
+    -o-transform: scale(0.01);
+    -moz-transform: scale(0.01);
+    -webkit-transform: scale(0.01);
+    -o-transform-origin: 0 0;
+    -moz-transform-origin: 0 0;
+    -webkit-transform-origin: 0 0;
+    &.desktop {
+        width: {{ resolutions.desktop.width|raw }}px;
+        height: {{ resolutions.desktop.height|raw }}px;
+    }
+    &.mobile {
+        width: {{ resolutions.mobile.width|raw }}px;
+        height: {{ resolutions.mobile.height|raw }}px;
+    }
+}
+
