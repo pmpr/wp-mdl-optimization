@@ -12,13 +12,13 @@ iframe#calc_metrics {
     -o-transform-origin : 0 0;
     -ms-transform-origin : 0 0;
     transform-origin : 0 0;
-    &.desktop {
-        width: {{ resolutions.desktop.width|raw }}px;
-        height: {{ resolutions.desktop.height|raw }}px;
-    }
-    &.mobile {
-        width: {{ resolutions.mobile.width|raw }}px;
-        height: {{ resolutions.mobile.height|raw }}px;
-    }
+}
+iframe#calc_metrics.desktop {
+    width: {{ resolutions.desktop.width|raw }}px;
+    height: {{ resolutions.desktop.height|raw }}px;
 }
 
+iframe#calc_metrics.mobile {
+    width: {{ resolutions.mobile.width|raw }}px;
+    height: {{ resolutions.mobile.height|raw }}px;
+}
