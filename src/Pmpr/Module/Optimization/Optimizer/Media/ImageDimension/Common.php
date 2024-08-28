@@ -1,7 +1,7 @@
 <?php
 /*   _______________________________________
     |  Obfuscated by PMPR - Php Obfuscator  |
-    |             66ce6347bb78c             |
+    |             66ce68cc41878             |
     |_______________________________________|
 */
  namespace Pmpr\Module\Optimization\Optimizer\Media\ImageDimension; use Pmpr\Module\Optimization\Optimizer\Media\Common as BaseClass; abstract class Common extends BaseClass { }
