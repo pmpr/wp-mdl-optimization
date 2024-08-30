@@ -1,7 +1,7 @@
 <?php
 /*   _______________________________________
     |  Obfuscated by PMPR - Php Obfuscator  |
-    |             66d24006e45d5             |
+    |             66d240adc3ee3             |
     |_______________________________________|
 */
  namespace Pmpr\Module\Optimization\PageManager\Model\Run; use Pmpr\Module\Optimization\PageManager\Common; class Run extends Common { public function mameiwsayuyquoeq() { Local::symcgieuakksimmu(); Remote::symcgieuakksimmu(); } }
