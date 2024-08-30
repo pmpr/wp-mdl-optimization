@@ -1,1 +1,0 @@
-document.addEventListener("DOMContentLoaded",(()=>{const e=document.querySelector(".pr-opt-lcp-item");void 0!==e&&(e.style["font-family"]=null)}));
