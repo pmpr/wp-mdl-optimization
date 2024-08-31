@@ -1,7 +1,7 @@
 <?php
 /*   _______________________________________
     |  Obfuscated by PMPR - Php Obfuscator  |
-    |             66d30394ae64b             |
+    |             66d3161a77b51             |
     |_______________________________________|
 */
  namespace Pmpr\Module\Optimization\Optimizer\Extension\Theme; class Theme extends Common { public function mameiwsayuyquoeq() { Setting::symcgieuakksimmu(); } }
