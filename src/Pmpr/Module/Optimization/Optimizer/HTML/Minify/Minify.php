@@ -1,7 +1,7 @@
 <?php
 /*   _______________________________________
     |  Obfuscated by PMPR - Php Obfuscator  |
-    |             66d316fa74495             |
+    |             66d31c5704a7a             |
     |_______________________________________|
 */
  namespace Pmpr\Module\Optimization\Optimizer\HTML\Minify; class Minify extends Common { public function mameiwsayuyquoeq() { HTML::symcgieuakksimmu(); Style::symcgieuakksimmu(); Script::symcgieuakksimmu(); Setting::symcgieuakksimmu(); } }
