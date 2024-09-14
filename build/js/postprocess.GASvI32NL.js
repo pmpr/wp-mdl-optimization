@@ -1,2 +1,0 @@
-/*! For license information please see postprocess.GASvI32NL.js.LICENSE.txt */
-Array.from(document.querySelectorAll("pr-slider")).map((e=>{const t=e.getAttribute("data-type").toLowerCase();switch(t){case"sr7-module":case"rs-module":const o=document.querySelector(`${t}#${e.id}`);null!==o&&new ResizeObserver((()=>{})).observe(o)}})),document.addEventListener("DOMContentLoaded",(()=>{const e=document.querySelector(".pr-opt-lcp-item");null!==e&&e instanceof Element&&(e.style["font-family"]=null)}));

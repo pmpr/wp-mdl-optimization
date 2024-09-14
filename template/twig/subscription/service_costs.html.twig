@@ -12,9 +12,9 @@
     </tr>
     </thead>
     <tbody>
-    {% for name, metric in metrics %}
+    {% for name, action in actions %}
         <tr>
-            <th>{{ metric|raw }}</th>
+            <th>{{ action|raw }}</th>
             {% for plan in plans %}
                 <td class="text-center">{{ coin_mask|format(plan[name ~ '_usage']|number)|raw }}</td>
             {% endfor %}
