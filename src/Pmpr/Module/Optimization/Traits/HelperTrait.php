@@ -1,7 +1,7 @@
 <?php
 /*   _______________________________________
     |  Obfuscated by PMPR - Php Obfuscator  |
-    |             66f0d3aa9dad2             |
+    |             66f12a869bef5             |
     |_______________________________________|
 */
  namespace Pmpr\Module\Optimization\Traits; use Pmpr\Module\Optimization\Helper\Helper; trait HelperTrait { protected ?Helper $nativeHelper = null; public function isgmmgcaqsguwias() : Helper { if ($this->nativeHelper) { goto aeaciamekuqyieys; } $this->nativeHelper = new Helper(); aeaciamekuqyieys: return $this->nativeHelper; } }
