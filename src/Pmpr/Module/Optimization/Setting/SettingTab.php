@@ -4,4 +4,4 @@
     |             66f1d83d7f69c             |
     |_______________________________________|
 */
- namespace Pmpr\Module\Optimization\Optimizer\Extension\Cover; class Cover extends Common { public function mameiwsayuyquoeq() { Setting::symcgieuakksimmu(); } }
+ namespace Pmpr\Module\Optimization\Setting; class SettingTab { }

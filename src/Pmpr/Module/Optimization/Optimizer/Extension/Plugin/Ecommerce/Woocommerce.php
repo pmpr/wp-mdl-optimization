@@ -4,4 +4,4 @@
     |             66f1d83d7f69c             |
     |_______________________________________|
 */
- namespace Pmpr\Module\Optimization\Optimizer\Extension\Cover; class Cover extends Common { public function mameiwsayuyquoeq() { Setting::symcgieuakksimmu(); } }
+ namespace Pmpr\Module\Optimization\Optimizer\Extension\Plugin\Ecommerce; use Pmpr\Module\Optimization\Optimizer\Extension\Plugin\Common; class Woocommerce extends Common { }
