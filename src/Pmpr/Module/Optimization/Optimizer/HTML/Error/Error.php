@@ -1,7 +1,7 @@
 <?php
 /*   _______________________________________
     |  Obfuscated by PMPR - Php Obfuscator  |
-    |             66f13791817e5             |
+    |             66f15ea6553f3             |
     |_______________________________________|
 */
- namespace Pmpr\Module\Optimization\Optimizer\HTML\Error; class Error extends Common { public function mameiwsayuyquoeq() { if ($this->uwkmaywceaaaigwo()->owicscwgeuqcqaig()->goecwaaykqoaaagg()) { goto scaimkkukmgoeaya; } Engine::symcgieuakksimmu(); goto ceeqguaoysyaasey; scaimkkukmgoeaya: Setting::symcgieuakksimmu(); ceeqguaoysyaasey: } }
+ namespace Pmpr\Module\Optimization\Optimizer\HTML\Error; class Error extends Common { public function mameiwsayuyquoeq() { if ($this->uwkmaywceaaaigwo()->owicscwgeuqcqaig()->goecwaaykqoaaagg()) { goto wceiuqaeywmgscww; } Engine::symcgieuakksimmu(); goto kacgiqwewyeeyyam; wceiuqaeywmgscww: Setting::symcgieuakksimmu(); kacgiqwewyeeyyam: } }
