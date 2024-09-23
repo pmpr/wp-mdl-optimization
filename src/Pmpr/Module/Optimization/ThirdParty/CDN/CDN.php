@@ -1,7 +1,7 @@
 <?php
 /*   _______________________________________
     |  Obfuscated by PMPR - Php Obfuscator  |
-    |             66f16a5cc8402             |
+    |             66f18cb0c5939             |
     |_______________________________________|
 */
  namespace Pmpr\Module\Optimization\ThirdParty\CDN; use Pmpr\Module\Optimization\ThirdParty\CDN\Asset\Asset; use Pmpr\Module\Optimization\ThirdParty\CDN\Cloudflare\Cloudflare; class CDN extends Common { public function mameiwsayuyquoeq() { Asset::symcgieuakksimmu(); Cloudflare::symcgieuakksimmu(); } }
