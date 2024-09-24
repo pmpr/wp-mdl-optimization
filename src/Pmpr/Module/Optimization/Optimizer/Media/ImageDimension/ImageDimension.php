@@ -1,7 +1,7 @@
 <?php
 /*   _______________________________________
     |  Obfuscated by PMPR - Php Obfuscator  |
-    |             66f27b5e4c040             |
+    |             66f2a608b965f             |
     |_______________________________________|
 */
- namespace Pmpr\Module\Optimization\Optimizer\Media\ImageDimension; class ImageDimension extends Common { public function mameiwsayuyquoeq() { if ($this->uwkmaywceaaaigwo()->owicscwgeuqcqaig()->goecwaaykqoaaagg()) { goto kuuawiosmkgqsscy; } if (!$this->weysguygiseoukqw(Setting::issekcywqmgcacqc)) { goto saiuoomgskwgyeya; } Engine::symcgieuakksimmu(); saiuoomgskwgyeya: goto kwocaqggwcksesce; kuuawiosmkgqsscy: Setting::symcgieuakksimmu(); kwocaqggwcksesce: } }
+ namespace Pmpr\Module\Optimization\Optimizer\Media\ImageDimension; class ImageDimension extends Common { public function mameiwsayuyquoeq() { if ($this->uwkmaywceaaaigwo()->owicscwgeuqcqaig()->goecwaaykqoaaagg()) { goto aucwccaiqwsmyuaq; } if (!$this->weysguygiseoukqw(Setting::issekcywqmgcacqc)) { goto bgakaasgwwygosyi; } Engine::symcgieuakksimmu(); bgakaasgwwygosyi: goto agyooskogigyayws; aucwccaiqwsmyuaq: Setting::symcgieuakksimmu(); agyooskogigyayws: } }
