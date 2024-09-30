@@ -4,4 +4,4 @@
     |             66fa77c6c5682             |
     |_______________________________________|
 */
- namespace Pmpr\Module\Optimization\Subscription; use Pmpr\Module\Optimization\Container; abstract class Common extends Container { }
+ namespace Pmpr\Module\Optimization\Optimizer\Extension\Plugin\PageBuilder\Elementor; use Pmpr\Module\Optimization\Optimizer\Extension\Plugin\Common; class Pattern extends Common { }
