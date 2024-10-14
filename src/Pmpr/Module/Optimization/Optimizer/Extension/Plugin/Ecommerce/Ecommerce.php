@@ -1,7 +1,7 @@
 <?php
 /*   _______________________________________
     |  Obfuscated by PMPR - Php Obfuscator  |
-    |             66fa800b89726             |
+    |             670d4b20910f9             |
     |_______________________________________|
 */
- namespace Pmpr\Module\Optimization\Optimizer\Extension\Plugin\Ecommerce; use Pmpr\Module\Optimization\Optimizer\Extension\Plugin\Common; class Ecommerce extends Common { public function mameiwsayuyquoeq() { if (!$this->caokeucsksukesyo()->wikusamwomuogoau()->ggocakcisguuokai()) { goto yqisgseiimwmoeee; } Woocommerce::symcgieuakksimmu(); yqisgseiimwmoeee: } }
+ namespace Pmpr\Module\Optimization\Optimizer\Extension\Plugin\Ecommerce; use Pmpr\Module\Optimization\Container; class Ecommerce extends Container { public function mameiwsayuyquoeq() { if ($this->caokeucsksukesyo()->wikusamwomuogoau()->ggocakcisguuokai()) { Woocommerce::symcgieuakksimmu(); } } }
