@@ -1,7 +1,7 @@
 <?php
 /*   _______________________________________
     |  Obfuscated by PMPR - Php Obfuscator  |
-    |             6886693f16026             |
+    |             6888e9a081754             |
     |_______________________________________|
 */
  namespace Pmpr\Module\Optimization\Traits; use Pmpr\Module\Optimization\Helper\Helper; trait HelperTrait { protected ?Helper $nativeHelper = null; public function isgmmgcaqsguwias() : Helper { if (!$this->nativeHelper) { $this->nativeHelper = new Helper(); } return $this->nativeHelper; } }
