@@ -1,7 +1,7 @@
 <?php
 /*   _______________________________________
     |  Obfuscated by PMPR - Php Obfuscator  |
-    |             688b26fd5a00e             |
+    |             688b2e46b2c95             |
     |_______________________________________|
 */
  namespace Pmpr\Module\Optimization\Traits; use Pmpr\Module\Optimization\PageManager\Engine; trait PageManagerEngineTrait { public function wkagassgcaqeosio() : Engine { return Engine::symcgieuakksimmu(); } }
